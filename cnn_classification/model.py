@@ -13,7 +13,7 @@ class  CNN_Text(nn.Module):
         C = args.class_num
         Ci = 1
         Co = args.kernel_num
-        Ks = args.kernel_sizes
+        Ks = [int(x) for x in args.kernel_sizes.split(",")]
 
         self.embed = nn.Embedding(V, D)
         self.convs1 = [nn.Conv2d(Ci, Co, (K, D)) for K in Ks]
