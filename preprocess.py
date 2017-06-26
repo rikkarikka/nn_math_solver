@@ -1,4 +1,4 @@
-mport onmt
+import onmt
 import onmt.Markdown
 import argparse
 import torch
