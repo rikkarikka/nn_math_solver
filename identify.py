@@ -14,16 +14,28 @@ opt = parser.parse_args()
 
 def replaceWithIDs():
     "Generate text file with words replaced with IDs"
-    with open(opt.input_txt) as f:
-        input_txt = f.readlines()
+
+    text2ids = {}
     with open(opt.ids) as f:
         ids = f.readlines()
-
-    dat = list(range(len(input_txt)))
+        for line in ids:
+            text2ids.update({line.split()[0]:line.split()[1]})
 
     idstxt = open("IDs.txt", 'w')
-    for i in dat[:]:
-        idstxt.write(input_txt[i])
+    with open(opt.input_txt) as f:
+            input_txt = f.readlines()
+            for line in input_txt:
+                if opt.src == 1:
+                    words = line.split()
+                    words2ids = ''
+                    for w in words:
+                        if text2ids.has_key(w):
+                            words2ids = words2ids + text2ids.get(w) + ' '
+                        else:
+                            words2ids = words2ids + '<unkn>  '
+                    idstxt.write(words2ids + '\n')
+	        elif opt.src == 0:
+                    idstxt.write('src == 0,')
 
 def main():
     print('Running...')
