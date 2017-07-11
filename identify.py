@@ -15,27 +15,37 @@ opt = parser.parse_args()
 def replaceWithIDs():
     "Generate text file with words replaced with IDs"
 
-    text2ids = {}
-    with open(opt.ids) as f:
-        ids = f.readlines()
-        for line in ids:
-            text2ids.update({line.split()[0]:line.split()[1]})
-
     idstxt = open("IDs.txt", 'w')
     with open(opt.input_txt) as f:
-            input_txt = f.readlines()
-            for line in input_txt:
-                if opt.src == 1:
-                    words = line.split()
-                    words2ids = ''
-                    for w in words:
-                        if text2ids.has_key(w):
-                            words2ids = words2ids + text2ids.get(w) + ' '
-                        else:
-                            words2ids = words2ids + '<unkn>  '
-                    idstxt.write(words2ids + '\n')
-	        elif opt.src == 0:
-                    idstxt.write('src == 0,')
+        input_txt = f.readlines()
+        for line in input_txt:
+            if opt.src == 1:
+                text2ids = {}
+                with open(opt.ids) as g:
+                    ids = g.readlines()
+                    for line_ids in ids:
+                        text2ids.update({line_ids.split()[0]:line_ids.split()[1]})
+                words = line.split()
+                words2ids = ''
+                for w in words:
+                    if text2ids.has_key(w.lower()):
+                        words2ids = words2ids + text2ids.get(w.lower()) + ' '
+                    else:
+                        words2ids = words2ids + '<unk>  '
+                idstxt.write(words2ids + '\n')
+            elif opt.src == 0:
+                idstxt.write('src == 0,')
+                text2ids = {}
+                with open(opt.ids) as g:
+                    ids = g.readlines()
+                    for line_ids in ids:
+                        key = line_ids.split(' ||| ',str)[0]
+                        value = line_ids.split(' ||| ',str)[1]
+                        text2ids.update({key:value})
+                if text2ids.has_key(line):
+                    idstxt.write(text2ids.get(line) + '\n')
+                else:
+                    idstxt.write('<unk>' + '\n')
 
 def main():
     print('Running...')
