@@ -3,28 +3,45 @@ import argparse
 parser = argparse.ArgumentParser(description='identify.py')
 
 # **Preprocess Options**
-parser.add_argument('-input_txt', required=True,
-                    help="Path to the input data")
-parser.add_argument('-ids', required=True,
-                    help="Path to the text ID data")
-parser.add_argument('-src',    type=int, default=1,
-                    help="src data or tgt data")
+#parser.add_argument('-src',    type=int, default=1,
+                    #help="src data or tgt data")
 
-opt = parser.parse_args()
+#opt = parser.parse_args()
 
-def replaceWithIDs():
+# **Global Variables**
+
+# Input Files
+train_src = './data/train.txt'
+train_tgt = './data/train.eq'
+val_src = './data/val.txt'
+val_tgt = './data/val.eq'
+test_src = './data/test.txt'
+test_tgt = './data/test.eq'
+
+# Dictionary Files
+src_dict = './data/ids.atok.low.src.dict'
+tgt_dict = './data/ids.atok.low.tgt.dict'
+
+# Output Files
+train_src_ids = './data/train.txt.id'
+train_tgt_ids = './data/train.eq.id'
+val_src_ids = './data/val.txt.id'
+val_tgt_ids = './data/val.eq.id'
+test_src_ids = './data/test.txt.id'
+test_tgt_ids = './data/test.eq.id'
+
+def replaceWithIDs(input_txt, dictionary, output_txt, src):
     "Generate text file with words replaced with IDs"
 
-    idstxt = open("val.txt.id", 'w')
-    with open(opt.input_txt) as f:
+    idstxt = open(output_txt, 'w')
+    with open(input_txt) as f:
         input_txt = f.readlines()
-        if opt.src == 1:
+        if src == 1:
             text2ids = {}
-            with open(opt.ids) as g:
+            with open(dictionary) as g:
                 ids = g.readlines()
                 for line_ids in ids:
                     text2ids.update({line_ids.split()[0]:line_ids.split()[1]})
-            #print(text2ids)
             for line in input_txt:
                 words = line.split()
                 words2ids = ''
@@ -33,22 +50,19 @@ def replaceWithIDs():
                         words2ids = words2ids + text2ids.get(w.lower()) + ' '
                     else:
                         words2ids = words2ids + '<unk> '
+                print('Writing to tgt')
                 idstxt.write(words2ids + '\n')
-        elif opt.src == 0:
+        elif src == 0:
             text2ids = {}
-            with open(opt.ids) as g:
+            with open(dictionary) as g:
                 ids = g.readlines()
                 for line_ids in ids:
                     key = line_ids.split(' |||  ')[0].lower() + '\n'
-                    #idstxt.write('key: ' + key + '\n')
                     value = line_ids.split(' |||  ')[1].lower()
-                    #idstxt.write('value: ' + value + '\n')
                     text2ids.update({key:value})
-            #print(text2ids)
             for line in input_txt:
-                #print('line: ' + line)
-                #print('line.lower(): ' + line.lower())
                 if line.lower() in text2ids:
+
                     idstxt.write(text2ids.get(line.lower()))
                 else:
                     idstxt.write('<unk>' + '\n')
@@ -56,7 +70,12 @@ def replaceWithIDs():
 
 def main():
     print('Running...')
-    replaceWithIDs()
+    replaceWithIDs(train_src, src_dict, train_src_ids, 1)
+    replaceWithIDs(train_tgt, tgt_dict, train_tgt_ids, 0)
+    replaceWithIDs(val_src, src_dict, val_src_ids, 1)
+    replaceWithIDs(val_tgt, tgt_dict, val_tgt_ids, 0)
+    replaceWithIDs(test_src, src_dict, test_src_ids, 1)
+    replaceWithIDs(test_tgt, tgt_dict, test_tgt_ids, 0)
     print('Done...')
 
 if __name__ == "__main__":
