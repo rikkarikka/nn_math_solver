@@ -35,7 +35,7 @@ class Dict(object):
         with codecs.open(filename, 'w', 'utf-8') as file:
             for i in range(self.size()):
                 label = self.idxToLabel[i]
-                file.write('%s %d\n' % (label, i))
+                file.write('%s ||| %d\n' % (label, i))
 
         file.close()
 

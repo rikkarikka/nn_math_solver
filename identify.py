@@ -50,7 +50,6 @@ def replaceWithIDs(input_txt, dictionary, output_txt, src):
                         words2ids = words2ids + text2ids.get(w.lower()) + ' '
                     else:
                         words2ids = words2ids + '<unk> '
-                print('Writing to tgt')
                 idstxt.write(words2ids + '\n')
         elif src == 0:
             text2ids = {}
@@ -69,14 +68,14 @@ def replaceWithIDs(input_txt, dictionary, output_txt, src):
 
 
 def main():
-    print('Running...')
+    print('Running identify.py...')
     replaceWithIDs(train_src, src_dict, train_src_ids, 1)
     replaceWithIDs(train_tgt, tgt_dict, train_tgt_ids, 0)
     replaceWithIDs(val_src, src_dict, val_src_ids, 1)
     replaceWithIDs(val_tgt, tgt_dict, val_tgt_ids, 0)
     replaceWithIDs(test_src, src_dict, test_src_ids, 1)
     replaceWithIDs(test_tgt, tgt_dict, test_tgt_ids, 0)
-    print('Done...')
+    print('identify.py complete...')
 
 if __name__ == "__main__":
     main()

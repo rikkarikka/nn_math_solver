@@ -76,7 +76,7 @@ def makeVocabulary(filename, size, SRC=True):
         for sent in f.readlines():
             if not SRC:
                	sent = sent.split()
-            else: sent = [sent.strip()+" ||| "]
+            else: sent = [sent.strip()] # + " ||| "
             words, features, numFeatures \
                 = onmt.IO.extractFeatures(sent)
 
@@ -256,7 +256,7 @@ def main():
                        opt.train_tgt,
                        opt.tgt_vocab,
                        opt.tgt_vocab_size, SRC=True)
-    print(dicts['tgt'].idxToLabel)
+    #print(dicts['tgt'].idxToLabel)
     print('Preparing training ...')
     train = {}
     train['src'], train['tgt'], \
