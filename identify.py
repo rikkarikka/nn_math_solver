@@ -11,24 +11,24 @@ parser = argparse.ArgumentParser(description='identify.py')
 # **Global Variables**
 
 # Input Files
-train_src = './data/train.txt'
-train_tgt = './data/train.eq'
-val_src = './data/val.txt'
-val_tgt = './data/val.eq'
-test_src = './data/test.txt'
-test_tgt = './data/test.eq'
+train_src = './data/train.red.txt'
+train_tgt = './data/train.red.eq'
+val_src = './data/val.red.txt'
+val_tgt = './data/val.red.eq'
+test_src = './data/test.red.txt'
+test_tgt = './data/test.red.eq'
 
 # Dictionary Files
 src_dict = './data/ids.atok.low.src.dict'
 tgt_dict = './data/ids.atok.low.tgt.dict'
 
 # Output Files
-train_src_ids = './data/train.txt.id'
-train_tgt_ids = './data/train.eq.id'
-val_src_ids = './data/val.txt.id'
-val_tgt_ids = './data/val.eq.id'
-test_src_ids = './data/test.txt.id'
-test_tgt_ids = './data/test.eq.id'
+train_src_ids = './data/train.red.txt.id'
+train_tgt_ids = './data/train.red.eq.id'
+val_src_ids = './data/val.red.txt.id'
+val_tgt_ids = './data/val.red.eq.id'
+test_src_ids = './data/test.red.txt.id'
+test_tgt_ids = './data/test.red.eq.id'
 
 def replaceWithIDs(input_txt, dictionary, output_txt, src):
     "Generate text file with words replaced with IDs"
