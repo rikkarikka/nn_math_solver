@@ -41,7 +41,7 @@ def replaceWithIDs(input_txt, dictionary, output_txt, src):
             with open(dictionary) as g:
                 ids = g.readlines()
                 for line_ids in ids:
-                    text2ids.update({line_ids.split()[0]:line_ids.split()[1]})
+                    text2ids.update({line_ids.split(' ||| ')[0]:line_ids.split(' ||| ')[1].rstrip("\n")})
             for line in input_txt:
                 words = line.split()
                 words2ids = ''
@@ -56,12 +56,11 @@ def replaceWithIDs(input_txt, dictionary, output_txt, src):
             with open(dictionary) as g:
                 ids = g.readlines()
                 for line_ids in ids:
-                    key = line_ids.split(' |||  ')[0].lower() + '\n'
-                    value = line_ids.split(' |||  ')[1].lower()
+                    key = line_ids.split(' ||| ')[0].lower() + '\n'
+                    value = line_ids.split(' ||| ')[1].lower()
                     text2ids.update({key:value})
             for line in input_txt:
                 if line.lower() in text2ids:
-
                     idstxt.write(text2ids.get(line.lower()))
                 else:
                     idstxt.write('<unk>' + '\n')

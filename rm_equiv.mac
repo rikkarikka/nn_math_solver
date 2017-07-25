@@ -1,11 +1,12 @@
+/**/
 /* Load packages */
 file_search_maxima: append (file_search_maxima,["/Users/brobaidek/Documents/GitHub/nn_math_solver/maxima-code/share/numericalio/numericalio.mac"])$
 load(numericalio)$
 file_search_maxima: append (file_search_maxima,["/Users/brobaidek/Documents/GitHub/nn_math_solver/maxima-code/share/stringproc/stringproc.mac"])$
 load(stringproc)$
 
+/**/
 /* Read a file and return a list of all lines */
-
 readfile(name) := block(
    [v: [ ], f: openr(name), line],
    while stringp(line: readline(f)) do v: endcons(line, v),
@@ -13,26 +14,37 @@ readfile(name) := block(
    v
 )$
 
+/**/
 /* Canonicalize all equation in the input text file and save as text_file.canonicalize */
-write_file("test.canonical.eq")$
-closefile()$
+canonicalize(input_text_file, output_text_file) :=  block(
+  write_file(output_text_file),
+  closefile(),
 
-input_list: readfile("./data/test.eq");
-for line in input_list do (
-  equations: split(line, " ; "),
-  eqs_canonicalized: [],
-  for eq in equations do (
-    equation_sides: split(eq, " = "),
-    eqs_canonicalized: append(eqs_canonicalized, [(concat(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ", equation_sides[1]))))))])
+  input_list: readfile(input_text_file),
+  for line in input_list do (
+    equations: split(line, " ; "),
+    eqs_canonicalized: [],
+    for eq in equations do (
+      equation_sides: split(eq, " = "),
+      eqs_canonicalized: append(eqs_canonicalized, [(concat(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ", equation_sides[1]))))))])
+    ),
+    final_line: "",
+    i:1,
+    for eq in sort(eqs_canonicalized) do (
+      delim: "",
+      if i>1 then delim: " ; ",
+      (final_line: concat(final_line, delim, eq)),
+      i:i+1
+    ),
+    file_output_append: true,
+    with_stdout(output_text_file, princ("" + final_line))
+
   ),
-  final_line: "",
-  i:1,
-  for eq in sort(eqs_canonicalized) do (
-    delim: "",
-    if i>1 then delim: " ; ",
-    (final_line: concat(final_line, delim, eq)),
-    i:i+1
-  ),
-  file_output_append: true,
-  with_stdout("test.canonical.eq", print(final_line))
+  closefile()
 )$
+
+/**/
+/* Main Method */
+/*canonicalize(canonicalize("./data/train.eq", "./data/train.canonical.eq"))$*/
+/*canonicalize("./data/valid.eq", "./data/valid.canonical.eq")$*/
+canonicalize("./data/test.eq", "./data/test.canonical.eq")$
