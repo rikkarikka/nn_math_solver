@@ -17,16 +17,19 @@ readfile(name) := block(
 /**/
 /* Canonicalize all equation in the input text file and save as text_file.canonicalize */
 canonicalize(input_text_file, output_text_file) :=  block(
-  write_file(output_text_file),
+  writefile(output_text_file),
   closefile(),
 
   input_list: readfile(input_text_file),
+  closefile(),
   for line in input_list do (
     equations: split(line, " ; "),
     eqs_canonicalized: [],
     for eq in equations do (
       equation_sides: split(eq, " = "),
-      eqs_canonicalized: append(eqs_canonicalized, [(concat(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ", equation_sides[1]))))))])
+      /*print(concat("eq: ", eq)),
+      print(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ( ", equation_sides[1], " )"))))),*/
+      eqs_canonicalized: append(eqs_canonicalized, [(concat(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ( ", equation_sides[1], " )"))))))])
     ),
     final_line: "",
     i:1,
@@ -37,7 +40,10 @@ canonicalize(input_text_file, output_text_file) :=  block(
       i:i+1
     ),
     file_output_append: true,
-    with_stdout(output_text_file, princ("" + final_line))
+    set_tex_environment ("=", "!!!", "$$"),
+    linel: 10000,
+    print(final_line),
+    with_stdout(output_text_file, print(final_line))
 
   ),
   closefile()
@@ -45,6 +51,6 @@ canonicalize(input_text_file, output_text_file) :=  block(
 
 /**/
 /* Main Method */
-/*canonicalize(canonicalize("./data/train.eq", "./data/train.canonical.eq"))$*/
-/*canonicalize("./data/valid.eq", "./data/valid.canonical.eq")$*/
-canonicalize("./data/test.eq", "./data/test.canonical.eq")$
+/*canonicalize(canonicalize("./data/train.eq", "./data/train.can.eq"))$*/
+canonicalize("./data/val.eq", "./data/val.can.eq")$
+canonicalize("./data/test.eq", "./data/test.can.eq")$

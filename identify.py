@@ -12,11 +12,11 @@ parser = argparse.ArgumentParser(description='identify.py')
 
 # Input Files
 train_src = './data/train.red.txt'
-train_tgt = './data/train.red.eq'
+train_tgt = './data/train.can.red.eq'
 val_src = './data/val.red.txt'
-val_tgt = './data/val.red.eq'
+val_tgt = './data/val.can.red.eq'
 test_src = './data/test.red.txt'
-test_tgt = './data/test.red.eq'
+test_tgt = './data/test.can.red.eq'
 
 # Dictionary Files
 src_dict = './data/ids.atok.low.src.dict'
@@ -24,11 +24,11 @@ tgt_dict = './data/ids.atok.low.tgt.dict'
 
 # Output Files
 train_src_ids = './data/train.red.txt.id'
-train_tgt_ids = './data/train.red.eq.id'
+train_tgt_ids = './data/train.can.red.eq.id'
 val_src_ids = './data/val.red.txt.id'
-val_tgt_ids = './data/val.red.eq.id'
+val_tgt_ids = './data/val.can.red.eq.id'
 test_src_ids = './data/test.red.txt.id'
-test_tgt_ids = './data/test.red.eq.id'
+test_tgt_ids = './data/test.can.red.eq.id'
 
 def replaceWithIDs(input_txt, dictionary, output_txt, src):
     "Generate text file with words replaced with IDs"
@@ -46,7 +46,7 @@ def replaceWithIDs(input_txt, dictionary, output_txt, src):
                 words = line.split()
                 words2ids = ''
                 for w in words:
-                    if w.lower() in text2ids:
+                    if (w.lower() in text2ids) and (not ):
                         words2ids = words2ids + text2ids.get(w.lower()) + ' '
                     else:
                         words2ids = words2ids + '<unk> '

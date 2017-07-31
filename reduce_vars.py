@@ -63,8 +63,8 @@ def reduce_variables(input_txt, input_eqs, output_txt, output_eqs):
 def main():
     print('Running fewer_vars.py...')
     reduce_variables('./data/train.txt', './data/train.eq', './data/train.red.txt', './data/train.red.eq')
-    reduce_variables('./data/val.txt', './data/val.eq', './data/val.red.txt', './data/val.red.eq')
-    reduce_variables('./data/test.txt', './data/test.eq', './data/test.red.txt', './data/test.red.eq')
+    #reduce_variables('./data/val.txt', './data/val.eq', './data/val.red.txt', './data/val.red.eq')
+    #reduce_variables('./data/test.txt', './data/test.eq', './data/test.red.txt', './data/test.red.eq')
     print('fewer_vars.py complete...')
 
 if __name__ == "__main__":
