@@ -49,7 +49,7 @@ print('val.fields', val.fields)
 print('len(val)', len(val))
 print('test.fields', test.fields)
 print('len(test)', len(test))
-print('vars(train[0])', vars(train[0]))
+#print('vars(train[0])', vars(train[0]))
 
 print('Building training text vocab...')
 #TEXT.build_vocab(val)
@@ -73,7 +73,6 @@ optimizer = torch.optim.Adamax(model.parameters())
 ###############################################################################
 
 model.train()
-batch_per_epoch = 1
 for epoch in range(10):
     losses = []
     for batch_count in train_iter:
