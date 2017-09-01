@@ -21,9 +21,10 @@ class MWP(data.Dataset):
         """
         fields = [('text', text_field), ('label', label_field)]
         examples = []
-        for text in data_src:
-            for eq in data_tgt:
-                examples += [data.Example.fromlist([text, eq], fields)]
+        print(data_src,data_tgt)
+        for i,text in enumerate(data_src):
+            eq = data_tgt[i]
+            examples += [data.Example.fromlist([text, eq], fields)]
         super(MWP, self).__init__(examples, fields, **kwargs)
 
     @classmethod

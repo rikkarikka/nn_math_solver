@@ -3,6 +3,7 @@ from torch import autograd, nn
 import torch.nn.functional as F
 from numpy import genfromtxt
 import time
+import csv
 
 import data
 import model as m
@@ -13,7 +14,7 @@ import mydatasets
 # Training Parameters
 ###############################################################################
 
-input_size = 3150
+input_size = 3151
 hidden_size = 3
 num_classes = 839
 batch_size = 11
@@ -24,7 +25,7 @@ epochs = 10
 # Load data
 ###############################################################################
 
-train_src = torch.from_numpy(genfromtxt('../data/_final/train_src.csv', delimiter=',')).type(torch.LongTensor)
+train_src = torch.from_numpy(genfromtxt('../data/_final/train_src.csv', dtype="i8",delimiter=',')).type(torch.LongTensor)+1
 train_tgt = torch.from_numpy(genfromtxt('../data/_final/train_tgt.csv', delimiter=',')).type(torch.LongTensor)
 val_src = torch.from_numpy(genfromtxt('../data/_final/val_src.csv', delimiter=',')).type(torch.LongTensor)
 val_tgt = torch.from_numpy(genfromtxt('../data/_final/val_tgt.csv', delimiter=',')).type(torch.LongTensor)
@@ -59,7 +60,7 @@ print('vars(train[0])', vars(train[0]))
 # make iterator for splits
 print('Making interator for splits')
 train_iter, val_iter, test_iter = data.Iterator.splits(
-    (train, val, test), batch_size=batch_size)
+    (train, val, test), batch_size=batch_size, device=-1)
 
 ###############################################################################
 # Build the model
@@ -76,11 +77,14 @@ optimizer = torch.optim.Adamax(model.parameters())
 model.train()
 for epoch in range(10):
     losses = []
-    for batch_count in train_iter:
+    for batch_count,batch in enumerate(train_iter):
         model.zero_grad()
-        preds = model(train_iter)
-
-        loss = criterion(preds.view(-1, model.vocab_size), Y.view(-1))
+        inp = batch.text.t()
+        #print("bsz: ",batch.text.size())
+        #print("bsz: ",inp.size())
+        preds = model(inp)
+        #print("preds: ",preds.size())
+        loss = criterion(preds, batch.label)
         loss.backward()
         optimizer.step()
         losses.append(loss)
