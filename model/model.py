@@ -33,5 +33,5 @@ class Model(nn.Module):
         print('hx', hx)
         l = self.lstm(e, (hx, cx))
         y = l[-1] #batch x 1 x hidden
-        y = torch.squeeze(y[0].data) #no .data
+        y = torch.squeeze(y[0]) #no .data
         return F.softmax(self.Lin(y))#autograd.Variable(y)))
