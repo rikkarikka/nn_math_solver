@@ -22,7 +22,6 @@ print('target:', target)
 class Model(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
         super().__init__()
-        print
         self.emb = nn.Embedding(input_size, emb_dim)
         self.lstm = nn.LSTM(emb_dim, hidden_size)
         self.Lin = nn.Linear(hidden_size, num_classes)
@@ -34,5 +33,5 @@ class Model(nn.Module):
         print('hx', hx)
         l = self.lstm(e, (hx, cx))
         y = l[-1] #batch x 1 x hidden
-        y = torch.squeeze(y[0].data)
-        return F.softmax(self.Lin(autograd.Variable(y)))
+        y = torch.squeeze(y[0].data) #no .data
+        return F.softmax(self.Lin(y))#autograd.Variable(y)))
