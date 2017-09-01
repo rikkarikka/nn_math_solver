@@ -49,14 +49,15 @@ print('val.fields', val.fields)
 print('len(val)', len(val))
 print('test.fields', test.fields)
 print('len(test)', len(test))
-#print('vars(train[0])', vars(train[0]))
+print('vars(train[0])', vars(train[0]))
 
-print('Building training text vocab...')
+#print('Building training text vocab...')
 #TEXT.build_vocab(val)
-print('Building training labels vocab...')
+#print('Building training labels vocab...')
 #LABEL.build_vocab(val)
 
 # make iterator for splits
+print('Making interator for splits')
 train_iter, val_iter, test_iter = data.Iterator.splits(
     (train, val, test), batch_size=batch_size)
 
