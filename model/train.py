@@ -3,6 +3,7 @@ from torch import autograd, nn
 import torch.nn.functional as F
 from numpy import genfromtxt
 import time
+import csv
 
 import data
 import model as m
@@ -13,7 +14,7 @@ import mydatasets
 # Training Parameters
 ###############################################################################
 
-input_size = 3150
+input_size = 3151
 hidden_size = 3
 num_classes = 839
 batch_size = 11
@@ -24,12 +25,12 @@ epochs = 10
 # Load data
 ###############################################################################
 
-train_src = torch.from_numpy(genfromtxt('../data/_final/train_src.csv', delimiter=',')).type(torch.LongTensor)
-train_tgt = torch.from_numpy(genfromtxt('../data/_final/train_tgt.csv', delimiter=',')).type(torch.LongTensor)
-val_src = torch.from_numpy(genfromtxt('../data/_final/val_src.csv', delimiter=',')).type(torch.LongTensor)
-val_tgt = torch.from_numpy(genfromtxt('../data/_final/val_tgt.csv', delimiter=',')).type(torch.LongTensor)
-test_src = torch.from_numpy(genfromtxt('../data/_final/test_src.csv', delimiter=',')).type(torch.LongTensor)
-test_tgt = torch.from_numpy(genfromtxt('../data/_final/test_tgt.csv', delimiter=',')).type(torch.LongTensor)
+train_src = torch.from_numpy(genfromtxt('../data/_final/train_src.csv', dtype="i8", delimiter=',')).type(torch.LongTensor).t()+1
+train_tgt = torch.from_numpy(genfromtxt('../data/_final/train_tgt.csv', dtype="i8", delimiter=',')).type(torch.LongTensor)
+val_src = torch.from_numpy(genfromtxt('../data/_final/val_src.csv', dtype="i8", delimiter=',')).type(torch.LongTensor).t()+1
+val_tgt = torch.from_numpy(genfromtxt('../data/_final/val_tgt.csv', dtype="i8", delimiter=',')).type(torch.LongTensor)
+test_src = torch.from_numpy(genfromtxt('../data/_final/test_src.csv', dtype="i8", delimiter=',')).type(torch.LongTensor).t()+1
+test_tgt = torch.from_numpy(genfromtxt('../data/_final/test_tgt.csv', dtype="i8", delimiter=',')).type(torch.LongTensor)
 
 # Load Data using torchtext
 TEXT = data.Field(use_vocab=False)
@@ -40,26 +41,10 @@ train, val, test = mydatasets.MWP.splits(text_field=TEXT, label_field=LABEL,
                                         val_src=val_src, val_tgt=val_tgt,
                                         test_src=test_src, test_tgt=test_tgt)
 
-# print information about the data
-print('train.fields', train.fields)
-print('type(train)', type(train))
-#print('train.examples[0].text', train.examples[0].text)
-print('len(train)', len(train))
-print('val.fields', val.fields)
-print('len(val)', len(val))
-print('test.fields', test.fields)
-print('len(test)', len(test))
-print('vars(train[0])', vars(train[0]))
-
-#print('Building training text vocab...')
-#TEXT.build_vocab(val)
-#print('Building training labels vocab...')
-#LABEL.build_vocab(val)
-
-# make iterator for splits
+# Make iterator for splits
 print('Making interator for splits')
 train_iter, val_iter, test_iter = data.Iterator.splits(
-    (train, val, test), batch_size=batch_size)
+    (train, val, test), batch_size=batch_size, device=-1)
 
 ###############################################################################
 # Build the model
@@ -76,29 +61,14 @@ optimizer = torch.optim.Adamax(model.parameters())
 model.train()
 for epoch in range(10):
     losses = []
-    for batch_count in train_iter:
+    for batch_count,batch in enumerate(train_iter):
         model.zero_grad()
-        preds = model(train_iter)
-
-        loss = criterion(preds.view(-1, model.vocab_size), Y.view(-1))
+        inp = batch.text.t()
+        preds = model(inp)
+        loss = criterion(preds, batch.label)
         loss.backward()
         optimizer.step()
         losses.append(loss)
 
         if (batch_count % 20 == 0):
             print('Loss: ', losses[-1])
-"""
-def batchify(data, batch_size):
-    # Work out how cleanly we can divide the dataset into bsz parts.
-    seq_len = 105
-    nbatch = data.target_tensor.size(0) // batch_size
-    # Trim off any extra elements that wouldn't cleanly fit (remainders).
-    data.data_tensor = data.data_tensor.narrow(0, 0, nbatch * batch_size)
-    data.target_tensor = data.target_tensor.narrow(0, 0, nbatch * batch_size)
-    # Evenly divide the data across the batch_size batches.
-    data.data_tensor = data.data_tensor.unsqueeze(0).view(-1, batch_size, seq_len).contiguous().type(torch.LongTensor)
-    data.target_tensor = data.target_tensor.view(batch_size, -1).contiguous().unsqueeze(0).type(torch.LongTensor)
-    #print('data.data_tensor.view', data.data_tensor)
-    #print('data.target_tensor.view', data.target_tensor)
-    return data
-"""

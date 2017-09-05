@@ -3,27 +3,24 @@ from torchtext import data
 
 class MWP(data.Dataset):
 
-    def __init__(self, data_src, data_tgt, text_field, label_field, path=None, examples=None, **kwargs):
+    def __init__(self, data_src, data_tgt, text_field, label_field, examples=None, **kwargs):
         """Create an MWP dataset instance given a path and fields.
 
         Arguments:
+            data_src: Path to source data file.
+            data_tgt: Path to target data file.
             text_field: The field that will be used for text data.
             label_field: The field that will be used for label data.
-            train_src: Path to training source data file.
-            train_tgt: Path to training target data file.
-            val_src: Path to validation source data file.
-            val_tgt: Path to validation target data file.
-            test_src: Path to test source data file.
-            test_tgt: Path to test target data file.
             examples: The examples contain all the data.
             Remaining keyword arguments: Passed to the constructor of
                 data.Dataset.
         """
         fields = [('text', text_field), ('label', label_field)]
         examples = []
-        for text in data_src:
-            for eq in data_tgt:
-                examples += [data.Example.fromlist([text, eq], fields)]
+        #print(data_src,data_tgt)
+        for i,text in enumerate(data_src):
+            eq = data_tgt[i]
+            examples += [data.Example.fromlist([text, eq], fields)]
         super(MWP, self).__init__(examples, fields, **kwargs)
 
     @classmethod
