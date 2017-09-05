@@ -8,8 +8,10 @@ batch_size = 11
 hidden_size = 3
 emb_dim = 3
 
-hx = autograd.Variable(torch.FloatTensor(num_layers*num_direction,batch_size, hidden_size))
-cx = autograd.Variable(torch.FloatTensor(num_layers*num_direction,batch_size, hidden_size))
+hx = autograd.Variable(torch.FloatTensor(num_layers*num_direction,batch_size,
+                                                                hidden_size))
+cx = autograd.Variable(torch.FloatTensor(num_layers*num_direction,batch_size,
+                                                                hidden_size))
 
 class Model(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
@@ -19,8 +21,10 @@ class Model(nn.Module):
         self.Lin = nn.Linear(hidden_size, num_classes)
 
     def get_ch(self,size):
-        hx = autograd.Variable(torch.FloatTensor(num_layers*num_direction, size, hidden_size).zero_())
-        cx = autograd.Variable(torch.FloatTensor(num_layers*num_direction, size, hidden_size).zero_())
+        hx = autograd.Variable(torch.FloatTensor(num_layers*num_direction, size,
+                                                        hidden_size).zero_())
+        cx = autograd.Variable(torch.FloatTensor(num_layers*num_direction, size,
+                                                        hidden_size).zero_())
         return (hx,cx)
 
     def forward(self, inp):
