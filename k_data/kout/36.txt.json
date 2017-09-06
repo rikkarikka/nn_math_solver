@@ -1,0 +1,1734 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN weight))\n      (PP (IN of)\n        (NP\n          (NP (DT an) (NN object))\n          (PP (IN on)\n            (NP (DT the) (NN moon))))))\n    (VP (VBZ varies)\n      (ADVP (RB directly))\n      (PP (TO to)\n        (NP\n          (NP (PRP$ its) (NN weight))\n          (PP (IN on)\n            (NP (NN earth))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "varies"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "weight",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 2,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "weight",
+          "dependent": 5,
+          "dependentGloss": "object"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "moon",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "moon",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 8,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 10,
+          "dependentGloss": "directly"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 12,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 13,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "earth",
+          "dependent": 14,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 15,
+          "dependentGloss": "earth"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "varies"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "weight",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 2,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "weight",
+          "dependent": 5,
+          "dependentGloss": "object"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "moon",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "moon",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 8,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 10,
+          "dependentGloss": "directly"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 12,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 13,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "earth",
+          "dependent": 14,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 15,
+          "dependentGloss": "earth"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "varies"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "weight",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 2,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "weight",
+          "dependent": 5,
+          "dependentGloss": "object"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "moon",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "moon",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "object",
+          "dependent": 8,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 10,
+          "dependentGloss": "directly"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 12,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 13,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "earth",
+          "dependent": 14,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 13,
+          "governorGloss": "weight",
+          "dependent": 15,
+          "dependentGloss": "earth"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "varies",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 16,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "object",
+          "originalText": "object",
+          "lemma": "object",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 23,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 26,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "moon",
+          "originalText": "moon",
+          "lemma": "moon",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "varies",
+          "originalText": "varies",
+          "lemma": "vary",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 42,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "directly",
+          "originalText": "directly",
+          "lemma": "directly",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 51,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 58,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 65,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 68,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "earth",
+          "originalText": "earth",
+          "lemma": "earth",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (NP (DT A) (NN person)\n    (SBAR\n      (WHNP (WP who) (NNS weights))\n      (S\n        (NP\n          (NP (CD 133) (NNS pounds))\n          (PP (IN on)\n            (NP (NN earth))))\n        (VP (VBZ weighs)\n          (NP\n            (NP (CD 26.6) (NNS pounds))\n            (PP (IN on)\n              (NP (DT the) (NN moon)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "person"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "weights",
+          "dependent": 3,
+          "dependentGloss": "who"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 4,
+          "dependentGloss": "weights"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "133"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 6,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "earth",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "earth"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 9,
+          "dependentGloss": "weighs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "pounds",
+          "dependent": 10,
+          "dependentGloss": "26.6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 11,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "moon",
+          "dependent": 12,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "moon",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "pounds",
+          "dependent": 14,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "person"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "weights",
+          "dependent": 3,
+          "dependentGloss": "who"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 4,
+          "dependentGloss": "weights"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "133"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 6,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "earth",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "earth"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 9,
+          "dependentGloss": "weighs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "pounds",
+          "dependent": 10,
+          "dependentGloss": "26.6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 11,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "moon",
+          "dependent": 12,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "moon",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 11,
+          "governorGloss": "pounds",
+          "dependent": 14,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "person"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "weights",
+          "dependent": 3,
+          "dependentGloss": "who"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 4,
+          "dependentGloss": "weights"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 5,
+          "dependentGloss": "133"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 6,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "earth",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "earth"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 9,
+          "dependentGloss": "weighs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "pounds",
+          "dependent": 10,
+          "dependentGloss": "26.6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "weighs",
+          "dependent": 11,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "moon",
+          "dependent": 12,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "moon",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 11,
+          "governorGloss": "pounds",
+          "dependent": 14,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "person",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 77,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "person",
+          "originalText": "person",
+          "lemma": "person",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "who",
+          "originalText": "who",
+          "lemma": "who",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 88,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "weights",
+          "originalText": "weights",
+          "lemma": "weight",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 96,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "133",
+          "originalText": "133",
+          "lemma": "133",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 100,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "133.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 107,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 110,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "earth",
+          "originalText": "earth",
+          "lemma": "earth",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 116,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "weighs",
+          "originalText": "weighs",
+          "lemma": "weigh",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 123,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "26.6",
+          "originalText": "26.6",
+          "lemma": "26.6",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 128,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "26.6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 135,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 138,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 142,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "moon",
+          "originalText": "moon",
+          "lemma": "moon",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 147,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 148,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS pounds))\n    (SQ (MD would)\n      (NP (DT a) (JJ 136-pound) (NN person))\n      (VP (VB weigh)\n        (PP (IN on)\n          (NP (DT the) (NN moon)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "weigh"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 3,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "person",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "person",
+          "dependent": 6,
+          "dependentGloss": "136-pound"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 7,
+          "dependentGloss": "person"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "moon",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "moon",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 11,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "weigh"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 3,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "person",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "person",
+          "dependent": 6,
+          "dependentGloss": "136-pound"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 7,
+          "dependentGloss": "person"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "moon",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "moon",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 11,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "weigh"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pounds",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 3,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "person",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "person",
+          "dependent": 6,
+          "dependentGloss": "136-pound"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 7,
+          "dependentGloss": "person"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "moon",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "moon",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 11,
+          "dependentGloss": "moon"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "weigh",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 152,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 157,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 164,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "would",
+          "originalText": "would",
+          "lemma": "would",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 170,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 172,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "136-pound",
+          "originalText": "136-pound",
+          "lemma": "136-pound",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 182,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "person",
+          "originalText": "person",
+          "lemma": "person",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 189,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "weigh",
+          "originalText": "weigh",
+          "lemma": "weigh",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 195,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 198,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 202,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "moon",
+          "originalText": "moon",
+          "lemma": "moon",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 207,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 208,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "The weight of an object on the moon",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "its",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "an object on the moon",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "the moon",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "the moon",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "the moon",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "its weight on earth",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "133",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "26.6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "A person who weights 133 pounds on earth weighs 26.6 pounds on the moon.",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "133 pounds on earth",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "26.6 pounds on the moon",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "a 136-pound person",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

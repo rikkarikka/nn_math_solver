@@ -1,0 +1,2369 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN customer))\n    (VP\n      (VP (VBZ walks)\n        (PP (IN into)\n          (NP (DT an) (NN electronics) (NN store))))\n      (CC and)\n      (VP (VBZ buys)\n        (NP\n          (NP (CD 5) (NN MP3) (NNS players))\n          (CC and)\n          (NP\n            (NP (CD 8) (NNS sets))\n            (PP (IN of)\n              (NP (NNS headphones))))))\n      (, ,)\n      (S\n        (VP (VBG paying)\n          (NP (CD 840) (NNS dollars)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "walks"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "customer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 2,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 4,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 6,
+          "dependentGloss": "electronics"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 7,
+          "dependentGloss": "store"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 9,
+          "dependentGloss": "buys"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 10,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 11,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buys",
+          "dependent": 12,
+          "dependentGloss": "players"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "sets",
+          "dependent": 14,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "conj",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 15,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "headphones",
+          "dependent": 16,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "sets",
+          "dependent": 17,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 18,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 19,
+          "dependentGloss": "paying"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "840"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "paying",
+          "dependent": 21,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "walks"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "customer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 2,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 4,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 6,
+          "dependentGloss": "electronics"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 7,
+          "dependentGloss": "store"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 9,
+          "dependentGloss": "buys"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 10,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 11,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buys",
+          "dependent": 12,
+          "dependentGloss": "players"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "sets",
+          "dependent": 14,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 15,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "headphones",
+          "dependent": 16,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 15,
+          "governorGloss": "sets",
+          "dependent": 17,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 18,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 19,
+          "dependentGloss": "paying"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "840"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "paying",
+          "dependent": 21,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "walks"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "customer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 2,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "buys",
+          "dependent": 2,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 4,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "store",
+          "dependent": 6,
+          "dependentGloss": "electronics"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 7,
+          "dependentGloss": "store"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 9,
+          "dependentGloss": "buys"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 10,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 11,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buys",
+          "dependent": 12,
+          "dependentGloss": "players"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "sets",
+          "dependent": 14,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "buys",
+          "dependent": 15,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "players",
+          "dependent": 15,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "headphones",
+          "dependent": 16,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 15,
+          "governorGloss": "sets",
+          "dependent": 17,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 18,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 19,
+          "dependentGloss": "paying"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "840"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "paying",
+          "dependent": 21,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "walks",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "customer",
+          "originalText": "customer",
+          "lemma": "customer",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "walks",
+          "originalText": "walks",
+          "lemma": "walk",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 16,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "into",
+          "originalText": "into",
+          "lemma": "into",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 21,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 24,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "electronics",
+          "originalText": "electronics",
+          "lemma": "electronics",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 36,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "store",
+          "originalText": "store",
+          "lemma": "store",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 42,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 46,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "buys",
+          "originalText": "buys",
+          "lemma": "buy",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 53,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "MP3",
+          "originalText": "MP3",
+          "lemma": "mp3",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "players",
+          "originalText": "players",
+          "lemma": "player",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 65,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 69,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 71,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "sets",
+          "originalText": "sets",
+          "lemma": "set",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 76,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 79,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "headphones",
+          "originalText": "headphones",
+          "lemma": "headphone",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 90,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 92,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "paying",
+          "originalText": "paying",
+          "lemma": "pay",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 99,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "840",
+          "originalText": "840",
+          "lemma": "840",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$840.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 111,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$840.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 112,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (JJ 2nd) (NN customer))\n    (VP\n      (VP (VBZ buys)\n        (NP\n          (NP (CD 3) (NN MP3) (NNS players))\n          (CC and)\n          (NP\n            (NP (CD 4) (NNS sets))\n            (PP (IN of)\n              (NP (NNS headphones))))))\n      (, ,)\n      (CC and)\n      (VP (VBZ pays)\n        (NP (CD 480) (NNS dollars))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "buys"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "customer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "customer",
+          "dependent": 2,
+          "dependentGloss": "2nd"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 3,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 5,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 6,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 7,
+          "dependentGloss": "players"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 9,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "headphones",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 12,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 15,
+          "dependentGloss": "pays"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "pays",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "buys"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "customer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "customer",
+          "dependent": 2,
+          "dependentGloss": "2nd"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 3,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 5,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 6,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 7,
+          "dependentGloss": "players"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 9,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "headphones",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 12,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 15,
+          "dependentGloss": "pays"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "pays",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "buys"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "customer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "customer",
+          "dependent": 2,
+          "dependentGloss": "2nd"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 3,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "pays",
+          "dependent": 3,
+          "dependentGloss": "customer"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 5,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 6,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 7,
+          "dependentGloss": "players"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 9,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "players",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "headphones",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 12,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 15,
+          "dependentGloss": "pays"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "pays",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "buys",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 114,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "2nd",
+          "originalText": "2nd",
+          "lemma": "2nd",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "customer",
+          "originalText": "customer",
+          "lemma": "customer",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 127,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "buys",
+          "originalText": "buys",
+          "lemma": "buy",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 132,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 134,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "MP3",
+          "originalText": "MP3",
+          "lemma": "mp3",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 138,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "players",
+          "originalText": "players",
+          "lemma": "player",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 146,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 150,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 152,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "sets",
+          "originalText": "sets",
+          "lemma": "set",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 157,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 160,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "headphones",
+          "originalText": "headphones",
+          "lemma": "headphone",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 171,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 173,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 177,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "pays",
+          "originalText": "pays",
+          "lemma": "pay",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 182,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "480",
+          "originalText": "480",
+          "lemma": "480",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 186,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$480.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 194,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$480.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 195,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ (VBZ does)\n      (NP (DT an) (NN MP3) (NN player) (NN cost)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "player"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 7,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "player"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 7,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "MP3"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "player"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 7,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 199,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 204,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 209,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 210,
+          "characterOffsetEnd": 212,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "MP3",
+          "originalText": "MP3",
+          "lemma": "mp3",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 216,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "player",
+          "originalText": "player",
+          "lemma": "player",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 223,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 228,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 229,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ\n      (VP (VBZ does)\n        (NP\n          (NP (DT a) (NN set))\n          (PP (IN of)\n            (NP\n              (NP (NNS headphones))\n              (VP (VBN cost)))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "set",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 5,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "headphones",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "set",
+          "dependent": 7,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "acl",
+          "governor": 7,
+          "governorGloss": "headphones",
+          "dependent": 8,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "set",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 5,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "headphones",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "set",
+          "dependent": 7,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "acl",
+          "governor": 7,
+          "governorGloss": "headphones",
+          "dependent": 8,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "set",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 5,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "headphones",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "set",
+          "dependent": 7,
+          "dependentGloss": "headphones"
+        },
+        {
+          "dep": "acl",
+          "governor": 7,
+          "governorGloss": "headphones",
+          "dependent": 8,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 233,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 238,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 243,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 245,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "set",
+          "originalText": "set",
+          "lemma": "set",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 249,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 252,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "headphones",
+          "originalText": "headphones",
+          "lemma": "headphone",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 263,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 264,
+          "characterOffsetEnd": 268,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 268,
+          "characterOffsetEnd": 269,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "8",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "A customer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "an electronics store",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "5 MP3 players and 8 sets of headphones",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "5 MP3 players",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "8 sets of headphones",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "headphones",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "headphones",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "2nd",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "A 2nd customer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "3 MP3 players and 4 sets of headphones",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "3 MP3 players",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "4 sets of headphones",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "an MP3 player cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "a set of headphones cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "headphones cost",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

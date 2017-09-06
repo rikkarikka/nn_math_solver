@@ -1,0 +1,988 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN rancher))\n    (VP (VBZ raises)\n      (NP\n        (NP\n          (QP (CD 5) (NNS times) (IN as) (JJ many))\n          (NNS cows))\n        (PP (IN as)\n          (NP (NNS horses)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "raises"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "rancher",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 2,
+          "dependentGloss": "rancher"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 4,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cows",
+          "dependent": 5,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 7,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 8,
+          "dependentGloss": "cows"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "horses",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "cows",
+          "dependent": 10,
+          "dependentGloss": "horses"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "raises"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "rancher",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 2,
+          "dependentGloss": "rancher"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 4,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cows",
+          "dependent": 5,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 7,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 8,
+          "dependentGloss": "cows"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "horses",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 8,
+          "governorGloss": "cows",
+          "dependent": 10,
+          "dependentGloss": "horses"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "raises"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "rancher",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 2,
+          "dependentGloss": "rancher"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 4,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cows",
+          "dependent": 5,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "times",
+          "dependent": 7,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 8,
+          "dependentGloss": "cows"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "horses",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 8,
+          "governorGloss": "cows",
+          "dependent": 10,
+          "dependentGloss": "horses"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "raises",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "rancher",
+          "originalText": "rancher",
+          "lemma": "rancher",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 9,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "raises",
+          "originalText": "raises",
+          "lemma": "raise",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 16,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 18,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 24,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 32,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "cows",
+          "originalText": "cows",
+          "lemma": "cow",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "horses",
+          "originalText": "horses",
+          "lemma": "horse",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 47,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 48,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP he))\n        (VP (VBZ has)\n          (NP (CD 168) (NNS animals)))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NNS cows))\n    (SQ (VBZ does)\n      (NP (PRP he))\n      (VP (VB have)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "animals",
+          "dependent": 4,
+          "dependentGloss": "168"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "animals"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "many",
+          "dependent": 7,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "cows",
+          "dependent": 8,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "cows"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "animals",
+          "dependent": 4,
+          "dependentGloss": "168"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "animals"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "many",
+          "dependent": 7,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "cows",
+          "dependent": 8,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "cows"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "animals",
+          "dependent": 4,
+          "dependentGloss": "168"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "animals"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "many",
+          "dependent": 7,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "cows",
+          "dependent": 8,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "cows"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 58,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "168",
+          "originalText": "168",
+          "lemma": "168",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 62,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "168.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "animals",
+          "originalText": "animals",
+          "lemma": "animal",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 70,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "cows",
+          "originalText": "cows",
+          "lemma": "cow",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 91,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 94,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 99,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A rancher",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "5 times as many cows as horses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "horses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "168",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "168 animals",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

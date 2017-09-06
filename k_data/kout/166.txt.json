@@ -1,0 +1,1492 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (CD One))\n      (PP\n        (NP\n          (QP (CD thousand) (NNS quarts)))\n        (IN of)\n        (NP\n          (NP (NN milk) (NN testing))\n          (NP\n            (ADJP (CD 4) (NN %))\n            (NN butterfat)))))\n    (VP (VBP are)\n      (S\n        (VP (TO to)\n          (VP (VB be)\n            (VP (VBN reduced)\n              (PP (TO to)\n                (NP (CD 3) (NN %))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 2,
+          "dependentGloss": "thousand"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "One",
+          "dependent": 3,
+          "dependentGloss": "quarts"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 5,
+          "dependentGloss": "milk"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 6,
+          "dependentGloss": "testing"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "butterfat",
+          "dependent": 8,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 9,
+          "dependentGloss": "butterfat"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 12,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 13,
+          "dependentGloss": "reduced"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 16,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 2,
+          "dependentGloss": "thousand"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "One",
+          "dependent": 3,
+          "dependentGloss": "quarts"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 5,
+          "dependentGloss": "milk"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 6,
+          "dependentGloss": "testing"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "butterfat",
+          "dependent": 8,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 9,
+          "dependentGloss": "butterfat"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 12,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 13,
+          "dependentGloss": "reduced"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 16,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 2,
+          "dependentGloss": "thousand"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "One",
+          "dependent": 3,
+          "dependentGloss": "quarts"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 5,
+          "dependentGloss": "milk"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 6,
+          "dependentGloss": "testing"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "butterfat",
+          "dependent": 8,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 9,
+          "dependentGloss": "butterfat"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 12,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 13,
+          "dependentGloss": "reduced"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 13,
+          "governorGloss": "reduced",
+          "dependent": 16,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "are",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "One",
+          "originalText": "One",
+          "lemma": "one",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1000.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "thousand",
+          "originalText": "thousand",
+          "lemma": "thousand",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 12,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1000.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "quarts",
+          "originalText": "quarts",
+          "lemma": "quart",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 19,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 22,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "milk",
+          "originalText": "milk",
+          "lemma": "milk",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "testing",
+          "originalText": "testing",
+          "lemma": "testing",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 37,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "butterfat",
+          "originalText": "butterfat",
+          "lemma": "butterfat",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 49,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 56,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "reduced",
+          "originalText": "reduced",
+          "lemma": "reduce",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 72,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS quarts))\n      (PP (IN of)\n        (NP\n          (NP (NN cream) (NN testing))\n          (NP\n            (ADJP (CD 23) (NN %))\n            (NN butterfat)))))\n    (SQ\n      (VP (MD must)\n        (VP (VB be)\n          (VP (VBN separated)\n            (PP (IN from)\n              (NP (DT the) (NN milk)))\n            (S\n              (VP (TO to)\n                (VP (VB produce)\n                  (NP (DT the) (JJ required) (NN result)))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "separated"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 3,
+          "dependentGloss": "quarts"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 5,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 6,
+          "dependentGloss": "testing"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "23"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "butterfat",
+          "dependent": 8,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 9,
+          "dependentGloss": "butterfat"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 10,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 11,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "milk",
+          "dependent": 13,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "milk",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 15,
+          "dependentGloss": "milk"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "produce",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 17,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "result",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "result",
+          "dependent": 19,
+          "dependentGloss": "required"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "produce",
+          "dependent": 20,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "separated"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 3,
+          "dependentGloss": "quarts"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 5,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 6,
+          "dependentGloss": "testing"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "23"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "butterfat",
+          "dependent": 8,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 9,
+          "dependentGloss": "butterfat"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 10,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 11,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "milk",
+          "dependent": 13,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "milk",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 15,
+          "dependentGloss": "milk"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "produce",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 17,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "result",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "result",
+          "dependent": 19,
+          "dependentGloss": "required"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "produce",
+          "dependent": 20,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "separated"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 3,
+          "dependentGloss": "quarts"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 5,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "quarts",
+          "dependent": 6,
+          "dependentGloss": "testing"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "23"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "butterfat",
+          "dependent": 8,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "testing",
+          "dependent": 9,
+          "dependentGloss": "butterfat"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 10,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 11,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "milk",
+          "dependent": 13,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "milk",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 15,
+          "dependentGloss": "milk"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "produce",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 17,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "result",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "result",
+          "dependent": 19,
+          "dependentGloss": "required"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "produce",
+          "dependent": 20,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "separated",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 79,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 84,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "quarts",
+          "originalText": "quarts",
+          "lemma": "quart",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 91,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 94,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "cream",
+          "originalText": "cream",
+          "lemma": "cream",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 100,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "testing",
+          "originalText": "testing",
+          "lemma": "testing",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 108,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "23",
+          "originalText": "23",
+          "lemma": "23",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 111,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%23.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 113,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%23.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "butterfat",
+          "originalText": "butterfat",
+          "lemma": "butterfat",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 123,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "must",
+          "originalText": "must",
+          "lemma": "must",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 128,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 131,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "separated",
+          "originalText": "separated",
+          "lemma": "separate",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 141,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 146,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 150,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "milk",
+          "originalText": "milk",
+          "lemma": "milk",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 155,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 158,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "produce",
+          "originalText": "produce",
+          "lemma": "produce",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 166,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 170,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "required",
+          "originalText": "required",
+          "lemma": "required",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 179,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "result",
+          "originalText": "result",
+          "lemma": "result",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 186,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 187,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "One thousand",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "One thousand quarts of milk testing 4 % butterfat",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "thousand quarts",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "milk testing 4 % butterfat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "4 % butterfat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "cream testing 23 % butterfat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "23 % butterfat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the milk",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the required result",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

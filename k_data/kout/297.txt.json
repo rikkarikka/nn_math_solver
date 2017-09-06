@@ -1,0 +1,2290 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (NN group))\n      (PP (IN of)\n        (NP (NNS students))))\n    (VP (VBD went)\n      (S\n        (VP (VBG hiking)\n          (PP (IN in)\n            (NP (DT a) (NN wildlife) (NN sanctuary))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "group",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 2,
+          "dependentGloss": "group"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "students",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "group",
+          "dependent": 4,
+          "dependentGloss": "students"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "hiking"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 9,
+          "dependentGloss": "wildlife"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "hiking",
+          "dependent": 10,
+          "dependentGloss": "sanctuary"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "group",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 2,
+          "dependentGloss": "group"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "students",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "group",
+          "dependent": 4,
+          "dependentGloss": "students"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "hiking"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 9,
+          "dependentGloss": "wildlife"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "hiking",
+          "dependent": 10,
+          "dependentGloss": "sanctuary"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "went"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "group",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 2,
+          "dependentGloss": "group"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "students",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "group",
+          "dependent": 4,
+          "dependentGloss": "students"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 6,
+          "dependentGloss": "hiking"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "sanctuary",
+          "dependent": 9,
+          "dependentGloss": "wildlife"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "hiking",
+          "dependent": 10,
+          "dependentGloss": "sanctuary"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "went",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "group",
+          "originalText": "group",
+          "lemma": "group",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "students",
+          "originalText": "students",
+          "lemma": "student",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 19,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "went",
+          "originalText": "went",
+          "lemma": "go",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 24,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "hiking",
+          "originalText": "hiking",
+          "lemma": "hike",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 31,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 36,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "wildlife",
+          "originalText": "wildlife",
+          "lemma": "wildlife",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 45,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "sanctuary",
+          "originalText": "sanctuary",
+          "lemma": "sanctuary",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 55,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 56,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN During)\n      (NP (DT the) (NN hike)))\n    (NP\n      (NP (DT a) (NN total))\n      (PP (IN of)\n        (NP\n          (NP (CD 180) (NNS ticks))\n          (CC and)\n          (NP (NNS mosquitoes)))))\n    (VP (VBD were)\n      (VP (VBN slapped)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "hike",
+          "dependent": 1,
+          "dependentGloss": "During"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "hike",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 3,
+          "dependentGloss": "hike"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 7,
+          "dependentGloss": "180"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 8,
+          "dependentGloss": "ticks"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 10,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 11,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "hike",
+          "dependent": 1,
+          "dependentGloss": "During"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "hike",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 3,
+          "dependentGloss": "hike"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 7,
+          "dependentGloss": "180"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 8,
+          "dependentGloss": "ticks"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 10,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 11,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "hike",
+          "dependent": 1,
+          "dependentGloss": "During"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "hike",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 3,
+          "dependentGloss": "hike"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 7,
+          "dependentGloss": "180"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 8,
+          "dependentGloss": "ticks"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "total",
+          "dependent": 10,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "ticks",
+          "dependent": 10,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 11,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "slapped",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "During",
+          "originalText": "During",
+          "lemma": "during",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 63,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "hike",
+          "originalText": "hike",
+          "lemma": "hike",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 74,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 80,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 83,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "180",
+          "originalText": "180",
+          "lemma": "180",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 87,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "180.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "ticks",
+          "originalText": "ticks",
+          "lemma": "tick",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 93,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 97,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "mosquitoes",
+          "originalText": "mosquitoes",
+          "lemma": "mosquito",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 108,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 113,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "slapped",
+          "originalText": "slapped",
+          "lemma": "slap",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 121,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (NNS Ticks))\n      (VP (VBP have)\n        (NP (CD 8) (NNS legs))))\n    (CC and)\n    (S\n      (NP (NNS mosquitoes))\n      (VP (VBP have)\n        (NP (CD 6) (NNS legs))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "Ticks"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "legs",
+          "dependent": 3,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 8,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "Ticks"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "legs",
+          "dependent": 3,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 8,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 1,
+          "dependentGloss": "Ticks"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "legs",
+          "dependent": 3,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 8,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Ticks",
+          "originalText": "Ticks",
+          "lemma": "tick",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 128,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 133,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 135,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "legs",
+          "originalText": "legs",
+          "lemma": "leg",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 140,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 144,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "mosquitoes",
+          "originalText": "mosquitoes",
+          "lemma": "mosquito",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 155,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 160,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 162,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "legs",
+          "originalText": "legs",
+          "lemma": "leg",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 168,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBAR (IN If)\n    (S\n      (NP (DT these) (NNS pests))\n      (VP (VBZ has)\n        (NP\n          (NP (DT a) (NN total))\n          (PP (IN of)\n            (NP\n              (NP (CD 1240) (NNS legs))\n              (, ,)\n              (SBAR\n                (WHNP (WRB how) (JJ many))\n                (S\n                  (UCP\n                    (NP (NNS mosquitoes))\n                    (CC and)\n                    (SBAR\n                      (WHADJP (WRB how) (JJ many))\n                      (S\n                        (NP (NNS ticks))\n                        (VP (VBD were)\n                          (VP (VBN slapped)\n                            (PP (IN during)\n                              (NP (DT the) (NN hike))))))\n                      (. ?))))))))))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "pests",
+          "dependent": 2,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "pests"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 8,
+          "dependentGloss": "1240"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 13,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dep",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 16,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 17,
+          "dependentGloss": "ticks"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 18,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 19,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "hike",
+          "dependent": 20,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "hike",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 22,
+          "dependentGloss": "hike"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "pests",
+          "dependent": 2,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "pests"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 8,
+          "dependentGloss": "1240"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 13,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dep",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 16,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 17,
+          "dependentGloss": "ticks"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 18,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 19,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "hike",
+          "dependent": 20,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "hike",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 22,
+          "dependentGloss": "hike"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "pests",
+          "dependent": 2,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "pests"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 8,
+          "dependentGloss": "1240"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 13,
+          "dependentGloss": "mosquitoes"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dep",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 16,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 17,
+          "dependentGloss": "ticks"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 18,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "legs",
+          "dependent": 19,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "mosquitoes",
+          "dependent": 19,
+          "dependentGloss": "slapped"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "hike",
+          "dependent": 20,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "hike",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 22,
+          "dependentGloss": "hike"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "slapped",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 171,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 177,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "pests",
+          "originalText": "pests",
+          "lemma": "pest",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 183,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 187,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 189,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 195,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 198,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "1240",
+          "originalText": "1240",
+          "lemma": "1240",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 203,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "1240",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "legs",
+          "originalText": "legs",
+          "lemma": "leg",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 208,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 210,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 214,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 219,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "mosquitoes",
+          "originalText": "mosquitoes",
+          "lemma": "mosquito",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 230,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 234,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 238,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 243,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "ticks",
+          "originalText": "ticks",
+          "lemma": "tick",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 249,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 254,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "slapped",
+          "originalText": "slapped",
+          "lemma": "slap",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 262,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "during",
+          "originalText": "during",
+          "lemma": "during",
+          "characterOffsetBegin": 263,
+          "characterOffsetEnd": 269,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 270,
+          "characterOffsetEnd": 273,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "hike",
+          "originalText": "hike",
+          "lemma": "hike",
+          "characterOffsetBegin": 274,
+          "characterOffsetEnd": 278,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 278,
+          "characterOffsetEnd": 279,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A group of students",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a wildlife sanctuary",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "the hike",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "the hike",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 23,
+        "sentNum": 4,
+        "position": [
+          4,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a total of 180 ticks and mosquitoes",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "mosquitoes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "mosquitoes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "mosquitoes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "8",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "Ticks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "ticks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "8 legs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "6 legs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "these pests",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "a total of 1240 legs , how many mosquitoes and how many ticks were slapped during the hike?",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 24,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

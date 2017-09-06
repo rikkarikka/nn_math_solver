@@ -1,0 +1,776 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (CD 36) (JJR more))\n      (PP (IN than)\n        (NP\n          (NP (DT the) (NN product))\n          (PP (IN of)\n            (NP\n              (NP (CD three))\n              (CC and)\n              (NP (NN x)))))))\n    (VP (VBZ is)\n      (NP\n        (NP (DT the) (JJ same))\n        (PP (IN as)\n          (NP (CD 48)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "more",
+          "dependent": 1,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 2,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 3,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "product"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 7,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 9,
+          "dependentGloss": "x"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "48",
+          "dependent": 13,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 14,
+          "dependentGloss": "48"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "more",
+          "dependent": 1,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 2,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 3,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 2,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "product"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 7,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 9,
+          "dependentGloss": "x"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "48",
+          "dependent": 13,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 14,
+          "dependentGloss": "48"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "more",
+          "dependent": 1,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 2,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 3,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 2,
+          "governorGloss": "more",
+          "dependent": 5,
+          "dependentGloss": "product"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 7,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "product",
+          "dependent": 9,
+          "dependentGloss": "x"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "three",
+          "dependent": 9,
+          "dependentGloss": "x"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "48",
+          "dependent": 13,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 14,
+          "dependentGloss": "48"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "same",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "36",
+          "originalText": "36",
+          "lemma": "36",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "36.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 7,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 12,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 16,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "product",
+          "originalText": "product",
+          "lemma": "product",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 24,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "three",
+          "originalText": "three",
+          "lemma": "three",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "x",
+          "originalText": "x",
+          "lemma": "x",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 46,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "same",
+          "originalText": "same",
+          "lemma": "same",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 51,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "48",
+          "originalText": "48",
+          "lemma": "48",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 57,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "48.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 58,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (VP (VB Solve)\n      (PP (IN for)\n        (NP (NN x.))))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Solve"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "x.",
+          "dependent": 2,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 3,
+          "dependentGloss": "x."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Solve"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "x.",
+          "dependent": 2,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 3,
+          "dependentGloss": "x."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Solve"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "x.",
+          "dependent": 2,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 3,
+          "dependentGloss": "x."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Solve",
+          "originalText": "Solve",
+          "lemma": "solve",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 64,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 68,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "x.",
+          "originalText": "x.",
+          "lemma": "x.",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "36",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "three",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "48",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "36 more than the product of three and x",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "the same as 48",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "the product of three and x",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "three and x",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

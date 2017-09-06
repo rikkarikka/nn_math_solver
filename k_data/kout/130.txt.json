@@ -1,0 +1,2018 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (NNP Juliet))\n      (VP (VBZ has)\n        (NP\n          (NP (DT a) (NN choice))\n          (PP (IN between)\n            (S\n              (VP (VBG receiving)\n                (NP (DT an)\n                  (ADJP\n                    (QP (CD 1800) (NNS dollars)))\n                  (JJ monthly) (NN salary))\n                (PP (IN from)\n                  (NP\n                    (NP\n                      (NP (NNP Furniture))\n                      (PP (IN by)\n                        (NP (NNP Design))))\n                    (CC or)\n                    (NP\n                      (NP\n                        (NP (DT a) (NN base) (NN salary))\n                        (PP (IN of)\n                          (NP (CD 1600) (NNS dollars))))\n                      (CC and)\n                      (NP\n                        (NP (DT a)\n                          (ADJP (CD 4) (NN %))\n                          (NN commission))\n                        (PP (IN on)\n                          (NP\n                            (NP (DT the) (NN amount))\n                            (PP (IN of)\n                              (NP (NN furniture)))))))))))))))\n    (NP (PRP she))\n    (VP (VBZ sells)\n      (PP (IN during)\n        (NP (DT the) (NN month))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 34,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Juliet"
+        },
+        {
+          "dep": "dep",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "choice",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "choice"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 5,
+          "dependentGloss": "between"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "choice",
+          "dependent": 6,
+          "dependentGloss": "receiving"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "1800"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 10,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 11,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 12,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 13,
+          "dependentGloss": "Furniture"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "Design",
+          "dependent": 14,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 15,
+          "dependentGloss": "Design"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 16,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 18,
+          "dependentGloss": "base"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 19,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "1600"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "cc",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 26,
+          "governorGloss": "%",
+          "dependent": 25,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 26,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "conj",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 27,
+          "dependentGloss": "commission"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 28,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 29,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 30,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 32,
+          "governorGloss": "furniture",
+          "dependent": 31,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 32,
+          "dependentGloss": "furniture"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 33,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 37,
+          "governorGloss": "month",
+          "dependent": 35,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 37,
+          "governorGloss": "month",
+          "dependent": 36,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 37,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 38,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 34,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Juliet"
+        },
+        {
+          "dep": "dep",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "choice",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "choice"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 5,
+          "dependentGloss": "between"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "choice",
+          "dependent": 6,
+          "dependentGloss": "receiving"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "1800"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 10,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 11,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 12,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 13,
+          "dependentGloss": "Furniture"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "Design",
+          "dependent": 14,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 15,
+          "dependentGloss": "Design"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 16,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 18,
+          "dependentGloss": "base"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 19,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "1600"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "cc",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 26,
+          "governorGloss": "%",
+          "dependent": 25,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 26,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 27,
+          "dependentGloss": "commission"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 28,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 29,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 30,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 32,
+          "governorGloss": "furniture",
+          "dependent": 31,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 32,
+          "dependentGloss": "furniture"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 33,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 37,
+          "governorGloss": "month",
+          "dependent": 35,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 37,
+          "governorGloss": "month",
+          "dependent": 36,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 37,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 38,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 34,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Juliet"
+        },
+        {
+          "dep": "dep",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "choice",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "choice"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 5,
+          "dependentGloss": "between"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "choice",
+          "dependent": 6,
+          "dependentGloss": "receiving"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "1800"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "salary",
+          "dependent": 10,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 11,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 12,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 13,
+          "dependentGloss": "Furniture"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "Design",
+          "dependent": 14,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 15,
+          "dependentGloss": "Design"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 16,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 18,
+          "dependentGloss": "base"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 6,
+          "governorGloss": "receiving",
+          "dependent": 19,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 19,
+          "dependentGloss": "salary"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "1600"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "cc",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 26,
+          "governorGloss": "%",
+          "dependent": 25,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 26,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 13,
+          "governorGloss": "Furniture",
+          "dependent": 27,
+          "dependentGloss": "commission"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 19,
+          "governorGloss": "salary",
+          "dependent": 27,
+          "dependentGloss": "commission"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 28,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 29,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 27,
+          "governorGloss": "commission",
+          "dependent": 30,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 32,
+          "governorGloss": "furniture",
+          "dependent": 31,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 30,
+          "governorGloss": "amount",
+          "dependent": 32,
+          "dependentGloss": "furniture"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 33,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 37,
+          "governorGloss": "month",
+          "dependent": 35,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 37,
+          "governorGloss": "month",
+          "dependent": 36,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 37,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 34,
+          "governorGloss": "sells",
+          "dependent": 38,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Juliet",
+          "originalText": "Juliet",
+          "lemma": "Juliet",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 12,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "choice",
+          "originalText": "choice",
+          "lemma": "choice",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 19,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "between",
+          "originalText": "between",
+          "lemma": "between",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "receiving",
+          "originalText": "receiving",
+          "lemma": "receive",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 37,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "1800",
+          "originalText": "1800",
+          "lemma": "1800",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 45,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "1800",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 53,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "monthly",
+          "originalText": "monthly",
+          "lemma": "monthly",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 61,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "SET",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 11,
+          "word": "salary",
+          "originalText": "salary",
+          "lemma": "salary",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 68,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 73,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Furniture",
+          "originalText": "Furniture",
+          "lemma": "Furniture",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 83,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 86,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "Design",
+          "originalText": "Design",
+          "lemma": "Design",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 93,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 98,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "base",
+          "originalText": "base",
+          "lemma": "base",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 103,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "salary",
+          "originalText": "salary",
+          "lemma": "salary",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 110,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 113,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "1600",
+          "originalText": "1600",
+          "lemma": "1600",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 118,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$1600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 126,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$1600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 130,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 132,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 134,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 136,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "commission",
+          "originalText": "commission",
+          "lemma": "commission",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 147,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 150,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 154,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "amount",
+          "originalText": "amount",
+          "lemma": "amount",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 161,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 164,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "furniture",
+          "originalText": "furniture",
+          "lemma": "furniture",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 174,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 178,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "sells",
+          "originalText": "sells",
+          "lemma": "sell",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 184,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "during",
+          "originalText": "during",
+          "lemma": "during",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 191,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 195,
+          "pos": "DT",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "altValue": "THIS P1M"
+          }
+        },
+        {
+          "index": 37,
+          "word": "month",
+          "originalText": "month",
+          "lemma": "month",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 201,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "altValue": "THIS P1M"
+          }
+        },
+        {
+          "index": 38,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 202,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHPP (IN For)\n      (WHNP\n        (WHNP (WDT what) (NN amount))\n        (PP (IN of)\n          (NP (NNS sales)))))\n    (SQ (MD will)\n      (NP (DT the) (CD 2) (NNS choices))\n      (VP (VB be)\n        (ADJP (JJ equal))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 2,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 3,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "sales",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 5,
+          "dependentGloss": "sales"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 6,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "choices",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "choices",
+          "dependent": 8,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 9,
+          "dependentGloss": "choices"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 10,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 2,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 3,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "sales",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 5,
+          "dependentGloss": "sales"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 6,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "choices",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "choices",
+          "dependent": 8,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 9,
+          "dependentGloss": "choices"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 10,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 2,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 3,
+          "dependentGloss": "amount"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "sales",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "amount",
+          "dependent": 5,
+          "dependentGloss": "sales"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 6,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "choices",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "choices",
+          "dependent": 8,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 9,
+          "dependentGloss": "choices"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 10,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "equal",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "For",
+          "originalText": "For",
+          "lemma": "for",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 206,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "what",
+          "originalText": "what",
+          "lemma": "what",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 211,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "amount",
+          "originalText": "amount",
+          "lemma": "amount",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 218,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 221,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "sales",
+          "originalText": "sales",
+          "lemma": "sale",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 227,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 232,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 233,
+          "characterOffsetEnd": 236,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 238,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "choices",
+          "originalText": "choices",
+          "lemma": "choice",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 246,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 249,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "equal",
+          "originalText": "equal",
+          "lemma": "equal",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 255,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 256,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Juliet",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 33,
+        "endIndex": 34,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a choice between receiving an 1800 dollars monthly salary from Furniture by Design or a base salary of 1600 dollars and a 4 % commission on the amount of furniture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 33,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "an 1800 dollars monthly salary",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Furniture by Design or a base salary of 1600 dollars and a 4 % commission on the amount of furniture",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 33,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Furniture by Design",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Design",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a base salary of 1600 dollars and a 4 % commission on the amount of furniture",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 33,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "a base salary of 1600 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 23,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "a 4 % commission on the amount of furniture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 33,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "the amount of furniture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 29,
+        "endIndex": 33,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "the month",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 36,
+        "endIndex": 38,
+        "sentNum": 1,
+        "position": [
+          1,
+          12
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "the 2 choices",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

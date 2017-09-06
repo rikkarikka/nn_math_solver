@@ -1,0 +1,1900 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Joey))\n    (VP (VBZ makes)\n      (NP\n        (NP (CD 100) (NNS pounds))\n        (PP (IN of)\n          (NP (DT a) (NN coffee) (NN mix)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "makes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 1,
+          "dependentGloss": "Joey"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pounds",
+          "dependent": 3,
+          "dependentGloss": "100"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 4,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 7,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "makes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 1,
+          "dependentGloss": "Joey"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pounds",
+          "dependent": 3,
+          "dependentGloss": "100"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 4,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 7,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "makes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 1,
+          "dependentGloss": "Joey"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "pounds",
+          "dependent": 3,
+          "dependentGloss": "100"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 4,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 7,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Joey",
+          "originalText": "Joey",
+          "lemma": "Joey",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "makes",
+          "originalText": "makes",
+          "lemma": "make",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "100",
+          "originalText": "100",
+          "lemma": "100",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "£100.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 21,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "£100.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 24,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 26,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "coffee",
+          "originalText": "coffee",
+          "lemma": "coffee",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 33,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mix",
+          "originalText": "mix",
+          "lemma": "mix",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 38,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (JJ Columbian) (NN coffee) (NN selling))\n      (PP (IN for)\n        (NP\n          (NP (CD 8.75) (NNS dollars))\n          (PP (IN per)\n            (NP (NN pound))))))\n    (VP (VBZ is)\n      (ADJP (VBN mixed)\n        (PP (IN with)\n          (NP\n            (NP (JJ Brazilian) (NN coffee) (NN selling))\n            (PP (IN for)\n              (NP\n                (NP (CD 3.75) (NNS dollars))\n                (PP (IN per)\n                  (NP (NN pound)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "mixed"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 1,
+          "dependentGloss": "Columbian"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 2,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 3,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "8.75"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "pound",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 12,
+          "dependentGloss": "Brazilian"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 13,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 14,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "3.75"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "pound",
+          "dependent": 18,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 19,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "mixed"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 1,
+          "dependentGloss": "Columbian"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 2,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 3,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "8.75"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "pound",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 12,
+          "dependentGloss": "Brazilian"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 13,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 14,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "3.75"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "pound",
+          "dependent": 18,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 19,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "mixed"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 1,
+          "dependentGloss": "Columbian"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 2,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 3,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "8.75"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "selling",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "pound",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 11,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 12,
+          "dependentGloss": "Brazilian"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 13,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 14,
+          "dependentGloss": "selling"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "3.75"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "selling",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "pound",
+          "dependent": 18,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 19,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "mixed",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Columbian",
+          "originalText": "Columbian",
+          "lemma": "columbian",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 48,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "coffee",
+          "originalText": "coffee",
+          "lemma": "coffee",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 55,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "selling",
+          "originalText": "selling",
+          "lemma": "selling",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "8.75",
+          "originalText": "8.75",
+          "lemma": "8.75",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$8.75",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 80,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$8.75",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 84,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "pound",
+          "originalText": "pound",
+          "lemma": "pound",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 90,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 93,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "mixed",
+          "originalText": "mixed",
+          "lemma": "mix",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 99,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 104,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Brazilian",
+          "originalText": "Brazilian",
+          "lemma": "brazilian",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 114,
+          "pos": "JJ",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "coffee",
+          "originalText": "coffee",
+          "lemma": "coffee",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 121,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "selling",
+          "originalText": "selling",
+          "lemma": "selling",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 129,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 133,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "3.75",
+          "originalText": "3.75",
+          "lemma": "3.75",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$3.75",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 146,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$3.75",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 150,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "pound",
+          "originalText": "pound",
+          "lemma": "pound",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 156,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 157,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ final) (NN mix))\n    (VP (VBZ sells)\n      (PP (IN for)\n        (NP\n          (NP (CD 6.35) (NNS dollars))\n          (PP (IN per)\n            (NP (NN pound))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "mix",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "mix",
+          "dependent": 2,
+          "dependentGloss": "final"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "6.35"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "pound",
+          "dependent": 8,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "mix",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "mix",
+          "dependent": 2,
+          "dependentGloss": "final"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "6.35"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "pound",
+          "dependent": 8,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "mix",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "mix",
+          "dependent": 2,
+          "dependentGloss": "final"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "6.35"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "pound",
+          "dependent": 8,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "pound"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 161,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "final",
+          "originalText": "final",
+          "lemma": "final",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 167,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "mix",
+          "originalText": "mix",
+          "lemma": "mix",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "sells",
+          "originalText": "sells",
+          "lemma": "sell",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 177,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 181,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "6.35",
+          "originalText": "6.35",
+          "lemma": "6.35",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 186,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$6.35",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 194,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$6.35",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 198,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "pound",
+          "originalText": "pound",
+          "lemma": "pound",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 204,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 205,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP (WRB How) (RB much))\n      (PP (IN of)\n        (NP\n          (NP (DT each) (NN type))\n          (PP (IN of)\n            (NP (NN coffee))))))\n    (SQ (VBZ is)\n      (VP (VBN used)\n        (PP (IN in)\n          (NP (DT the) (NN mix)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 4,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 5,
+          "dependentGloss": "type"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "coffee",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 7,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "mix",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mix",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 12,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 4,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 5,
+          "dependentGloss": "type"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "coffee",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 7,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "mix",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mix",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 12,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 4,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 5,
+          "dependentGloss": "type"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "coffee",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "type",
+          "dependent": 7,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "mix",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mix",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 12,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "used",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 209,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 210,
+          "characterOffsetEnd": 214,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 217,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 222,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "type",
+          "originalText": "type",
+          "lemma": "type",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 227,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 230,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "coffee",
+          "originalText": "coffee",
+          "lemma": "coffee",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 237,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 240,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "used",
+          "originalText": "used",
+          "lemma": "use",
+          "characterOffsetBegin": 241,
+          "characterOffsetEnd": 245,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 248,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 252,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "mix",
+          "originalText": "mix",
+          "lemma": "mix",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 256,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 256,
+          "characterOffsetEnd": 257,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Joey",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "The final mix",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "the mix",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "each type of coffee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

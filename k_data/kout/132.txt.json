@@ -1,0 +1,837 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (CD 12) (NN ounce))\n      (SBAR\n        (S\n          (VP (MD can))))\n      (PP (IN of)\n        (NP (NN cranberry) (NN juice))))\n    (VP (VBZ sells)\n      (PP (IN for)\n        (NP (CD 84) (NNS cents))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 2,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "juice",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "juice",
+          "dependent": 6,
+          "dependentGloss": "cranberry"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 7,
+          "dependentGloss": "juice"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "cents",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "cents",
+          "dependent": 10,
+          "dependentGloss": "84"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 11,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 2,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "juice",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "juice",
+          "dependent": 6,
+          "dependentGloss": "cranberry"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 7,
+          "dependentGloss": "juice"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "cents",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "cents",
+          "dependent": 10,
+          "dependentGloss": "84"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 11,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 2,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "juice",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "juice",
+          "dependent": 6,
+          "dependentGloss": "cranberry"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "ounce",
+          "dependent": 7,
+          "dependentGloss": "juice"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "cents",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "cents",
+          "dependent": 10,
+          "dependentGloss": "84"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 11,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "sells",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 4,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "ounce",
+          "originalText": "ounce",
+          "lemma": "ounce",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 14,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 17,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cranberry",
+          "originalText": "cranberry",
+          "lemma": "cranberry",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "juice",
+          "originalText": "juice",
+          "lemma": "juice",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 33,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "sells",
+          "originalText": "sells",
+          "lemma": "sell",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 39,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "84",
+          "originalText": "84",
+          "lemma": "84",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 46,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.84",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "cents",
+          "originalText": "cents",
+          "lemma": "cent",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 52,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.84",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 53,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (VP (VB Give)\n      (NP (DT the) (NN unit) (NN cost))\n      (PP (IN in)\n        (NP\n          (NP (NNS cents))\n          (PP (IN per)\n            (NP (NN ounce))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Give"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cents",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 6,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "ounce",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "cents",
+          "dependent": 8,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Give"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cents",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 6,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "ounce",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 6,
+          "governorGloss": "cents",
+          "dependent": 8,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Give"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cents",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 6,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "ounce",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 6,
+          "governorGloss": "cents",
+          "dependent": 8,
+          "dependentGloss": "ounce"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Give",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Give",
+          "originalText": "Give",
+          "lemma": "give",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 58,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 62,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "unit",
+          "originalText": "unit",
+          "lemma": "unit",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 75,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cents",
+          "originalText": "cents",
+          "lemma": "cent",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 81,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "ounce",
+          "originalText": "ounce",
+          "lemma": "ounce",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 91,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 92,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A 12 ounce can of cranberry juice",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "cranberry juice",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "the unit cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "cents per ounce",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

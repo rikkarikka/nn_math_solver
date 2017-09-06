@@ -1,0 +1,1721 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Jack))\n    (VP (VBZ collects)\n      (NP (NN baseball)\n        (CC and)\n        (NN football) (NNS cards)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "collects"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 1,
+          "dependentGloss": "Jack"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "collects"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 1,
+          "dependentGloss": "Jack"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "collects"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 1,
+          "dependentGloss": "Jack"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "collects",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Jack",
+          "originalText": "Jack",
+          "lemma": "Jack",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "collects",
+          "originalText": "collects",
+          "lemma": "collect",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 13,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 22,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 26,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "football",
+          "originalText": "football",
+          "lemma": "football",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cards",
+          "originalText": "cards",
+          "lemma": "card",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 41,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 42,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 125) (NNS cards))\n        (SBAR\n          (S\n            (VP (VBP total))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "125"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "125"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "125"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "125",
+          "originalText": "125",
+          "lemma": "125",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "125.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cards",
+          "originalText": "cards",
+          "lemma": "card",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 59,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 65,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN number))\n      (PP (IN of)\n        (NP\n          (NP (NN baseball) (NNS cards))\n          (SBAR\n            (S\n              (NP (PRP he))\n              (VP (VBZ has)))))))\n    (VP (VBZ is)\n      (NP\n        (NP\n          (NP (CD five))\n          (NP\n            (QP (JJR more) (IN than) (CD three) (NNS times))\n            (DT the) (NN number)))\n        (PP (IN of)\n          (NP (NN football) (NNS cards)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "five"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "number",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 2,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 4,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 7,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "times",
+          "dependent": 10,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "mwe",
+          "governor": 10,
+          "governorGloss": "more",
+          "dependent": 11,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "number",
+          "dependent": 13,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "number",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 15,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "cards",
+          "dependent": 16,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "cards",
+          "dependent": 17,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 18,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "five"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "number",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 2,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 4,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 7,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "times",
+          "dependent": 10,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "mwe",
+          "governor": 10,
+          "governorGloss": "more",
+          "dependent": 11,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "number",
+          "dependent": 13,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "number",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 15,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "cards",
+          "dependent": 16,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "cards",
+          "dependent": 17,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 18,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "five"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "number",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 2,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 4,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "cards",
+          "dependent": 7,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "times",
+          "dependent": 10,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "mwe",
+          "governor": 10,
+          "governorGloss": "more",
+          "dependent": 11,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "number",
+          "dependent": 13,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "number",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 15,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "cards",
+          "dependent": 16,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "cards",
+          "dependent": 17,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 18,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "five",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 70,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 77,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 80,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 89,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "cards",
+          "originalText": "cards",
+          "lemma": "card",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 98,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 102,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 105,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "five",
+          "originalText": "five",
+          "lemma": "five",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 110,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 120,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "three",
+          "originalText": "three",
+          "lemma": "three",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 126,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": ">3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 132,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 143,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 146,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "football",
+          "originalText": "football",
+          "lemma": "football",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 155,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "cards",
+          "originalText": "cards",
+          "lemma": "card",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 161,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 162,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NN baseball))\n        (CC and)\n        (NP (NN football) (NNS cards))))\n    (SQ (VBZ does)\n      (NP (PRP he))\n      (VP (VB have)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cards",
+          "dependent": 5,
+          "dependentGloss": "football"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "baseball",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "cards"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 7,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 166,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 171,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 180,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 184,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "football",
+          "originalText": "football",
+          "lemma": "football",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 193,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cards",
+          "originalText": "cards",
+          "lemma": "card",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 199,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 204,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 207,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 212,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 213,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Jack",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "baseball and football cards",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 11,
+        "text": "baseball and football cards",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "football cards",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "125",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "125 cards total",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "three",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "The number of baseball cards he has",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "five more than three times the number of football cards",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "more than three times the number",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

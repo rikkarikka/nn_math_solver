@@ -1,0 +1,1272 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (NP\n    (NP (DT A) (NN car) (VBN rented))\n    (PP (IN for)\n      (NP\n        (NP (CD 29) (NNS dollars))\n        (PP (IN per)\n          (NP\n            (NP (NN day))\n            (PP (CC plus)\n              (NP\n                (NP (CD 0.08) (NNS dollars))\n                (PP (IN per)\n                  (NP (NN mile)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "car"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 3,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "29"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "0.08"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "mile",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "car"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 3,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "29"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "0.08"
+        },
+        {
+          "dep": "nmod:plus",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "mile",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "car"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 3,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "29"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "0.08"
+        },
+        {
+          "dep": "nmod:plus",
+          "governor": 8,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "mile",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "mile"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "car",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "car",
+          "originalText": "car",
+          "lemma": "car",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 5,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "rented",
+          "originalText": "rented",
+          "lemma": "rent",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 12,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 16,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "29",
+          "originalText": "29",
+          "lemma": "29",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$29.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$29.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 9,
+          "word": "plus",
+          "originalText": "plus",
+          "lemma": "plus",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 40,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "0.08",
+          "originalText": "0.08",
+          "lemma": "0.08",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 45,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.08",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 53,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.08",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "mile",
+          "originalText": "mile",
+          "lemma": "mile",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 62,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 63,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Julia))\n    (VP (VBD paid)\n      (NP (CD 46.12) (NNS dollars))\n      (PP (IN for)\n        (NP (DT a) (JJ 1-day) (NN rental))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "Julia"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "46.12"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 7,
+          "dependentGloss": "1-day"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 8,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "Julia"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "46.12"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 7,
+          "dependentGloss": "1-day"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 8,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "Julia"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "46.12"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 5,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "rental",
+          "dependent": 7,
+          "dependentGloss": "1-day"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 8,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Julia",
+          "originalText": "Julia",
+          "lemma": "Julia",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 69,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 74,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "46.12",
+          "originalText": "46.12",
+          "lemma": "46.12",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 80,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$46.12",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 88,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$46.12",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 92,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 94,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "1-day",
+          "originalText": "1-day",
+          "lemma": "1-day",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 100,
+          "pos": "JJ",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 8,
+          "word": "rental",
+          "originalText": "rental",
+          "lemma": "rental",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 107,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 108,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADVP (WRB How) (RB far))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB drive) (, ,)\n        (PP (IN in)\n          (NP (NNS miles)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "far",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "far"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "miles",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 8,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "far",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "far"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "miles",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 8,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "far",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "far"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "miles",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 8,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 112,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "far",
+          "originalText": "far",
+          "lemma": "far",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 116,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "drive",
+          "originalText": "drive",
+          "lemma": "drive",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 130,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 132,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 135,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 141,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 142,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A car rented for 29 dollars per day plus 0.08 dollars per mile.",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "day plus 0.08 dollars per mile",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "day",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Julia",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a 1-day rental",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "miles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

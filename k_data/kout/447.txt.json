@@ -1,0 +1,2934 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN During)\n      (NP (DT a)\n        (ADJP (JJ 4th)\n          (PP (IN of)\n            (NP (NNP July))))\n        (NN weekend)))\n    (, ,)\n    (NP (CD 32) (NNS vehicles))\n    (VP (VBD became)\n      (ADJP (VBN trapped)\n        (PP (IN on)\n          (NP (DT the) (NNP Sunshine) (NNP Skyway) (NNP Bridge))))\n      (SBAR (IN while)\n        (S\n          (NP (PRP it))\n          (VP (VBD was)\n            (VP (VBG being)\n              (VP (VBN repaved)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "became"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 1,
+          "dependentGloss": "During"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 3,
+          "dependentGloss": "4th"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "July",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "4th",
+          "dependent": 5,
+          "dependentGloss": "July"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 6,
+          "dependentGloss": "weekend"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "vehicles",
+          "dependent": 8,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 9,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 11,
+          "dependentGloss": "trapped"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 12,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 14,
+          "dependentGloss": "Sunshine"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 15,
+          "dependentGloss": "Skyway"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "trapped",
+          "dependent": 16,
+          "dependentGloss": "Bridge"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 17,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 18,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 19,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 20,
+          "dependentGloss": "being"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 21,
+          "dependentGloss": "repaved"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "became"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 1,
+          "dependentGloss": "During"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 3,
+          "dependentGloss": "4th"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "July",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "4th",
+          "dependent": 5,
+          "dependentGloss": "July"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 6,
+          "dependentGloss": "weekend"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "vehicles",
+          "dependent": 8,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 9,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 11,
+          "dependentGloss": "trapped"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 12,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 14,
+          "dependentGloss": "Sunshine"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 15,
+          "dependentGloss": "Skyway"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 11,
+          "governorGloss": "trapped",
+          "dependent": 16,
+          "dependentGloss": "Bridge"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 17,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 18,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 19,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 20,
+          "dependentGloss": "being"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 21,
+          "dependentGloss": "repaved"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "became"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 1,
+          "dependentGloss": "During"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "weekend",
+          "dependent": 3,
+          "dependentGloss": "4th"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "July",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "4th",
+          "dependent": 5,
+          "dependentGloss": "July"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 6,
+          "dependentGloss": "weekend"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "vehicles",
+          "dependent": 8,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 9,
+          "dependentGloss": "vehicles"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 11,
+          "dependentGloss": "trapped"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 12,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 14,
+          "dependentGloss": "Sunshine"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "Bridge",
+          "dependent": 15,
+          "dependentGloss": "Skyway"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 11,
+          "governorGloss": "trapped",
+          "dependent": 16,
+          "dependentGloss": "Bridge"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 17,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 18,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 19,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 21,
+          "governorGloss": "repaved",
+          "dependent": 20,
+          "dependentGloss": "being"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 21,
+          "dependentGloss": "repaved"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "became",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "During",
+          "originalText": "During",
+          "lemma": "during",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 8,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4th",
+          "originalText": "4th",
+          "lemma": "4th",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 12,
+          "pos": "JJ",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-07-04",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-07-04"
+          }
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 15,
+          "pos": "IN",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-07-04",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-07-04"
+          }
+        },
+        {
+          "index": 5,
+          "word": "July",
+          "originalText": "July",
+          "lemma": "July",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 20,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-07-04",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-07-04"
+          }
+        },
+        {
+          "index": 6,
+          "word": "weekend",
+          "originalText": "weekend",
+          "lemma": "weekend",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 28,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-07-04",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-07-04"
+          }
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 30,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "32",
+          "originalText": "32",
+          "lemma": "32",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "32.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "vehicles",
+          "originalText": "vehicles",
+          "lemma": "vehicle",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 42,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "became",
+          "originalText": "became",
+          "lemma": "become",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 49,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "trapped",
+          "originalText": "trapped",
+          "lemma": "trap",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 57,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 60,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 64,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Sunshine",
+          "originalText": "Sunshine",
+          "lemma": "Sunshine",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 73,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "Skyway",
+          "originalText": "Skyway",
+          "lemma": "Skyway",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 80,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "Bridge",
+          "originalText": "Bridge",
+          "lemma": "Bridge",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 87,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "while",
+          "originalText": "while",
+          "lemma": "while",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 93,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 100,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "being",
+          "originalText": "being",
+          "lemma": "be",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 106,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "repaved",
+          "originalText": "repaved",
+          "lemma": "repave",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 114,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 115,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (JJ recent) (NN city) (NN ordinance))\n    (VP (VBD decreed)\n      (SBAR (IN that)\n        (S\n          (NP\n            (NP (RB only) (NNS cars))\n            (PP (IN with)\n              (NP\n                (NP (CD 4) (NNS wheels)\n                  (CC and)\n                  (NNS trucks))\n                (PP (IN with)\n                  (NP (CD six) (NNS wheels))))))\n          (VP (MD could)\n            (VP (VB be)\n              (PP (IN on)\n                (NP (DT the) (NN bridge)))\n              (PP (IN at)\n                (NP (DT any) (VBN given) (NN time))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "decreed"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 2,
+          "dependentGloss": "recent"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 3,
+          "dependentGloss": "city"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 4,
+          "dependentGloss": "ordinance"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 6,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 7,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 8,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 9,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 10,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 11,
+          "dependentGloss": "wheels"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 13,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "wheels",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "wheels",
+          "dependent": 15,
+          "dependentGloss": "six"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 16,
+          "dependentGloss": "wheels"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 17,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 18,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 19,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 21,
+          "dependentGloss": "bridge"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 22,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 23,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 24,
+          "dependentGloss": "given"
+        },
+        {
+          "dep": "nmod",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 25,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "decreed"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 2,
+          "dependentGloss": "recent"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 3,
+          "dependentGloss": "city"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 4,
+          "dependentGloss": "ordinance"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 6,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 7,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 8,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 9,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 10,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 11,
+          "dependentGloss": "wheels"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 13,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "wheels",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "wheels",
+          "dependent": 15,
+          "dependentGloss": "six"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 16,
+          "dependentGloss": "wheels"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 17,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 18,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 19,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 21,
+          "dependentGloss": "bridge"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 22,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 23,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 24,
+          "dependentGloss": "given"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 25,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "decreed"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 2,
+          "dependentGloss": "recent"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "ordinance",
+          "dependent": 3,
+          "dependentGloss": "city"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 4,
+          "dependentGloss": "ordinance"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 6,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 7,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 8,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 9,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 10,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 11,
+          "dependentGloss": "wheels"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 8,
+          "governorGloss": "cars",
+          "dependent": 13,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 13,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "wheels",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "wheels",
+          "dependent": 15,
+          "dependentGloss": "six"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 11,
+          "governorGloss": "wheels",
+          "dependent": 16,
+          "dependentGloss": "wheels"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 17,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 18,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 19,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 21,
+          "dependentGloss": "bridge"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 22,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 23,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "time",
+          "dependent": 24,
+          "dependentGloss": "given"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 21,
+          "governorGloss": "bridge",
+          "dependent": 25,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "decreed",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 117,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "recent",
+          "originalText": "recent",
+          "lemma": "recent",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 124,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "city",
+          "originalText": "city",
+          "lemma": "city",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 129,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "ordinance",
+          "originalText": "ordinance",
+          "lemma": "ordinance",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 139,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "decreed",
+          "originalText": "decreed",
+          "lemma": "decree",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 147,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 152,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 157,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "cars",
+          "originalText": "cars",
+          "lemma": "car",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 162,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 169,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "wheels",
+          "originalText": "wheels",
+          "lemma": "wheel",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 176,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 180,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "trucks",
+          "originalText": "trucks",
+          "lemma": "truck",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 187,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 192,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "six",
+          "originalText": "six",
+          "lemma": "six",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 196,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "wheels",
+          "originalText": "wheels",
+          "lemma": "wheel",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 203,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "could",
+          "originalText": "could",
+          "lemma": "could",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 209,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 210,
+          "characterOffsetEnd": 212,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 215,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 219,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "bridge",
+          "originalText": "bridge",
+          "lemma": "bridge",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 226,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 229,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "any",
+          "originalText": "any",
+          "lemma": "any",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 233,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "given",
+          "originalText": "given",
+          "lemma": "give",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 239,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "time",
+          "originalText": "time",
+          "lemma": "time",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 244,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 245,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (EX there))\n        (VP (VBD were)\n          (NP\n            (NP (CD 148) (NNS tires))\n            (SBAR\n              (WHNP (WDT that))\n              (S\n                (VP (VBD needed)\n                  (S\n                    (VP (TO to)\n                      (VP (VB be)\n                        (VP (VBN replaced)\n                          (S\n                            (VP (TO to)\n                              (VP\n                                (ADJP (JJ due))\n                                (PP (TO to)\n                                  (NP (NN damage)))))))))))))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NP\n        (NP (NNS cars))\n        (CC and)\n        (NP (NNS trucks))))\n    (SQ (VBD were)\n      (VP (VBN involved)\n        (PP (IN in)\n          (NP (DT the) (NN incident)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 22,
+          "dependentGloss": "involved"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "expl",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 2,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "advcl",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 3,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "tires",
+          "dependent": 4,
+          "dependentGloss": "148"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 5,
+          "dependentGloss": "tires"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "needed",
+          "dependent": 6,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "tires",
+          "dependent": 7,
+          "dependentGloss": "needed"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 9,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "needed",
+          "dependent": 10,
+          "dependentGloss": "replaced"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "due",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 12,
+          "dependentGloss": "due"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "damage",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "due",
+          "dependent": 14,
+          "dependentGloss": "damage"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "many",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 17,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 18,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "cc",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 19,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 20,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 21,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "incident",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "incident",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 25,
+          "dependentGloss": "incident"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 26,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 22,
+          "dependentGloss": "involved"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "expl",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 2,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "advcl",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 3,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "tires",
+          "dependent": 4,
+          "dependentGloss": "148"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 5,
+          "dependentGloss": "tires"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "needed",
+          "dependent": 6,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "tires",
+          "dependent": 7,
+          "dependentGloss": "needed"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 9,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "needed",
+          "dependent": 10,
+          "dependentGloss": "replaced"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "due",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 12,
+          "dependentGloss": "due"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "damage",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 12,
+          "governorGloss": "due",
+          "dependent": 14,
+          "dependentGloss": "damage"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "many",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 17,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 18,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "cc",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 19,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 20,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 21,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "incident",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "incident",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 25,
+          "dependentGloss": "incident"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 26,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 22,
+          "dependentGloss": "involved"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "expl",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 2,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "advcl",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 3,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "tires",
+          "dependent": 4,
+          "dependentGloss": "148"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "were",
+          "dependent": 5,
+          "dependentGloss": "tires"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "needed",
+          "dependent": 6,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "tires",
+          "dependent": 7,
+          "dependentGloss": "needed"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 9,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "needed",
+          "dependent": 10,
+          "dependentGloss": "replaced"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "due",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 10,
+          "governorGloss": "replaced",
+          "dependent": 12,
+          "dependentGloss": "due"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "damage",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 12,
+          "governorGloss": "due",
+          "dependent": 14,
+          "dependentGloss": "damage"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "many",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 17,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 18,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "cc",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 19,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 18,
+          "governorGloss": "cars",
+          "dependent": 20,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 20,
+          "dependentGloss": "trucks"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 21,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "incident",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "incident",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 25,
+          "dependentGloss": "incident"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "involved",
+          "dependent": 26,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 248,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 254,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 259,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "148",
+          "originalText": "148",
+          "lemma": "148",
+          "characterOffsetBegin": 260,
+          "characterOffsetEnd": 263,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "148.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "tires",
+          "originalText": "tires",
+          "lemma": "tire",
+          "characterOffsetBegin": 264,
+          "characterOffsetEnd": 269,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 270,
+          "characterOffsetEnd": 274,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "needed",
+          "originalText": "needed",
+          "lemma": "need",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 281,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 284,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 285,
+          "characterOffsetEnd": 287,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "replaced",
+          "originalText": "replaced",
+          "lemma": "replace",
+          "characterOffsetBegin": 288,
+          "characterOffsetEnd": 296,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 297,
+          "characterOffsetEnd": 299,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "due",
+          "originalText": "due",
+          "lemma": "due",
+          "characterOffsetBegin": 300,
+          "characterOffsetEnd": 303,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 306,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "damage",
+          "originalText": "damage",
+          "lemma": "damage",
+          "characterOffsetBegin": 307,
+          "characterOffsetEnd": 313,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 314,
+          "characterOffsetEnd": 315,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 316,
+          "characterOffsetEnd": 319,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 320,
+          "characterOffsetEnd": 324,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "cars",
+          "originalText": "cars",
+          "lemma": "car",
+          "characterOffsetBegin": 325,
+          "characterOffsetEnd": 329,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 330,
+          "characterOffsetEnd": 333,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "trucks",
+          "originalText": "trucks",
+          "lemma": "truck",
+          "characterOffsetBegin": 334,
+          "characterOffsetEnd": 340,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 341,
+          "characterOffsetEnd": 345,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "involved",
+          "originalText": "involved",
+          "lemma": "involve",
+          "characterOffsetBegin": 346,
+          "characterOffsetEnd": 354,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 355,
+          "characterOffsetEnd": 357,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 358,
+          "characterOffsetEnd": 361,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "incident",
+          "originalText": "incident",
+          "lemma": "incident",
+          "characterOffsetBegin": 362,
+          "characterOffsetEnd": 370,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 370,
+          "characterOffsetEnd": 371,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "32",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a 4th of July weekend",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "July",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "32 vehicles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "the Sunshine Skyway Bridge",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "the bridge",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "six",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "A recent city ordinance",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "only cars with 4 wheels and trucks with six wheels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "cars and trucks",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 17,
+        "text": "cars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "4 wheels and trucks with six wheels",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "six wheels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "148",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "148 tires that needed to be replaced to due to damage",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "trucks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "the incident",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 26,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

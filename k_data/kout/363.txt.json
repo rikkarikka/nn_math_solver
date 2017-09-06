@@ -1,0 +1,1187 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NNS milliliters))\n        (PP (IN of)\n          (NP (DT a)\n            (ADJP (CD 10) (NN %))\n            (NN HCL) (NN solution)))))\n    (SQ\n      (VP (MD should)\n        (VP (VB be)\n          (VP (VBN combined)\n            (PP (IN with)\n              (NP\n                (NP (DT a)\n                  (ADJP (CD 60) (NN %))\n                  (NN HCL) (NN solution))\n                (PP (IN in)\n                  (NP (NN order)))))\n            (S\n              (VP (TO to)\n                (VP (VB get)\n                  (NP\n                    (NP (CD 50) (NNS milliliters))\n                    (PP (IN of)\n                      (NP (DT a)\n                        (ADJP (CD 30) (NN %))\n                        (NN HCL) (NN solution)))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "milliliters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 3,
+          "dependentGloss": "milliliters"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "%",
+          "dependent": 6,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 7,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 8,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "milliliters",
+          "dependent": 9,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 10,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 11,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 13,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 15,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 16,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 17,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 18,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "acl",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "mwe",
+          "governor": 19,
+          "governorGloss": "in",
+          "dependent": 20,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "get",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 22,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "milliliters",
+          "dependent": 23,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "get",
+          "dependent": 24,
+          "dependentGloss": "milliliters"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 25,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 26,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "%",
+          "dependent": 27,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 28,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 29,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod",
+          "governor": 24,
+          "governorGloss": "milliliters",
+          "dependent": 30,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 31,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "milliliters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 3,
+          "dependentGloss": "milliliters"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "%",
+          "dependent": 6,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 7,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 8,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "milliliters",
+          "dependent": 9,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 10,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 11,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 13,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 15,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 16,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 17,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 18,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "acl",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "mwe",
+          "governor": 19,
+          "governorGloss": "in",
+          "dependent": 20,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "get",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 22,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "milliliters",
+          "dependent": 23,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "get",
+          "dependent": 24,
+          "dependentGloss": "milliliters"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 25,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 26,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "%",
+          "dependent": 27,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 28,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 29,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 24,
+          "governorGloss": "milliliters",
+          "dependent": 30,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 31,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "milliliters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 3,
+          "dependentGloss": "milliliters"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "%",
+          "dependent": 6,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 7,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "solution",
+          "dependent": 8,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "milliliters",
+          "dependent": 9,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 10,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 11,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 13,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "%",
+          "dependent": 15,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 16,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 17,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 18,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "acl",
+          "governor": 18,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "mwe",
+          "governor": 19,
+          "governorGloss": "in",
+          "dependent": 20,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "get",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 22,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "milliliters",
+          "dependent": 23,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "get",
+          "dependent": 24,
+          "dependentGloss": "milliliters"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 25,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 26,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 28,
+          "governorGloss": "%",
+          "dependent": 27,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 28,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 30,
+          "governorGloss": "solution",
+          "dependent": 29,
+          "dependentGloss": "HCL"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 24,
+          "governorGloss": "milliliters",
+          "dependent": 30,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "combined",
+          "dependent": 31,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 8,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "milliliters",
+          "originalText": "milliliters",
+          "lemma": "milliliter",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 23,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 25,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 28,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 30,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "HCL",
+          "originalText": "HCL",
+          "lemma": "hcl",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 34,
+          "pos": "NN",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 43,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 50,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 53,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "combined",
+          "originalText": "combined",
+          "lemma": "combine",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 62,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 69,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "60",
+          "originalText": "60",
+          "lemma": "60",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 72,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%60.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%60.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "HCL",
+          "originalText": "HCL",
+          "lemma": "hcl",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 87,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 90,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "order",
+          "originalText": "order",
+          "lemma": "order",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 96,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "get",
+          "originalText": "get",
+          "lemma": "get",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "50",
+          "originalText": "50",
+          "lemma": "50",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 106,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "50.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "milliliters",
+          "originalText": "milliliters",
+          "lemma": "milliliter",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 118,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 121,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 123,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 126,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 128,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "HCL",
+          "originalText": "HCL",
+          "lemma": "hcl",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "NN",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 141,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 31,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 142,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "50",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 24,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "milliliters of a 10 % HCL solution",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a 10 % HCL solution",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a 60 % HCL solution in order",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "50 milliliters of a 30 % HCL solution",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 31,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a 30 % HCL solution",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 26,
+        "endIndex": 31,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

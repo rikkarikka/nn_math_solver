@@ -1,0 +1,2580 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP (NNP Monday)))\n    (, ,)\n    (NP (NNP Harold))\n    (VP (VBD picked)\n      (PRT (RP up))\n      (NP\n        (NP (CD three) (NNS doughnuts))\n        (CC and)\n        (NP (CD four) (JJ large) (NNS coffees)))\n      (PP (IN for)\n        (NP (DT the) (NN office) (NN staff))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Monday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 2,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "Harold"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 6,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 7,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 8,
+          "dependentGloss": "doughnuts"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "coffees",
+          "dependent": 10,
+          "dependentGloss": "four"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "coffees",
+          "dependent": 11,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 12,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 15,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 16,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Monday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 2,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "Harold"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 6,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 7,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 8,
+          "dependentGloss": "doughnuts"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "coffees",
+          "dependent": 10,
+          "dependentGloss": "four"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "coffees",
+          "dependent": 11,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 12,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 15,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 16,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Monday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 2,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 4,
+          "dependentGloss": "Harold"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 6,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 7,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 8,
+          "dependentGloss": "doughnuts"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "coffees",
+          "dependent": 10,
+          "dependentGloss": "four"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "coffees",
+          "dependent": 11,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 12,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "doughnuts",
+          "dependent": 12,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "staff",
+          "dependent": 15,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 16,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "picked",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Monday",
+          "originalText": "Monday",
+          "lemma": "Monday",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 9,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-1",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-1"
+          }
+        },
+        {
+          "index": 3,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 11,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Harold",
+          "originalText": "Harold",
+          "lemma": "Harold",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 18,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "picked",
+          "originalText": "picked",
+          "lemma": "pick",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 25,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "up",
+          "originalText": "up",
+          "lemma": "up",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 28,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "three",
+          "originalText": "three",
+          "lemma": "three",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 34,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "doughnuts",
+          "originalText": "doughnuts",
+          "lemma": "doughnut",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 44,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 48,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "four",
+          "originalText": "four",
+          "lemma": "four",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 53,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 59,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "coffees",
+          "originalText": "coffees",
+          "lemma": "coffee",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 75,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "office",
+          "originalText": "office",
+          "lemma": "office",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 82,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "staff",
+          "originalText": "staff",
+          "lemma": "staff",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 88,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 89,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBD paid)\n      (NP (CD 4.91) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "4.91"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "4.91"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "4.91"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 92,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 97,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4.91",
+          "originalText": "4.91",
+          "lemma": "4.91",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 102,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$4.91",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 110,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$4.91",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 111,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP (NNP Tuesday)))\n    (NP (NNP Melinda))\n    (VP (VBD picked)\n      (PRT (RP up))\n      (NP\n        (NP (CD five) (NNS doughnuts))\n        (CC and)\n        (NP (CD six) (JJ large) (NNS coffees)))\n      (PP (IN for)\n        (NP (DT the) (NN office) (NN staff))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Tuesday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 2,
+          "dependentGloss": "Tuesday"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": "Melinda"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 5,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 6,
+          "dependentGloss": "five"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "doughnuts"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "coffees",
+          "dependent": 9,
+          "dependentGloss": "six"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "coffees",
+          "dependent": 10,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 11,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 14,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 15,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Tuesday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 2,
+          "dependentGloss": "Tuesday"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": "Melinda"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 5,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 6,
+          "dependentGloss": "five"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "doughnuts"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "coffees",
+          "dependent": 9,
+          "dependentGloss": "six"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "coffees",
+          "dependent": 10,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 11,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 14,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 15,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "picked"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Tuesday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 2,
+          "dependentGloss": "Tuesday"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 3,
+          "dependentGloss": "Melinda"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 5,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 6,
+          "dependentGloss": "five"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 7,
+          "dependentGloss": "doughnuts"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "coffees",
+          "dependent": 9,
+          "dependentGloss": "six"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "coffees",
+          "dependent": 10,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 11,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "doughnuts",
+          "dependent": 11,
+          "dependentGloss": "coffees"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "staff",
+          "dependent": 14,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 15,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "picked",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Tuesday",
+          "originalText": "Tuesday",
+          "lemma": "Tuesday",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 122,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-2",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-2"
+          }
+        },
+        {
+          "index": 3,
+          "word": "Melinda",
+          "originalText": "Melinda",
+          "lemma": "Melinda",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 130,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "picked",
+          "originalText": "picked",
+          "lemma": "pick",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 137,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "up",
+          "originalText": "up",
+          "lemma": "up",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 140,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "five",
+          "originalText": "five",
+          "lemma": "five",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 145,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "doughnuts",
+          "originalText": "doughnuts",
+          "lemma": "doughnut",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 155,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "six",
+          "originalText": "six",
+          "lemma": "six",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 163,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 169,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "coffees",
+          "originalText": "coffees",
+          "lemma": "coffee",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 177,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 181,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 185,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "office",
+          "originalText": "office",
+          "lemma": "office",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 192,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "staff",
+          "originalText": "staff",
+          "lemma": "staff",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 198,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 199,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBD paid)\n      (NP (CD 7.59) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "7.59"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "7.59"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "7.59"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 203,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 208,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "7.59",
+          "originalText": "7.59",
+          "lemma": "7.59",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 213,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$7.59",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 221,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$7.59",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 222,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBZ is)\n      (NP\n        (NP (DT the) (NN cost))\n        (PP (IN of)\n          (NP (CD one) (NN doughnut)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "doughnut",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "doughnut",
+          "dependent": 6,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 7,
+          "dependentGloss": "doughnut"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "doughnut",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "doughnut",
+          "dependent": 6,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 7,
+          "dependentGloss": "doughnut"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "doughnut",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "doughnut",
+          "dependent": 6,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 7,
+          "dependentGloss": "doughnut"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 227,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 230,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 234,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 239,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 242,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "one",
+          "originalText": "one",
+          "lemma": "one",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 246,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "doughnut",
+          "originalText": "doughnut",
+          "lemma": "doughnut",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 255,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 256,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBZ is)\n      (NP\n        (NP (DT the) (NN cost))\n        (PP (IN of)\n          (NP (CD one) (JJ large) (NN coffee)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 6,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 7,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 8,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 6,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 7,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 8,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 6,
+          "dependentGloss": "one"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "coffee",
+          "dependent": 7,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 8,
+          "dependentGloss": "coffee"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 261,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 264,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 268,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 269,
+          "characterOffsetEnd": 273,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 274,
+          "characterOffsetEnd": 276,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "one",
+          "originalText": "one",
+          "lemma": "one",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 280,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 281,
+          "characterOffsetEnd": 286,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "coffee",
+          "originalText": "coffee",
+          "lemma": "coffee",
+          "characterOffsetBegin": 287,
+          "characterOffsetEnd": 293,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 293,
+          "characterOffsetEnd": 294,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Harold",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "three",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "four",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Monday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "three doughnuts and four large coffees",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "three doughnuts",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "four large coffees",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the office staff",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 14,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "the office staff",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          8
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "Melinda",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 18,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "five",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "six",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "Tuesday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "five doughnuts and six large coffees",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "five doughnuts",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "six large coffees",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "one",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 5,
+        "position": [
+          5,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "the cost of one doughnut",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "one doughnut",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "22": [
+      {
+        "id": 22,
+        "text": "one",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 6,
+        "position": [
+          6,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "23": [
+      {
+        "id": 23,
+        "text": "the cost of one large coffee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 9,
+        "sentNum": 6,
+        "position": [
+          6,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "24": [
+      {
+        "id": 24,
+        "text": "one large coffee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 6,
+        "position": [
+          6,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

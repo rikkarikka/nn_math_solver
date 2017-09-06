@@ -1,0 +1,604 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (FRAG\n        (NP-TMP\n          (NP (CD 2.5) (NNS costs))\n          (NP (CD 20) (NNS dollars)))))\n    (, ,)\n    (WHADVP (WRB how) (RB much))\n    (SQ (VBZ does)\n      (NP\n        (NP (CD 3.5))\n        (NP (NN cost)))\n      (, ,)\n      (PP (IN in)\n        (NP (NNS dollars))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 2,
+          "dependentGloss": "2.5"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 3,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "much",
+          "dependent": 7,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 10,
+          "dependentGloss": "3.5"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "3.5",
+          "dependent": 11,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 14,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 15,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 2,
+          "dependentGloss": "2.5"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 3,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "much",
+          "dependent": 7,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 10,
+          "dependentGloss": "3.5"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "3.5",
+          "dependent": 11,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 14,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 15,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 2,
+          "dependentGloss": "2.5"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 3,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "much",
+          "dependent": 7,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 8,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 10,
+          "dependentGloss": "3.5"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "3.5",
+          "dependent": 11,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 14,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "does",
+          "dependent": 15,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "2.5",
+          "originalText": "2.5",
+          "lemma": "2.5",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 6,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "costs",
+          "originalText": "costs",
+          "lemma": "cost",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 12,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 15,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 23,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 25,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 34,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "3.5",
+          "originalText": "3.5",
+          "lemma": "3.5",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 43,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 48,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 50,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 53,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 61,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "2.5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "2.5 costs 20 dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "3.5 cost",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

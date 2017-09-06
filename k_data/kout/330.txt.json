@@ -1,0 +1,1996 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Northwest) (NNP Molded) (NNS molds))\n      (JJ plastic))\n    (VP (VBZ handles)\n      (SBAR\n        (WHNP (WDT which))\n        (S\n          (VP (VBD cost)\n            (SBAR\n              (S\n                (NP\n                  (NP (CD 0.60) (NNS dollars))\n                  (PP (IN per)))\n                (VP (VBP handle)\n                  (PP (TO to)\n                    (NP (NN mold))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 1,
+          "dependentGloss": "Northwest"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 2,
+          "dependentGloss": "Molded"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 3,
+          "dependentGloss": "molds"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 4,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 7,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "0.60"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "handle",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "handle"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "mold",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "handle",
+          "dependent": 13,
+          "dependentGloss": "mold"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 1,
+          "dependentGloss": "Northwest"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 2,
+          "dependentGloss": "Molded"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 3,
+          "dependentGloss": "molds"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 4,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 7,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "0.60"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "handle",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "handle"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "mold",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 11,
+          "governorGloss": "handle",
+          "dependent": 13,
+          "dependentGloss": "mold"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 1,
+          "dependentGloss": "Northwest"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 2,
+          "dependentGloss": "Molded"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 3,
+          "dependentGloss": "molds"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "molds",
+          "dependent": 4,
+          "dependentGloss": "plastic"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 6,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 7,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "0.60"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "handle",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "handle"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "mold",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 11,
+          "governorGloss": "handle",
+          "dependent": 13,
+          "dependentGloss": "mold"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "handles",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Northwest",
+          "originalText": "Northwest",
+          "lemma": "Northwest",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 9,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Molded",
+          "originalText": "Molded",
+          "lemma": "Molded",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 16,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "molds",
+          "originalText": "molds",
+          "lemma": "mold",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 22,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "plastic",
+          "originalText": "plastic",
+          "lemma": "plastic",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 30,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "handles",
+          "originalText": "handles",
+          "lemma": "handle",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 38,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "which",
+          "originalText": "which",
+          "lemma": "which",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 44,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 49,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "0.60",
+          "originalText": "0.60",
+          "lemma": "0.60",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 62,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 66,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "handle",
+          "originalText": "handle",
+          "lemma": "handle",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 73,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 76,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "mold",
+          "originalText": "mold",
+          "lemma": "mold",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 82,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (VBN fixed) (NN cost))\n      (SBAR\n        (S\n          (VP (TO to)\n            (VP (VB run)\n              (NP (DT the) (NN molding) (NN machine)))))))\n    (VP (VBZ is)\n      (NP\n        (NP (CD 7640) (NNS dollars))\n        (PP (IN per)\n          (NP (NN week)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "fixed"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "run",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "run"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "machine",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "machine",
+          "dependent": 7,
+          "dependentGloss": "molding"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "run",
+          "dependent": 8,
+          "dependentGloss": "machine"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "7640"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "week",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "fixed"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "run",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "run"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "machine",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "machine",
+          "dependent": 7,
+          "dependentGloss": "molding"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "run",
+          "dependent": 8,
+          "dependentGloss": "machine"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "7640"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "week",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 2,
+          "dependentGloss": "fixed"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "run",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 3,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "run"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "machine",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "machine",
+          "dependent": 7,
+          "dependentGloss": "molding"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "run",
+          "dependent": 8,
+          "dependentGloss": "machine"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "7640"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "week",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 86,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "fixed",
+          "originalText": "fixed",
+          "lemma": "fix",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 92,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 97,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 100,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "run",
+          "originalText": "run",
+          "lemma": "run",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 104,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 108,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "molding",
+          "originalText": "molding",
+          "lemma": "molding",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 116,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "machine",
+          "originalText": "machine",
+          "lemma": "machine",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 124,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 127,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "7640",
+          "originalText": "7640",
+          "lemma": "7640",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 132,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$7640.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 140,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$7640.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 144,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "week",
+          "originalText": "week",
+          "lemma": "week",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 149,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 150,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN If)\n      (S\n        (NP (DT the) (NN company))\n        (VP (VBZ sells)\n          (SBAR\n            (S\n              (NP (DT the))\n              (VP (VBZ handles)\n                (PP (IN for)\n                  (NP\n                    (NP\n                      (NP (CD 4.60) (NNS dollars))\n                      (NP (DT each)))\n                    (, ,)\n                    (SBAR\n                      (WHNP (WRB how) (JJ many))\n                      (S\n                        (VP (VBZ handles))))))))))))\n    (VP (MD must)\n      (VP (VB be)\n        (VP\n          (VP (VBN molded))\n          (CC and)\n          (VP (VBN sold)\n            (NP (JJ weekly))\n            (S\n              (VP (TO to)\n                (VP (VB break)\n                  (ADVP (RB even)))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "molded"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "csubjpass",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "handles",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 6,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "4.60"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "handles",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "handles",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "aux",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 15,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 16,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "cc",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 18,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 19,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 20,
+          "dependentGloss": "weekly"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "break",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 22,
+          "dependentGloss": "break"
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "break",
+          "dependent": 23,
+          "dependentGloss": "even"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 24,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "molded"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "csubjpass",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "handles",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 6,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "4.60"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 6,
+          "governorGloss": "handles",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "handles",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "aux",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 15,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 16,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "cc",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 18,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 19,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 20,
+          "dependentGloss": "weekly"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "break",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 22,
+          "dependentGloss": "break"
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "break",
+          "dependent": 23,
+          "dependentGloss": "even"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 24,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "molded"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "csubjpass",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "csubjpass",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "handles",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "sells",
+          "dependent": 6,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "4.60"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 6,
+          "governorGloss": "handles",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "handles",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "handles"
+        },
+        {
+          "dep": "aux",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 15,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 16,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "cc",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 18,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 19,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 20,
+          "dependentGloss": "weekly"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "break",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 19,
+          "governorGloss": "sold",
+          "dependent": 22,
+          "dependentGloss": "break"
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "break",
+          "dependent": 23,
+          "dependentGloss": "even"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "molded",
+          "dependent": 24,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 153,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 157,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 165,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "sells",
+          "originalText": "sells",
+          "lemma": "sell",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 171,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 175,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "handles",
+          "originalText": "handles",
+          "lemma": "handle",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 183,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 187,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "4.60",
+          "originalText": "4.60",
+          "lemma": "4.60",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 192,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$4.6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 200,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$4.6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 205,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 207,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 211,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 216,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "handles",
+          "originalText": "handles",
+          "lemma": "handle",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 224,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "must",
+          "originalText": "must",
+          "lemma": "must",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 229,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 232,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "molded",
+          "originalText": "molded",
+          "lemma": "mold",
+          "characterOffsetBegin": 233,
+          "characterOffsetEnd": 239,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 243,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 248,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "weekly",
+          "originalText": "weekly",
+          "lemma": "weekly",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 255,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "SET",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 21,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 256,
+          "characterOffsetEnd": 258,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "break",
+          "originalText": "break",
+          "lemma": "break",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 264,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "even",
+          "originalText": "even",
+          "lemma": "even",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 269,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 24,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 269,
+          "characterOffsetEnd": 270,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Northwest Molded",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Northwest Molded molds plastic",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "The fixed cost to run the molding machine",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "the molding machine",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "week",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "UNKNOWN",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "each",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "weekly",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

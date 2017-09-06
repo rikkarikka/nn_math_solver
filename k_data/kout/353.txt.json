@@ -1,0 +1,1493 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NNPS Lakers))\n    (VP (VBD scored)\n      (NP (CD 43) (NNS points))\n      (PP (IN on)\n        (NP\n          (NP (DT a) (NN combination))\n          (PP (IN of)\n            (NP\n              (NP\n                (QP (CD 20) (CD two))\n                (NN point) (NNS baskets))\n              (CC and)\n              (NP (CD three) (NN point) (NNS baskets)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "Lakers",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "Lakers"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "points",
+          "dependent": 4,
+          "dependentGloss": "43"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "combination"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "two",
+          "dependent": 10,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 11,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 12,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 13,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "baskets",
+          "dependent": 15,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "baskets",
+          "dependent": 16,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 17,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "Lakers",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "Lakers"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "points",
+          "dependent": 4,
+          "dependentGloss": "43"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "combination"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "two",
+          "dependent": 10,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 11,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 12,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 13,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "baskets",
+          "dependent": 15,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "baskets",
+          "dependent": 16,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 17,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "Lakers",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "Lakers"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "points",
+          "dependent": 4,
+          "dependentGloss": "43"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "combination"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "two",
+          "dependent": 10,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 11,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 12,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 13,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 17,
+          "governorGloss": "baskets",
+          "dependent": 15,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "baskets",
+          "dependent": 16,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "combination",
+          "dependent": 17,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "baskets",
+          "dependent": 17,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Lakers",
+          "originalText": "Lakers",
+          "lemma": "Lakers",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "NNPS",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "scored",
+          "originalText": "scored",
+          "lemma": "score",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "43",
+          "originalText": "43",
+          "lemma": "43",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 20,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "43.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "points",
+          "originalText": "points",
+          "lemma": "point",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 30,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 32,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "combination",
+          "originalText": "combination",
+          "lemma": "combination",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 44,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 47,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 50,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 54,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "point",
+          "originalText": "point",
+          "lemma": "point",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 60,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "baskets",
+          "originalText": "baskets",
+          "lemma": "basket",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 68,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "three",
+          "originalText": "three",
+          "lemma": "three",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 78,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "point",
+          "originalText": "point",
+          "lemma": "point",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 84,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "baskets",
+          "originalText": "baskets",
+          "lemma": "basket",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 92,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 93,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (UCP\n    (FRAG\n      (WHNP\n        (WHNP\n          (WHADJP (WRB How) (JJ many))\n          (NNS shots))\n        (PP (IN of)\n          (NP (CD two) (NN point) (NNS baskets)))))\n    (CC and)\n    (SBAR\n      (WHNP\n        (WHNP\n          (WHADJP (WRB how) (JJ many))\n          (NNS shots))\n        (PP (IN of)\n          (NP (CD three) (NN point) (NNS baskets))))\n      (S\n        (VP (VBD were)\n          (VP (VBN made))))\n      (. ?))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "shots"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 5,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 6,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 7,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "many",
+          "dependent": 9,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "shots",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 11,
+          "dependentGloss": "shots"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 13,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 14,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "shots",
+          "dependent": 15,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 16,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 17,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "shots"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 5,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 6,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 7,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "many",
+          "dependent": 9,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "shots",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 11,
+          "dependentGloss": "shots"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 13,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 14,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "shots",
+          "dependent": 15,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 16,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 17,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "shots"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 5,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "baskets",
+          "dependent": 6,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 7,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "many",
+          "dependent": 9,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "shots",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 11,
+          "dependentGloss": "shots"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 13,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "baskets",
+          "dependent": 14,
+          "dependentGloss": "point"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "shots",
+          "dependent": 15,
+          "dependentGloss": "baskets"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 16,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "shots",
+          "dependent": 17,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "made",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 97,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 102,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "shots",
+          "originalText": "shots",
+          "lemma": "shot",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 108,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 111,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 115,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "point",
+          "originalText": "point",
+          "lemma": "point",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 121,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "baskets",
+          "originalText": "baskets",
+          "lemma": "basket",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 129,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 133,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 137,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 142,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "shots",
+          "originalText": "shots",
+          "lemma": "shot",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 148,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 151,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "three",
+          "originalText": "three",
+          "lemma": "three",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 157,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "point",
+          "originalText": "point",
+          "lemma": "point",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 163,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "baskets",
+          "originalText": "baskets",
+          "lemma": "basket",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 171,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 176,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "made",
+          "originalText": "made",
+          "lemma": "make",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 181,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 182,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "43",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "20 two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "three",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "three",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "The Lakers",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "43 points",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a combination of 20 two point baskets and three point baskets",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "20 two point baskets and three point baskets",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "20 two point baskets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "two point baskets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "three point baskets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "three point baskets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

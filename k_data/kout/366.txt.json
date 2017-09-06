@@ -1,0 +1,1697 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN baseball) (NN player))\n    (VP (VBZ has)\n      (NP\n        (NP (DT a)\n          (ADJP (NN batting))\n          (NN average))\n        (PP (IN of)\n          (NP (CD 0.320))))\n      (PP (IN with)\n        (NP\n          (NP (CD 192) (NNS hits))\n          (PP (IN in)\n            (NP (CD 600) (NNS bats))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "player",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "player",
+          "dependent": 2,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "player"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 6,
+          "dependentGloss": "batting"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "0.320",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 9,
+          "dependentGloss": "0.320"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 10,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 11,
+          "dependentGloss": "192"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "hits"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "bats",
+          "dependent": 13,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "bats",
+          "dependent": 14,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 15,
+          "dependentGloss": "bats"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "player",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "player",
+          "dependent": 2,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "player"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 6,
+          "dependentGloss": "batting"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "0.320",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 9,
+          "dependentGloss": "0.320"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 10,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 11,
+          "dependentGloss": "192"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "hits"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "bats",
+          "dependent": 13,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "bats",
+          "dependent": 14,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 15,
+          "dependentGloss": "bats"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "player",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "player",
+          "dependent": 2,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "player"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 6,
+          "dependentGloss": "batting"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "0.320",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "average",
+          "dependent": 9,
+          "dependentGloss": "0.320"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 10,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 11,
+          "dependentGloss": "192"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "hits"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "bats",
+          "dependent": 13,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "bats",
+          "dependent": 14,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 12,
+          "governorGloss": "hits",
+          "dependent": 15,
+          "dependentGloss": "bats"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "player",
+          "originalText": "player",
+          "lemma": "player",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 21,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 23,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "batting",
+          "originalText": "batting",
+          "lemma": "batting",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 31,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "0.320",
+          "originalText": "0.320",
+          "lemma": "0.320",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 48,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.32",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 53,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "192",
+          "originalText": "192",
+          "lemma": "192",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "192.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "hits",
+          "originalText": "hits",
+          "lemma": "hit",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 62,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 65,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "600",
+          "originalText": "600",
+          "lemma": "600",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 69,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "bats",
+          "originalText": "bats",
+          "lemma": "bat",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 74,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (PRP$ His) (NN average))\n      (PP (IN against)\n        (NP (JJ left-handed) (NN pitching))))\n    (VP (VBZ is)\n      (NP (CD 0.250)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "0.250"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "average",
+          "dependent": 1,
+          "dependentGloss": "His"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 2,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "pitching",
+          "dependent": 3,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "pitching",
+          "dependent": 4,
+          "dependentGloss": "left-handed"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "average",
+          "dependent": 5,
+          "dependentGloss": "pitching"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 6,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "0.250"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "average",
+          "dependent": 1,
+          "dependentGloss": "His"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 2,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "pitching",
+          "dependent": 3,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "pitching",
+          "dependent": 4,
+          "dependentGloss": "left-handed"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 2,
+          "governorGloss": "average",
+          "dependent": 5,
+          "dependentGloss": "pitching"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 6,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "0.250"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "average",
+          "dependent": 1,
+          "dependentGloss": "His"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 2,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "pitching",
+          "dependent": 3,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "pitching",
+          "dependent": 4,
+          "dependentGloss": "left-handed"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 2,
+          "governorGloss": "average",
+          "dependent": 5,
+          "dependentGloss": "pitching"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 6,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "0.250",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "His",
+          "originalText": "His",
+          "lemma": "he",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 79,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 87,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "against",
+          "originalText": "against",
+          "lemma": "against",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 95,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "left-handed",
+          "originalText": "left-handed",
+          "lemma": "left-handed",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 107,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "pitching",
+          "originalText": "pitching",
+          "lemma": "pitching",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 116,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 119,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "0.250",
+          "originalText": "0.250",
+          "lemma": "0.250",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 125,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.25",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 126,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (PP (IN Against)\n      (NP\n        (NP (JJ right-handed))\n        (VP (VBG pitching))))\n    (NP (PRP it))\n    (VP (VBZ is)\n      (NP (CD 0.350)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "0.350"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "right-handed",
+          "dependent": 1,
+          "dependentGloss": "Against"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 2,
+          "dependentGloss": "right-handed"
+        },
+        {
+          "dep": "acl",
+          "governor": 2,
+          "governorGloss": "right-handed",
+          "dependent": 3,
+          "dependentGloss": "pitching"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 5,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "0.350"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "right-handed",
+          "dependent": 1,
+          "dependentGloss": "Against"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 2,
+          "dependentGloss": "right-handed"
+        },
+        {
+          "dep": "acl",
+          "governor": 2,
+          "governorGloss": "right-handed",
+          "dependent": 3,
+          "dependentGloss": "pitching"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 5,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "0.350"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "right-handed",
+          "dependent": 1,
+          "dependentGloss": "Against"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 2,
+          "dependentGloss": "right-handed"
+        },
+        {
+          "dep": "acl",
+          "governor": 2,
+          "governorGloss": "right-handed",
+          "dependent": 3,
+          "dependentGloss": "pitching"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 5,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "0.350",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Against",
+          "originalText": "Against",
+          "lemma": "against",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 134,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "right-handed",
+          "originalText": "right-handed",
+          "lemma": "right-handed",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 147,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "pitching",
+          "originalText": "pitching",
+          "lemma": "pitch",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 156,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 159,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 162,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "0.350",
+          "originalText": "0.350",
+          "lemma": "0.350",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 168,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.35",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 169,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS times))\n    (SQ\n      (VP (VBD did)\n        (S\n          (NP (PRP he))\n          (NP\n            (NP (NN bat))\n            (PP (IN against)\n              (NP (NNS left-handers)))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 3,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "bat",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "bat"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "left-handers",
+          "dependent": 7,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "bat",
+          "dependent": 8,
+          "dependentGloss": "left-handers"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 3,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "bat",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "bat"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "left-handers",
+          "dependent": 7,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 6,
+          "governorGloss": "bat",
+          "dependent": 8,
+          "dependentGloss": "left-handers"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 3,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "bat",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "bat"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "left-handers",
+          "dependent": 7,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 6,
+          "governorGloss": "bat",
+          "dependent": 8,
+          "dependentGloss": "left-handers"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 173,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 178,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 184,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 188,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 191,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "bat",
+          "originalText": "bat",
+          "lemma": "bat",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 195,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "against",
+          "originalText": "against",
+          "lemma": "against",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 203,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "left-handers",
+          "originalText": "left-handers",
+          "lemma": "left-hander",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 216,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 217,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "16": [
+      {
+        "id": 16,
+        "text": "left-handers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "1": [
+      {
+        "id": 1,
+        "text": "0.320",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "192",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "600",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "A baseball player",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "His",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a batting average of 0.320",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "192 hits in 600 bats",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "600 bats",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "His average against left-handed pitching",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "0.250",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "right-handed pitching",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 11,
+        "text": "0.350",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "bat against left-handers",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

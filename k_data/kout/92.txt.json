@@ -1,0 +1,1859 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP River) (NNP Joes) (POS 's))\n      (NNP Seafood) (NNP Diner))\n    (VP (VBZ charges)\n      (NP\n        (NP\n          (NP (CD 6.00) (NNS dollars))\n          (PP (IN for)\n            (NP (DT a) (NN catfish) (NN dinner))))\n        (CC and)\n        (NP\n          (NP (CD 3.50) (NNS dollars))\n          (PP (IN for)\n            (NP\n              (NP (DT an) (NN order))\n              (PP (IN of)\n                (NP (NN popcorn) (NN shrimp))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Joes",
+          "dependent": 1,
+          "dependentGloss": "River"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "Diner",
+          "dependent": 2,
+          "dependentGloss": "Joes"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Joes",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Diner",
+          "dependent": 4,
+          "dependentGloss": "Seafood"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 5,
+          "dependentGloss": "Diner"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "6.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 10,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 11,
+          "dependentGloss": "catfish"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "dinner"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "3.50"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 17,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "shrimp",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 21,
+          "governorGloss": "shrimp",
+          "dependent": 20,
+          "dependentGloss": "popcorn"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 21,
+          "dependentGloss": "shrimp"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Joes",
+          "dependent": 1,
+          "dependentGloss": "River"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "Diner",
+          "dependent": 2,
+          "dependentGloss": "Joes"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Joes",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Diner",
+          "dependent": 4,
+          "dependentGloss": "Seafood"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 5,
+          "dependentGloss": "Diner"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "6.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 10,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 11,
+          "dependentGloss": "catfish"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "dinner"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "3.50"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 17,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "shrimp",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 21,
+          "governorGloss": "shrimp",
+          "dependent": 20,
+          "dependentGloss": "popcorn"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 21,
+          "dependentGloss": "shrimp"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Joes",
+          "dependent": 1,
+          "dependentGloss": "River"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "Diner",
+          "dependent": 2,
+          "dependentGloss": "Joes"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Joes",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Diner",
+          "dependent": 4,
+          "dependentGloss": "Seafood"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 5,
+          "dependentGloss": "Diner"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "6.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 10,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "dinner",
+          "dependent": 11,
+          "dependentGloss": "catfish"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "dinner"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "3.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 17,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "shrimp",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 21,
+          "governorGloss": "shrimp",
+          "dependent": 20,
+          "dependentGloss": "popcorn"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "order",
+          "dependent": 21,
+          "dependentGloss": "shrimp"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "charges",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "River",
+          "originalText": "River",
+          "lemma": "River",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Joes",
+          "originalText": "Joes",
+          "lemma": "Joes",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 10,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 13,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Seafood",
+          "originalText": "Seafood",
+          "lemma": "Seafood",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 21,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Diner",
+          "originalText": "Diner",
+          "lemma": "Diner",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 27,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "charges",
+          "originalText": "charges",
+          "lemma": "charge",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 35,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "6.00",
+          "originalText": "6.00",
+          "lemma": "6.00",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 48,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 52,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 54,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "catfish",
+          "originalText": "catfish",
+          "lemma": "catfish",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 62,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "dinner",
+          "originalText": "dinner",
+          "lemma": "dinner",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 69,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 73,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "3.50",
+          "originalText": "3.50",
+          "lemma": "3.50",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 78,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$3.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 86,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$3.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 90,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 93,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "order",
+          "originalText": "order",
+          "lemma": "order",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 99,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 102,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "popcorn",
+          "originalText": "popcorn",
+          "lemma": "popcorn",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 110,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "shrimp",
+          "originalText": "shrimp",
+          "lemma": "shrimp",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 117,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 118,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN After)\n      (S\n        (VP (VBG filling)\n          (NP (CD 26) (NNS orders)))))\n    (, ,)\n    (NP (NN River) (NNP Joe))\n    (VP (VBD had)\n      (VP (VBN collected)\n        (NP (CD 133.50) (NNS dollars))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "collected"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "filling",
+          "dependent": 1,
+          "dependentGloss": "After"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 2,
+          "dependentGloss": "filling"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "orders",
+          "dependent": 3,
+          "dependentGloss": "26"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "filling",
+          "dependent": 4,
+          "dependentGloss": "orders"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Joe",
+          "dependent": 6,
+          "dependentGloss": "River"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 7,
+          "dependentGloss": "Joe"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 8,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "133.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "collected"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "filling",
+          "dependent": 1,
+          "dependentGloss": "After"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 2,
+          "dependentGloss": "filling"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "orders",
+          "dependent": 3,
+          "dependentGloss": "26"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "filling",
+          "dependent": 4,
+          "dependentGloss": "orders"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Joe",
+          "dependent": 6,
+          "dependentGloss": "River"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 7,
+          "dependentGloss": "Joe"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 8,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "133.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "collected"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "filling",
+          "dependent": 1,
+          "dependentGloss": "After"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 2,
+          "dependentGloss": "filling"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "orders",
+          "dependent": 3,
+          "dependentGloss": "26"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "filling",
+          "dependent": 4,
+          "dependentGloss": "orders"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Joe",
+          "dependent": 6,
+          "dependentGloss": "River"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 7,
+          "dependentGloss": "Joe"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 8,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "133.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "collected",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "After",
+          "originalText": "After",
+          "lemma": "after",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 124,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "filling",
+          "originalText": "filling",
+          "lemma": "fill",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 132,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "26",
+          "originalText": "26",
+          "lemma": "26",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 135,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "26.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "orders",
+          "originalText": "orders",
+          "lemma": "order",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 142,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 144,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "River",
+          "originalText": "River",
+          "lemma": "river",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 150,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Joe",
+          "originalText": "Joe",
+          "lemma": "Joe",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 154,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 158,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "collected",
+          "originalText": "collected",
+          "lemma": "collect",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 168,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "133.50",
+          "originalText": "133.50",
+          "lemma": "133.50",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 175,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$133.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 183,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$133.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 184,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NNS orders))\n        (PP (IN of)\n          (NP (NN popcorn) (NN shrimp)\n            (CC and)\n            (NN catfish) (NNS dinners)))))\n    (SQ (VBD did)\n      (NP (PRP they))\n      (VP (VB sell)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 3,
+          "dependentGloss": "orders"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 5,
+          "dependentGloss": "popcorn"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 6,
+          "dependentGloss": "shrimp"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "dinners",
+          "dependent": 8,
+          "dependentGloss": "catfish"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 9,
+          "dependentGloss": "dinners"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 10,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 11,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 3,
+          "dependentGloss": "orders"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 5,
+          "dependentGloss": "popcorn"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 6,
+          "dependentGloss": "shrimp"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "dinners",
+          "dependent": 8,
+          "dependentGloss": "catfish"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 9,
+          "dependentGloss": "dinners"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 10,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 11,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 3,
+          "dependentGloss": "orders"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 5,
+          "dependentGloss": "popcorn"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 6,
+          "dependentGloss": "shrimp"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "dinners",
+          "dependent": 8,
+          "dependentGloss": "catfish"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "orders",
+          "dependent": 9,
+          "dependentGloss": "dinners"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "shrimp",
+          "dependent": 9,
+          "dependentGloss": "dinners"
+        },
+        {
+          "dep": "aux",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 10,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 11,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "sell",
+          "dependent": 13,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 188,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 193,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "orders",
+          "originalText": "orders",
+          "lemma": "order",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 200,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 203,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "popcorn",
+          "originalText": "popcorn",
+          "lemma": "popcorn",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 211,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "shrimp",
+          "originalText": "shrimp",
+          "lemma": "shrimp",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 218,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 222,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "catfish",
+          "originalText": "catfish",
+          "lemma": "catfish",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 230,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dinners",
+          "originalText": "dinners",
+          "lemma": "dinner",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 238,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 242,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 247,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 252,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 253,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "River Joes 's Seafood Diner",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "River Joes 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a catfish dinner",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "an order of popcorn shrimp",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "popcorn shrimp",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "26",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "26 orders",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "River Joe",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "orders of popcorn shrimp and catfish dinners",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "popcorn shrimp and catfish dinners",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

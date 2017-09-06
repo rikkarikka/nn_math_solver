@@ -1,8 +1,8 @@
 /**/
 /* Load packages */
-file_search_maxima: append (file_search_maxima,["/Users/brobaidek/Documents/GitHub/nn_math_solver/maxima-code/share/numericalio/numericalio.mac"])$
+file_search_maxima: append (file_search_maxima,["maxima-code/share/numericalio/numericalio.mac"])$
 load(numericalio)$
-file_search_maxima: append (file_search_maxima,["/Users/brobaidek/Documents/GitHub/nn_math_solver/maxima-code/share/stringproc/stringproc.mac"])$
+file_search_maxima: append (file_search_maxima,["maxima-code/share/stringproc/stringproc.mac"])$
 load(stringproc)$
 
 /**/
@@ -52,5 +52,4 @@ canonicalize(input_text_file, output_text_file) :=  block(
 /**/
 /* Main Method */
 /*canonicalize(canonicalize("./data/train.eq", "./data/train.can.eq"))$*/
-canonicalize("./data/val.eq", "./data/val.can.eq")$
-canonicalize("./data/test.eq", "./data/test.can.eq")$
+canonicalize("./k_data/keq.txt", "./k_data/keq.can.eq")$

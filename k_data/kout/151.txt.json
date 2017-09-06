@@ -1,0 +1,2326 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Norbert))\n    (VP (VBD sold)\n      (NP (CD 23) (NNS books))\n      (PP (IN on)\n        (NP (NNP Thursday)))\n      (PP (IN for)\n        (NP (DT a) (JJ certain) (NN price))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 1,
+          "dependentGloss": "Norbert"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 3,
+          "dependentGloss": "23"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Thursday",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "Thursday"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 9,
+          "dependentGloss": "certain"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 1,
+          "dependentGloss": "Norbert"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 3,
+          "dependentGloss": "23"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Thursday",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "Thursday"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 9,
+          "dependentGloss": "certain"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 1,
+          "dependentGloss": "Norbert"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "books",
+          "dependent": 3,
+          "dependentGloss": "23"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "Thursday",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "Thursday"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 9,
+          "dependentGloss": "certain"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 10,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Norbert",
+          "originalText": "Norbert",
+          "lemma": "Norbert",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 7,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 12,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "23",
+          "originalText": "23",
+          "lemma": "23",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 15,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "23.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 21,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 24,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Thursday",
+          "originalText": "Thursday",
+          "lemma": "Thursday",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 33,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-4",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-4"
+          }
+        },
+        {
+          "index": 7,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 39,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "certain",
+          "originalText": "certain",
+          "lemma": "certain",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 47,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "price",
+          "originalText": "price",
+          "lemma": "price",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 54,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (S\n      (PP (IN On)\n        (NP (NNP Friday)))\n      (, ,)\n      (NP (PRP he))\n      (VP (VBD sold)\n        (NP\n          (NP (CD 35))\n          (PP (IN of)\n            (NP (DT the) (JJ same) (NNS books))))))\n    (, ,)\n    (CC but)\n    (S\n      (NP (PRP he))\n      (VP (VBD charged)\n        (PP\n          (ADVP\n            (NP (CD 0.50) (NNS dollars))\n            (RBR less))\n          (IN per)\n          (NP (NN book)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Friday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "35"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 9,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "35",
+          "dependent": 10,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 12,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "charged",
+          "dependent": 13,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 14,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "0.50"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 17,
+          "governorGloss": "less",
+          "dependent": 16,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 19,
+          "governorGloss": "book",
+          "dependent": 17,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "book",
+          "dependent": 18,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "charged",
+          "dependent": 19,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Friday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "35"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 9,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "35",
+          "dependent": 10,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 12,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "charged",
+          "dependent": 13,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj:but",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 14,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "0.50"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 17,
+          "governorGloss": "less",
+          "dependent": 16,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 19,
+          "governorGloss": "book",
+          "dependent": 17,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "book",
+          "dependent": 18,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 14,
+          "governorGloss": "charged",
+          "dependent": 19,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Friday",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 2,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 3,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "35"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "books",
+          "dependent": 9,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "35",
+          "dependent": 10,
+          "dependentGloss": "books"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 12,
+          "dependentGloss": "but"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "charged",
+          "dependent": 13,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj:but",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 14,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "0.50"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 17,
+          "governorGloss": "less",
+          "dependent": 16,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 19,
+          "governorGloss": "book",
+          "dependent": 17,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "book",
+          "dependent": 18,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 14,
+          "governorGloss": "charged",
+          "dependent": 19,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 57,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Friday",
+          "originalText": "Friday",
+          "lemma": "Friday",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 64,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-5"
+          }
+        },
+        {
+          "index": 3,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 69,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 74,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "35",
+          "originalText": "35",
+          "lemma": "35",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 77,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "35.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 80,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 84,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "same",
+          "originalText": "same",
+          "lemma": "same",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 89,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "books",
+          "originalText": "books",
+          "lemma": "book",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 97,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "but",
+          "originalText": "but",
+          "lemma": "but",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 101,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 104,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "charged",
+          "originalText": "charged",
+          "lemma": "charge",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 112,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "0.50",
+          "originalText": "0.50",
+          "lemma": "0.50",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 117,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 125,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "less",
+          "originalText": "less",
+          "lemma": "less",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 130,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 134,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "book",
+          "originalText": "book",
+          "lemma": "book",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 139,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 140,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBD made)\n      (NP (CD 490.00) (NNS dollars))\n      (PP (IN in)\n        (NP (NN total))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "490.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "490.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "made"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "490.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "made",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 143,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "made",
+          "originalText": "made",
+          "lemma": "make",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 148,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "490.00",
+          "originalText": "490.00",
+          "lemma": "490.00",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 155,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$490.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 163,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$490.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 166,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 172,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 173,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ\n      (VP (VBD did)\n        (NP (DT the) (NN book) (NN sell))\n        (PP (IN for)\n          (PP (IN on)\n            (NP (NNP Thursday))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Thursday",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Thursday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "Thursday"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Thursday",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Thursday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "Thursday"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Thursday",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Thursday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "Thursday"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 177,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 182,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 186,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 190,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "book",
+          "originalText": "book",
+          "lemma": "book",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 195,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 200,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 204,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 207,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Thursday",
+          "originalText": "Thursday",
+          "lemma": "Thursday",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 216,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-4",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-4"
+          }
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 217,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ\n      (VP (VBD did)\n        (NP (DT the) (NN book) (NN sell))\n        (PP (IN for)\n          (PP (IN on)\n            (NP (NNP Friday))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Friday",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Friday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Friday",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Friday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "sell",
+          "dependent": 5,
+          "dependentGloss": "book"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Friday",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Friday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 9,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "did",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 221,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 226,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 230,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 234,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "book",
+          "originalText": "book",
+          "lemma": "book",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 239,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 244,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 245,
+          "characterOffsetEnd": 248,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 251,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Friday",
+          "originalText": "Friday",
+          "lemma": "Friday",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 258,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-5"
+          }
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 259,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Norbert",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 11,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "23",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "23 books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Thursday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "Thursday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a certain price",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Friday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "Friday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "35 of the same books",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the same books",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "the book sell",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "the book sell",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

@@ -20,7 +20,7 @@ hidden_size = 3
 num_classes = 839 + shift
 batch_size = 11
 learning_rate = .001
-epochs = 1
+epochs = 10
 
 ###############################################################################
 # Load data
@@ -62,6 +62,9 @@ model = m.Model(input_size=input_size, hidden_size=hidden_size,
                 num_classes=num_classes)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adamax(model.parameters())
+#params = model.parameters()
+#optimizer = torch.optim.SGD(params,lr=0.1)
+
 
 ###############################################################################
 # Training the Model
@@ -100,9 +103,10 @@ def test(text, model, text_field, label_field):
     _, predicted = torch.max(output, 1)
     return predicted.data[0][0]+1
 
-model.train()
+#model.train()
 for epoch in range(epochs):
     losses = []
+    train_iter.repeat=False
     for batch_count,batch in enumerate(train_iter):
         model.zero_grad()
         inp = batch.text.t()
@@ -114,6 +118,6 @@ for epoch in range(epochs):
 
         if (batch_count % 20 == 0):
             print('Batch:', batch_count,', Loss: ', losses[-1].data)
-            eval(val_iter, model)
+    eval(val_iter, model)
 
 #print('test', '2',TEXT,LABEL)

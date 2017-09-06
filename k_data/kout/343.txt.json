@@ -1,0 +1,1881 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NNP Rocket) (NNP Coaster))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 15) (NNS cars))\n        (, ,)\n        (NP\n          (NP (DT some))\n          (SBAR\n            (WHNP (WDT that))\n            (S\n              (VP (VBP hold)\n                (NP\n                  (NP (CD 4) (NNS people))\n                  (CC and)\n                  (NP\n                    (NP (DT some))\n                    (SBAR\n                      (WHNP (WDT that))\n                      (S\n                        (VP (VBP hold)\n                          (NP (CD 6) (NNS people)))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "Coaster",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Coaster",
+          "dependent": 2,
+          "dependentGloss": "Rocket"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "Coaster"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 5,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "appos",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 8,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 9,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 8,
+          "governorGloss": "some",
+          "dependent": 10,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 11,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 12,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 14,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "hold",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "some",
+          "dependent": 16,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "people",
+          "dependent": 17,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "hold",
+          "dependent": 18,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "Coaster",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Coaster",
+          "dependent": 2,
+          "dependentGloss": "Rocket"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "Coaster"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 5,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "appos",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 8,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 9,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 8,
+          "governorGloss": "some",
+          "dependent": 10,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 11,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 12,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 14,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "hold",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "some",
+          "dependent": 16,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "people",
+          "dependent": 17,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "hold",
+          "dependent": 18,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "Coaster",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Coaster",
+          "dependent": 2,
+          "dependentGloss": "Rocket"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "Coaster"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 5,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "appos",
+          "governor": 6,
+          "governorGloss": "cars",
+          "dependent": 8,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 9,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 8,
+          "governorGloss": "some",
+          "dependent": 10,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 11,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 12,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "hold",
+          "dependent": 14,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "people",
+          "dependent": 14,
+          "dependentGloss": "some"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "hold",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "some",
+          "dependent": 16,
+          "dependentGloss": "hold"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "people",
+          "dependent": 17,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "hold",
+          "dependent": 18,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Rocket",
+          "originalText": "Rocket",
+          "lemma": "Rocket",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "Coaster",
+          "originalText": "Coaster",
+          "lemma": "Coaster",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 18,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 22,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "15",
+          "originalText": "15",
+          "lemma": "15",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 25,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "15.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cars",
+          "originalText": "cars",
+          "lemma": "car",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 32,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "some",
+          "originalText": "some",
+          "lemma": "some",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 42,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "hold",
+          "originalText": "hold",
+          "lemma": "hold",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 49,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 56,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "some",
+          "originalText": "some",
+          "lemma": "some",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 70,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "hold",
+          "originalText": "hold",
+          "lemma": "hold",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 75,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 77,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 85,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBZ is)\n      (NP\n        (NP (NN room))\n        (PP (IN for)\n          (NP (CD 72) (NNS people))))\n      (ADVP (RB altogether)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 3,
+          "dependentGloss": "room"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 5,
+          "dependentGloss": "72"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "room",
+          "dependent": 6,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 3,
+          "dependentGloss": "room"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 5,
+          "dependentGloss": "72"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "room",
+          "dependent": 6,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 3,
+          "dependentGloss": "room"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "people",
+          "dependent": 5,
+          "dependentGloss": "72"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "room",
+          "dependent": 6,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 91,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 94,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "room",
+          "originalText": "room",
+          "lemma": "room",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 99,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "72",
+          "originalText": "72",
+          "lemma": "72",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 106,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "72.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 113,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "altogether",
+          "originalText": "altogether",
+          "lemma": "altogether",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 124,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 125,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (CD 4) (NN passenger))\n        (NP (NNS cars))))\n    (SQ (VBP are)\n      (NP (EX there)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "passenger"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 5,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "passenger"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 5,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "passenger"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 5,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 129,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 134,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 136,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "passenger",
+          "originalText": "passenger",
+          "lemma": "passenger",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 146,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "cars",
+          "originalText": "cars",
+          "lemma": "car",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 151,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 155,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 161,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 162,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (CD 6) (NN passenger))\n        (NP (NNS cars))))\n    (SQ (VBP are)\n      (NP (EX there)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 3,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "passenger"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 5,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 3,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "passenger"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 5,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 3,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "passenger"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "passenger",
+          "dependent": 5,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 166,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 171,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 173,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "passenger",
+          "originalText": "passenger",
+          "lemma": "passenger",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 183,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "cars",
+          "originalText": "cars",
+          "lemma": "car",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 188,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 192,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 198,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 199,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "15",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 18,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "The Rocket Coaster",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "15 cars , some that hold 4 people and some that hold 6 people",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "15 cars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "cars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 20,
+        "text": "cars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "some that hold 4 people and some that hold 6 people",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 8,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "4 people and some that hold 6 people",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "4 people",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "some that hold 6 people",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 14,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "6 people",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "72",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "room for 72 people",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "72 people",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "4 passenger cars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "6 passenger cars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

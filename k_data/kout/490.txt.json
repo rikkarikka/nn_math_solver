@@ -1,0 +1,2239 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP (DT a) (NN canoe) (NN trip)))\n    (, ,)\n    (NP (NNP Rita))\n    (VP (VBD paddled)\n      (ADVP (RB upstream)\n        (PP (IN at)\n          (NP\n            (NP (DT an) (JJ average) (NN speed))\n            (PP (IN of)\n              (NP\n                (NP (CD 2) (NNS miles))\n                (PP (IN per)\n                  (NP (NN hour))))))))\n      (ADVP (JJ relative)\n        (PP (TO to)\n          (NP (DT the) (NN riverbank)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "paddled"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 3,
+          "dependentGloss": "canoe"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 4,
+          "dependentGloss": "trip"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 6,
+          "dependentGloss": "Rita"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 8,
+          "dependentGloss": "upstream"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 10,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 11,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "upstream",
+          "dependent": 12,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 14,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 15,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "hour",
+          "dependent": 16,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 17,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 18,
+          "dependentGloss": "relative"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "riverbank",
+          "dependent": 19,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "riverbank",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "relative",
+          "dependent": 21,
+          "dependentGloss": "riverbank"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "paddled"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 3,
+          "dependentGloss": "canoe"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 4,
+          "dependentGloss": "trip"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 6,
+          "dependentGloss": "Rita"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 8,
+          "dependentGloss": "upstream"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 10,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 11,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 8,
+          "governorGloss": "upstream",
+          "dependent": 12,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 14,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 15,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "hour",
+          "dependent": 16,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 17,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 18,
+          "dependentGloss": "relative"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "riverbank",
+          "dependent": 19,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "riverbank",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 18,
+          "governorGloss": "relative",
+          "dependent": 21,
+          "dependentGloss": "riverbank"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "paddled"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 3,
+          "dependentGloss": "canoe"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 4,
+          "dependentGloss": "trip"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 6,
+          "dependentGloss": "Rita"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 8,
+          "dependentGloss": "upstream"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 9,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 10,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 11,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 8,
+          "governorGloss": "upstream",
+          "dependent": 12,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 14,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "speed",
+          "dependent": 15,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "hour",
+          "dependent": 16,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 15,
+          "governorGloss": "miles",
+          "dependent": 17,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 18,
+          "dependentGloss": "relative"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "riverbank",
+          "dependent": 19,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "riverbank",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 18,
+          "governorGloss": "relative",
+          "dependent": 21,
+          "dependentGloss": "riverbank"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "paddled",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 4,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "canoe",
+          "originalText": "canoe",
+          "lemma": "canoe",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "trip",
+          "originalText": "trip",
+          "lemma": "trip",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 17,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Rita",
+          "originalText": "Rita",
+          "lemma": "Rita",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 22,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "paddled",
+          "originalText": "paddled",
+          "lemma": "paddle",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 30,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "upstream",
+          "originalText": "upstream",
+          "lemma": "upstream",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 39,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 53,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "speed",
+          "originalText": "speed",
+          "lemma": "speed",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 59,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 62,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 64,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 70,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 79,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 18,
+          "word": "relative",
+          "originalText": "relative",
+          "lemma": "relative",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 88,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 91,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 95,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "riverbank",
+          "originalText": "riverbank",
+          "lemma": "riverbank",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 105,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 106,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP (DT the) (NN return) (NN trip)))\n    (ADVP (RB downstream))\n    (, ,)\n    (NP (PRP$ her) (JJ average) (NN speed))\n    (VP (VBD was)\n      (NP\n        (NP (CD 3) (NNS miles))\n        (PP (IN per)\n          (NP (NN hour)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 3,
+          "dependentGloss": "return"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 4,
+          "dependentGloss": "trip"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 5,
+          "dependentGloss": "downstream"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "speed",
+          "dependent": 7,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "speed",
+          "dependent": 8,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 9,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 11,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "hour",
+          "dependent": 13,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 14,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 3,
+          "dependentGloss": "return"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 4,
+          "dependentGloss": "trip"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 5,
+          "dependentGloss": "downstream"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "speed",
+          "dependent": 7,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "speed",
+          "dependent": 8,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 9,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 11,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "hour",
+          "dependent": 13,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 14,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "trip",
+          "dependent": 3,
+          "dependentGloss": "return"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 4,
+          "dependentGloss": "trip"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 5,
+          "dependentGloss": "downstream"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "speed",
+          "dependent": 7,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "speed",
+          "dependent": 8,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 9,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 11,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "hour",
+          "dependent": 13,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 14,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "miles",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 109,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 113,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "return",
+          "originalText": "return",
+          "lemma": "return",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 120,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "trip",
+          "originalText": "trip",
+          "lemma": "trip",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 125,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "downstream",
+          "originalText": "downstream",
+          "lemma": "downstream",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 136,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 137,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 141,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 149,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "speed",
+          "originalText": "speed",
+          "lemma": "speed",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 155,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 161,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 167,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 176,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 177,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP\n          (NP (NNP Rita) (POS 's))\n          (VBG paddling) (NN speed))\n        (PP (IN in)\n          (NP\n            (NP\n              (ADVP (RB still))\n              (NN water))\n            (CC and)\n            (NP\n              (NP (DT the) (NN speed))\n              (PP (IN of)\n                (NP\n                  (NP (DT the) (NN river) (POS 's))\n                  (JJ current))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 2,
+          "dependentGloss": "Rita"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Rita",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 4,
+          "dependentGloss": "paddling"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 7,
+          "dependentGloss": "still"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 8,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "speed",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 11,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "speed",
+          "dependent": 14,
+          "dependentGloss": "river"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 15,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 16,
+          "dependentGloss": "current"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 2,
+          "dependentGloss": "Rita"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Rita",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 4,
+          "dependentGloss": "paddling"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 7,
+          "dependentGloss": "still"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 8,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "speed",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 11,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:'s",
+          "governor": 11,
+          "governorGloss": "speed",
+          "dependent": 14,
+          "dependentGloss": "river"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 15,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 16,
+          "dependentGloss": "current"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 2,
+          "dependentGloss": "Rita"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Rita",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 4,
+          "dependentGloss": "paddling"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 7,
+          "dependentGloss": "still"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 8,
+          "dependentGloss": "water"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "speed",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "speed",
+          "dependent": 11,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "water",
+          "dependent": 11,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:'s",
+          "governor": 11,
+          "governorGloss": "speed",
+          "dependent": 14,
+          "dependentGloss": "river"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 15,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "river",
+          "dependent": 16,
+          "dependentGloss": "current"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 182,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Rita",
+          "originalText": "Rita",
+          "lemma": "Rita",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 187,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 190,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "paddling",
+          "originalText": "paddling",
+          "lemma": "paddle",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 199,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "speed",
+          "originalText": "speed",
+          "lemma": "speed",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 205,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 208,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "still",
+          "originalText": "still",
+          "lemma": "still",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 214,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "water",
+          "originalText": "water",
+          "lemma": "water",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 220,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 224,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 228,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "speed",
+          "originalText": "speed",
+          "lemma": "speed",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 234,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 237,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 241,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "river",
+          "originalText": "river",
+          "lemma": "river",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 247,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 250,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "current",
+          "originalText": "current",
+          "lemma": "current",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 258,
+          "pos": "JJ",
+          "ner": "DATE",
+          "normalizedNER": "PRESENT_REF",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "PRESENT_REF"
+          }
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 259,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Rita",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "Rita 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a canoe trip",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "an average speed of 2 miles per hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "her average speed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "2 miles per hour",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the riverbank",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the return trip",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "3 miles per hour",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "Rita 's paddling speed in still water and the speed of the river 's current",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 17,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "still water and the speed of the river 's current",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 17,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "still water",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the speed of the river 's current",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 17,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "the river 's current",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 17,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

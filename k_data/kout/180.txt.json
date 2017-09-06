@@ -1,0 +1,2116 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (JJS Best) (NNS Rentals))\n    (VP (VBZ charges)\n      (NP\n        (NP (DT a) (JJ daily) (NN fee))\n        (PP (CC plus)\n          (NP (DT a) (NN mileage) (NN fee))))\n      (PP (IN for)\n        (S\n          (VP (VBG renting)\n            (NP (PRP$ its) (NNS cars))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "Rentals",
+          "dependent": 1,
+          "dependentGloss": "Best"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 2,
+          "dependentGloss": "Rentals"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "daily"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 6,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 9,
+          "dependentGloss": "mileage"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 10,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "renting",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 12,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "cars",
+          "dependent": 13,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "renting",
+          "dependent": 14,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "Rentals",
+          "dependent": 1,
+          "dependentGloss": "Best"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 2,
+          "dependentGloss": "Rentals"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "daily"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 6,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 9,
+          "dependentGloss": "mileage"
+        },
+        {
+          "dep": "nmod:plus",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 10,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "renting",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 12,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "cars",
+          "dependent": 13,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "renting",
+          "dependent": 14,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "Rentals",
+          "dependent": 1,
+          "dependentGloss": "Best"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 2,
+          "dependentGloss": "Rentals"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "daily"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 6,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "fee",
+          "dependent": 9,
+          "dependentGloss": "mileage"
+        },
+        {
+          "dep": "nmod:plus",
+          "governor": 6,
+          "governorGloss": "fee",
+          "dependent": 10,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "renting",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 12,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "cars",
+          "dependent": 13,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "renting",
+          "dependent": 14,
+          "dependentGloss": "cars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Best",
+          "originalText": "Best",
+          "lemma": "best",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "JJS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Rentals",
+          "originalText": "Rentals",
+          "lemma": "rental",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 12,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "charges",
+          "originalText": "charges",
+          "lemma": "charge",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 20,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 22,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "daily",
+          "originalText": "daily",
+          "lemma": "daily",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 28,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "SET",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 6,
+          "word": "fee",
+          "originalText": "fee",
+          "lemma": "fee",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 32,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "plus",
+          "originalText": "plus",
+          "lemma": "plus",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 39,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "mileage",
+          "originalText": "mileage",
+          "lemma": "mileage",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 47,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "fee",
+          "originalText": "fee",
+          "lemma": "fee",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "renting",
+          "originalText": "renting",
+          "lemma": "rent",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 63,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "cars",
+          "originalText": "cars",
+          "lemma": "car",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 73,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Barney))\n    (VP (VBD was)\n      (VP (VBN charged)\n        (NP\n          (NP (CD 69) (NNS dollars))\n          (PP (IN for)\n            (NP\n              (NP (CD 3) (NNS days))\n              (CC and)\n              (NP (CD 300) (NNS miles)))))\n        (, ,)\n        (SBAR (IN while)\n          (S\n            (NP (NNP Mary))\n            (VP (VBD was)\n              (VP (VBN charged)\n                (NP\n                  (NP (CD 123) (NNS dollars))\n                  (PP (IN for)\n                    (NP\n                      (NP (CD 5) (NNS days))\n                      (CC and)\n                      (NP (CD 600) (NNS miles)))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 1,
+          "dependentGloss": "Barney"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "69"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "300"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "mark",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 13,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 14,
+          "dependentGloss": "Mary"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 15,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 16,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "123"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 19,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 20,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "cc",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "miles",
+          "dependent": 23,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "conj",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 24,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 1,
+          "dependentGloss": "Barney"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "69"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "300"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "mark",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 13,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 14,
+          "dependentGloss": "Mary"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 15,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 16,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "123"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 19,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 20,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "cc",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "miles",
+          "dependent": 23,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 24,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 1,
+          "dependentGloss": "Barney"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "69"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "300"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "days",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "mark",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 13,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 14,
+          "dependentGloss": "Mary"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 15,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 16,
+          "dependentGloss": "charged"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "123"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "charged",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 19,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 20,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "cc",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "miles",
+          "dependent": 23,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 24,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 21,
+          "governorGloss": "days",
+          "dependent": 24,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "charged",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Barney",
+          "originalText": "Barney",
+          "lemma": "Barney",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 80,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 84,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "charged",
+          "originalText": "charged",
+          "lemma": "charge",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 92,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "69",
+          "originalText": "69",
+          "lemma": "69",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 95,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$69.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 103,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$69.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 109,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P3D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P3D"
+          }
+        },
+        {
+          "index": 8,
+          "word": "days",
+          "originalText": "days",
+          "lemma": "day",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 114,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "P3D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P3D"
+          }
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "300",
+          "originalText": "300",
+          "lemma": "300",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "300.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 128,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 130,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "while",
+          "originalText": "while",
+          "lemma": "while",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 136,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Mary",
+          "originalText": "Mary",
+          "lemma": "Mary",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 141,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 145,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "charged",
+          "originalText": "charged",
+          "lemma": "charge",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 153,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "123",
+          "originalText": "123",
+          "lemma": "123",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 157,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$123.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 165,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$123.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 169,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 171,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P5D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P5D"
+          }
+        },
+        {
+          "index": 21,
+          "word": "days",
+          "originalText": "days",
+          "lemma": "day",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 176,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "P5D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P5D"
+          }
+        },
+        {
+          "index": 22,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 180,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "600",
+          "originalText": "600",
+          "lemma": "600",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 184,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 190,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 25,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 191,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SQ\n    (VP\n      (VP (VB Find)\n        (NP (DT the) (JJ daily) (NN fee)))\n      (CC and)\n      (VP (VB find)\n        (NP (DT the) (NN mileage) (NN charge))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "fee",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "fee",
+          "dependent": 3,
+          "dependentGloss": "daily"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "charge",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "charge",
+          "dependent": 8,
+          "dependentGloss": "mileage"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "find",
+          "dependent": 9,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "fee",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "fee",
+          "dependent": 3,
+          "dependentGloss": "daily"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "charge",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "charge",
+          "dependent": 8,
+          "dependentGloss": "mileage"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "find",
+          "dependent": 9,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "fee",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "fee",
+          "dependent": 3,
+          "dependentGloss": "daily"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "charge",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "charge",
+          "dependent": 8,
+          "dependentGloss": "mileage"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "find",
+          "dependent": 9,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 196,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 200,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "daily",
+          "originalText": "daily",
+          "lemma": "daily",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 206,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "SET",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 4,
+          "word": "fee",
+          "originalText": "fee",
+          "lemma": "fee",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 210,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 214,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 219,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 223,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mileage",
+          "originalText": "mileage",
+          "lemma": "mileage",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 231,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "charge",
+          "originalText": "charge",
+          "lemma": "charge",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 238,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 239,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Best Rentals",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a daily fee plus a mileage fee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a daily fee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "its",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 17,
+        "text": "the daily fee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a mileage fee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "its cars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "Barney",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "300",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "Mary",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "600",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 24,
+        "sentNum": 2,
+        "position": [
+          2,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "3 days and 300 miles",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "3 days",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "300 miles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "5 days and 600 miles",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 25,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "5 days",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "600 miles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 25,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the mileage charge",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

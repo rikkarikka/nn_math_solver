@@ -1,0 +1,2450 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (VBG catering) (NN company))\n    (VP (VBZ is)\n      (VP (VBG setting)\n        (PRT (RP up))\n        (NP (NNS tables))\n        (PP (IN for)\n          (NP\n            (NP (DT a) (JJ big) (NN event))\n            (SBAR\n              (WHNP (WDT that))\n              (S\n                (VP (MD will)\n                  (VP (VB host)\n                    (NP (CD 764) (NNS people))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "setting"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "catering"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 6,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 7,
+          "dependentGloss": "tables"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 10,
+          "dependentGloss": "big"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 11,
+          "dependentGloss": "event"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 12,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "aux",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 13,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 14,
+          "dependentGloss": "host"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "people",
+          "dependent": 15,
+          "dependentGloss": "764"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 16,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "setting"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "catering"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 6,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 7,
+          "dependentGloss": "tables"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 10,
+          "dependentGloss": "big"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 11,
+          "dependentGloss": "event"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 12,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "aux",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 13,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 14,
+          "dependentGloss": "host"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "people",
+          "dependent": 15,
+          "dependentGloss": "764"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 16,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "setting"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "catering"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 6,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 7,
+          "dependentGloss": "tables"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 10,
+          "dependentGloss": "big"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 11,
+          "dependentGloss": "event"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 12,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "aux",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 13,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 11,
+          "governorGloss": "event",
+          "dependent": 14,
+          "dependentGloss": "host"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "people",
+          "dependent": 15,
+          "dependentGloss": "764"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "host",
+          "dependent": 16,
+          "dependentGloss": "people"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "setting",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "catering",
+          "originalText": "catering",
+          "lemma": "cater",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 10,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 21,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "setting",
+          "originalText": "setting",
+          "lemma": "set",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 29,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "up",
+          "originalText": "up",
+          "lemma": "up",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 32,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "tables",
+          "originalText": "tables",
+          "lemma": "table",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 39,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 45,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "big",
+          "originalText": "big",
+          "lemma": "big",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "event",
+          "originalText": "event",
+          "lemma": "event",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 55,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "host",
+          "originalText": "host",
+          "lemma": "host",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 70,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "764",
+          "originalText": "764",
+          "lemma": "764",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "764.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "people",
+          "originalText": "people",
+          "lemma": "people",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 81,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 82,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (SBAR\n      (WHADVP (WRB When))\n      (S\n        (NP (PRP they))\n        (VP (VBD set)\n          (PRT (RP up))\n          (NP (DT the) (NNS tables)))))\n    (NP (PRP they))\n    (VP (VBP need)\n      (NP\n        (NP\n          (NP (CD 2) (NNS forks))\n          (PP (IN for)\n            (NP (DT each) (NN child))))\n        (CC and)\n        (NP\n          (NP (CD 5) (NNS forks))\n          (PP (IN for)\n            (NP (DT each) (NN adult))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 1,
+          "dependentGloss": "When"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 2,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 3,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 4,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "tables",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 6,
+          "dependentGloss": "tables"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 7,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 9,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 10,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "child",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "child",
+          "dependent": 12,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 13,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "forks",
+          "dependent": 15,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 16,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "adult",
+          "dependent": 17,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "adult",
+          "dependent": 18,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "forks",
+          "dependent": 19,
+          "dependentGloss": "adult"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 1,
+          "dependentGloss": "When"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 2,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 3,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 4,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "tables",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 6,
+          "dependentGloss": "tables"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 7,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 9,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 10,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "child",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "child",
+          "dependent": 12,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 13,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "forks",
+          "dependent": 15,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 16,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "adult",
+          "dependent": 17,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "adult",
+          "dependent": 18,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 16,
+          "governorGloss": "forks",
+          "dependent": 19,
+          "dependentGloss": "adult"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 1,
+          "dependentGloss": "When"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 2,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "advcl",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 3,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 4,
+          "dependentGloss": "up"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "tables",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "set",
+          "dependent": 6,
+          "dependentGloss": "tables"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 7,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 9,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 10,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "child",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "child",
+          "dependent": 12,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 13,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "forks",
+          "dependent": 15,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 16,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "forks",
+          "dependent": 16,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "adult",
+          "dependent": 17,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "adult",
+          "dependent": 18,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 16,
+          "governorGloss": "forks",
+          "dependent": 19,
+          "dependentGloss": "adult"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "need",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "When",
+          "originalText": "When",
+          "lemma": "when",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 87,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "set",
+          "originalText": "set",
+          "lemma": "set",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "up",
+          "originalText": "up",
+          "lemma": "up",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "tables",
+          "originalText": "tables",
+          "lemma": "table",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 110,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "need",
+          "originalText": "need",
+          "lemma": "need",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 120,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "forks",
+          "originalText": "forks",
+          "lemma": "fork",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 128,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 137,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "child",
+          "originalText": "child",
+          "lemma": "child",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 143,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 147,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 149,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "forks",
+          "originalText": "forks",
+          "lemma": "fork",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 155,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 164,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "adult",
+          "originalText": "adult",
+          "lemma": "adult",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 170,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 171,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBAR (IN If)\n    (S\n      (NP (DT the) (NN company))\n      (VP (VBD ordered)\n        (NP\n          (NP (DT a) (NN total))\n          (PP (IN of)\n            (NP\n              (NP (CD 2992) (NNS forks))\n              (, ,)\n              (SBAR\n                (WHNP (WRB how) (JJ many))\n                (S\n                  (UCP\n                    (NP (NNS adults))\n                    (CC and)\n                    (SBAR\n                      (WHADJP (WRB how) (JJ many))\n                      (S\n                        (NP (NNS children))\n                        (VP (MD will)\n                          (VP (VB be)\n                            (VP (VBG attending)\n                              (NP (DT the) (NN event))))))\n                      (. ?))))))))))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "ordered"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 8,
+          "dependentGloss": "2992"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 13,
+          "dependentGloss": "adults"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dep",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 16,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 17,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "aux",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 18,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "aux",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 19,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 20,
+          "dependentGloss": "attending"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "event",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 22,
+          "dependentGloss": "event"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "ordered"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 8,
+          "dependentGloss": "2992"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 13,
+          "dependentGloss": "adults"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dep",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 16,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 17,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "aux",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 18,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "aux",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 19,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 20,
+          "dependentGloss": "attending"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "event",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 22,
+          "dependentGloss": "event"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "ordered"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "ordered",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 8,
+          "dependentGloss": "2992"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "total",
+          "dependent": 9,
+          "dependentGloss": "forks"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 13,
+          "dependentGloss": "adults"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dep",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 16,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 17,
+          "dependentGloss": "children"
+        },
+        {
+          "dep": "aux",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 18,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "aux",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 19,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "forks",
+          "dependent": 20,
+          "dependentGloss": "attending"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "adults",
+          "dependent": 20,
+          "dependentGloss": "attending"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "event",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 22,
+          "dependentGloss": "event"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "attending",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 174,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 178,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 186,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "ordered",
+          "originalText": "ordered",
+          "lemma": "order",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 194,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 196,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 202,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 205,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "2992",
+          "originalText": "2992",
+          "lemma": "2992",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 210,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "2992",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "forks",
+          "originalText": "forks",
+          "lemma": "fork",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 216,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 218,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 222,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 227,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "adults",
+          "originalText": "adults",
+          "lemma": "adult",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 234,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 238,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 242,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 247,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "children",
+          "originalText": "children",
+          "lemma": "child",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 256,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 261,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 264,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "attending",
+          "originalText": "attending",
+          "lemma": "attend",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 274,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 278,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "event",
+          "originalText": "event",
+          "lemma": "event",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 284,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 284,
+          "characterOffsetEnd": 285,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "764",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A catering company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "the company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "tables",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "the tables",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a big event that will host 764 people",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 20,
+        "text": "the event",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 23,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "764 people",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 15,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "2 forks for each child and 5 forks for each adult",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "2 forks for each child",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "each child",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "5 forks for each adult",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "each adult",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "a total of 2992 forks , how many adults and how many children will be attending the event?",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 24,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "adults",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "children",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

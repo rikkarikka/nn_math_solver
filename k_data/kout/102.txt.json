@@ -1,0 +1,2212 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Jane))\n    (VP (VBZ has)\n      (NP (DT a) (NN dress) (NN shop)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Jane"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "shop",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "shop",
+          "dependent": 4,
+          "dependentGloss": "dress"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Jane"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "shop",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "shop",
+          "dependent": 4,
+          "dependentGloss": "dress"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Jane"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "shop",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "shop",
+          "dependent": 4,
+          "dependentGloss": "dress"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "shop"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Jane",
+          "originalText": "Jane",
+          "lemma": "Jane",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 8,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 10,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dress",
+          "originalText": "dress",
+          "lemma": "dress",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 16,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "shop",
+          "originalText": "shop",
+          "lemma": "shop",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 21,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 22,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBZ has)\n      (NP\n        (NP (NN space))\n        (PP (IN for)\n          (NP (CD 200) (NNS dresses)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "space"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dresses",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dresses",
+          "dependent": 5,
+          "dependentGloss": "200"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "space",
+          "dependent": 6,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "space"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dresses",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dresses",
+          "dependent": 5,
+          "dependentGloss": "200"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "space",
+          "dependent": 6,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "space"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dresses",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dresses",
+          "dependent": 5,
+          "dependentGloss": "200"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "space",
+          "dependent": 6,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 26,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "space",
+          "originalText": "space",
+          "lemma": "space",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 36,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "200",
+          "originalText": "200",
+          "lemma": "200",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 44,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "200.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dresses",
+          "originalText": "dresses",
+          "lemma": "dress",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 52,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 53,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBZ sells)\n      (NP\n        (NP (RB only) (JJ red))\n        (CC and)\n        (NP (JJ blue) (NNS dresses))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 3,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 4,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "dresses",
+          "dependent": 6,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 3,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 4,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "dresses",
+          "dependent": 6,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 3,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 4,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "dresses",
+          "dependent": 6,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "red",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "sells",
+          "originalText": "sells",
+          "lemma": "sell",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 63,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 68,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "red",
+          "originalText": "red",
+          "lemma": "red",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dresses",
+          "originalText": "dresses",
+          "lemma": "dress",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 89,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 90,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (PP (IN After)\n      (S\n        (VP (VBG reading)\n          (NP (JJ several) (NN fashion) (NNS magazines)))))\n    (NP (PRP she))\n    (VP (VBZ decides)\n      (S\n        (VP (TO to)\n          (VP (VB stock)\n            (NP (PRP$ her) (NNS shelves))\n            (PP (IN with)\n              (NP\n                (NP (CD 34) (JJR more) (JJ blue) (NNS dresses))\n                (PP (IN than)\n                  (NP (JJ red) (NNS dresses)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "decides"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "reading",
+          "dependent": 1,
+          "dependentGloss": "After"
+        },
+        {
+          "dep": "advcl",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 2,
+          "dependentGloss": "reading"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "magazines",
+          "dependent": 3,
+          "dependentGloss": "several"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "magazines",
+          "dependent": 4,
+          "dependentGloss": "fashion"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "reading",
+          "dependent": 5,
+          "dependentGloss": "magazines"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 6,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 9,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 12,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 13,
+          "dependentGloss": "34"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 14,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 15,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 16,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "dresses",
+          "dependent": 17,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "dresses",
+          "dependent": 18,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 19,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "decides"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "reading",
+          "dependent": 1,
+          "dependentGloss": "After"
+        },
+        {
+          "dep": "advcl",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 2,
+          "dependentGloss": "reading"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "magazines",
+          "dependent": 3,
+          "dependentGloss": "several"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "magazines",
+          "dependent": 4,
+          "dependentGloss": "fashion"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "reading",
+          "dependent": 5,
+          "dependentGloss": "magazines"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 6,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 9,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 12,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 13,
+          "dependentGloss": "34"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 14,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 15,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 16,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "dresses",
+          "dependent": 17,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "dresses",
+          "dependent": 18,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 19,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "decides"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "reading",
+          "dependent": 1,
+          "dependentGloss": "After"
+        },
+        {
+          "dep": "advcl",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 2,
+          "dependentGloss": "reading"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "magazines",
+          "dependent": 3,
+          "dependentGloss": "several"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "magazines",
+          "dependent": 4,
+          "dependentGloss": "fashion"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "reading",
+          "dependent": 5,
+          "dependentGloss": "magazines"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 6,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 9,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "shelves",
+          "dependent": 10,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "shelves"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 12,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 13,
+          "dependentGloss": "34"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 14,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "amod",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 15,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 9,
+          "governorGloss": "stock",
+          "dependent": 16,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "dresses",
+          "dependent": 17,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "dresses",
+          "dependent": 18,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 16,
+          "governorGloss": "dresses",
+          "dependent": 19,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "decides",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "After",
+          "originalText": "After",
+          "lemma": "after",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 96,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "reading",
+          "originalText": "reading",
+          "lemma": "read",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 104,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "several",
+          "originalText": "several",
+          "lemma": "several",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 112,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "fashion",
+          "originalText": "fashion",
+          "lemma": "fashion",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 120,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "magazines",
+          "originalText": "magazines",
+          "lemma": "magazine",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 130,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 134,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "decides",
+          "originalText": "decides",
+          "lemma": "decide",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 142,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 151,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 155,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "shelves",
+          "originalText": "shelves",
+          "lemma": "shelf",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 163,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 168,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "34",
+          "originalText": "34",
+          "lemma": "34",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 171,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "34.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 176,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 181,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "dresses",
+          "originalText": "dresses",
+          "lemma": "dress",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 189,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 194,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "red",
+          "originalText": "red",
+          "lemma": "red",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 198,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "dresses",
+          "originalText": "dresses",
+          "lemma": "dress",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 206,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 207,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (JJ blue) (NNS dresses))\n        (CC and)\n        (NP (JJ red) (NNS dresses))))\n    (SQ (MD should)\n      (NP (PRP she))\n      (VP (VB stock)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 3,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 4,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "dresses",
+          "dependent": 6,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "aux",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 9,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 3,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 4,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "dresses",
+          "dependent": 6,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "aux",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 9,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 3,
+          "dependentGloss": "blue"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 4,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "dresses",
+          "dependent": 6,
+          "dependentGloss": "red"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "dresses",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 7,
+          "dependentGloss": "dresses"
+        },
+        {
+          "dep": "aux",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 9,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 211,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 216,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "blue",
+          "originalText": "blue",
+          "lemma": "blue",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 221,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dresses",
+          "originalText": "dresses",
+          "lemma": "dress",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 229,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 233,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "red",
+          "originalText": "red",
+          "lemma": "red",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 237,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dresses",
+          "originalText": "dresses",
+          "lemma": "dress",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 245,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 252,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 256,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 262,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 263,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Jane",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 21,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 5,
+        "position": [
+          5,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a dress shop",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "200",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "space for 200 dresses",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "200 dresses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "only red and blue dresses",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "only red",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "blue dresses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 19,
+        "text": "blue dresses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "34",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 4,
+        "position": [
+          4,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "several fashion magazines",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "her shelves",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "34 more blue dresses than red dresses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 20,
+        "sentNum": 4,
+        "position": [
+          4,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 18,
+        "text": "blue dresses and red dresses",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "red dresses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 4,
+        "position": [
+          4,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 20,
+        "text": "red dresses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 5,
+        "position": [
+          5,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1363 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN piggy) (NN bank))\n    (VP (VBZ has)\n      (NP (CD 50) (NNS coins)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bank",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "bank",
+          "dependent": 2,
+          "dependentGloss": "piggy"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "coins",
+          "dependent": 5,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bank",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "bank",
+          "dependent": 2,
+          "dependentGloss": "piggy"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "coins",
+          "dependent": 5,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "bank",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "bank",
+          "dependent": 2,
+          "dependentGloss": "piggy"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "coins",
+          "dependent": 5,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "piggy",
+          "originalText": "piggy",
+          "lemma": "piggy",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "bank",
+          "originalText": "bank",
+          "lemma": "bank",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 12,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 16,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "50",
+          "originalText": "50",
+          "lemma": "50",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "50.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "coins",
+          "originalText": "coins",
+          "lemma": "coin",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 25,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 26,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NNS coins))\n    (VP (VBP are)\n      (NP (CC either)\n        (NNS nickels)\n        (CC or)\n        (NNS dimes)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "nickels"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "coins",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 2,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "cc:preconj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 4,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 6,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 7,
+          "dependentGloss": "dimes"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "nickels"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "coins",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 2,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "cc:preconj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 4,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 6,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 7,
+          "dependentGloss": "dimes"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "nickels"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "coins",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 2,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "cc:preconj",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 4,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 6,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 7,
+          "dependentGloss": "dimes"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "nickels",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "coins",
+          "originalText": "coins",
+          "lemma": "coin",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 36,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 40,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "either",
+          "originalText": "either",
+          "lemma": "either",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 47,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "nickels",
+          "originalText": "nickels",
+          "lemma": "nickel",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 55,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 58,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dimes",
+          "originalText": "dimes",
+          "lemma": "dime",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 64,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 65,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NN bank))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 4.55) (NNS dollars))\n        (PP (IN in)\n          (NP (NN total)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "bank",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "4.55"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "bank",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "4.55"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "bank",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 2,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "4.55"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 69,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "bank",
+          "originalText": "bank",
+          "lemma": "bank",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 74,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "4.55",
+          "originalText": "4.55",
+          "lemma": "4.55",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 83,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$4.55",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 91,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$4.55",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 94,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 100,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 101,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS coins))\n    (SQ (VBP are)\n      (NP (NNS nickels)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "coins",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "nickels"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "coins",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "nickels"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "coins",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "coins"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "nickels"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 105,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 110,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "coins",
+          "originalText": "coins",
+          "lemma": "coin",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 116,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "nickels",
+          "originalText": "nickels",
+          "lemma": "nickel",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 128,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 129,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (JJ many))\n    (SQ (VBP are)\n      (NP (NNS dimes)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "dimes"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "dimes"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "dimes"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 133,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 142,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dimes",
+          "originalText": "dimes",
+          "lemma": "dime",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 148,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 149,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "50",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A piggy bank",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "The bank",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "50 coins",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "The coins",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "either nickels or dimes",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "nickels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "dimes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

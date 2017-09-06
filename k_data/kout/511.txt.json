@@ -1,0 +1,3621 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN At)\n      (NP\n        (NP (NNP Al) (POS 's))\n        (NNP Rent-a-Center)))\n    (, ,)\n    (NP (PRP it))\n    (VP (VBZ costs)\n      (PP\n        (ADVP\n          (NP (CD 30) (NNS dollars))\n          (RBR more))\n        (IN per)\n        (NP (NN month)))\n      (S\n        (VP (TO to)\n          (VP (VB rent)\n            (NP (DT a) (NN leather) (NN couch))\n            (SBAR (IN than)\n              (S\n                (NP (PRP it))\n                (VP (VBZ does)\n                  (S\n                    (VP (TO to)\n                      (VP (VB rent)\n                        (NP (DT a) (NN microfiber) (NN couch))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "Rent-a-Center",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "Rent-a-Center",
+          "dependent": 2,
+          "dependentGloss": "Al"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Al",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 4,
+          "dependentGloss": "Rent-a-Center"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 6,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 10,
+          "governorGloss": "more",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "month",
+          "dependent": 10,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "month",
+          "dependent": 11,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 12,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 14,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "couch",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "couch",
+          "dependent": 16,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 17,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 18,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 19,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "advcl",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 20,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "rent",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 22,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "couch",
+          "dependent": 23,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "couch",
+          "dependent": 24,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "rent",
+          "dependent": 25,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "Rent-a-Center",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "Rent-a-Center",
+          "dependent": 2,
+          "dependentGloss": "Al"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Al",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 4,
+          "dependentGloss": "Rent-a-Center"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 6,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 10,
+          "governorGloss": "more",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "month",
+          "dependent": 10,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "month",
+          "dependent": 11,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 12,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 14,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "couch",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "couch",
+          "dependent": 16,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 17,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 18,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 19,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "advcl",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 20,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "rent",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 22,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "couch",
+          "dependent": 23,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "couch",
+          "dependent": 24,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "rent",
+          "dependent": 25,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "Rent-a-Center",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "Rent-a-Center",
+          "dependent": 2,
+          "dependentGloss": "Al"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Al",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 4,
+          "dependentGloss": "Rent-a-Center"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 6,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 10,
+          "governorGloss": "more",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "month",
+          "dependent": 10,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "month",
+          "dependent": 11,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 12,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 14,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "couch",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "couch",
+          "dependent": 16,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 17,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 18,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 19,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "advcl",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 20,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "mark",
+          "governor": 22,
+          "governorGloss": "rent",
+          "dependent": 21,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 20,
+          "governorGloss": "does",
+          "dependent": 22,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "couch",
+          "dependent": 23,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "couch",
+          "dependent": 24,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "rent",
+          "dependent": 25,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "costs",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "At",
+          "originalText": "At",
+          "lemma": "at",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Al",
+          "originalText": "Al",
+          "lemma": "Al",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 8,
+          "pos": "POS",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Rent-a-Center",
+          "originalText": "Rent-a-Center",
+          "lemma": "Rent-a-Center",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 22,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 24,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "costs",
+          "originalText": "costs",
+          "lemma": "cost",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 33,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 36,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 44,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 49,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "month",
+          "originalText": "month",
+          "lemma": "month",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 59,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 13,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 62,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "rent",
+          "originalText": "rent",
+          "lemma": "rent",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 69,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "leather",
+          "originalText": "leather",
+          "lemma": "leather",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 77,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "couch",
+          "originalText": "couch",
+          "lemma": "couch",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 83,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 88,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 91,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 96,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "rent",
+          "originalText": "rent",
+          "lemma": "rent",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 104,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 106,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "microfiber",
+          "originalText": "microfiber",
+          "lemma": "microfiber",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 117,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "couch",
+          "originalText": "couch",
+          "lemma": "couch",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 123,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 124,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Pauline))\n    (VP\n      (VP (VBD rented)\n        (NP (DT a) (NN leather) (NN couch))\n        (PP (IN for)\n          (NP (CD 8) (NNS months))))\n      (CC and)\n      (ADVP (RB then))\n      (VP (VBD exchanged)\n        (NP (PRP it))\n        (PP (IN for)\n          (NP\n            (NP (DT a) (NN microfiber) (NN couch))\n            (, ,)\n            (SBAR\n              (WHNP (WDT which))\n              (S\n                (NP (PRP she))\n                (VP (VBD rented)\n                  (PP (IN for)\n                    (NP (CD 12) (NNS months))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "Pauline"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "couch",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "couch",
+          "dependent": 4,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 5,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "months",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "months",
+          "dependent": 7,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 10,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 11,
+          "dependentGloss": "exchanged"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 12,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 15,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 16,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 18,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 19,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 20,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "months",
+          "dependent": 21,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 23,
+          "governorGloss": "months",
+          "dependent": 22,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 23,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "Pauline"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "couch",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "couch",
+          "dependent": 4,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 5,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "months",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "months",
+          "dependent": 7,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 10,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 11,
+          "dependentGloss": "exchanged"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 12,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 15,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 16,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 18,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 19,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 20,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "months",
+          "dependent": 21,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 23,
+          "governorGloss": "months",
+          "dependent": 22,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 23,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 1,
+          "dependentGloss": "Pauline"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 1,
+          "dependentGloss": "Pauline"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "couch",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "couch",
+          "dependent": 4,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 5,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "months",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "months",
+          "dependent": 7,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 8,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 10,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 11,
+          "dependentGloss": "exchanged"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 12,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 15,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "exchanged",
+          "dependent": 16,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 18,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 19,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 16,
+          "governorGloss": "couch",
+          "dependent": 20,
+          "dependentGloss": "rented"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "months",
+          "dependent": 21,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 23,
+          "governorGloss": "months",
+          "dependent": 22,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 20,
+          "governorGloss": "rented",
+          "dependent": 23,
+          "dependentGloss": "months"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rented",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Pauline",
+          "originalText": "Pauline",
+          "lemma": "Pauline",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 132,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "rented",
+          "originalText": "rented",
+          "lemma": "rent",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 139,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 141,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "leather",
+          "originalText": "leather",
+          "lemma": "leather",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 149,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "couch",
+          "originalText": "couch",
+          "lemma": "couch",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 155,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 161,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P8M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P8M"
+          }
+        },
+        {
+          "index": 8,
+          "word": "months",
+          "originalText": "months",
+          "lemma": "month",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 168,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "P8M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P8M"
+          }
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 172,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "then",
+          "originalText": "then",
+          "lemma": "then",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 177,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "exchanged",
+          "originalText": "exchanged",
+          "lemma": "exchange",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 187,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 190,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 194,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 196,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "microfiber",
+          "originalText": "microfiber",
+          "lemma": "microfiber",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 207,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "couch",
+          "originalText": "couch",
+          "lemma": "couch",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 213,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 215,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "which",
+          "originalText": "which",
+          "lemma": "which",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 221,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 225,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "rented",
+          "originalText": "rented",
+          "lemma": "rent",
+          "characterOffsetBegin": 226,
+          "characterOffsetEnd": 232,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 233,
+          "characterOffsetEnd": 236,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 239,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P12M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P12M"
+          }
+        },
+        {
+          "index": 23,
+          "word": "months",
+          "originalText": "months",
+          "lemma": "month",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 246,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "P12M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P12M"
+          }
+        },
+        {
+          "index": 24,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 247,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (PRP She))\n    (VP (VBD paid)\n      (NP\n        (NP (DT a) (NN total))\n        (PP (IN of)\n          (NP (CD 1620) (NNS dollars))))\n      (S\n        (VP (TO to)\n          (VP (VB rent)\n            (NP (DT these) (NNS couches))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "1620"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "rent",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "couches",
+          "dependent": 10,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "rent",
+          "dependent": 11,
+          "dependentGloss": "couches"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "1620"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "rent",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "couches",
+          "dependent": 10,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "rent",
+          "dependent": 11,
+          "dependentGloss": "couches"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "She"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 4,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "1620"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "total",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 9,
+          "governorGloss": "rent",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "couches",
+          "dependent": 10,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "rent",
+          "dependent": 11,
+          "dependentGloss": "couches"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "paid",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "She",
+          "originalText": "She",
+          "lemma": "she",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 251,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 256,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 258,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 264,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 267,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "1620",
+          "originalText": "1620",
+          "lemma": "1620",
+          "characterOffsetBegin": 268,
+          "characterOffsetEnd": 272,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$1620.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 273,
+          "characterOffsetEnd": 280,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$1620.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 281,
+          "characterOffsetEnd": 283,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "rent",
+          "originalText": "rent",
+          "lemma": "rent",
+          "characterOffsetBegin": 284,
+          "characterOffsetEnd": 288,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 289,
+          "characterOffsetEnd": 294,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "couches",
+          "originalText": "couches",
+          "lemma": "couch",
+          "characterOffsetBegin": 295,
+          "characterOffsetEnd": 302,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 302,
+          "characterOffsetEnd": 303,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (VP (VB Solve)\n      (NP\n        (NP (DT this) (NN system))\n        (PP (IN of)\n          (NP (NNS equations))))\n      (S\n        (VP (TO to)\n          (VP (VB find)\n            (NP\n              (NP (DT the) (JJ monthly) (JJ rental) (NN charge))\n              (PP (IN for)\n                (NP (DT the) (NN leather) (NN couch))))\n            (, ,)\n            (PP (IN in)\n              (NP (NNS dollars)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Solve"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "equations",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 5,
+          "dependentGloss": "equations"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 7,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 9,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 10,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 11,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 14,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 15,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Solve"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "equations",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 5,
+          "dependentGloss": "equations"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 7,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 9,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 10,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 11,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 14,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 15,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Solve"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 2,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 3,
+          "dependentGloss": "system"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "equations",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "system",
+          "dependent": 5,
+          "dependentGloss": "equations"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 7,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 9,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 10,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 11,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "couch",
+          "dependent": 14,
+          "dependentGloss": "leather"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "charge",
+          "dependent": 15,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "find",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Solve",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Solve",
+          "originalText": "Solve",
+          "lemma": "solve",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 309,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 310,
+          "characterOffsetEnd": 314,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "system",
+          "originalText": "system",
+          "lemma": "system",
+          "characterOffsetBegin": 315,
+          "characterOffsetEnd": 321,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 322,
+          "characterOffsetEnd": 324,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "equations",
+          "originalText": "equations",
+          "lemma": "equation",
+          "characterOffsetBegin": 325,
+          "characterOffsetEnd": 334,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 335,
+          "characterOffsetEnd": 337,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 338,
+          "characterOffsetEnd": 342,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 343,
+          "characterOffsetEnd": 346,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "monthly",
+          "originalText": "monthly",
+          "lemma": "monthly",
+          "characterOffsetBegin": 347,
+          "characterOffsetEnd": 354,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "SET",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 10,
+          "word": "rental",
+          "originalText": "rental",
+          "lemma": "rental",
+          "characterOffsetBegin": 355,
+          "characterOffsetEnd": 361,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "charge",
+          "originalText": "charge",
+          "lemma": "charge",
+          "characterOffsetBegin": 362,
+          "characterOffsetEnd": 368,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 369,
+          "characterOffsetEnd": 372,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 373,
+          "characterOffsetEnd": 376,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "leather",
+          "originalText": "leather",
+          "lemma": "leather",
+          "characterOffsetBegin": 377,
+          "characterOffsetEnd": 384,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "couch",
+          "originalText": "couch",
+          "lemma": "couch",
+          "characterOffsetBegin": 385,
+          "characterOffsetEnd": 390,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 391,
+          "characterOffsetEnd": 392,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 393,
+          "characterOffsetEnd": 395,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 396,
+          "characterOffsetEnd": 403,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 403,
+          "characterOffsetEnd": 404,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP (DT the) (JJ monthly) (JJ rental) (NN charge))\n      (PP (IN for)\n        (NP (DT the) (NN microfiber) (NN couch))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 3,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 4,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 8,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 9,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 3,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 4,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 8,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 9,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 3,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "amod",
+          "governor": 5,
+          "governorGloss": "charge",
+          "dependent": 4,
+          "dependentGloss": "rental"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "charge"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "couch",
+          "dependent": 8,
+          "dependentGloss": "microfiber"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 9,
+          "dependentGloss": "couch"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 405,
+          "characterOffsetEnd": 409,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 410,
+          "characterOffsetEnd": 413,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "monthly",
+          "originalText": "monthly",
+          "lemma": "monthly",
+          "characterOffsetBegin": 414,
+          "characterOffsetEnd": 421,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t5",
+            "type": "SET",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 4,
+          "word": "rental",
+          "originalText": "rental",
+          "lemma": "rental",
+          "characterOffsetBegin": 422,
+          "characterOffsetEnd": 428,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "charge",
+          "originalText": "charge",
+          "lemma": "charge",
+          "characterOffsetBegin": 429,
+          "characterOffsetEnd": 435,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 436,
+          "characterOffsetEnd": 439,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 440,
+          "characterOffsetEnd": 443,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "microfiber",
+          "originalText": "microfiber",
+          "lemma": "microfiber",
+          "characterOffsetBegin": 444,
+          "characterOffsetEnd": 454,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "couch",
+          "originalText": "couch",
+          "lemma": "couch",
+          "characterOffsetBegin": 455,
+          "characterOffsetEnd": 460,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 460,
+          "characterOffsetEnd": 461,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Al 's Rent-a-Center",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 2,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 5,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "month",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a leather couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "a leather couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 21,
+        "text": "the leather couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a microfiber couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "a microfiber couch , which she rented for 12 months",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 24,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "a microfiber couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 24,
+        "text": "the microfiber couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "Pauline",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 19,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "She",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "8 months",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "12 months",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 22,
+        "endIndex": 24,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "a total of 1620 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "these couches",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "this system of equations",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "equations",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "the monthly rental charge for the leather couch",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 16,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 23,
+        "text": "the monthly rental charge",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "22": [
+      {
+        "id": 22,
+        "text": "dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 4,
+        "position": [
+          4,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

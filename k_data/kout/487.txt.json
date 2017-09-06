@@ -1,0 +1,1313 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (NN piece))\n      (PP (IN of)\n        (NP (NN rope))))\n    (ADVP\n      (NP (CD 60) (NNS meters))\n      (RB long))\n    (VP (VBZ is)\n      (VP (VBN cut)\n        (PP (IN into)\n          (NP (CD two) (NNS pieces)))\n        (SBAR (IN so) (IN that)\n          (S\n            (NP (DT the) (JJS longest) (NN piece))\n            (VP (VBZ is)\n              (ADVP (RB twice))\n              (ADJP (RB as) (JJ long)\n                (PP (IN as)\n                  (NP (DT the) (JJR shorter) (NN piece)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "cut"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "piece",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 2,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "rope",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "rope"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "meters",
+          "dependent": 5,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 7,
+          "governorGloss": "long",
+          "dependent": 6,
+          "dependentGloss": "meters"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 7,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "pieces",
+          "dependent": 10,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "pieces",
+          "dependent": 11,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 12,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 13,
+          "dependentGloss": "so"
+        },
+        {
+          "dep": "mwe",
+          "governor": 13,
+          "governorGloss": "so",
+          "dependent": 14,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "piece",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "piece",
+          "dependent": 16,
+          "dependentGloss": "longest"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 17,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 18,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 19,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 20,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 21,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 22,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 24,
+          "dependentGloss": "shorter"
+        },
+        {
+          "dep": "nmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 25,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "cut"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "piece",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 2,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "rope",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "rope"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "meters",
+          "dependent": 5,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 7,
+          "governorGloss": "long",
+          "dependent": 6,
+          "dependentGloss": "meters"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 7,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "pieces",
+          "dependent": 10,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "pieces",
+          "dependent": 11,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 12,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 13,
+          "dependentGloss": "so"
+        },
+        {
+          "dep": "mwe",
+          "governor": 13,
+          "governorGloss": "so",
+          "dependent": 14,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "piece",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "piece",
+          "dependent": 16,
+          "dependentGloss": "longest"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 17,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 18,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 19,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 20,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 21,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 22,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 24,
+          "dependentGloss": "shorter"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 25,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "cut"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "piece",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 2,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "rope",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "piece",
+          "dependent": 4,
+          "dependentGloss": "rope"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "meters",
+          "dependent": 5,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 7,
+          "governorGloss": "long",
+          "dependent": 6,
+          "dependentGloss": "meters"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 7,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "pieces",
+          "dependent": 10,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "pieces",
+          "dependent": 11,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 12,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 13,
+          "dependentGloss": "so"
+        },
+        {
+          "dep": "mwe",
+          "governor": 13,
+          "governorGloss": "so",
+          "dependent": 14,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "piece",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "piece",
+          "dependent": 16,
+          "dependentGloss": "longest"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 17,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 18,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 19,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 20,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 21,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 22,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "piece",
+          "dependent": 24,
+          "dependentGloss": "shorter"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 21,
+          "governorGloss": "long",
+          "dependent": 25,
+          "dependentGloss": "piece"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "cut",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "piece",
+          "originalText": "piece",
+          "lemma": "piece",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "rope",
+          "originalText": "rope",
+          "lemma": "rope",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "60",
+          "originalText": "60",
+          "lemma": "60",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 18,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "60.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "meters",
+          "originalText": "meters",
+          "lemma": "meter",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 25,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "cut",
+          "originalText": "cut",
+          "lemma": "cut",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "into",
+          "originalText": "into",
+          "lemma": "into",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 42,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 46,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "pieces",
+          "originalText": "pieces",
+          "lemma": "piece",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 53,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "so",
+          "originalText": "so",
+          "lemma": "so",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 56,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 61,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 65,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "longest",
+          "originalText": "longest",
+          "lemma": "longest",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 73,
+          "pos": "JJS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "piece",
+          "originalText": "piece",
+          "lemma": "piece",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 79,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 82,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "twice",
+          "originalText": "twice",
+          "lemma": "twice",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 88,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 91,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 96,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "shorter",
+          "originalText": "shorter",
+          "lemma": "shorter",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 111,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "piece",
+          "originalText": "piece",
+          "lemma": "piece",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 117,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 118,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (RB long))\n    (SQ (VBP are)\n      (NP (DT the) (CD two) (NNS pieces)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "long",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "long",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "long",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "pieces",
+          "dependent": 5,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "pieces"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 122,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 131,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 135,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 139,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "pieces",
+          "originalText": "pieces",
+          "lemma": "piece",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 146,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 147,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "60",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "A piece of rope",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "60 meters",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "two pieces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "the two pieces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the longest piece",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the shorter piece",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

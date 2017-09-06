@@ -1,0 +1,1865 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN chemist))\n    (VP (VBZ is)\n      (VP (VBG mixing)\n        (NP\n          (NP (DT a) (NN solution))\n          (SBAR\n            (WHNP (WDT that))\n            (S\n              (VP (VBZ is)\n                (NP\n                  (NP\n                    (ADJP (CD 32) (NN %))\n                    (NN sodium))\n                  (CC and)\n                  (NP\n                    (NP (DT another) (NN solution))\n                    (SBAR\n                      (WHNP (WDT that))\n                      (S\n                        (VP (VBZ is)\n                          (NP\n                            (ADJP (CD 12) (NN %))\n                            (NN sodium)))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "mixing"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "chemist",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 2,
+          "dependentGloss": "chemist"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 6,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 7,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "%",
+          "dependent": 9,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 10,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 11,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "solution",
+          "dependent": 13,
+          "dependentGloss": "another"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 14,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 16,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "%",
+          "dependent": 17,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 18,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "mixing"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "chemist",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 2,
+          "dependentGloss": "chemist"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 6,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 7,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "%",
+          "dependent": 9,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 10,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 11,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "solution",
+          "dependent": 13,
+          "dependentGloss": "another"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 14,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 16,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "%",
+          "dependent": 17,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 18,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "mixing"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "chemist",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 2,
+          "dependentGloss": "chemist"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 6,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 7,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "%",
+          "dependent": 9,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 10,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 11,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "solution",
+          "dependent": 13,
+          "dependentGloss": "another"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "solution",
+          "dependent": 14,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "sodium",
+          "dependent": 14,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 16,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "%",
+          "dependent": 17,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "sodium",
+          "dependent": 18,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "mixing",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "chemist",
+          "originalText": "chemist",
+          "lemma": "chemist",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 9,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "mixing",
+          "originalText": "mixing",
+          "lemma": "mix",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 19,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 21,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 30,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 35,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 38,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "32",
+          "originalText": "32",
+          "lemma": "32",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 41,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%32.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 43,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%32.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "sodium",
+          "originalText": "sodium",
+          "lemma": "sodium",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 50,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 54,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "another",
+          "originalText": "another",
+          "lemma": "another",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 62,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 76,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 79,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 82,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 84,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "sodium",
+          "originalText": "sodium",
+          "lemma": "sodium",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 91,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 92,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS liters))\n      (PP (IN of)\n        (NP\n          (NP (CD 32) (NN %))\n          (CC and)\n          (NP\n            (ADJP (CD 12) (NN %))\n            (NN solution)))))\n    (SINV (MD should)\n      (NP (DT the) (NN chemist))\n      (VP\n        (NP (NN use))\n        (S\n          (VP (TO to)\n            (VP (VB produce)\n              (NP\n                (NP (CD 50) (NNS liters))\n                (PP (IN of)\n                  (NP\n                    (NP (DT the) (NN solution))\n                    (SBAR\n                      (WHNP (WDT that))\n                      (S\n                        (VP (VBZ is)\n                          (NP\n                            (ADJP (CD 20) (NN %))\n                            (NN sodium)))))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "liters"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "%",
+          "dependent": 8,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "solution",
+          "dependent": 9,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 10,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "aux",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "chemist",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 13,
+          "dependentGloss": "chemist"
+        },
+        {
+          "dep": "mark",
+          "governor": 16,
+          "governorGloss": "produce",
+          "dependent": 15,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 16,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "liters",
+          "dependent": 17,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "produce",
+          "dependent": 18,
+          "dependentGloss": "liters"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "liters",
+          "dependent": 21,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 22,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 23,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "%",
+          "dependent": 24,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 26,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 27,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "liters"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "%",
+          "dependent": 8,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "solution",
+          "dependent": 9,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 10,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "aux",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "chemist",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 13,
+          "dependentGloss": "chemist"
+        },
+        {
+          "dep": "mark",
+          "governor": 16,
+          "governorGloss": "produce",
+          "dependent": 15,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 16,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "liters",
+          "dependent": 17,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "produce",
+          "dependent": 18,
+          "dependentGloss": "liters"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "liters",
+          "dependent": 21,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 22,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 23,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "%",
+          "dependent": 24,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 26,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 27,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 3,
+          "dependentGloss": "liters"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "32"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "%",
+          "dependent": 8,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "solution",
+          "dependent": 9,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "liters",
+          "dependent": 10,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 10,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "aux",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 11,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "chemist",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 13,
+          "dependentGloss": "chemist"
+        },
+        {
+          "dep": "mark",
+          "governor": 16,
+          "governorGloss": "produce",
+          "dependent": 15,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 16,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "liters",
+          "dependent": 17,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "produce",
+          "dependent": 18,
+          "dependentGloss": "liters"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "liters",
+          "dependent": 21,
+          "dependentGloss": "solution"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 22,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 23,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "%",
+          "dependent": 24,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "sodium",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 21,
+          "governorGloss": "solution",
+          "dependent": 26,
+          "dependentGloss": "sodium"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "use",
+          "dependent": 27,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 101,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "liters",
+          "originalText": "liters",
+          "lemma": "liter",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 108,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 111,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "32",
+          "originalText": "32",
+          "lemma": "32",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%32.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%32.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 123,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 125,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 134,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 141,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 145,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "chemist",
+          "originalText": "chemist",
+          "lemma": "chemist",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 153,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "use",
+          "originalText": "use",
+          "lemma": "use",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 157,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 160,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "produce",
+          "originalText": "produce",
+          "lemma": "produce",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 168,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "50",
+          "originalText": "50",
+          "lemma": "50",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 171,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "50.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "liters",
+          "originalText": "liters",
+          "lemma": "liter",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 178,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 181,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 185,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "solution",
+          "originalText": "solution",
+          "lemma": "solution",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 194,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 199,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 202,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 205,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 207,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "sodium",
+          "originalText": "sodium",
+          "lemma": "sodium",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 214,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 27,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 215,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A chemist",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "the chemist",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a solution that is 32 % sodium and another solution that is 12 % sodium",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "12 % solution",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "32 % sodium and another solution that is 12 % sodium",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "32 % sodium",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "another solution that is 12 % sodium",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "12 % sodium",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "50",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "50 liters of the solution that is 20 % sodium",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 27,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "the solution that is 20 % sodium",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 27,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "20 % sodium",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 27,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

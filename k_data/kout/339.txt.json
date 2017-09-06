@@ -1,0 +1,2079 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP David))\n    (VP (VBD bought)\n      (S\n        (NP\n          (NP (CD 3) (NNS hamburgers))\n          (CC and)\n          (NP\n            (NP (CD 2) (NNS servings))\n            (PP (IN of)\n              (NP (JJ french) (NNS fries)))))\n        (PP (IN at)\n          (NP\n            (NP (NNP Diane) (POS 's))\n            (NNP Drive)))\n        (PP (IN Up)\n          (PP (IN for)\n            (NP (CD 6.25) (NNS dollars))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 1,
+          "dependentGloss": "David"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": "hamburgers"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "servings",
+          "dependent": 6,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 7,
+          "dependentGloss": "servings"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fries",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "fries",
+          "dependent": 9,
+          "dependentGloss": "french"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "servings",
+          "dependent": 10,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "Drive",
+          "dependent": 11,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "Drive",
+          "dependent": 12,
+          "dependentGloss": "Diane"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "Diane",
+          "dependent": 13,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 14,
+          "dependentGloss": "Drive"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "Up"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "6.25"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 1,
+          "dependentGloss": "David"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": "hamburgers"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "servings",
+          "dependent": 6,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 7,
+          "dependentGloss": "servings"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fries",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "fries",
+          "dependent": 9,
+          "dependentGloss": "french"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "servings",
+          "dependent": 10,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "Drive",
+          "dependent": 11,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "Drive",
+          "dependent": 12,
+          "dependentGloss": "Diane"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "Diane",
+          "dependent": 13,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 14,
+          "dependentGloss": "Drive"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "Up"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "6.25"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 1,
+          "dependentGloss": "David"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 3,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": "hamburgers"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "servings",
+          "dependent": 6,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 7,
+          "dependentGloss": "servings"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 7,
+          "dependentGloss": "servings"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fries",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "fries",
+          "dependent": 9,
+          "dependentGloss": "french"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "servings",
+          "dependent": 10,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "Drive",
+          "dependent": 11,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "Drive",
+          "dependent": 12,
+          "dependentGloss": "Diane"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "Diane",
+          "dependent": 13,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 14,
+          "dependentGloss": "Drive"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "Up"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "6.25"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "hamburgers",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bought",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "David",
+          "originalText": "David",
+          "lemma": "David",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 12,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "hamburgers",
+          "originalText": "hamburgers",
+          "lemma": "hamburger",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 25,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 31,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "servings",
+          "originalText": "servings",
+          "lemma": "serving",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 40,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "french",
+          "originalText": "french",
+          "lemma": "french",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 50,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "fries",
+          "originalText": "fries",
+          "lemma": "fries",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 56,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Diane",
+          "originalText": "Diane",
+          "lemma": "Diane",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 65,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 68,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Drive",
+          "originalText": "Drive",
+          "lemma": "Drive",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 74,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "Up",
+          "originalText": "Up",
+          "lemma": "up",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 77,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "6.25",
+          "originalText": "6.25",
+          "lemma": "6.25",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$6.25",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 94,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$6.25",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 95,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBARQ\n      (SBAR (IN If)\n        (S\n          (NP\n            (NP (DT a) (VBG serving))\n            (PP (IN of)\n              (NP\n                (NP (NNS fries) (NNS costs))\n                (ADVP\n                  (NP (CD 0.25) (NNS cents))\n                  (RBR more)))))\n          (VP (RB then)\n            (NP (DT a) (NN hamburger)))))\n      (, ,)\n      (WHNP (WP what))\n      (SQ (VBZ is)\n        (NP\n          (NP (DT the) (NN cost))\n          (PP (IN of)\n            (NP (DT a) (NN hamburger))))))\n    (CC and)\n    (SBARQ\n      (WHNP (WP what))\n      (SQ (VBZ is)\n        (NP\n          (NP (DT the) (NN cost))\n          (PP (IN of)\n            (NP\n              (NP (DT a) (VBG serving))\n              (PP (IN of)\n                (NP (JJ french) (NNS fries)))))))\n      (. ?))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "a",
+          "dependent": 3,
+          "dependentGloss": "serving"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "a",
+          "dependent": 6,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cents",
+          "dependent": 7,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 9,
+          "governorGloss": "more",
+          "dependent": 8,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 9,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 10,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 12,
+          "dependentGloss": "hamburger"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 15,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 17,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "hamburger",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "hamburger",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 20,
+          "dependentGloss": "hamburger"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 22,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "cop",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 23,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "cost",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 25,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 26,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 25,
+          "governorGloss": "cost",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 28,
+          "dependentGloss": "serving"
+        },
+        {
+          "dep": "case",
+          "governor": 31,
+          "governorGloss": "fries",
+          "dependent": 29,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 31,
+          "governorGloss": "fries",
+          "dependent": 30,
+          "dependentGloss": "french"
+        },
+        {
+          "dep": "nmod",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 31,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 32,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "a",
+          "dependent": 3,
+          "dependentGloss": "serving"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "a",
+          "dependent": 6,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cents",
+          "dependent": 7,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 9,
+          "governorGloss": "more",
+          "dependent": 8,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 9,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 10,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 12,
+          "dependentGloss": "hamburger"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 15,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 17,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "hamburger",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "hamburger",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 20,
+          "dependentGloss": "hamburger"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 22,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "cop",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 23,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "cost",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 25,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 26,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 25,
+          "governorGloss": "cost",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 28,
+          "dependentGloss": "serving"
+        },
+        {
+          "dep": "case",
+          "governor": 31,
+          "governorGloss": "fries",
+          "dependent": 29,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 31,
+          "governorGloss": "fries",
+          "dependent": 30,
+          "dependentGloss": "french"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 31,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 32,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "a",
+          "dependent": 3,
+          "dependentGloss": "serving"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 5,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "a",
+          "dependent": 6,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cents",
+          "dependent": 7,
+          "dependentGloss": "0.25"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 9,
+          "governorGloss": "more",
+          "dependent": 8,
+          "dependentGloss": "cents"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "costs",
+          "dependent": 9,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 10,
+          "dependentGloss": "then"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "hamburger",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 12,
+          "dependentGloss": "hamburger"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 15,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 17,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "hamburger",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "hamburger",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 20,
+          "dependentGloss": "hamburger"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "what",
+          "dependent": 22,
+          "dependentGloss": "what"
+        },
+        {
+          "dep": "cop",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 23,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "cost",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 25,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 26,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 25,
+          "governorGloss": "cost",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 28,
+          "dependentGloss": "serving"
+        },
+        {
+          "dep": "case",
+          "governor": 31,
+          "governorGloss": "fries",
+          "dependent": 29,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 31,
+          "governorGloss": "fries",
+          "dependent": 30,
+          "dependentGloss": "french"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 27,
+          "governorGloss": "a",
+          "dependent": 31,
+          "dependentGloss": "fries"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "what",
+          "dependent": 32,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 98,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 100,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "serving",
+          "originalText": "serving",
+          "lemma": "serve",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 108,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 111,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "fries",
+          "originalText": "fries",
+          "lemma": "fries",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 117,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "costs",
+          "originalText": "costs",
+          "lemma": "cost",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 123,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "0.25",
+          "originalText": "0.25",
+          "lemma": "0.25",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 128,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.0025",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "cents",
+          "originalText": "cents",
+          "lemma": "cent",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 134,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.0025",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 139,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "then",
+          "originalText": "then",
+          "lemma": "then",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 144,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 146,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "hamburger",
+          "originalText": "hamburger",
+          "lemma": "hamburger",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 156,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 158,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "what",
+          "originalText": "what",
+          "lemma": "what",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 163,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 166,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 170,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 175,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 178,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 180,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "hamburger",
+          "originalText": "hamburger",
+          "lemma": "hamburger",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 190,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 194,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "what",
+          "originalText": "what",
+          "lemma": "what",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 199,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 202,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 206,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 211,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 214,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 216,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "serving",
+          "originalText": "serving",
+          "lemma": "serve",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 224,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 227,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "french",
+          "originalText": "french",
+          "lemma": "french",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 234,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "fries",
+          "originalText": "fries",
+          "lemma": "fries",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 240,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 32,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 241,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "David",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Diane 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "3 hamburgers and 2 servings of french fries",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "3 hamburgers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2 servings of french fries",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "french fries",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "french fries",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 30,
+        "endIndex": 32,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "Diane 's Drive",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "a serving of fries costs 0.25 cents more",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 2,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "fries costs 0.25 cents more",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "a hamburger",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "a hamburger",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "the cost of a hamburger",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "the cost of a serving of french fries",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 32,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "a serving of french fries",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 27,
+        "endIndex": 32,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

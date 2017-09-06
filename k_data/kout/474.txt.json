@@ -1,0 +1,2311 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (DT the) (CD 2000-2001) (NN baseball) (NN season)))\n    (, ,)\n    (NP (DT the) (NNP Seattle) (NNP Mariners))\n    (VP (VBD tied)\n      (NP\n        (NP (DT a) (NN league) (NN record))\n        (VP (VBN set)\n          (PP (IN by)\n            (NP\n              (NP (DT the) (CD 1906) (NNP Chicago) (NNP Cubs))\n              (PP (IN for)\n                (NP (JJS most) (NNS wins)))))\n          (PP (IN in)\n            (NP (DT a) (NN season))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "tied"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 3,
+          "dependentGloss": "2000-2001"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 4,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 5,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "Mariners",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "Mariners",
+          "dependent": 8,
+          "dependentGloss": "Seattle"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 9,
+          "dependentGloss": "Mariners"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 12,
+          "dependentGloss": "league"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 13,
+          "dependentGloss": "record"
+        },
+        {
+          "dep": "acl",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 14,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 15,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 17,
+          "dependentGloss": "1906"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 18,
+          "dependentGloss": "Chicago"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "set",
+          "dependent": 19,
+          "dependentGloss": "Cubs"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "wins",
+          "dependent": 20,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 22,
+          "governorGloss": "wins",
+          "dependent": 21,
+          "dependentGloss": "most"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 22,
+          "dependentGloss": "wins"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "season",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "season",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "set",
+          "dependent": 25,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "tied"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 3,
+          "dependentGloss": "2000-2001"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 4,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 5,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "Mariners",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "Mariners",
+          "dependent": 8,
+          "dependentGloss": "Seattle"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 9,
+          "dependentGloss": "Mariners"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 12,
+          "dependentGloss": "league"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 13,
+          "dependentGloss": "record"
+        },
+        {
+          "dep": "acl",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 14,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 15,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 17,
+          "dependentGloss": "1906"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 18,
+          "dependentGloss": "Chicago"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 14,
+          "governorGloss": "set",
+          "dependent": 19,
+          "dependentGloss": "Cubs"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "wins",
+          "dependent": 20,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 22,
+          "governorGloss": "wins",
+          "dependent": 21,
+          "dependentGloss": "most"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 22,
+          "dependentGloss": "wins"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "season",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "season",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 14,
+          "governorGloss": "set",
+          "dependent": 25,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "tied"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 3,
+          "dependentGloss": "2000-2001"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "season",
+          "dependent": 4,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 5,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "Mariners",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "Mariners",
+          "dependent": 8,
+          "dependentGloss": "Seattle"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 9,
+          "dependentGloss": "Mariners"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 12,
+          "dependentGloss": "league"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 13,
+          "dependentGloss": "record"
+        },
+        {
+          "dep": "acl",
+          "governor": 13,
+          "governorGloss": "record",
+          "dependent": 14,
+          "dependentGloss": "set"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 15,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 17,
+          "dependentGloss": "1906"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 18,
+          "dependentGloss": "Chicago"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 14,
+          "governorGloss": "set",
+          "dependent": 19,
+          "dependentGloss": "Cubs"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "wins",
+          "dependent": 20,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 22,
+          "governorGloss": "wins",
+          "dependent": 21,
+          "dependentGloss": "most"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 19,
+          "governorGloss": "Cubs",
+          "dependent": 22,
+          "dependentGloss": "wins"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "season",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "season",
+          "dependent": 24,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 14,
+          "governorGloss": "set",
+          "dependent": 25,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "tied",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "In",
+          "originalText": "In",
+          "lemma": "in",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 6,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "2000-2001",
+          "originalText": "2000-2001",
+          "lemma": "2000-2001",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 16,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "PT8784H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "PT8784H"
+          }
+        },
+        {
+          "index": 4,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "season",
+          "originalText": "season",
+          "lemma": "season",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 32,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 34,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 38,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Seattle",
+          "originalText": "Seattle",
+          "lemma": "Seattle",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 46,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Mariners",
+          "originalText": "Mariners",
+          "lemma": "Mariners",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 55,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "tied",
+          "originalText": "tied",
+          "lemma": "tie",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "league",
+          "originalText": "league",
+          "lemma": "league",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 69,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "record",
+          "originalText": "record",
+          "lemma": "record",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 76,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "set",
+          "originalText": "set",
+          "lemma": "set",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 80,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 83,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 87,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "1906",
+          "originalText": "1906",
+          "lemma": "1906",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "1906",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "DATE",
+            "value": "1906"
+          }
+        },
+        {
+          "index": 18,
+          "word": "Chicago",
+          "originalText": "Chicago",
+          "lemma": "Chicago",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 100,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "Cubs",
+          "originalText": "Cubs",
+          "lemma": "Cubs",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 105,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 109,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "most",
+          "originalText": "most",
+          "lemma": "most",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 114,
+          "pos": "JJS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "wins",
+          "originalText": "wins",
+          "lemma": "win",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 122,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 124,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "season",
+          "originalText": "season",
+          "lemma": "season",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 131,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 132,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NNPS Mainers))\n    (VP (VBD won)\n      (NP\n        (QP (CD 24) (JJR more)))\n      (PP (IN than)\n        (NP\n          (QP (RB twice) (RB as) (JJ many))\n          (NNS games)))\n      (SBAR (IN as)\n        (S\n          (NP (PRP they))\n          (VP (VBD lost)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "won"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "Mainers",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 2,
+          "dependentGloss": "Mainers"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 4,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "24",
+          "dependent": 5,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "games",
+          "dependent": 6,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 7,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 8,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "games",
+          "dependent": 9,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 10,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "lost",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "lost",
+          "dependent": 12,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 13,
+          "dependentGloss": "lost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "won"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "Mainers",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 2,
+          "dependentGloss": "Mainers"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 4,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "24",
+          "dependent": 5,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "games",
+          "dependent": 6,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 7,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 8,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "games",
+          "dependent": 9,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 10,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "lost",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "lost",
+          "dependent": 12,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 13,
+          "dependentGloss": "lost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "won"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "Mainers",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 2,
+          "dependentGloss": "Mainers"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 4,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "24",
+          "dependent": 5,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "games",
+          "dependent": 6,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 7,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "many",
+          "dependent": 8,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "games",
+          "dependent": 9,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 10,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "lost",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "lost",
+          "dependent": 12,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 13,
+          "dependentGloss": "lost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "won",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Mainers",
+          "originalText": "Mainers",
+          "lemma": "Mainers",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 144,
+          "pos": "NNPS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "won",
+          "originalText": "won",
+          "lemma": "win",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 148,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "24",
+          "originalText": "24",
+          "lemma": "24",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 151,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "24.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 156,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 161,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "twice",
+          "originalText": "twice",
+          "lemma": "twice",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 167,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 170,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 175,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 181,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 184,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 189,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "lost",
+          "originalText": "lost",
+          "lemma": "lose",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 194,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 195,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (PRP They))\n    (VP (VBD played)\n      (NP (CD 162) (JJ regular) (NN season) (NNS games)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "played"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 1,
+          "dependentGloss": "They"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "162"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "regular"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "played"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 1,
+          "dependentGloss": "They"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "162"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "regular"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "played"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 1,
+          "dependentGloss": "They"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 3,
+          "dependentGloss": "162"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 4,
+          "dependentGloss": "regular"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "season"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "played",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "They",
+          "originalText": "They",
+          "lemma": "they",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 200,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "played",
+          "originalText": "played",
+          "lemma": "play",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 207,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "162",
+          "originalText": "162",
+          "lemma": "162",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 211,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "162.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "regular",
+          "originalText": "regular",
+          "lemma": "regular",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 219,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "season",
+          "originalText": "season",
+          "lemma": "season",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 226,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 232,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 233,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NNS wins))\n        (CC and)\n        (NP (NNS losses))))\n    (SQ (VBD did)\n      (NP (DT the) (NNS mariners))\n      (VP (VB have)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "wins"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 5,
+          "dependentGloss": "losses"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mariners",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "mariners"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "wins"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 5,
+          "dependentGloss": "losses"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mariners",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "mariners"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "wins"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 4,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 3,
+          "governorGloss": "wins",
+          "dependent": 5,
+          "dependentGloss": "losses"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "losses"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mariners",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "mariners"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 237,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 242,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "wins",
+          "originalText": "wins",
+          "lemma": "win",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 247,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 251,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "losses",
+          "originalText": "losses",
+          "lemma": "loss",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 258,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 262,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 263,
+          "characterOffsetEnd": 266,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mariners",
+          "originalText": "mariners",
+          "lemma": "mariner",
+          "characterOffsetBegin": 267,
+          "characterOffsetEnd": 275,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 276,
+          "characterOffsetEnd": 280,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 280,
+          "characterOffsetEnd": 281,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "the 2000-2001 baseball season",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "the Seattle Mariners",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "the mariners",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a league record set by the 1906 Chicago Cubs for most wins in a season",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "the 1906 Chicago Cubs for most wins",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 23,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "most wins",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 23,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "wins",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a season",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "The Mainers",
+        "type": "PROPER",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "They",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "24 more",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "twice as many games",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "162",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "162 regular season games",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "wins and losses",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "losses",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

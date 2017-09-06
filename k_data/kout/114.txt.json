@@ -1,0 +1,1577 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN carpenter))\n    (VP (VBD gave)\n      (NP\n        (NP (DT an) (NN estimate))\n        (PP (IN of)\n          (NP\n            (QP (CD 980) (NNS dollars)))))\n      (S\n        (VP (TO to)\n          (VP (VB build)\n            (NP\n              (NP (DT a) (NN cover))\n              (PP (IN over)\n                (NP (DT a) (NN patio))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "carpenter",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 2,
+          "dependentGloss": "carpenter"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "estimate",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 5,
+          "dependentGloss": "estimate"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "980"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "estimate",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "build",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 10,
+          "dependentGloss": "build"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "cover",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "build",
+          "dependent": 12,
+          "dependentGloss": "cover"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "patio",
+          "dependent": 13,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "patio",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "cover",
+          "dependent": 15,
+          "dependentGloss": "patio"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "carpenter",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 2,
+          "dependentGloss": "carpenter"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "estimate",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 5,
+          "dependentGloss": "estimate"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "980"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "estimate",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "build",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 10,
+          "dependentGloss": "build"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "cover",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "build",
+          "dependent": 12,
+          "dependentGloss": "cover"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "patio",
+          "dependent": 13,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "patio",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 12,
+          "governorGloss": "cover",
+          "dependent": 15,
+          "dependentGloss": "patio"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "carpenter",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 2,
+          "dependentGloss": "carpenter"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "estimate",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 5,
+          "dependentGloss": "estimate"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "980"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "estimate",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "build",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 10,
+          "dependentGloss": "build"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "cover",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "build",
+          "dependent": 12,
+          "dependentGloss": "cover"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "patio",
+          "dependent": 13,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "patio",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 12,
+          "governorGloss": "cover",
+          "dependent": 15,
+          "dependentGloss": "patio"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "gave",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "carpenter",
+          "originalText": "carpenter",
+          "lemma": "carpenter",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 11,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "gave",
+          "originalText": "gave",
+          "lemma": "give",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 16,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "estimate",
+          "originalText": "estimate",
+          "lemma": "estimate",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 28,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 31,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "980",
+          "originalText": "980",
+          "lemma": "980",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 35,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$980.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 43,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$980.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 46,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "build",
+          "originalText": "build",
+          "lemma": "build",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 52,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 54,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "cover",
+          "originalText": "cover",
+          "lemma": "cover",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 60,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "over",
+          "originalText": "over",
+          "lemma": "over",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 67,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "patio",
+          "originalText": "patio",
+          "lemma": "patio",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 73,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 74,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (PRP$ His) (JJ hourly) (NN rate))\n      (VP (VBZ is)\n        (NP (CD 28) (NNS dollars))))\n    (CC and)\n    (S\n      (NP (PRP he))\n      (VP (VBZ expects)\n        (S\n          (VP (TO to)\n            (VP (VB need)\n              (NP\n                (NP (CD 560) (NNS dollars))\n                (PP (IN in)\n                  (NP (NNS materials)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "rate",
+          "dependent": 1,
+          "dependentGloss": "His"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "rate",
+          "dependent": 2,
+          "dependentGloss": "hourly"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "rate"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "expects",
+          "dependent": 8,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "expects"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "need",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "expects",
+          "dependent": 11,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "560"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "need",
+          "dependent": 13,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "materials",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "materials"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "rate",
+          "dependent": 1,
+          "dependentGloss": "His"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "rate",
+          "dependent": 2,
+          "dependentGloss": "hourly"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "rate"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "expects",
+          "dependent": 8,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "expects"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "need",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "expects",
+          "dependent": 11,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "560"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "need",
+          "dependent": 13,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "materials",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "materials"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "rate",
+          "dependent": 1,
+          "dependentGloss": "His"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "rate",
+          "dependent": 2,
+          "dependentGloss": "hourly"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "rate"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "28"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "expects",
+          "dependent": 8,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "expects"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "need",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "expects",
+          "dependent": 11,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "560"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "need",
+          "dependent": 13,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "materials",
+          "dependent": 14,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "materials"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "His",
+          "originalText": "His",
+          "lemma": "he",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "hourly",
+          "originalText": "hourly",
+          "lemma": "hourly",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 85,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "SET",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 3,
+          "word": "rate",
+          "originalText": "rate",
+          "lemma": "rate",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 90,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 93,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "28",
+          "originalText": "28",
+          "lemma": "28",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$28.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 104,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$28.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 108,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 111,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "expects",
+          "originalText": "expects",
+          "lemma": "expect",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 119,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 122,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "need",
+          "originalText": "need",
+          "lemma": "need",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "560",
+          "originalText": "560",
+          "lemma": "560",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 131,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$560.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 139,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$560.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 142,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "materials",
+          "originalText": "materials",
+          "lemma": "material",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 152,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 153,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS hours))\n    (SQ (MD will)\n      (NP (DT the) (NN job))\n      (VP (VB take)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "take"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 4,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "job",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 6,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "take"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 4,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "job",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 6,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "take"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 4,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "job",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 6,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "take",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 157,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 162,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "hours",
+          "originalText": "hours",
+          "lemma": "hour",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 168,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PTXH",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "PTXH"
+          }
+        },
+        {
+          "index": 4,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 173,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 177,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "job",
+          "originalText": "job",
+          "lemma": "job",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 181,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "take",
+          "originalText": "take",
+          "lemma": "take",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 186,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 187,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A carpenter",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "His",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "an estimate of 980 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a cover over a patio",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a patio",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "His hourly rate",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "materials",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the job",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}
