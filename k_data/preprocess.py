@@ -1,5 +1,6 @@
 import sys
 from torchtext import data
+from torch import save
 
 TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
 LABELS = data.Field()
@@ -15,3 +16,4 @@ train_iter, val_iter, test_iter = data.BucketIterator.splits(
 
 TEXT.build_vocab(train,wv_type="glove.6B")
 LABELS.build_vocab(train)
+

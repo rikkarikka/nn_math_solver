@@ -4,7 +4,7 @@ from random import shuffle
 
 surfd = "surfaces/"
 
-with open("kabseq.can.txt") as f:
+with open("kabseq.can.norm.txt") as f:
   eqs = f.read().strip().split("\n")
 surfs = []
 for i in range(len(eqs)):
