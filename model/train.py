@@ -103,6 +103,7 @@ def test(text, model, text_field, label_field):
 model.train()
 for epoch in range(epochs):
     losses = []
+    train_iter.repeat = False 
     for batch_count,batch in enumerate(train_iter):
         model.zero_grad()
         inp = batch.text.t()
