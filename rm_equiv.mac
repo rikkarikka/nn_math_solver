@@ -22,6 +22,7 @@ canonicalize(input_text_file, output_text_file) :=  block(
 
   input_list: readfile(input_text_file),
   closefile(),
+
   for line in input_list do (
     equations: split(line, " ; "),
     eqs_canonicalized: [],
@@ -29,6 +30,7 @@ canonicalize(input_text_file, output_text_file) :=  block(
       equation_sides: split(eq, " = "),
       /*print(concat("eq: ", eq)),
       print(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ( ", equation_sides[1], " )"))))),*/
+      /* */
       eqs_canonicalized: append(eqs_canonicalized, [(concat(string(rat(parse_string(concat("0 = ", equation_sides[2], " - ( ", equation_sides[1], " )"))))))])
     ),
     final_line: "",
@@ -54,4 +56,4 @@ canonicalize(input_text_file, output_text_file) :=  block(
 /*canonicalize(canonicalize("./data/train.eq", "./data/train.can.eq"))$*/
 /*canonicalize("./data/val.eq", "./data/val.can.eq")$*/
 /*canonicalize("./data/test.eq", "./data/test.can.eq")$*/
-canonicalize("./data/_new_data/abseq.txt", "./data/_new_data/abseq.can.txt")$
+canonicalize("./data/_new_data/abseq.norm.txt", "./data/_new_data/abseq.norm.can.txt")$
