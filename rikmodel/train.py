@@ -30,7 +30,7 @@ TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
 LABELS = data.Field(sequential=False)
 
 train, val, test = data.TabularDataset.splits(
-    path='../k_data/kdata', train='_train.tsv',
+    path='../new_data/kdata', train='_train.tsv',
     validation='_dev.tsv', test='_test.tsv', format='tsv',
     fields=[('text', TEXT), ('label', LABELS)])
 
