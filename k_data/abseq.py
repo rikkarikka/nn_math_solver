@@ -15,6 +15,9 @@ path = sys.argv[1]
 with open('keq.txt') as f:
   equations = f.read().split("\n")
 #if True:
+
+abseq = []
+absurf = []
 for f in os.listdir(path):
   if f[0] == '.': continue
   print(f)
@@ -58,7 +61,15 @@ for f in os.listdir(path):
           lastner = None
         t = x['word']
       txt.append(t)
-    surface.append(" ".join(txt))
+    surf = " ".join(txt)
+    for x in math_nums:
+      if str(int(x)) in surf:
+        print('replacing: ',str(x))
+        t = "NUMBER_"+str(numctr)
+        surf = surf.replace(str(int(x)),t)
+        math_nums[x] = t
+        numctr+=1
+    surface.append(surf)
 
     #make script
     deps = [x for x in s["collapsed-ccprocessed-dependencies"] if x['dep'] in ['nsubj','dobj','iobj']]
@@ -103,8 +114,14 @@ for f in os.listdir(path):
     else:
       finaleq.append(x)
 
-  with open("abs_eqs/"+f[:-5],'w') as g:
-    g.write(" ".join(finaleq)+"\n")
+  #with open("abs_eqs/"+f[:-5],'w') as g:
+  #  g.write(" ".join(finaleq)+"\n")
+  abseq.append(" ".join(finaleq))
+  absurf.append(" ".join(surface))
 
-  with open("surfaces/"+f[:-5],'w') as g:
-    g.write(" ".join(surface))
+  #with open("surfaces/"+f[:-5],'w') as g:
+  #  g.write(" ".join(surface))
+with open("abseq.txt",'w') as f:
+  f.write("\n".join(abseq))
+with open("absurf.txt",'w') as f:
+  f.write("\n".join(absurf))
