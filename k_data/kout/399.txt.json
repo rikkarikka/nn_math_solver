@@ -1,0 +1,2019 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN hotel))\n    (VP (VBD purchased)\n      (NP\n        (NP (CD 38) (NN bath) (NNS towels))\n        (CC and)\n        (NP (CD 61) (NNS washcloths)))\n      (PP (IN for)\n        (NP\n          (NP (DT a) (JJ total) (NN cost))\n          (PP (IN of)\n            (NP (CD 791.50) (NNS dollars))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchased"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "hotel",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 2,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 4,
+          "dependentGloss": "38"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 6,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "washcloths",
+          "dependent": 8,
+          "dependentGloss": "61"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 9,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 12,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 13,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "791.50"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 16,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchased"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "hotel",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 2,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 4,
+          "dependentGloss": "38"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 6,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "washcloths",
+          "dependent": 8,
+          "dependentGloss": "61"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 9,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 12,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 13,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "791.50"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 16,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchased"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "hotel",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 2,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 4,
+          "dependentGloss": "38"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 6,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "washcloths",
+          "dependent": 8,
+          "dependentGloss": "61"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 9,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "towels",
+          "dependent": 9,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 12,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 13,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "791.50"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "cost",
+          "dependent": 16,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchased",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "hotel",
+          "originalText": "hotel",
+          "lemma": "hotel",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "purchased",
+          "originalText": "purchased",
+          "lemma": "purchase",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 17,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "38",
+          "originalText": "38",
+          "lemma": "38",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 20,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "38.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "bath",
+          "originalText": "bath",
+          "lemma": "bath",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "towels",
+          "originalText": "towels",
+          "lemma": "towel",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 32,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 36,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "61",
+          "originalText": "61",
+          "lemma": "61",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 39,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "61.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "washcloths",
+          "originalText": "washcloths",
+          "lemma": "washcloth",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 50,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 54,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 56,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 62,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "791.50",
+          "originalText": "791.50",
+          "lemma": "791.50",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 77,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$791.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 85,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$791.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 86,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (NP\n    (NP (DT A) (JJ second) (NN purchase))\n    (PP (IN of)\n      (NP\n        (NP (CD 54) (NN bath) (NNS towels))\n        (CC and)\n        (NP (CD 50) (NNS washcloths))))\n    (, ,)\n    (PP (IN at)\n      (NP (DT the) (JJ same) (NNS prices)))\n    (, ,)\n    (NP\n      (NP (NN cost))\n      (NP\n        (QP (CD 923) (NNS dollars))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 2,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "54"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 6,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 7,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "washcloths",
+          "dependent": 9,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 12,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 14,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 15,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "appos",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 17,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "923"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 19,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 2,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "54"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 6,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 7,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "washcloths",
+          "dependent": 9,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 12,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 14,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 15,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "appos",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 17,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "923"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 19,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 2,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "54"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 6,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 7,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "washcloths",
+          "dependent": 9,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "towels",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 12,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 14,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 15,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "appos",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 17,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "923"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "cost",
+          "dependent": 19,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 88,
+          "pos": "DT",
+          "ner": "DURATION",
+          "normalizedNER": "PT1S",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1S"
+          }
+        },
+        {
+          "index": 2,
+          "word": "second",
+          "originalText": "second",
+          "lemma": "second",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 95,
+          "pos": "JJ",
+          "ner": "DURATION",
+          "normalizedNER": "PT1S",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1S"
+          }
+        },
+        {
+          "index": 3,
+          "word": "purchase",
+          "originalText": "purchase",
+          "lemma": "purchase",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 104,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 107,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "54",
+          "originalText": "54",
+          "lemma": "54",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 110,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "54.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "bath",
+          "originalText": "bath",
+          "lemma": "bath",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "towels",
+          "originalText": "towels",
+          "lemma": "towel",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 122,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 126,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "50",
+          "originalText": "50",
+          "lemma": "50",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 129,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "50.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "washcloths",
+          "originalText": "washcloths",
+          "lemma": "washcloth",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 140,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 142,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 149,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "same",
+          "originalText": "same",
+          "lemma": "same",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 154,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "prices",
+          "originalText": "prices",
+          "lemma": "price",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 161,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 163,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 168,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "923",
+          "originalText": "923",
+          "lemma": "923",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 172,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$923.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 180,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$923.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 181,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (JJ individual) (NNS prices))\n        (PP (IN of)\n          (NP (DT the) (NN bath) (NNS towels)\n            (CC and)\n            (NNS washcloths)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 3,
+          "dependentGloss": "individual"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 7,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 8,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 3,
+          "dependentGloss": "individual"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 7,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 8,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 3,
+          "dependentGloss": "individual"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 7,
+          "dependentGloss": "bath"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 8,
+          "dependentGloss": "towels"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "prices",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "towels",
+          "dependent": 10,
+          "dependentGloss": "washcloths"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 186,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 190,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "individual",
+          "originalText": "individual",
+          "lemma": "individual",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 201,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "prices",
+          "originalText": "prices",
+          "lemma": "price",
+          "characterOffsetBegin": 202,
+          "characterOffsetEnd": 208,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 211,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 215,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bath",
+          "originalText": "bath",
+          "lemma": "bath",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 220,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "towels",
+          "originalText": "towels",
+          "lemma": "towel",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 227,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 231,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "washcloths",
+          "originalText": "washcloths",
+          "lemma": "washcloth",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 242,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 243,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "38",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "61",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "A hotel",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "38 bath towels and 61 washcloths",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "38 bath towels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "61 washcloths",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a total cost of 791.50 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "54",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "50",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "A second purchase of 54 bath towels and 50 washcloths , at the same prices , cost 923 dollars.",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "54 bath towels and 50 washcloths",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "the bath towels and washcloths",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "54 bath towels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "50 washcloths",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "the same prices",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "cost 923 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "the individual prices of the bath towels and washcloths",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

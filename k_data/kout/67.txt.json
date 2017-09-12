@@ -1,0 +1,2430 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Flying))\n      (PP (IN with)\n        (NP\n          (NP (DT the) (NN wind))\n          (, ,)\n          (NP (DT a) (NN bird)))))\n    (VP (VBD was)\n      (ADJP (JJ able)\n        (S\n          (VP (TO to)\n            (VP (VB make)\n              (NP\n                (NP (CD 150) (NNS kilometers))\n                (PP (IN per)\n                  (NP (NN hour)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "able"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 1,
+          "dependentGloss": "Flying"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 2,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Flying",
+          "dependent": 4,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "bird",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "appos",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 7,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 8,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "make",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 11,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "kilometers",
+          "dependent": 12,
+          "dependentGloss": "150"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "make",
+          "dependent": 13,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "hour",
+          "dependent": 14,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "kilometers",
+          "dependent": 15,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "able"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 1,
+          "dependentGloss": "Flying"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 2,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 1,
+          "governorGloss": "Flying",
+          "dependent": 4,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "bird",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "appos",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 7,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 8,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "make",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 11,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "kilometers",
+          "dependent": 12,
+          "dependentGloss": "150"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "make",
+          "dependent": 13,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "hour",
+          "dependent": 14,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 13,
+          "governorGloss": "kilometers",
+          "dependent": 15,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "able"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 1,
+          "dependentGloss": "Flying"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 2,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 1,
+          "governorGloss": "Flying",
+          "dependent": 4,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "bird",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "appos",
+          "governor": 4,
+          "governorGloss": "wind",
+          "dependent": 7,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 8,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "make",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 11,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "kilometers",
+          "dependent": 12,
+          "dependentGloss": "150"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "make",
+          "dependent": 13,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "hour",
+          "dependent": 14,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 13,
+          "governorGloss": "kilometers",
+          "dependent": 15,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "able",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Flying",
+          "originalText": "Flying",
+          "lemma": "Flying",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 11,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 15,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "wind",
+          "originalText": "wind",
+          "lemma": "wind",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 20,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 22,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 24,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bird",
+          "originalText": "bird",
+          "lemma": "bird",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 29,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 33,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "able",
+          "originalText": "able",
+          "lemma": "able",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 38,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 41,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 46,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "150",
+          "originalText": "150",
+          "lemma": "150",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 50,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "150.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "kilometers",
+          "originalText": "kilometers",
+          "lemma": "kilometer",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 61,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 65,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 70,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 71,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN If)\n      (S\n        (S\n          (NP (DT the) (NN wind))\n          (VP (VBD was)\n            (NP\n              (QP (CD 0.5) (NNS times)))\n            (PP (IN as)\n              (ADJP (JJ strong)))))\n        (CC and)\n        (S\n          (NP (DT the) (NN bird))\n          (VP (VBZ flies)\n            (PP (IN against)\n              (NP (PRP it)))))))\n    (, ,)\n    (NP (PRP it))\n    (VP (MD could)\n      (VP (VB make)\n        (NP\n          (NP\n            (QP (RB only) (CD 30))\n            (NNS kilometers))\n          (PP (IN per)\n            (NP (NN hour))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "wind",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 6,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "strong",
+          "dependent": 7,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advcl",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 8,
+          "dependentGloss": "strong"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bird",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "flies",
+          "dependent": 11,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "flies"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "it",
+          "dependent": 13,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "flies",
+          "dependent": 14,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 16,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 17,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "advmod",
+          "governor": 20,
+          "governorGloss": "30",
+          "dependent": 19,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "kilometers",
+          "dependent": 20,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 21,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "hour",
+          "dependent": 22,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 21,
+          "governorGloss": "kilometers",
+          "dependent": 23,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "wind",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 6,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "strong",
+          "dependent": 7,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advcl:as",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 8,
+          "dependentGloss": "strong"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bird",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "flies",
+          "dependent": 11,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "flies"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "it",
+          "dependent": 13,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 12,
+          "governorGloss": "flies",
+          "dependent": 14,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 16,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 17,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "advmod",
+          "governor": 20,
+          "governorGloss": "30",
+          "dependent": 19,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "kilometers",
+          "dependent": 20,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 21,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "hour",
+          "dependent": 22,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 21,
+          "governorGloss": "kilometers",
+          "dependent": 23,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "wind",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "cop",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 6,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "strong",
+          "dependent": 7,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advcl:as",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 8,
+          "dependentGloss": "strong"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bird",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "flies",
+          "dependent": 11,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "flies"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 12,
+          "dependentGloss": "flies"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "it",
+          "dependent": 13,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 12,
+          "governorGloss": "flies",
+          "dependent": 14,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 16,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 17,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "advmod",
+          "governor": 20,
+          "governorGloss": "30",
+          "dependent": 19,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "kilometers",
+          "dependent": 20,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 21,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "hour",
+          "dependent": 22,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 21,
+          "governorGloss": "kilometers",
+          "dependent": 23,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "make",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 74,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "wind",
+          "originalText": "wind",
+          "lemma": "wind",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 83,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 87,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "0.5",
+          "originalText": "0.5",
+          "lemma": "0.5",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 91,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 97,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 100,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "strong",
+          "originalText": "strong",
+          "lemma": "strong",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 107,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 111,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 115,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bird",
+          "originalText": "bird",
+          "lemma": "bird",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 120,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "flies",
+          "originalText": "flies",
+          "lemma": "fly",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 126,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "against",
+          "originalText": "against",
+          "lemma": "against",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 134,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 137,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 139,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 142,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "could",
+          "originalText": "could",
+          "lemma": "could",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 148,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 153,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 158,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 161,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "kilometers",
+          "originalText": "kilometers",
+          "lemma": "kilometer",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 172,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 176,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 181,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 24,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 182,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (NN velocity))\n        (PP (IN of)\n          (NP\n            (NP (DT the) (NN wind))\n            (PP (IN in)\n              (NP\n                (NP (NNS kilometers))\n                (PP (IN per)\n                  (NP (NN hour)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "velocity"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 6,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "kilometers",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 8,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "hour",
+          "dependent": 9,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "kilometers",
+          "dependent": 10,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "velocity"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 6,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "kilometers",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 8,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "hour",
+          "dependent": 9,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 8,
+          "governorGloss": "kilometers",
+          "dependent": 10,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "velocity"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 6,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "kilometers",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "wind",
+          "dependent": 8,
+          "dependentGloss": "kilometers"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "hour",
+          "dependent": 9,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 8,
+          "governorGloss": "kilometers",
+          "dependent": 10,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 187,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 191,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "velocity",
+          "originalText": "velocity",
+          "lemma": "velocity",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 200,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 201,
+          "characterOffsetEnd": 203,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 207,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "wind",
+          "originalText": "wind",
+          "lemma": "wind",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 212,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 215,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "kilometers",
+          "originalText": "kilometers",
+          "lemma": "kilometer",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 226,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 230,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 235,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 236,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (NN velocity))\n        (PP (IN of)\n          (NP (DT the) (NN bird)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "velocity"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "bird",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "bird",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 6,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "velocity"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "bird",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "bird",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 6,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "velocity"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "bird",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "bird",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "velocity",
+          "dependent": 6,
+          "dependentGloss": "bird"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 7,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 241,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 245,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "velocity",
+          "originalText": "velocity",
+          "lemma": "velocity",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 254,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 257,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 261,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "bird",
+          "originalText": "bird",
+          "lemma": "bird",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 266,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 266,
+          "characterOffsetEnd": 267,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "150",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "the velocity of the wind in kilometers per hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Flying with the wind , a bird",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the wind in kilometers per hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "the wind , a bird",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "the wind",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 5,
+        "text": "a bird",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "the wind",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 12,
+        "text": "the bird",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 22,
+        "text": "the bird",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "the velocity of the bird",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "150 kilometers per hour",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 24,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 20,
+        "text": "hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "0.5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "30",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "0.5 times",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "only 30 kilometers per hour",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 24,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 19,
+        "text": "kilometers per hour",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

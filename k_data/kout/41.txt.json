@@ -1,0 +1,3411 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (NP\n    (NP (NNP Norman)\n      (CC and)\n      (NNP Suzanne) (NNP Scarpulla) (JJ own))\n    (NP\n      (NP\n        (NP (CD 35) (NNS shares))\n        (PP (IN of)\n          (NP\n            (NP (NNP Mcdonald) (POS 's))\n            (NNS stocks))))\n      (CC and)\n      (NP\n        (NP (CD 69) (NNS shares))\n        (PP (IN of)\n          (NP (DT the) (NNP Ohio) (NNP Art) (NNP Company) (NN stock)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "Scarpulla"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 1,
+          "dependentGloss": "Norman"
+        },
+        {
+          "dep": "cc",
+          "governor": 1,
+          "governorGloss": "Norman",
+          "dependent": 2,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 1,
+          "governorGloss": "Norman",
+          "dependent": 3,
+          "dependentGloss": "Suzanne"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 5,
+          "dependentGloss": "own"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 6,
+          "dependentGloss": "35"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 7,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "stocks",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "stocks",
+          "dependent": 9,
+          "dependentGloss": "Mcdonald"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Mcdonald",
+          "dependent": 10,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 11,
+          "dependentGloss": "stocks"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "shares",
+          "dependent": 13,
+          "dependentGloss": "69"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 14,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 17,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 18,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 19,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "shares",
+          "dependent": 20,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "Scarpulla"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 1,
+          "dependentGloss": "Norman"
+        },
+        {
+          "dep": "cc",
+          "governor": 1,
+          "governorGloss": "Norman",
+          "dependent": 2,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 1,
+          "governorGloss": "Norman",
+          "dependent": 3,
+          "dependentGloss": "Suzanne"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 5,
+          "dependentGloss": "own"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 6,
+          "dependentGloss": "35"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 7,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "stocks",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "stocks",
+          "dependent": 9,
+          "dependentGloss": "Mcdonald"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Mcdonald",
+          "dependent": 10,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 11,
+          "dependentGloss": "stocks"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "shares",
+          "dependent": 13,
+          "dependentGloss": "69"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 14,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 17,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 18,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 19,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "shares",
+          "dependent": 20,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "Scarpulla"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 1,
+          "dependentGloss": "Norman"
+        },
+        {
+          "dep": "cc",
+          "governor": 1,
+          "governorGloss": "Norman",
+          "dependent": 2,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 1,
+          "governorGloss": "Norman",
+          "dependent": 3,
+          "dependentGloss": "Suzanne"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 3,
+          "dependentGloss": "Suzanne"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 5,
+          "dependentGloss": "own"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 6,
+          "dependentGloss": "35"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 7,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "stocks",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 11,
+          "governorGloss": "stocks",
+          "dependent": 9,
+          "dependentGloss": "Mcdonald"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Mcdonald",
+          "dependent": 10,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 11,
+          "dependentGloss": "stocks"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "shares",
+          "dependent": 13,
+          "dependentGloss": "69"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 14,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "shares",
+          "dependent": 14,
+          "dependentGloss": "shares"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 17,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 18,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "stock",
+          "dependent": 19,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "shares",
+          "dependent": 20,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "Scarpulla",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Norman",
+          "originalText": "Norman",
+          "lemma": "Norman",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "Suzanne",
+          "originalText": "Suzanne",
+          "lemma": "Suzanne",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 18,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Scarpulla",
+          "originalText": "Scarpulla",
+          "lemma": "Scarpulla",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 28,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "own",
+          "originalText": "own",
+          "lemma": "own",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 32,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "35",
+          "originalText": "35",
+          "lemma": "35",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 35,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "35.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "shares",
+          "originalText": "shares",
+          "lemma": "share",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 42,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Mcdonald",
+          "originalText": "Mcdonald",
+          "lemma": "Mcdonald",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 54,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 57,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "stocks",
+          "originalText": "stocks",
+          "lemma": "stock",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 64,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 68,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "69",
+          "originalText": "69",
+          "lemma": "69",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 71,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "69.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "shares",
+          "originalText": "shares",
+          "lemma": "share",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 78,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "Ohio",
+          "originalText": "Ohio",
+          "lemma": "Ohio",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 90,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "Art",
+          "originalText": "Art",
+          "lemma": "Art",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 94,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "Company",
+          "originalText": "Company",
+          "lemma": "Company",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 102,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 108,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 109,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN On)\n      (NP\n        (NP (DT a) (JJ particular) (NN day))\n        (PP (IN in)\n          (NP (CD 2011)))))\n    (, ,)\n    (NP\n      (NP (PRP$ their) (NN stock) (NN portfolio))\n      (VP (VBG consisting)\n        (PP (IN of)\n          (NP (DT these) (CD two) (NNS stocks)))))\n    (VP (VBD was)\n      (ADJP (JJ worth)\n        (NP (CD 2,814) (NNS dollars))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 3,
+          "dependentGloss": "particular"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 4,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "2011",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 6,
+          "dependentGloss": "2011"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 8,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 9,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 10,
+          "dependentGloss": "portfolio"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 11,
+          "dependentGloss": "consisting"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 13,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 14,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "consisting",
+          "dependent": 15,
+          "dependentGloss": "stocks"
+        },
+        {
+          "dep": "cop",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 16,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "2,814"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 19,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 3,
+          "dependentGloss": "particular"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 4,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "2011",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 6,
+          "dependentGloss": "2011"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 8,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 9,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 10,
+          "dependentGloss": "portfolio"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 11,
+          "dependentGloss": "consisting"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 13,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 14,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "consisting",
+          "dependent": 15,
+          "dependentGloss": "stocks"
+        },
+        {
+          "dep": "cop",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 16,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "2,814"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 19,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 17,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 1,
+          "dependentGloss": "On"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 3,
+          "dependentGloss": "particular"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 4,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "2011",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 6,
+          "dependentGloss": "2011"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 8,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 9,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 10,
+          "dependentGloss": "portfolio"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "portfolio",
+          "dependent": 11,
+          "dependentGloss": "consisting"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 13,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "stocks",
+          "dependent": 14,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "consisting",
+          "dependent": 15,
+          "dependentGloss": "stocks"
+        },
+        {
+          "dep": "cop",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 16,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "2,814"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 19,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "worth",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "On",
+          "originalText": "On",
+          "lemma": "on",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 114,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "particular",
+          "originalText": "particular",
+          "lemma": "particular",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 125,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 129,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "2011 INTERSECT P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "2011 INTERSECT P1D"
+          }
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 132,
+          "pos": "IN",
+          "ner": "DATE",
+          "normalizedNER": "2011 INTERSECT P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "2011 INTERSECT P1D"
+          }
+        },
+        {
+          "index": 6,
+          "word": "2011",
+          "originalText": "2011",
+          "lemma": "2011",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 137,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "2011 INTERSECT P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "2011 INTERSECT P1D"
+          }
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 139,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "their",
+          "originalText": "their",
+          "lemma": "they",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 145,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 151,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "portfolio",
+          "originalText": "portfolio",
+          "lemma": "portfolio",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 161,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "consisting",
+          "originalText": "consisting",
+          "lemma": "consist",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 172,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 175,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 181,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 185,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "stocks",
+          "originalText": "stocks",
+          "lemma": "stock",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 192,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 196,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "worth",
+          "originalText": "worth",
+          "lemma": "worth",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 202,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "2,814",
+          "originalText": "2,814",
+          "lemma": "2,814",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 208,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$2814.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 216,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$2814.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 217,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NNP Mcdonalds) (NN stock))\n    (VP (VBD was)\n      (ADJP\n        (NP (CD 70) (NNS dollars))\n        (RBR more)\n        (PP (IN per)\n          (NP (NN share))))\n      (PP (IN than)\n        (NP (DT the) (NNP Ohio) (NNP Art) (NNP Company) (NN stock))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "stock",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "stock",
+          "dependent": 2,
+          "dependentGloss": "Mcdonalds"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 3,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "share",
+          "dependent": 8,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 9,
+          "dependentGloss": "share"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 10,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 12,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 13,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 14,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 15,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "stock",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "stock",
+          "dependent": 2,
+          "dependentGloss": "Mcdonalds"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 3,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "share",
+          "dependent": 8,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 9,
+          "dependentGloss": "share"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 10,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 12,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 13,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 14,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 15,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "stock",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "stock",
+          "dependent": 2,
+          "dependentGloss": "Mcdonalds"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 3,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "cop",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "share",
+          "dependent": 8,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 9,
+          "dependentGloss": "share"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 10,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 12,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 13,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "stock",
+          "dependent": 14,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 15,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "more",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 221,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Mcdonalds",
+          "originalText": "Mcdonalds",
+          "lemma": "Mcdonalds",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 231,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 237,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 241,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "70",
+          "originalText": "70",
+          "lemma": "70",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 244,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$70.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 245,
+          "characterOffsetEnd": 252,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$70.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 257,
+          "pos": "RBR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 261,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "share",
+          "originalText": "share",
+          "lemma": "share",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 267,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 268,
+          "characterOffsetEnd": 272,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 273,
+          "characterOffsetEnd": 276,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Ohio",
+          "originalText": "Ohio",
+          "lemma": "Ohio",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 281,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Art",
+          "originalText": "Art",
+          "lemma": "Art",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 285,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Company",
+          "originalText": "Company",
+          "lemma": "Company",
+          "characterOffsetBegin": 286,
+          "characterOffsetEnd": 293,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 294,
+          "characterOffsetEnd": 299,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 299,
+          "characterOffsetEnd": 300,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBD was)\n      (NP\n        (NP (DT the) (NN price))\n        (PP (IN of)\n          (NP (NNP McDonalds) (NN stock))))\n      (PP (IN on)\n        (NP (DT that) (NN day))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "price",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "stock",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "stock",
+          "dependent": 6,
+          "dependentGloss": "McDonalds"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "price",
+          "dependent": 7,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "day",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "day",
+          "dependent": 9,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 10,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "price",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "stock",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "stock",
+          "dependent": 6,
+          "dependentGloss": "McDonalds"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "price",
+          "dependent": 7,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "day",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "day",
+          "dependent": 9,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 10,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "price",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "stock",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "stock",
+          "dependent": 6,
+          "dependentGloss": "McDonalds"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "price",
+          "dependent": 7,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "day",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "day",
+          "dependent": 9,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "dep",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 10,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 301,
+          "characterOffsetEnd": 305,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 306,
+          "characterOffsetEnd": 309,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 310,
+          "characterOffsetEnd": 313,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "price",
+          "originalText": "price",
+          "lemma": "price",
+          "characterOffsetBegin": 314,
+          "characterOffsetEnd": 319,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 320,
+          "characterOffsetEnd": 322,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "McDonalds",
+          "originalText": "McDonalds",
+          "lemma": "McDonalds",
+          "characterOffsetBegin": 323,
+          "characterOffsetEnd": 332,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 333,
+          "characterOffsetEnd": 338,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 339,
+          "characterOffsetEnd": 341,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 342,
+          "characterOffsetEnd": 346,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 347,
+          "characterOffsetEnd": 350,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 350,
+          "characterOffsetEnd": 351,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBD was)\n      (NP\n        (NP (DT the) (NN cost))\n        (PP (IN of)\n          (NP\n            (NP (DT the) (NNP Ohio) (NNP Art) (NNP Company) (NN stock))\n            (PP (IN on)\n              (NP (DT that) (NN day)))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 7,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 9,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 10,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "day",
+          "dependent": 12,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 13,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 7,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 9,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 10,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "day",
+          "dependent": 12,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 13,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 7,
+          "dependentGloss": "Ohio"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 8,
+          "dependentGloss": "Art"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 9,
+          "dependentGloss": "Company"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 10,
+          "dependentGloss": "stock"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "day",
+          "dependent": 12,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 10,
+          "governorGloss": "stock",
+          "dependent": 13,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 352,
+          "characterOffsetEnd": 356,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 357,
+          "characterOffsetEnd": 360,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 361,
+          "characterOffsetEnd": 364,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 365,
+          "characterOffsetEnd": 369,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 370,
+          "characterOffsetEnd": 372,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 373,
+          "characterOffsetEnd": 376,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Ohio",
+          "originalText": "Ohio",
+          "lemma": "Ohio",
+          "characterOffsetBegin": 377,
+          "characterOffsetEnd": 381,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Art",
+          "originalText": "Art",
+          "lemma": "Art",
+          "characterOffsetBegin": 382,
+          "characterOffsetEnd": 385,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Company",
+          "originalText": "Company",
+          "lemma": "Company",
+          "characterOffsetBegin": 386,
+          "characterOffsetEnd": 393,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "stock",
+          "originalText": "stock",
+          "lemma": "stock",
+          "characterOffsetBegin": 394,
+          "characterOffsetEnd": 399,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 400,
+          "characterOffsetEnd": 402,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 403,
+          "characterOffsetEnd": 407,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 408,
+          "characterOffsetEnd": 411,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 14,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 411,
+          "characterOffsetEnd": 412,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Norman",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "35",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Mcdonald 's",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "69",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Ohio Art Company",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 19,
+        "text": "Ohio Art Company",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 26,
+        "text": "Ohio Art Company",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 5,
+        "position": [
+          5,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Norman and Suzanne Scarpulla own 35 shares of Mcdonald 's stocks and 69 shares of the Ohio Art Company stock.",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "their",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "35 shares of Mcdonald 's stocks and 69 shares of the Ohio Art Company stock",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "35 shares of Mcdonald 's stocks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "Mcdonald 's stocks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "69 shares of the Ohio Art Company stock",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "the Ohio Art Company stock",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 21,
+        "text": "the Ohio Art Company stock",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "a particular day in 2011",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 25,
+        "text": "that day",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 29,
+        "text": "that day",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 5,
+        "position": [
+          5,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "2011",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "their stock portfolio consisting of these two stocks",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "these two stocks",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "Mcdonalds",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 22,
+        "text": "McDonalds",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "The Mcdonalds stock",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 24,
+        "text": "McDonalds stock",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "23": [
+      {
+        "id": 23,
+        "text": "the price of McDonalds stock",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "27": [
+      {
+        "id": 27,
+        "text": "the cost of the Ohio Art Company stock on that day",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 14,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "28": [
+      {
+        "id": 28,
+        "text": "the Ohio Art Company stock on that day",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 14,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

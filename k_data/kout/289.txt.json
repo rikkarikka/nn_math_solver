@@ -1,0 +1,1301 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN ratio))\n      (PP (IN of)\n        (NP\n          (NP (NNS boys))\n          (PP (TO to)\n            (NP (NNS girls))))))\n    (VP (VBZ is)\n      (NP\n        (QP (CD 9) (TO to) (CD 4))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 2,
+          "dependentGloss": "ratio"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "boys",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 4,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "girls",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "boys",
+          "dependent": 6,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 8,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 2,
+          "dependentGloss": "ratio"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "boys",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 4,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "girls",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "boys",
+          "dependent": 6,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 8,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 2,
+          "dependentGloss": "ratio"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "boys",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 4,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "girls",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "boys",
+          "dependent": 6,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 8,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "4",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "ratio",
+          "originalText": "ratio",
+          "lemma": "ratio",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 9,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "boys",
+          "originalText": "boys",
+          "lemma": "boy",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 17,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 20,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "girls",
+          "originalText": "girls",
+          "lemma": "girl",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 26,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 29,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "9",
+          "originalText": "9",
+          "lemma": "9",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 31,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "9.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 36,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 37,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP You))\n    (VP (VBP know)\n      (SBAR\n        (S\n          (NP (EX there))\n          (VP (VBP are)\n            (NP (CD 91) (JJ total) (NNS students))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "know"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "expl",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "students",
+          "dependent": 5,
+          "dependentGloss": "91"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "students",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "students"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "know"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "expl",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "students",
+          "dependent": 5,
+          "dependentGloss": "91"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "students",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "students"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "know"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "expl",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "students",
+          "dependent": 5,
+          "dependentGloss": "91"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "students",
+          "dependent": 6,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "students"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "know",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "You",
+          "originalText": "You",
+          "lemma": "you",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 41,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "know",
+          "originalText": "know",
+          "lemma": "know",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 46,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 52,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 56,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "91",
+          "originalText": "91",
+          "lemma": "91",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "91.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 65,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "students",
+          "originalText": "students",
+          "lemma": "student",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 74,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 75,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (PP (IN of)\n        (NP (PRP them))))\n    (SQ (VBP are)\n      (NP (NNS boys)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "them",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 4,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "them",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 4,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "them",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 4,
+          "dependentGloss": "them"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 79,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 84,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 87,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "them",
+          "originalText": "them",
+          "lemma": "they",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "boys",
+          "originalText": "boys",
+          "lemma": "boy",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 101,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 102,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHADJP (WRB How) (JJ many))\n    (SQ (VBP are)\n      (NP (NNS girls)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 106,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 111,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 115,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "girls",
+          "originalText": "girls",
+          "lemma": "girl",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 121,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "9",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "The ratio of boys to girls",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 5,
+        "text": "9 to 4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "boys to girls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "boys",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "girls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "girls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "91",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "You",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "91 total students",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "them",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1721 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN sum))\n      (PP (IN of)\n        (NP\n          (NP (DT the) (NNS numbers))\n          (PP (IN of)\n            (NP\n              (NP (NNS boys)\n                (CC and)\n                (NNS girls))\n              (PP (IN in)\n                (NP (DT a) (NN class))))))))\n    (VP (VBZ is)\n      (NP (CD 36)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "sum",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 2,
+          "dependentGloss": "sum"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "sum",
+          "dependent": 5,
+          "dependentGloss": "numbers"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 7,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 9,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "class",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "class",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 12,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "sum",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 2,
+          "dependentGloss": "sum"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "sum",
+          "dependent": 5,
+          "dependentGloss": "numbers"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 7,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 9,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "class",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "class",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 12,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "36"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "sum",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 2,
+          "dependentGloss": "sum"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "sum",
+          "dependent": 5,
+          "dependentGloss": "numbers"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 7,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "numbers",
+          "dependent": 9,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 9,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "class",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "class",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 7,
+          "governorGloss": "boys",
+          "dependent": 12,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "36",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "sum",
+          "originalText": "sum",
+          "lemma": "sum",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 14,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "numbers",
+          "originalText": "numbers",
+          "lemma": "number",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 22,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 25,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "boys",
+          "originalText": "boys",
+          "lemma": "boy",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 34,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "girls",
+          "originalText": "girls",
+          "lemma": "girl",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 45,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "class",
+          "originalText": "class",
+          "lemma": "class",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "36",
+          "originalText": "36",
+          "lemma": "36",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 57,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "36.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 58,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN If)\n      (S\n        (NP\n          (NP (RB twice) (DT the) (NN number))\n          (PP (IN of)\n            (NP (NNS girls))))\n        (VP (VBZ exceeds)\n          (NP\n            (NP (DT the) (NN number))\n            (PP (IN of)\n              (NP (NNS boys))))\n          (PP (IN by)\n            (NP (CD 12))))))\n    (, ,)\n    (VP (VB find)\n      (NP\n        (NP (DT the) (NN number))\n        (PP (IN of)\n          (NP\n            (NP (NNS girls))\n            (PP (IN in)\n              (NP (DT the) (NN class)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "girls",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 7,
+          "dependentGloss": "exceeds"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "number",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 9,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "boys",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "number",
+          "dependent": 11,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "12",
+          "dependent": 12,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 14,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "number",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 17,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "girls",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "number",
+          "dependent": 19,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "class",
+          "dependent": 20,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "class",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "girls",
+          "dependent": 22,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "girls",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 7,
+          "dependentGloss": "exceeds"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "number",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 9,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "boys",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "number",
+          "dependent": 11,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "12",
+          "dependent": 12,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 14,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "number",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 17,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "girls",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "number",
+          "dependent": 19,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "class",
+          "dependent": 20,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "class",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 19,
+          "governorGloss": "girls",
+          "dependent": 22,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "girls",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 7,
+          "dependentGloss": "exceeds"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "number",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 9,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "boys",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "number",
+          "dependent": 11,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "12",
+          "dependent": 12,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 7,
+          "governorGloss": "exceeds",
+          "dependent": 13,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 14,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "number",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 17,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "girls",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 17,
+          "governorGloss": "number",
+          "dependent": 19,
+          "dependentGloss": "girls"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "class",
+          "dependent": 20,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "class",
+          "dependent": 21,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 19,
+          "governorGloss": "girls",
+          "dependent": 22,
+          "dependentGloss": "class"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "find",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 61,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "twice",
+          "originalText": "twice",
+          "lemma": "twice",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 67,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 81,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "girls",
+          "originalText": "girls",
+          "lemma": "girl",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 87,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "exceeds",
+          "originalText": "exceeds",
+          "lemma": "exceed",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 95,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 106,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 109,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "boys",
+          "originalText": "boys",
+          "lemma": "boy",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 114,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 117,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 120,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 131,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 138,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 141,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "girls",
+          "originalText": "girls",
+          "lemma": "girl",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 147,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 150,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 154,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "class",
+          "originalText": "class",
+          "lemma": "class",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 160,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 161,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (NN number))\n        (PP (IN of)\n          (NP (NNS boys)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "boys",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "boys",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "boys",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "boys"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 166,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 170,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 177,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 180,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "boys",
+          "originalText": "boys",
+          "lemma": "boy",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 185,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 186,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "2": [
+      {
+        "id": 2,
+        "text": "The sum of the numbers of boys and girls in a class",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 1,
+        "text": "36",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "the numbers of boys and girls in a class",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a class",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "the class",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 23,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "twice the number of girls",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the number of boys",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "the number of boys",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the number of girls in the class",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 23,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

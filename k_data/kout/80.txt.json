@@ -1,0 +1,1312 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (NN washer))\n      (CC and)\n      (NP\n        (NP (DT a) (NN dryer) (NN cost))\n        (NP (CD 600) (NNS dollars))))\n    (VP (VBN combined))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 2,
+          "dependentGloss": "washer"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 2,
+          "dependentGloss": "washer"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "combined"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 2,
+          "dependentGloss": "washer"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 5,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "washer",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 6,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "600"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "cost",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "combined",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "washer",
+          "originalText": "washer",
+          "lemma": "washer",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 8,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 12,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 14,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dryer",
+          "originalText": "dryer",
+          "lemma": "dryer",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "600",
+          "originalText": "600",
+          "lemma": "600",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 37,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "combined",
+          "originalText": "combined",
+          "lemma": "combine",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 46,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 47,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN price))\n      (PP (IN of)\n        (NP (DT the) (NN washer))))\n    (VP (VBZ is)\n      (NP\n        (NP\n          (QP (CD 3) (NNS times))\n          (DT the) (NN price))\n        (PP (IN of)\n          (NP (DT the) (NN dryer)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "price",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 2,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "washer",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "washer",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "price",
+          "dependent": 5,
+          "dependentGloss": "washer"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 6,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "times",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 8,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "dryer",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "dryer",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 13,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "price",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 2,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "washer",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "washer",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "price",
+          "dependent": 5,
+          "dependentGloss": "washer"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 6,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "times",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 8,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "dryer",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "dryer",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 13,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "price",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 2,
+          "dependentGloss": "price"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "washer",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "washer",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "price",
+          "dependent": 5,
+          "dependentGloss": "washer"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 6,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "times",
+          "dependent": 7,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 8,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "dryer",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "dryer",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 13,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "price",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 51,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "price",
+          "originalText": "price",
+          "lemma": "price",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 60,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 64,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "washer",
+          "originalText": "washer",
+          "lemma": "washer",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 74,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 76,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 86,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "price",
+          "originalText": "price",
+          "lemma": "price",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 92,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 95,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "dryer",
+          "originalText": "dryer",
+          "lemma": "dryer",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 105,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 106,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBZ is)\n      (NP\n        (NP (DT the) (NN cost))\n        (PP (IN of)\n          (NP (DT the) (NN dryer)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dryer",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "dryer",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 7,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dryer",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "dryer",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 7,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dryer",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "dryer",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "cost",
+          "dependent": 7,
+          "dependentGloss": "dryer"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 111,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 123,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 126,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 130,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dryer",
+          "originalText": "dryer",
+          "lemma": "dryer",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 136,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 137,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A washer and a dryer cost 600 dollars",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A washer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "the washer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a dryer cost 600 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "the cost of the dryer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "The price of the washer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "3 times the price of the dryer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the dryer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "the dryer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

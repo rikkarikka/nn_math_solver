@@ -1,0 +1,2611 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NNP Johnson) (NNP Farm))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 500) (NNS acres))\n        (PP (IN of)\n          (NP\n            (NP (NN land))\n            (VP (VBN allotted)\n              (PP (IN for)\n                (S\n                  (VP (VBG cultivating)\n                    (NP (NN corn)\n                      (CC and)\n                      (NN wheat))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "Farm",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Farm",
+          "dependent": 2,
+          "dependentGloss": "Johnson"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "Farm"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "acres",
+          "dependent": 5,
+          "dependentGloss": "500"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "land",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "acres",
+          "dependent": 8,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "acl",
+          "governor": 8,
+          "governorGloss": "land",
+          "dependent": 9,
+          "dependentGloss": "allotted"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "allotted",
+          "dependent": 11,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 12,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 14,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "Farm",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Farm",
+          "dependent": 2,
+          "dependentGloss": "Johnson"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "Farm"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "acres",
+          "dependent": 5,
+          "dependentGloss": "500"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "land",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "acres",
+          "dependent": 8,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "acl",
+          "governor": 8,
+          "governorGloss": "land",
+          "dependent": 9,
+          "dependentGloss": "allotted"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "allotted",
+          "dependent": 11,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 12,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 14,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "Farm",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "Farm",
+          "dependent": 2,
+          "dependentGloss": "Johnson"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "Farm"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "acres",
+          "dependent": 5,
+          "dependentGloss": "500"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "land",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "acres",
+          "dependent": 8,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "acl",
+          "governor": 8,
+          "governorGloss": "land",
+          "dependent": 9,
+          "dependentGloss": "allotted"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 9,
+          "governorGloss": "allotted",
+          "dependent": 11,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 12,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "cultivating",
+          "dependent": 14,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 14,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Johnson",
+          "originalText": "Johnson",
+          "lemma": "Johnson",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 11,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "Farm",
+          "originalText": "Farm",
+          "lemma": "Farm",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 16,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 20,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "500",
+          "originalText": "500",
+          "lemma": "500",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 24,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "500.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "acres",
+          "originalText": "acres",
+          "lemma": "acre",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 30,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "land",
+          "originalText": "land",
+          "lemma": "land",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 38,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "allotted",
+          "originalText": "allotted",
+          "lemma": "allot",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 47,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 51,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "cultivating",
+          "originalText": "cultivating",
+          "lemma": "cultivate",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 63,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "corn",
+          "originalText": "corn",
+          "lemma": "corn",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 68,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 72,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "wheat",
+          "originalText": "wheat",
+          "lemma": "wheat",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 79,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN cost))\n      (PP (IN of)\n        (S\n          (VP (VBG cultivating)\n            (NP (NN corn)\n              (CC and)\n              (NN wheat))))))\n    (VP (VBZ is)\n      (NP\n        (NP\n          (NP (CD 42) (NNS dollars))\n          (PP (IN for)\n            (NP (NN corn))))\n        (CC and)\n        (NP\n          (NP (CD 30) (NNS dollars))\n          (PP (IN for)\n            (NP (NN wheat))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "acl",
+          "governor": 2,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 5,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "corn",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "corn",
+          "dependent": 7,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "42"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "wheat",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "acl",
+          "governor": 2,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 5,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "corn",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "corn",
+          "dependent": 7,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "42"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "wheat",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "cost",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "acl",
+          "governor": 2,
+          "governorGloss": "cost",
+          "dependent": 4,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 5,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "corn",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "cultivating",
+          "dependent": 7,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "corn",
+          "dependent": 7,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "42"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "corn",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "wheat",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 83,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 88,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 91,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "cultivating",
+          "originalText": "cultivating",
+          "lemma": "cultivate",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 103,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "corn",
+          "originalText": "corn",
+          "lemma": "corn",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 108,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 112,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "wheat",
+          "originalText": "wheat",
+          "lemma": "wheat",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 121,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "42",
+          "originalText": "42",
+          "lemma": "42",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 124,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$42.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 132,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$42.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "corn",
+          "originalText": "corn",
+          "lemma": "corn",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 141,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 145,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 148,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 156,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "wheat",
+          "originalText": "wheat",
+          "lemma": "wheat",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 166,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 167,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (NN Mr.Johnson))\n    (VP (VBZ has)\n      (NP\n        (NP (CD 18,600) (NNS dollars))\n        (ADJP (JJ available)\n          (PP (IN for)\n            (S\n              (VP (VBG cultivating)\n                (NP (DT these) (NNS crops))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Mr.Johnson"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "18,600"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "available"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "cultivating",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "available",
+          "dependent": 7,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "crops",
+          "dependent": 8,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "cultivating",
+          "dependent": 9,
+          "dependentGloss": "crops"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Mr.Johnson"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "18,600"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "available"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "cultivating",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "available",
+          "dependent": 7,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "crops",
+          "dependent": 8,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "cultivating",
+          "dependent": 9,
+          "dependentGloss": "crops"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Mr.Johnson"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "18,600"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "available"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "cultivating",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "available",
+          "dependent": 7,
+          "dependentGloss": "cultivating"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "crops",
+          "dependent": 8,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "cultivating",
+          "dependent": 9,
+          "dependentGloss": "crops"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Mr.Johnson",
+          "originalText": "Mr.Johnson",
+          "lemma": "mr.johnson",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 178,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 182,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "18,600",
+          "originalText": "18,600",
+          "lemma": "18,600",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 189,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$18600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 197,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$18600.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "available",
+          "originalText": "available",
+          "lemma": "available",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 207,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 211,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "cultivating",
+          "originalText": "cultivating",
+          "lemma": "cultivate",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 223,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 229,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "crops",
+          "originalText": "crops",
+          "lemma": "crop",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 235,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 236,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP he))\n        (VP (VBD used)\n          (NP (PDT all)\n            (NP (DT the) (NN land))\n            (CC and)\n            (NP (JJ entire) (NN budget))))))\n    (, ,)\n    (WHNP\n      (WHNP\n        (WHADJP (WRB how) (JJ many))\n        (NNS acres))\n      (PP (IN of)\n        (NP\n          (NP\n            (UCP\n              (NP (NN corn))\n              (CC and)\n              (ADJP\n                (WHADVP (WRB how))\n                (JJ many)))\n            (NNS acres))\n          (PP (IN of)\n            (NP (NN wheat))))))\n    (SQ (MD should)\n      (NP (PRP he))\n      (VP (VB plant)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 24,
+          "dependentGloss": "plant"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 3,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 4,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 6,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "budget",
+          "dependent": 8,
+          "dependentGloss": "entire"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 9,
+          "dependentGloss": "budget"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "acres",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 13,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 15,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "corn",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 18,
+          "governorGloss": "many",
+          "dependent": 17,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "conj",
+          "governor": 15,
+          "governorGloss": "corn",
+          "dependent": 18,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "acres",
+          "dependent": 19,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "wheat",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 21,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "aux",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 22,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 23,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 25,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 24,
+          "dependentGloss": "plant"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 3,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 4,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 6,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "budget",
+          "dependent": 8,
+          "dependentGloss": "entire"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 9,
+          "dependentGloss": "budget"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "acres",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 13,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 15,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "corn",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 18,
+          "governorGloss": "many",
+          "dependent": 17,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 15,
+          "governorGloss": "corn",
+          "dependent": 18,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "acres",
+          "dependent": 19,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "wheat",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 21,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "aux",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 22,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 23,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 25,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 24,
+          "dependentGloss": "plant"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 2,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "advcl",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 3,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 4,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 6,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "budget",
+          "dependent": 8,
+          "dependentGloss": "entire"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "used",
+          "dependent": 9,
+          "dependentGloss": "budget"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "land",
+          "dependent": 9,
+          "dependentGloss": "budget"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "acres",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 13,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 15,
+          "dependentGloss": "corn"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "corn",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 18,
+          "governorGloss": "many",
+          "dependent": 17,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 15,
+          "governorGloss": "corn",
+          "dependent": 18,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 18,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "acres",
+          "dependent": 19,
+          "dependentGloss": "acres"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "wheat",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 19,
+          "governorGloss": "acres",
+          "dependent": 21,
+          "dependentGloss": "wheat"
+        },
+        {
+          "dep": "aux",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 22,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 23,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 24,
+          "governorGloss": "plant",
+          "dependent": 25,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 239,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 242,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "used",
+          "originalText": "used",
+          "lemma": "use",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 247,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 248,
+          "characterOffsetEnd": 251,
+          "pos": "PDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 252,
+          "characterOffsetEnd": 255,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "land",
+          "originalText": "land",
+          "lemma": "land",
+          "characterOffsetBegin": 256,
+          "characterOffsetEnd": 260,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 261,
+          "characterOffsetEnd": 264,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "entire",
+          "originalText": "entire",
+          "lemma": "entire",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 271,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "budget",
+          "originalText": "budget",
+          "lemma": "budget",
+          "characterOffsetBegin": 272,
+          "characterOffsetEnd": 278,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 280,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 281,
+          "characterOffsetEnd": 284,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 285,
+          "characterOffsetEnd": 289,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "acres",
+          "originalText": "acres",
+          "lemma": "acre",
+          "characterOffsetBegin": 290,
+          "characterOffsetEnd": 295,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 296,
+          "characterOffsetEnd": 298,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "corn",
+          "originalText": "corn",
+          "lemma": "corn",
+          "characterOffsetBegin": 299,
+          "characterOffsetEnd": 303,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 307,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 308,
+          "characterOffsetEnd": 311,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 316,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "acres",
+          "originalText": "acres",
+          "lemma": "acre",
+          "characterOffsetBegin": 317,
+          "characterOffsetEnd": 322,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 323,
+          "characterOffsetEnd": 325,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "wheat",
+          "originalText": "wheat",
+          "lemma": "wheat",
+          "characterOffsetBegin": 326,
+          "characterOffsetEnd": 331,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 332,
+          "characterOffsetEnd": 338,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 339,
+          "characterOffsetEnd": 341,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "plant",
+          "originalText": "plant",
+          "lemma": "plant",
+          "characterOffsetBegin": 342,
+          "characterOffsetEnd": 347,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 25,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 347,
+          "characterOffsetEnd": 348,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "500",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "The Johnson Farm",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "500 acres of land allotted for cultivating corn and wheat",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "land allotted for cultivating corn and wheat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "the land",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "corn and wheat",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "corn and wheat",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "The cost of cultivating corn and wheat",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "these crops",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 23,
+        "endIndex": 24,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "corn and how many acres of wheat",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 22,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1433 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBP are)\n      (NP\n        (NP (CD 41) (NNS animals))\n        (PP (IN on)\n          (NP\n            (NP (DT a) (NN farm))\n            (, ,)\n            (SBAR\n              (WHNP\n                (NP (DT each))\n                (WHPP (IN of)\n                  (WHNP (WDT which))))\n              (S\n                (VP (VBZ is)\n                  (ADVP (RB either))\n                  (NP\n                    (NP (DT a) (NN pig))\n                    (CC or)\n                    (NP (DT a) (NN chicken))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "animals",
+          "dependent": 3,
+          "dependentGloss": "41"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "animals"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "animals",
+          "dependent": 7,
+          "dependentGloss": "farm"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "which",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 11,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 13,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 15,
+          "dependentGloss": "pig"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 16,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "chicken",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "conj",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 18,
+          "dependentGloss": "chicken"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "animals",
+          "dependent": 3,
+          "dependentGloss": "41"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "animals"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "animals",
+          "dependent": 7,
+          "dependentGloss": "farm"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "which",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 11,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 13,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 15,
+          "dependentGloss": "pig"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 16,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "chicken",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 18,
+          "dependentGloss": "chicken"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "animals",
+          "dependent": 3,
+          "dependentGloss": "41"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "animals"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 5,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 4,
+          "governorGloss": "animals",
+          "dependent": 7,
+          "dependentGloss": "farm"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 9,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "which",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "each",
+          "dependent": 11,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 13,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 15,
+          "dependentGloss": "pig"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 16,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "chicken",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 7,
+          "governorGloss": "farm",
+          "dependent": 18,
+          "dependentGloss": "chicken"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 15,
+          "governorGloss": "pig",
+          "dependent": 18,
+          "dependentGloss": "chicken"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 9,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "41",
+          "originalText": "41",
+          "lemma": "41",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "41.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "animals",
+          "originalText": "animals",
+          "lemma": "animal",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 23,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 25,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "farm",
+          "originalText": "farm",
+          "lemma": "farm",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 32,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "which",
+          "originalText": "which",
+          "lemma": "which",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 46,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 49,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "either",
+          "originalText": "either",
+          "lemma": "either",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 56,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 58,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "pig",
+          "originalText": "pig",
+          "lemma": "pig",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 62,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 65,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 67,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "chicken",
+          "originalText": "chicken",
+          "lemma": "chicken",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 75,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 76,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBP are)\n      (NP (CD 100) (NNS legs))\n      (ADVP (RB altogether)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "legs",
+          "dependent": 3,
+          "dependentGloss": "100"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "legs",
+          "dependent": 3,
+          "dependentGloss": "100"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "legs",
+          "dependent": 3,
+          "dependentGloss": "100"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "legs"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "altogether"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 82,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 86,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "100",
+          "originalText": "100",
+          "lemma": "100",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 90,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "100.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "legs",
+          "originalText": "legs",
+          "lemma": "leg",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "altogether",
+          "originalText": "altogether",
+          "lemma": "altogether",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 106,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 107,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS pigs))\n    (SQ (VBP are)\n      (NP (EX there)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pigs",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "pigs"
+        },
+        {
+          "dep": "expl",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pigs",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "pigs"
+        },
+        {
+          "dep": "expl",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "pigs",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 3,
+          "dependentGloss": "pigs"
+        },
+        {
+          "dep": "expl",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 5,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "are",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 111,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 116,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "pigs",
+          "originalText": "pigs",
+          "lemma": "pig",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 121,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 125,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 131,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 132,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (FRAG\n    (SBARQ\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS chickens))\n      (. ?))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "chickens"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chickens",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "chickens",
+          "dependent": 4,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "chickens"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chickens",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "chickens",
+          "dependent": 4,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "chickens"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "chickens",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "chickens",
+          "dependent": 4,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 141,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "chickens",
+          "originalText": "chickens",
+          "lemma": "chicken",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 150,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 151,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "41",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "41 animals on a farm , each of which is either a pig or a chicken",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a farm , each of which is either a pig or a chicken",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a farm",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "each",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a pig or a chicken",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a pig",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "a chicken",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "100",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "100 legs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

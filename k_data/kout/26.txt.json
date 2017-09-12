@@ -1,0 +1,2042 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Kay))\n    (VP (VBZ spends)\n      (NP\n        (NP (CD 250) (NNS minutes))\n        (PP (IN per)\n          (NP (NN week) (VBG exercising)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "spends"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 1,
+          "dependentGloss": "Kay"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 3,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 4,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 5,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 6,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 7,
+          "dependentGloss": "exercising"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "spends"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 1,
+          "dependentGloss": "Kay"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 3,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 4,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 5,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 6,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 7,
+          "dependentGloss": "exercising"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "spends"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 1,
+          "dependentGloss": "Kay"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 3,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 4,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 5,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 6,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 7,
+          "dependentGloss": "exercising"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "spends",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Kay",
+          "originalText": "Kay",
+          "lemma": "Kay",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "spends",
+          "originalText": "spends",
+          "lemma": "spend",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "250",
+          "originalText": "250",
+          "lemma": "250",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 14,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "PT250M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT250M"
+          }
+        },
+        {
+          "index": 4,
+          "word": "minutes",
+          "originalText": "minutes",
+          "lemma": "minute",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 22,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PT250M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT250M"
+          }
+        },
+        {
+          "index": 5,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 26,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "week",
+          "originalText": "week",
+          "lemma": "week",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 31,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 7,
+          "word": "exercising",
+          "originalText": "exercising",
+          "lemma": "exercise",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 42,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 43,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (PRP$ Her) (NN ratio))\n      (PP (IN of)\n        (NP\n          (NP (NN time))\n          (VP (VBN spent)\n            (PP (IN on)\n              (NP (NN aerobics)))\n            (PP (TO to)\n              (NP (NN time)))))))\n    (VP (VBD spent)\n      (PP (IN on)\n        (NP\n          (NP (NN weight) (NN training))\n          (SBAR\n            (S\n              (VP (VBZ is)\n                (NP\n                  (QP (CD 3) (TO to) (CD 2)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "ratio"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "time",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 4,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "time",
+          "dependent": 5,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "aerobics",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 7,
+          "dependentGloss": "aerobics"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "time",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 9,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 11,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 12,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 13,
+          "dependentGloss": "training"
+        },
+        {
+          "dep": "cop",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 14,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 17,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "ratio"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "time",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 4,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "time",
+          "dependent": 5,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "aerobics",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 7,
+          "dependentGloss": "aerobics"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "time",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 9,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 11,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 12,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 13,
+          "dependentGloss": "training"
+        },
+        {
+          "dep": "cop",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 14,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 17,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "ratio"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "time",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "ratio",
+          "dependent": 4,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "time",
+          "dependent": 5,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "aerobics",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 7,
+          "dependentGloss": "aerobics"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "time",
+          "dependent": 8,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 5,
+          "governorGloss": "spent",
+          "dependent": 9,
+          "dependentGloss": "time"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 11,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 12,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 13,
+          "dependentGloss": "training"
+        },
+        {
+          "dep": "cop",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 14,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dep",
+          "governor": 17,
+          "governorGloss": "2",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 13,
+          "governorGloss": "training",
+          "dependent": 17,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "spent",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Her",
+          "originalText": "Her",
+          "lemma": "she",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "ratio",
+          "originalText": "ratio",
+          "lemma": "ratio",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 56,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "time",
+          "originalText": "time",
+          "lemma": "time",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 61,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "spent",
+          "originalText": "spent",
+          "lemma": "spend",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 67,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "aerobics",
+          "originalText": "aerobics",
+          "lemma": "aerobics",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 79,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 82,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "time",
+          "originalText": "time",
+          "lemma": "time",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 87,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "spent",
+          "originalText": "spent",
+          "lemma": "spend",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 93,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 103,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "training",
+          "originalText": "training",
+          "lemma": "training",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 112,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 115,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 117,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 120,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 123,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS minutes))\n      (PP (IN per)\n        (NP (NN week))))\n    (SQ (VBZ does)\n      (NP (PRP she))\n      (VP (VB spend)\n        (PP (IN on)\n          (NP (NNS aerobics)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 5,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "aerobics",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "aerobics"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 5,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "aerobics",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "aerobics"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 5,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "aerobics",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "aerobics"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 127,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 132,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "minutes",
+          "originalText": "minutes",
+          "lemma": "minute",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 140,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "PTXM"
+          }
+        },
+        {
+          "index": 4,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 144,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "week",
+          "originalText": "week",
+          "lemma": "week",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 149,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 6,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 154,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 158,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 164,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 167,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "aerobics",
+          "originalText": "aerobics",
+          "lemma": "aerobic",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 176,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 177,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (NNS minutes))\n      (PP (IN per)\n        (NP (NN week))))\n    (SQ (VBZ does)\n      (NP (PRP she))\n      (VP (VB spend)\n        (PP (IN on)\n          (NP (NN weight) (NN training)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 5,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "training",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "training",
+          "dependent": 10,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "training"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 5,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "training",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "training",
+          "dependent": 10,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "training"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 3,
+          "governorGloss": "minutes",
+          "dependent": 5,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 6,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "training",
+          "dependent": 9,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "training",
+          "dependent": 10,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 11,
+          "dependentGloss": "training"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "spend",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 181,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 186,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "minutes",
+          "originalText": "minutes",
+          "lemma": "minute",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 194,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "DURATION",
+            "value": "PTXM"
+          }
+        },
+        {
+          "index": 4,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 198,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "week",
+          "originalText": "week",
+          "lemma": "week",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 203,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 6,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 208,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 212,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 218,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 221,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 228,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "training",
+          "originalText": "training",
+          "lemma": "training",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 237,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 238,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Kay",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "250 minutes per week exercising",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "week exercising",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "week",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "week",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Her ratio of time spent on aerobics to time",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "time spent on aerobics to time",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "time",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "weight training is 3 to 2",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "weight training",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "3 to 2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "aerobics",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

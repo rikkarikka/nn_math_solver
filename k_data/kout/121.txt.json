@@ -1,0 +1,2488 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN probability))\n      (SBAR\n        (WHNP (WDT that))\n        (S\n          (NP (NNP San) (NNP Francisco))\n          (VP (VBZ plays)\n            (PP (IN in)\n              (NP (DT the) (JJ next) (JJ super) (NN bowl)))))))\n    (VP (VBZ is)\n      (NP (CD nine) (NNS times))\n      (NP\n        (NP (DT the) (NN probability))\n        (SBAR (IN that)\n          (S\n            (NP (PRP they))\n            (VP (VBP do) (RB not)\n              (VP (VB play)\n                (PP (IN in)\n                  (NP (DT the) (JJ next) (JJ super) (NN bowl)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Francisco",
+          "dependent": 4,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 6,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 11,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 13,
+          "dependentGloss": "nine"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "probability",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 16,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 17,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 18,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 19,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "neg",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 20,
+          "dependentGloss": "not"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "probability",
+          "dependent": 21,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "case",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 22,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 24,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 25,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 26,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 27,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Francisco",
+          "dependent": 4,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 6,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 11,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 13,
+          "dependentGloss": "nine"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "probability",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 16,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 17,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 18,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 19,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "neg",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 20,
+          "dependentGloss": "not"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "probability",
+          "dependent": 21,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "case",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 22,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 24,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 25,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 26,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 27,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Francisco",
+          "dependent": 4,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 6,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 11,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 13,
+          "dependentGloss": "nine"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "probability",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 16,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "mark",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 17,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 18,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "aux",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 19,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "neg",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 20,
+          "dependentGloss": "not"
+        },
+        {
+          "dep": "dep",
+          "governor": 16,
+          "governorGloss": "probability",
+          "dependent": 21,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "case",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 22,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 24,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 26,
+          "governorGloss": "bowl",
+          "dependent": 25,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 21,
+          "governorGloss": "play",
+          "dependent": 26,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "times",
+          "dependent": 27,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "probability",
+          "originalText": "probability",
+          "lemma": "probability",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 20,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "San",
+          "originalText": "San",
+          "lemma": "San",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 24,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Francisco",
+          "originalText": "Francisco",
+          "lemma": "Francisco",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 34,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "plays",
+          "originalText": "plays",
+          "lemma": "play",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "next",
+          "originalText": "next",
+          "lemma": "next",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 52,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "super",
+          "originalText": "super",
+          "lemma": "super",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 58,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bowl",
+          "originalText": "bowl",
+          "lemma": "bowl",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 66,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "nine",
+          "originalText": "nine",
+          "lemma": "nine",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 71,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "9.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 77,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 81,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "probability",
+          "originalText": "probability",
+          "lemma": "probability",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 93,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 98,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 103,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 106,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "not",
+          "originalText": "not",
+          "lemma": "not",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 110,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "play",
+          "originalText": "play",
+          "lemma": "play",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 118,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 122,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "next",
+          "originalText": "next",
+          "lemma": "next",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "super",
+          "originalText": "super",
+          "lemma": "super",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 133,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "bowl",
+          "originalText": "bowl",
+          "lemma": "bowl",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 27,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 139,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN probability))\n      (SBAR\n        (WHNP (WDT that))\n        (S\n          (NP (NNP San) (NNP Francisco))\n          (VP (VBZ plays)\n            (PP (IN in)\n              (NP\n                (NP (DT the) (JJ next) (JJ super) (NN bowl))\n                (PP (CC plus)\n                  (NP (DT the) (NN probability)))))\n            (SBAR (IN that)\n              (S\n                (NP (PRP they))\n                (VP (VBP do) (RB not)\n                  (VP (VB play)))))))))\n    (VP (VBZ is)\n      (NP (CD 1)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 21,
+          "dependentGloss": "1"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 2,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Francisco",
+          "dependent": 4,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 6,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 11,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "probability",
+          "dependent": 12,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "probability",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 14,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "mark",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 16,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 17,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "neg",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 18,
+          "dependentGloss": "not"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 19,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 20,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 21,
+          "dependentGloss": "1"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 2,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Francisco",
+          "dependent": 4,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 6,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 11,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "probability",
+          "dependent": 12,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "probability",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:plus",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 14,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "mark",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 16,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 17,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "neg",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 18,
+          "dependentGloss": "not"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 19,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 20,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 21,
+          "dependentGloss": "1"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 2,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "Francisco",
+          "dependent": 4,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 2,
+          "governorGloss": "probability",
+          "dependent": 6,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 11,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "probability",
+          "dependent": 12,
+          "dependentGloss": "plus"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "probability",
+          "dependent": 13,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:plus",
+          "governor": 11,
+          "governorGloss": "bowl",
+          "dependent": 14,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "mark",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 16,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "aux",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 17,
+          "dependentGloss": "do"
+        },
+        {
+          "dep": "neg",
+          "governor": 19,
+          "governorGloss": "play",
+          "dependent": 18,
+          "dependentGloss": "not"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 6,
+          "governorGloss": "plays",
+          "dependent": 19,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 20,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 21,
+          "governorGloss": "1",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 143,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "probability",
+          "originalText": "probability",
+          "lemma": "probability",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 155,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 160,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "San",
+          "originalText": "San",
+          "lemma": "San",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 164,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Francisco",
+          "originalText": "Francisco",
+          "lemma": "Francisco",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 174,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "plays",
+          "originalText": "plays",
+          "lemma": "play",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 180,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 183,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 187,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "next",
+          "originalText": "next",
+          "lemma": "next",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 192,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "super",
+          "originalText": "super",
+          "lemma": "super",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 198,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bowl",
+          "originalText": "bowl",
+          "lemma": "bowl",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 203,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "plus",
+          "originalText": "plus",
+          "lemma": "plus",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 208,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 212,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "probability",
+          "originalText": "probability",
+          "lemma": "probability",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 224,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 229,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 234,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 237,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "not",
+          "originalText": "not",
+          "lemma": "not",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 241,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "play",
+          "originalText": "play",
+          "lemma": "play",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 246,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 249,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "1",
+          "originalText": "1",
+          "lemma": "1",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 251,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 252,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBZ is)\n      (NP\n        (NP (DT the) (NN probability))\n        (SBAR\n          (WHNP (WDT that))\n          (S\n            (NP (NNP San) (NNP Francisco))\n            (VP (VBZ plays)\n              (PP (IN in)\n                (NP (DT the) (JJ next) (JJ super) (NN bowl))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "probability",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Francisco",
+          "dependent": 6,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 7,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "probability",
+          "dependent": 8,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 11,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 12,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 13,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "probability",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Francisco",
+          "dependent": 6,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 7,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "probability",
+          "dependent": 8,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 11,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 12,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 13,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "probability",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 4,
+          "dependentGloss": "probability"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 5,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "Francisco",
+          "dependent": 6,
+          "dependentGloss": "San"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 7,
+          "dependentGloss": "Francisco"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "probability",
+          "dependent": 8,
+          "dependentGloss": "plays"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 9,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 11,
+          "dependentGloss": "next"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "bowl",
+          "dependent": 12,
+          "dependentGloss": "super"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "plays",
+          "dependent": 13,
+          "dependentGloss": "bowl"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 257,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 260,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 261,
+          "characterOffsetEnd": 264,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "probability",
+          "originalText": "probability",
+          "lemma": "probability",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 276,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 281,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "San",
+          "originalText": "San",
+          "lemma": "San",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 285,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Francisco",
+          "originalText": "Francisco",
+          "lemma": "Francisco",
+          "characterOffsetBegin": 286,
+          "characterOffsetEnd": 295,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "plays",
+          "originalText": "plays",
+          "lemma": "play",
+          "characterOffsetBegin": 296,
+          "characterOffsetEnd": 301,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 302,
+          "characterOffsetEnd": 304,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 305,
+          "characterOffsetEnd": 308,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "next",
+          "originalText": "next",
+          "lemma": "next",
+          "characterOffsetBegin": 309,
+          "characterOffsetEnd": 313,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "super",
+          "originalText": "super",
+          "lemma": "super",
+          "characterOffsetBegin": 314,
+          "characterOffsetEnd": 319,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "bowl",
+          "originalText": "bowl",
+          "lemma": "bowl",
+          "characterOffsetBegin": 320,
+          "characterOffsetEnd": 324,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 324,
+          "characterOffsetEnd": 325,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "San Francisco",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "San Francisco",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 16,
+        "text": "San Francisco",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "nine",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "The probability that San Francisco plays in the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 6,
+        "text": "the probability that they do not play in the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 27,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 11,
+        "text": "The probability that San Francisco plays in the next super bowl plus the probability that they do not play",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 20,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "the probability",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "1",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "the probability that San Francisco plays in the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 27,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 18,
+        "text": "the next super bowl",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "nine times",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "the next super bowl plus the probability",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

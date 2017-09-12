@@ -1,0 +1,1668 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Kerry))\n    (VP (VBD asked)\n      (NP (DT a) (NN bank) (NN teller))\n      (S\n        (VP (TO to)\n          (VP (VB cash)\n            (SBAR\n              (S\n                (NP (DT a) (CD 390) (NNS dollars))\n                (VP (VBP check)\n                  (S\n                    (VP (VBG using)\n                      (NP\n                        (NP (JJ 20-dollar) (NNS bills))\n                        (CC and)\n                        (NP (JJ 50-dollar) (NNS bills))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "asked"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 1,
+          "dependentGloss": "Kerry"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "teller",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "teller",
+          "dependent": 4,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 5,
+          "dependentGloss": "teller"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "cash",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 7,
+          "dependentGloss": "cash"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "390"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "check",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "cash",
+          "dependent": 11,
+          "dependentGloss": "check"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 11,
+          "governorGloss": "check",
+          "dependent": 12,
+          "dependentGloss": "using"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 13,
+          "dependentGloss": "20-dollar"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "using",
+          "dependent": 14,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "bills",
+          "dependent": 16,
+          "dependentGloss": "50-dollar"
+        },
+        {
+          "dep": "conj",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 17,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "asked"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 1,
+          "dependentGloss": "Kerry"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "teller",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "teller",
+          "dependent": 4,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 5,
+          "dependentGloss": "teller"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "cash",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 7,
+          "dependentGloss": "cash"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "390"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "check",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "cash",
+          "dependent": 11,
+          "dependentGloss": "check"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 11,
+          "governorGloss": "check",
+          "dependent": 12,
+          "dependentGloss": "using"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 13,
+          "dependentGloss": "20-dollar"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "using",
+          "dependent": 14,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "bills",
+          "dependent": 16,
+          "dependentGloss": "50-dollar"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 17,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "asked"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 1,
+          "dependentGloss": "Kerry"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "teller",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "teller",
+          "dependent": 4,
+          "dependentGloss": "bank"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 5,
+          "dependentGloss": "teller"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "cash",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 7,
+          "dependentGloss": "cash"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "390"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "check",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "cash",
+          "dependent": 11,
+          "dependentGloss": "check"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 11,
+          "governorGloss": "check",
+          "dependent": 12,
+          "dependentGloss": "using"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 13,
+          "dependentGloss": "20-dollar"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "using",
+          "dependent": 14,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 17,
+          "governorGloss": "bills",
+          "dependent": 16,
+          "dependentGloss": "50-dollar"
+        },
+        {
+          "dep": "dobj",
+          "governor": 12,
+          "governorGloss": "using",
+          "dependent": 17,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "bills",
+          "dependent": 17,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "asked",
+          "dependent": 18,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Kerry",
+          "originalText": "Kerry",
+          "lemma": "Kerry",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "asked",
+          "originalText": "asked",
+          "lemma": "ask",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 11,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 13,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bank",
+          "originalText": "bank",
+          "lemma": "bank",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "teller",
+          "originalText": "teller",
+          "lemma": "teller",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 28,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "cash",
+          "originalText": "cash",
+          "lemma": "cash",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 33,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 35,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "390",
+          "originalText": "390",
+          "lemma": "390",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 39,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$390.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 47,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$390.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "check",
+          "originalText": "check",
+          "lemma": "check",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 53,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "using",
+          "originalText": "using",
+          "lemma": "use",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 59,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "20-dollar",
+          "originalText": "20-dollar",
+          "lemma": "20-dollar",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 69,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "bills",
+          "originalText": "bills",
+          "lemma": "bill",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 75,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 79,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "50-dollar",
+          "originalText": "50-dollar",
+          "lemma": "50-dollar",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 89,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "bills",
+          "originalText": "bills",
+          "lemma": "bill",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 96,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (DT the) (NN teller))\n        (VP (VBD gave)\n          (NP (PRP her))\n          (NP\n            (NP (DT a) (NN total))\n            (PP (IN of)\n              (NP (CD 15) (NNS bills)))))))\n    (, ,)\n    (WHNP\n      (WHNP (WRB how) (JJ many))\n      (NP (JJ 20-dollar) (NNS bills)))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB get)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "teller",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 3,
+          "dependentGloss": "teller"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 4,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "iobj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 5,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "bills",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "bills",
+          "dependent": 9,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 10,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "bills",
+          "dependent": 14,
+          "dependentGloss": "20-dollar"
+        },
+        {
+          "dep": "dep",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "teller",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 3,
+          "dependentGloss": "teller"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 4,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "iobj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 5,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "bills",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "bills",
+          "dependent": 9,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 10,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "bills",
+          "dependent": 14,
+          "dependentGloss": "20-dollar"
+        },
+        {
+          "dep": "dep",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "teller",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 3,
+          "dependentGloss": "teller"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 4,
+          "dependentGloss": "gave"
+        },
+        {
+          "dep": "iobj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 5,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "gave",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "bills",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "bills",
+          "dependent": 9,
+          "dependentGloss": "15"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 10,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 11,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 12,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "bills",
+          "dependent": 14,
+          "dependentGloss": "20-dollar"
+        },
+        {
+          "dep": "dep",
+          "governor": 13,
+          "governorGloss": "many",
+          "dependent": 15,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "get",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 103,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "teller",
+          "originalText": "teller",
+          "lemma": "teller",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 110,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "gave",
+          "originalText": "gave",
+          "lemma": "give",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 119,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 121,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 127,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 130,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "15",
+          "originalText": "15",
+          "lemma": "15",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 133,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "15.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "bills",
+          "originalText": "bills",
+          "lemma": "bill",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 139,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 141,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 145,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 150,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "20-dollar",
+          "originalText": "20-dollar",
+          "lemma": "20-dollar",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 160,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "bills",
+          "originalText": "bills",
+          "lemma": "bill",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 166,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 170,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 174,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "get",
+          "originalText": "get",
+          "lemma": "get",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 178,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 179,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (FRAG\n    (WHADVP (WRB How) (JJ many))\n    (NP (JJ 50-dollar) (NNS bills))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 3,
+          "dependentGloss": "50-dollar"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 3,
+          "dependentGloss": "50-dollar"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bills"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 3,
+          "dependentGloss": "50-dollar"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bills",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 183,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 188,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "50-dollar",
+          "originalText": "50-dollar",
+          "lemma": "50-dollar",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 198,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bills",
+          "originalText": "bills",
+          "lemma": "bill",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 204,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 205,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Kerry",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a bank teller",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "the teller",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "20-dollar bills and 50-dollar bills",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "20-dollar bills",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "20-dollar bills",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "50-dollar bills",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "50-dollar bills",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "a total of 15 bills",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

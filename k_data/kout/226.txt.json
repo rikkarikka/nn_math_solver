@@ -1,0 +1,1579 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (NN building))\n      (PP (IN with)\n        (NP (CD 12) (NNS units))))\n    (VP (VBZ consists)\n      (PP (IN of)\n        (NP\n          (NP (CD 1) (NNS bedrooms))\n          (VP (VBG costing)\n            (S\n              (NP\n                (NP (CD 360) (NNS dollars))\n                (CC and)\n                (NP (CD 2) (NNS bedrooms)))\n              (VP (VBG costing)\n                (NP (CD 450) (NNS dollars))\n                (ADVP (RB respectively))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "consists"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "building",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 2,
+          "dependentGloss": "building"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "units",
+          "dependent": 3,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "units",
+          "dependent": 4,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "building",
+          "dependent": 5,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 8,
+          "dependentGloss": "1"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 9,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 10,
+          "dependentGloss": "costing"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "360"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "bedrooms",
+          "dependent": 14,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "costing",
+          "dependent": 16,
+          "dependentGloss": "costing"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "450"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 19,
+          "dependentGloss": "respectively"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "consists"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "building",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 2,
+          "dependentGloss": "building"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "units",
+          "dependent": 3,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "units",
+          "dependent": 4,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "building",
+          "dependent": 5,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 8,
+          "dependentGloss": "1"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 9,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 10,
+          "dependentGloss": "costing"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "360"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "bedrooms",
+          "dependent": 14,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "costing",
+          "dependent": 16,
+          "dependentGloss": "costing"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "450"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 19,
+          "dependentGloss": "respectively"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "consists"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "building",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 2,
+          "dependentGloss": "building"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "units",
+          "dependent": 3,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "units",
+          "dependent": 4,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "building",
+          "dependent": 5,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 8,
+          "dependentGloss": "1"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 9,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "acl",
+          "governor": 9,
+          "governorGloss": "bedrooms",
+          "dependent": 10,
+          "dependentGloss": "costing"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "360"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "cc",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "bedrooms",
+          "dependent": 14,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 15,
+          "dependentGloss": "bedrooms"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "costing",
+          "dependent": 16,
+          "dependentGloss": "costing"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "dollars",
+          "dependent": 17,
+          "dependentGloss": "450"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 18,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 16,
+          "governorGloss": "costing",
+          "dependent": 19,
+          "dependentGloss": "respectively"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "consists",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "building",
+          "originalText": "building",
+          "lemma": "building",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 18,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 24,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "consists",
+          "originalText": "consists",
+          "lemma": "consist",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 33,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 36,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "1",
+          "originalText": "1",
+          "lemma": "1",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 38,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "bedrooms",
+          "originalText": "bedrooms",
+          "lemma": "bedroom",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 47,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "costing",
+          "originalText": "costing",
+          "lemma": "cost",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 55,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "360",
+          "originalText": "360",
+          "lemma": "360",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 59,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$360.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$360.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 73,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "bedrooms",
+          "originalText": "bedrooms",
+          "lemma": "bedroom",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "costing",
+          "originalText": "costing",
+          "lemma": "cost",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 90,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "450",
+          "originalText": "450",
+          "lemma": "450",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 94,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$450.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 102,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$450.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "respectively",
+          "originalText": "respectively",
+          "lemma": "respectively",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 115,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (SBAR\n      (WHADVP (WRB When))\n      (S\n        (NP (DT all) (NNS units))\n        (VP (VBP are)\n          (ADJP (JJ full)))))\n    (NP (DT the) (NN total))\n    (VP (VBZ is)\n      (NP (CD 4950) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 1,
+          "dependentGloss": "When"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "units",
+          "dependent": 2,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 3,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "full"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "4950"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 1,
+          "dependentGloss": "When"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "units",
+          "dependent": 2,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 3,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "full"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "4950"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 1,
+          "dependentGloss": "When"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "units",
+          "dependent": 2,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 3,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "cop",
+          "governor": 5,
+          "governorGloss": "full",
+          "dependent": 4,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "full"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "total",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "cop",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "4950"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "When",
+          "originalText": "When",
+          "lemma": "when",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 121,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 125,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 131,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 135,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "full",
+          "originalText": "full",
+          "lemma": "full",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 140,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 144,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 150,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 153,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "4950",
+          "originalText": "4950",
+          "lemma": "4950",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 158,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$4950.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 166,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$4950.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 167,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (CD 2) (NN bedroom))\n        (NP (NNS units))))\n    (SQ (VBP are)\n      (NP (EX there)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 3,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "bedroom"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 5,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 3,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "bedroom"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 5,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 3,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "bedroom"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "bedroom",
+          "dependent": 5,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "expl",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 7,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "are",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 176,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 178,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bedroom",
+          "originalText": "bedroom",
+          "lemma": "bedroom",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 186,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 192,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 196,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 202,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 202,
+          "characterOffsetEnd": 203,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "1",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "A building with 12 units",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "12 units",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "units",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "1 bedrooms costing 360 dollars and 2 bedrooms costing 450 dollars respectively",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2 bedrooms",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the total",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "2 bedroom units",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

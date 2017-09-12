@@ -1,0 +1,1813 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Mitch))\n    (VP (VBZ is)\n      (VP (VBG buying)\n        (NP (NN candy) (NNS bars))\n        (PP (IN for)\n          (NP (PRP$ his) (NNS friends)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 1,
+          "dependentGloss": "Mitch"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "bars",
+          "dependent": 4,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 5,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "friends",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 8,
+          "governorGloss": "friends",
+          "dependent": 7,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 8,
+          "dependentGloss": "friends"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 1,
+          "dependentGloss": "Mitch"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "bars",
+          "dependent": 4,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 5,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "friends",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 8,
+          "governorGloss": "friends",
+          "dependent": 7,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 8,
+          "dependentGloss": "friends"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 1,
+          "dependentGloss": "Mitch"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "bars",
+          "dependent": 4,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 5,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "friends",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 8,
+          "governorGloss": "friends",
+          "dependent": 7,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 8,
+          "dependentGloss": "friends"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "buying",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Mitch",
+          "originalText": "Mitch",
+          "lemma": "Mitch",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 8,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "buying",
+          "originalText": "buying",
+          "lemma": "buy",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 15,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "candy",
+          "originalText": "candy",
+          "lemma": "candy",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 21,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "bars",
+          "originalText": "bars",
+          "lemma": "bar",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 26,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "his",
+          "originalText": "his",
+          "lemma": "he",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 34,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "friends",
+          "originalText": "friends",
+          "lemma": "friend",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 42,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 43,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (PRP He))\n      (VP (VBZ wants)\n        (S\n          (VP (TO to)\n            (VP (VB give)\n              (NP (CD 2) (NNS bars))\n              (PP (TO to)\n                (NP (DT each) (NN friend))))))))\n    (, ,)\n    (CC and)\n    (S\n      (NP (PRP he))\n      (VP (VBZ wants)\n        (S\n          (VP (TO to)\n            (VP (VB have)\n              (NP (CD 10) (JJ spare) (NNS bars)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 4,
+          "dependentGloss": "give"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "bars",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 6,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "friend",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "friend",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 9,
+          "dependentGloss": "friend"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "wants",
+          "dependent": 12,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 13,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 13,
+          "governorGloss": "wants",
+          "dependent": 15,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "bars",
+          "dependent": 16,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "bars",
+          "dependent": 17,
+          "dependentGloss": "spare"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 4,
+          "dependentGloss": "give"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "bars",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 6,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "friend",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "friend",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 9,
+          "dependentGloss": "friend"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "wants",
+          "dependent": 12,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 13,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 13,
+          "governorGloss": "wants",
+          "dependent": 15,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "bars",
+          "dependent": 16,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "bars",
+          "dependent": 17,
+          "dependentGloss": "spare"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 4,
+          "dependentGloss": "give"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "bars",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 6,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "friend",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "friend",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "give",
+          "dependent": 9,
+          "dependentGloss": "friend"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "wants",
+          "dependent": 12,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 13,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "have",
+          "dependent": 14,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 13,
+          "governorGloss": "wants",
+          "dependent": 15,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 18,
+          "governorGloss": "bars",
+          "dependent": 16,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "bars",
+          "dependent": 17,
+          "dependentGloss": "spare"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "have",
+          "dependent": 18,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "wants",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 46,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "wants",
+          "originalText": "wants",
+          "lemma": "want",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 52,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 55,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "give",
+          "originalText": "give",
+          "lemma": "give",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "bars",
+          "originalText": "bars",
+          "lemma": "bar",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 75,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "friend",
+          "originalText": "friend",
+          "lemma": "friend",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 82,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 84,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 88,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 91,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "wants",
+          "originalText": "wants",
+          "lemma": "want",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 97,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 100,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 105,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 108,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "spare",
+          "originalText": "spare",
+          "lemma": "spare",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 114,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "bars",
+          "originalText": "bars",
+          "lemma": "bar",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 120,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (MD can)\n      (VP (VB afford)\n        (S\n          (VP (TO to)\n            (VP (VB buy)\n              (NP (CD 24) (NN candy) (NNS bars)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "afford"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "buy",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 5,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "bars",
+          "dependent": 6,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "bars",
+          "dependent": 7,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "afford"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "buy",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 5,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "bars",
+          "dependent": 6,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "bars",
+          "dependent": 7,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "afford"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "buy",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 5,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "bars",
+          "dependent": 6,
+          "dependentGloss": "24"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "bars",
+          "dependent": 7,
+          "dependentGloss": "candy"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "buy",
+          "dependent": 8,
+          "dependentGloss": "bars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "afford",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 123,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 127,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "afford",
+          "originalText": "afford",
+          "lemma": "afford",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 134,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 137,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 141,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "24",
+          "originalText": "24",
+          "lemma": "24",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 144,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "24.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "candy",
+          "originalText": "candy",
+          "lemma": "candy",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 150,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "bars",
+          "originalText": "bars",
+          "lemma": "bar",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 155,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 156,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS friends))\n    (SQ (MD can)\n      (NP (PRP he))\n      (VP (VB treat)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "treat"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "friends",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 3,
+          "dependentGloss": "friends"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "treat"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "friends",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 3,
+          "dependentGloss": "friends"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "treat"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "friends",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 3,
+          "dependentGloss": "friends"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 4,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "treat",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 165,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "friends",
+          "originalText": "friends",
+          "lemma": "friend",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 173,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 177,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 180,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "treat",
+          "originalText": "treat",
+          "lemma": "treat",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 186,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 187,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Mitch",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 4,
+        "text": "his",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "candy bars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "his friends",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "10",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "2 bars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "each friend",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "10 spare bars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "24",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "24 candy bars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

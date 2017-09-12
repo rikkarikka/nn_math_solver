@@ -1,0 +1,1632 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN woman))\n    (VP (VBZ is)\n      (VP (VBN paid)\n        (NP\n          (NP (CD 20) (NNS dollars))\n          (PP (IN for)\n            (NP\n              (NP (DT each) (NN day))\n              (SBAR\n                (S\n                  (NP (PRP she))\n                  (VP (VBZ works)\n                    (CC and)\n                    (VBZ forfeits)\n                    (NP\n                      (NP (CD 5) (NNS dollars))\n                      (PP (IN for)\n                        (NP\n                          (NP (DT each) (NN day))\n                          (SBAR\n                            (S\n                              (NP (PRP she))\n                              (VP (VBZ is)\n                                (ADJP (JJ idle))))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "woman",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 2,
+          "dependentGloss": "woman"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "works"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 13,
+          "dependentGloss": "forfeits"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "idle",
+          "dependent": 19,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "idle",
+          "dependent": 20,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 21,
+          "dependentGloss": "idle"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "woman",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 2,
+          "dependentGloss": "woman"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "works"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 13,
+          "dependentGloss": "forfeits"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "idle",
+          "dependent": 19,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "idle",
+          "dependent": 20,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 21,
+          "dependentGloss": "idle"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "woman",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 2,
+          "dependentGloss": "woman"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 8,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "forfeits",
+          "dependent": 10,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 11,
+          "dependentGloss": "works"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 9,
+          "governorGloss": "day",
+          "dependent": 13,
+          "dependentGloss": "forfeits"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 13,
+          "dependentGloss": "forfeits"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "works",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "idle",
+          "dependent": 19,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "cop",
+          "governor": 21,
+          "governorGloss": "idle",
+          "dependent": 20,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 18,
+          "governorGloss": "day",
+          "dependent": 21,
+          "dependentGloss": "idle"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "woman",
+          "originalText": "woman",
+          "lemma": "woman",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 18,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 26,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 35,
+          "pos": "DT",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "SET",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 9,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "SET",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 10,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 43,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "works",
+          "originalText": "works",
+          "lemma": "work",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 49,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "forfeits",
+          "originalText": "forfeits",
+          "lemma": "forfeit",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 62,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 64,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 72,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 81,
+          "pos": "DT",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "SET",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 18,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "NN",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "SET",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 19,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 89,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 92,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "idle",
+          "originalText": "idle",
+          "lemma": "idle",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 97,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 98,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN At)\n      (NP\n        (NP (DT the) (NN end))\n        (PP (IN of)\n          (NP (CD 25) (NNS days)))))\n    (NP (PRP she))\n    (VP (VBZ nets)\n      (NP (CD 450) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "nets"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 3,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "days",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "days",
+          "dependent": 5,
+          "dependentGloss": "25"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 6,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "450"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "nets"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 3,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "days",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "days",
+          "dependent": 5,
+          "dependentGloss": "25"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 6,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "450"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "nets"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 3,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "days",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "days",
+          "dependent": 5,
+          "dependentGloss": "25"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "end",
+          "dependent": 6,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 7,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "450"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 10,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "nets",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "At",
+          "originalText": "At",
+          "lemma": "at",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 101,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 105,
+          "pos": "DT",
+          "ner": "DURATION",
+          "normalizedNER": "P25D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P25D"
+          }
+        },
+        {
+          "index": 3,
+          "word": "end",
+          "originalText": "end",
+          "lemma": "end",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 109,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P25D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P25D"
+          }
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "IN",
+          "ner": "DURATION",
+          "normalizedNER": "P25D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P25D"
+          }
+        },
+        {
+          "index": 5,
+          "word": "25",
+          "originalText": "25",
+          "lemma": "25",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 115,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P25D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P25D"
+          }
+        },
+        {
+          "index": 6,
+          "word": "days",
+          "originalText": "days",
+          "lemma": "day",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 120,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "P25D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "P25D"
+          }
+        },
+        {
+          "index": 7,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "nets",
+          "originalText": "nets",
+          "lemma": "net",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 129,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "450",
+          "originalText": "450",
+          "lemma": "450",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 133,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$450.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 141,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$450.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 142,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS days))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB work)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "work"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "days",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 3,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "work"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "days",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 3,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "work"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "days",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 3,
+          "dependentGloss": "days"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "work",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 146,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 151,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "days",
+          "originalText": "days",
+          "lemma": "day",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 156,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PXD",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "DURATION",
+            "value": "PXD"
+          }
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 164,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "work",
+          "originalText": "work",
+          "lemma": "work",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 169,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 170,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A woman",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 3,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 5,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 19,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "each day she works and forfeits 5 dollars for each day she is idle",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "each day she is idle",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the end of 25 days",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "25 days",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

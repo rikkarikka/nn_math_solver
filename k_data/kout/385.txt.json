@@ -1,0 +1,2834 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (JJ direct) (NN flight))\n      (PP (IN on)\n        (NP\n          (NP (NN delta) (NN air) (NNS lines))\n          (PP (IN from)\n            (NP\n              (NP (NNP Atlanta))\n              (PP (TO to)\n                (NP (NNP Paris))))))))\n    (VP\n      (VP (VBZ is)\n        (NP (CD 4000) (NNS miles)))\n      (CC and)\n      (VP (VBZ takes)\n        (NP\n          (QP (RB approximately) (CD 8))\n          (NNS hours))\n        (S\n          (VP (VBG going)\n            (S\n              (NP\n                (NP (NNP East))\n                (CC and)\n                (NP (CD 10) (NNS hours)))\n              (VP (VBG going)\n                (NP (NNP West))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 2,
+          "dependentGloss": "direct"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 3,
+          "dependentGloss": "flight"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 4,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 5,
+          "dependentGloss": "delta"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 6,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 7,
+          "dependentGloss": "lines"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Atlanta",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 9,
+          "dependentGloss": "Atlanta"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "Paris",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "Atlanta",
+          "dependent": 11,
+          "dependentGloss": "Paris"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "4000"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 16,
+          "dependentGloss": "takes"
+        },
+        {
+          "dep": "advmod",
+          "governor": 18,
+          "governorGloss": "8",
+          "dependent": 17,
+          "dependentGloss": "approximately"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "hours",
+          "dependent": 18,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 19,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 20,
+          "dependentGloss": "going"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 21,
+          "dependentGloss": "East"
+        },
+        {
+          "dep": "cc",
+          "governor": 21,
+          "governorGloss": "East",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "hours",
+          "dependent": 23,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "conj",
+          "governor": 21,
+          "governorGloss": "East",
+          "dependent": 24,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "advcl",
+          "governor": 20,
+          "governorGloss": "going",
+          "dependent": 25,
+          "dependentGloss": "going"
+        },
+        {
+          "dep": "dobj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 26,
+          "dependentGloss": "West"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 27,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 2,
+          "dependentGloss": "direct"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 3,
+          "dependentGloss": "flight"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 4,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 5,
+          "dependentGloss": "delta"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 6,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 7,
+          "dependentGloss": "lines"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Atlanta",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 9,
+          "dependentGloss": "Atlanta"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "Paris",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 9,
+          "governorGloss": "Atlanta",
+          "dependent": 11,
+          "dependentGloss": "Paris"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "4000"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 16,
+          "dependentGloss": "takes"
+        },
+        {
+          "dep": "advmod",
+          "governor": 18,
+          "governorGloss": "8",
+          "dependent": 17,
+          "dependentGloss": "approximately"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "hours",
+          "dependent": 18,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 19,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 20,
+          "dependentGloss": "going"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 21,
+          "dependentGloss": "East"
+        },
+        {
+          "dep": "cc",
+          "governor": 21,
+          "governorGloss": "East",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "hours",
+          "dependent": 23,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 21,
+          "governorGloss": "East",
+          "dependent": 24,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "advcl",
+          "governor": 20,
+          "governorGloss": "going",
+          "dependent": 25,
+          "dependentGloss": "going"
+        },
+        {
+          "dep": "dobj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 26,
+          "dependentGloss": "West"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 27,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 2,
+          "dependentGloss": "direct"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 3,
+          "dependentGloss": "flight"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 3,
+          "dependentGloss": "flight"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 4,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 5,
+          "dependentGloss": "delta"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 6,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 3,
+          "governorGloss": "flight",
+          "dependent": 7,
+          "dependentGloss": "lines"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Atlanta",
+          "dependent": 8,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 7,
+          "governorGloss": "lines",
+          "dependent": 9,
+          "dependentGloss": "Atlanta"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "Paris",
+          "dependent": 10,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 9,
+          "governorGloss": "Atlanta",
+          "dependent": 11,
+          "dependentGloss": "Paris"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 12,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "4000"
+        },
+        {
+          "dep": "cc",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 16,
+          "dependentGloss": "takes"
+        },
+        {
+          "dep": "advmod",
+          "governor": 18,
+          "governorGloss": "8",
+          "dependent": 17,
+          "dependentGloss": "approximately"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "hours",
+          "dependent": 18,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "dobj",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 19,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "takes",
+          "dependent": 20,
+          "dependentGloss": "going"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 21,
+          "dependentGloss": "East"
+        },
+        {
+          "dep": "cc",
+          "governor": 21,
+          "governorGloss": "East",
+          "dependent": 22,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 24,
+          "governorGloss": "hours",
+          "dependent": 23,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 21,
+          "governorGloss": "East",
+          "dependent": 24,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 24,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "advcl",
+          "governor": 20,
+          "governorGloss": "going",
+          "dependent": 25,
+          "dependentGloss": "going"
+        },
+        {
+          "dep": "dobj",
+          "governor": 25,
+          "governorGloss": "going",
+          "dependent": 26,
+          "dependentGloss": "West"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "miles",
+          "dependent": 27,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "direct",
+          "originalText": "direct",
+          "lemma": "direct",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 8,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "flight",
+          "originalText": "flight",
+          "lemma": "flight",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 18,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "delta",
+          "originalText": "delta",
+          "lemma": "delta",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 24,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "air",
+          "originalText": "air",
+          "lemma": "air",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 28,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "lines",
+          "originalText": "lines",
+          "lemma": "line",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 34,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Atlanta",
+          "originalText": "Atlanta",
+          "lemma": "Atlanta",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 47,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 50,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Paris",
+          "originalText": "Paris",
+          "lemma": "Paris",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 56,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "4000",
+          "originalText": "4000",
+          "lemma": "4000",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 64,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4000.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 70,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "takes",
+          "originalText": "takes",
+          "lemma": "take",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 80,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "approximately",
+          "originalText": "approximately",
+          "lemma": "approximately",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 94,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 96,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "PT8H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT8H"
+          }
+        },
+        {
+          "index": 19,
+          "word": "hours",
+          "originalText": "hours",
+          "lemma": "hour",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 102,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PT8H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT8H"
+          }
+        },
+        {
+          "index": 20,
+          "word": "going",
+          "originalText": "going",
+          "lemma": "go",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 108,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "East",
+          "originalText": "East",
+          "lemma": "East",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 113,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 117,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 120,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "PT10H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "PT10H"
+          }
+        },
+        {
+          "index": 24,
+          "word": "hours",
+          "originalText": "hours",
+          "lemma": "hour",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 126,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PT10H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "PT10H"
+          }
+        },
+        {
+          "index": 25,
+          "word": "going",
+          "originalText": "going",
+          "lemma": "go",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 132,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "West",
+          "originalText": "West",
+          "lemma": "West",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 137,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 27,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 138,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN Although)\n      (S\n        (NP (DT the) (NN plane) (NNS averages))\n        (NP (DT the) (JJ same) (NN airspeed))))\n    (, ,)\n    (NP (EX there))\n    (VP (VBZ is)\n      (NP (DT a) (NN headwind))\n      (SBAR (IN while)\n        (S\n          (S\n            (VP (VBG traveling)\n              (NP (NNP East))))\n          (, ,)\n          (S\n            (VP (VBG resulting)\n              (PP (IN in)\n                (NP (DT a) (JJ different) (NN air) (NNS speeds))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 1,
+          "dependentGloss": "Although"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "averages",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "averages",
+          "dependent": 3,
+          "dependentGloss": "plane"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 4,
+          "dependentGloss": "averages"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 6,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "airspeed"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "expl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 9,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "headwind",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "headwind"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 13,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 14,
+          "dependentGloss": "traveling"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 15,
+          "dependentGloss": "East"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "parataxis",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 17,
+          "dependentGloss": "resulting"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 18,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 20,
+          "dependentGloss": "different"
+        },
+        {
+          "dep": "compound",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 21,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "resulting",
+          "dependent": 22,
+          "dependentGloss": "speeds"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 1,
+          "dependentGloss": "Although"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "averages",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "averages",
+          "dependent": 3,
+          "dependentGloss": "plane"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 4,
+          "dependentGloss": "averages"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 6,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "airspeed"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "expl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 9,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "headwind",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "headwind"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 13,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 14,
+          "dependentGloss": "traveling"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 15,
+          "dependentGloss": "East"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "parataxis",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 17,
+          "dependentGloss": "resulting"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 18,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 20,
+          "dependentGloss": "different"
+        },
+        {
+          "dep": "compound",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 21,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 17,
+          "governorGloss": "resulting",
+          "dependent": 22,
+          "dependentGloss": "speeds"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 1,
+          "dependentGloss": "Although"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "averages",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "averages",
+          "dependent": 3,
+          "dependentGloss": "plane"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 4,
+          "dependentGloss": "averages"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "airspeed",
+          "dependent": 6,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "airspeed"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "expl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 9,
+          "dependentGloss": "there"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "headwind",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 12,
+          "dependentGloss": "headwind"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 13,
+          "dependentGloss": "while"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 14,
+          "dependentGloss": "traveling"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 15,
+          "dependentGloss": "East"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 16,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "parataxis",
+          "governor": 14,
+          "governorGloss": "traveling",
+          "dependent": 17,
+          "dependentGloss": "resulting"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 18,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 20,
+          "dependentGloss": "different"
+        },
+        {
+          "dep": "compound",
+          "governor": 22,
+          "governorGloss": "speeds",
+          "dependent": 21,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 17,
+          "governorGloss": "resulting",
+          "dependent": 22,
+          "dependentGloss": "speeds"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "is",
+          "dependent": 23,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Although",
+          "originalText": "Although",
+          "lemma": "although",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 147,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 151,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "plane",
+          "originalText": "plane",
+          "lemma": "plane",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 157,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "averages",
+          "originalText": "averages",
+          "lemma": "average",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 166,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 170,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "same",
+          "originalText": "same",
+          "lemma": "same",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 175,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "airspeed",
+          "originalText": "airspeed",
+          "lemma": "airspeed",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 184,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 186,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "there",
+          "originalText": "there",
+          "lemma": "there",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 192,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 195,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 197,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "headwind",
+          "originalText": "headwind",
+          "lemma": "headwind",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 206,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "while",
+          "originalText": "while",
+          "lemma": "while",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 212,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "traveling",
+          "originalText": "traveling",
+          "lemma": "travel",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 222,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "East",
+          "originalText": "East",
+          "lemma": "East",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 227,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 229,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "resulting",
+          "originalText": "resulting",
+          "lemma": "result",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 239,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 242,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 244,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "different",
+          "originalText": "different",
+          "lemma": "different",
+          "characterOffsetBegin": 245,
+          "characterOffsetEnd": 254,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "air",
+          "originalText": "air",
+          "lemma": "air",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 258,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "speeds",
+          "originalText": "speeds",
+          "lemma": "speed",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 265,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 266,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (VBZ is)\n      (NP\n        (NP (DT the) (JJ average) (NN air) (NN speed))\n        (PP (IN of)\n          (NP\n            (NP (DT the) (NN plane))\n            (PP (IN in)\n              (NP\n                (NP (NNS miles))\n                (PP (IN per)\n                  (NP\n                    (NP (NN hour))\n                    (CC and)\n                    (NP (DT the) (JJ average) (NN wind) (NN speed))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 4,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 5,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 6,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 9,
+          "dependentGloss": "plane"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 16,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 17,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 18,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 4,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 5,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 6,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 9,
+          "dependentGloss": "plane"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 16,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 17,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 18,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "cop",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 2,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 4,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 5,
+          "dependentGloss": "air"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 6,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "speed",
+          "dependent": 9,
+          "dependentGloss": "plane"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "plane",
+          "dependent": 11,
+          "dependentGloss": "miles"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 13,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 16,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "compound",
+          "governor": 18,
+          "governorGloss": "speed",
+          "dependent": 17,
+          "dependentGloss": "wind"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 11,
+          "governorGloss": "miles",
+          "dependent": 18,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 18,
+          "dependentGloss": "speed"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "What",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 267,
+          "characterOffsetEnd": 271,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 272,
+          "characterOffsetEnd": 274,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 278,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 286,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "air",
+          "originalText": "air",
+          "lemma": "air",
+          "characterOffsetBegin": 287,
+          "characterOffsetEnd": 290,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "speed",
+          "originalText": "speed",
+          "lemma": "speed",
+          "characterOffsetBegin": 291,
+          "characterOffsetEnd": 296,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 297,
+          "characterOffsetEnd": 299,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 300,
+          "characterOffsetEnd": 303,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "plane",
+          "originalText": "plane",
+          "lemma": "plane",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 309,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 310,
+          "characterOffsetEnd": 312,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "miles",
+          "originalText": "miles",
+          "lemma": "mile",
+          "characterOffsetBegin": 313,
+          "characterOffsetEnd": 318,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 319,
+          "characterOffsetEnd": 322,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 323,
+          "characterOffsetEnd": 327,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 328,
+          "characterOffsetEnd": 331,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 332,
+          "characterOffsetEnd": 335,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 336,
+          "characterOffsetEnd": 343,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "wind",
+          "originalText": "wind",
+          "lemma": "wind",
+          "characterOffsetBegin": 344,
+          "characterOffsetEnd": 348,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "speed",
+          "originalText": "speed",
+          "lemma": "speed",
+          "characterOffsetBegin": 349,
+          "characterOffsetEnd": 354,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 354,
+          "characterOffsetEnd": 355,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Paris",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "4000",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "A direct flight on delta air lines from Atlanta to Paris",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "delta air lines from Atlanta to Paris",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Atlanta to Paris",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "4000 miles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "approximately 8 hours",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "East and 10 hours",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "East",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 22,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "East",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "10 hours",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "West",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 26,
+        "endIndex": 27,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "the plane averages",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "the same airspeed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "a headwind",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "a different air speeds",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 23,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "the average air speed of the plane in miles per hour and the average wind speed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the plane in miles per hour and the average wind speed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "miles per hour and the average wind speed",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "hour and the average wind speed",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "22": [
+      {
+        "id": 22,
+        "text": "the average wind speed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 19,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

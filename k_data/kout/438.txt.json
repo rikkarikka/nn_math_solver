@@ -1,0 +1,1216 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Paul))\n    (VP (VBZ has)\n      (NP (CD 30) (NNS postcards)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Paul"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Paul"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Paul"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 5,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Paul",
+          "originalText": "Paul",
+          "lemma": "Paul",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 8,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "postcards",
+          "originalText": "postcards",
+          "lemma": "postcard",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 21,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 22,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBZ has)\n      (NP\n        (NP\n          (QP (CD 4) (NNS times) (IN as) (JJ many))\n          (JJ large) (NNS postcards))\n        (PP (IN as)\n          (NP (JJ small) (NNS postcards)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 4,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 7,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "postcards",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "postcards",
+          "dependent": 10,
+          "dependentGloss": "small"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 11,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 4,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 7,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "postcards",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "postcards",
+          "dependent": 10,
+          "dependentGloss": "small"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 11,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 4,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 7,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 8,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "postcards",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "postcards",
+          "dependent": 10,
+          "dependentGloss": "small"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 8,
+          "governorGloss": "postcards",
+          "dependent": 11,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 25,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 31,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 37,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 45,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 51,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "postcards",
+          "originalText": "postcards",
+          "lemma": "postcard",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 61,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 64,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "small",
+          "originalText": "small",
+          "lemma": "small",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 70,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "postcards",
+          "originalText": "postcards",
+          "lemma": "postcard",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 80,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 81,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (ADJP (JJ small))\n      (NNS postcards))\n    (SQ (VBZ does)\n      (NP (PRP he))\n      (VP (VB have)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "small"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "small"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "small"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 85,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 90,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "small",
+          "originalText": "small",
+          "lemma": "small",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 96,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "postcards",
+          "originalText": "postcards",
+          "lemma": "postcard",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 106,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 111,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 120,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (FRAG\n    (SBARQ\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (JJ large) (NNS postcards))\n      (. ?))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "postcards"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 3,
+          "dependentGloss": "large"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "postcards",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 129,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "large",
+          "originalText": "large",
+          "lemma": "large",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 135,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "postcards",
+          "originalText": "postcards",
+          "lemma": "postcard",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 145,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 146,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Paul",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "He",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "30",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "30 postcards",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "4 times as many large postcards as small postcards",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "small postcards",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

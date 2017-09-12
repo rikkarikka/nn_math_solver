@@ -1,0 +1,2751 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Maggie))\n    (VP (VBZ has)\n      (NP\n        (NP (DT a) (NN job))\n        (VP (VBG working)\n          (PP (IN in)\n            (NP\n              (NP (DT an) (NN office))\n              (PP (IN for)\n                (NP\n                  (NP\n                    (NP (CD 10) (NNS dollars))\n                    (NP (DT an) (NN hour)))\n                  (CC and)\n                  (NP\n                    (NP (DT another) (NN job))\n                    (VP (VBG driving)\n                      (NP\n                        (NP (DT a) (NN tractor))\n                        (PP (IN for)\n                          (NP\n                            (NP (CD 12) (NNS dollars))\n                            (NP (DT an) (NN hour))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Maggie"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "job",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "job",
+          "dependent": 5,
+          "dependentGloss": "working"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "working",
+          "dependent": 8,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "job",
+          "dependent": 15,
+          "dependentGloss": "another"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "acl",
+          "governor": 16,
+          "governorGloss": "job",
+          "dependent": 17,
+          "dependentGloss": "driving"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "tractor",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "driving",
+          "dependent": 19,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "tractor",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "hour",
+          "dependent": 23,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dep",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 24,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Maggie"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "job",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "job",
+          "dependent": 5,
+          "dependentGloss": "working"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "working",
+          "dependent": 8,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "job",
+          "dependent": 15,
+          "dependentGloss": "another"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "acl",
+          "governor": 16,
+          "governorGloss": "job",
+          "dependent": 17,
+          "dependentGloss": "driving"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "tractor",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "driving",
+          "dependent": 19,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 19,
+          "governorGloss": "tractor",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "hour",
+          "dependent": 23,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dep",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 24,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 1,
+          "dependentGloss": "Maggie"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "job",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 4,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "job",
+          "dependent": 5,
+          "dependentGloss": "working"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 5,
+          "governorGloss": "working",
+          "dependent": 8,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "hour",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dep",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "job",
+          "dependent": 15,
+          "dependentGloss": "another"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "office",
+          "dependent": 16,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "job"
+        },
+        {
+          "dep": "acl",
+          "governor": 16,
+          "governorGloss": "job",
+          "dependent": 17,
+          "dependentGloss": "driving"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "tractor",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "driving",
+          "dependent": 19,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 19,
+          "governorGloss": "tractor",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "hour",
+          "dependent": 23,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "dep",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 24,
+          "dependentGloss": "hour"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "has",
+          "dependent": 25,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Maggie",
+          "originalText": "Maggie",
+          "lemma": "Maggie",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 12,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "job",
+          "originalText": "job",
+          "lemma": "job",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 16,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "working",
+          "originalText": "working",
+          "lemma": "work",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 24,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 30,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "office",
+          "originalText": "office",
+          "lemma": "office",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 37,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 41,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 44,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 52,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 55,
+          "pos": "DT",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 13,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 64,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "another",
+          "originalText": "another",
+          "lemma": "another",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 72,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "job",
+          "originalText": "job",
+          "lemma": "job",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 76,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "driving",
+          "originalText": "driving",
+          "lemma": "drive",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 84,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 86,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "tractor",
+          "originalText": "tractor",
+          "lemma": "tractor",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 94,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 98,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 101,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 109,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "DT",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 24,
+          "word": "hour",
+          "originalText": "hour",
+          "lemma": "hour",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 117,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "PT1H",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "PT1H"
+          }
+        },
+        {
+          "index": 25,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 118,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP-TMP (CD One) (NN week))\n    (NP (PRP she))\n    (VP (VBZ works)\n      (PP (IN in)\n        (NP (DT the) (NN office)\n          (QP (RB twice) (RB as) (JJ long))))\n      (SBAR (IN as)\n        (S\n          (NP (PRP she))\n          (VP (VBZ drives)\n            (NP (DT the) (NN tractor))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "works"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "week",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 2,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 3,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 7,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "long",
+          "dependent": 8,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "long",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 10,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 12,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 13,
+          "dependentGloss": "drives"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "tractor",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 15,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "works"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "week",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 2,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 3,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 7,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "long",
+          "dependent": 8,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "long",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 10,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 12,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 13,
+          "dependentGloss": "drives"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "tractor",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 15,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "works"
+        },
+        {
+          "dep": "nummod",
+          "governor": 2,
+          "governorGloss": "week",
+          "dependent": 1,
+          "dependentGloss": "One"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 2,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 3,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 7,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "long",
+          "dependent": 8,
+          "dependentGloss": "twice"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "long",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "office",
+          "dependent": 10,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 12,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 13,
+          "dependentGloss": "drives"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "tractor",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "drives",
+          "dependent": 15,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "works",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "One",
+          "originalText": "One",
+          "lemma": "one",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 2,
+          "word": "week",
+          "originalText": "week",
+          "lemma": "week",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 3,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 131,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "works",
+          "originalText": "works",
+          "lemma": "work",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 137,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 140,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 144,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "office",
+          "originalText": "office",
+          "lemma": "office",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 151,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "twice",
+          "originalText": "twice",
+          "lemma": "twice",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 157,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 160,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 165,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 168,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 172,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "drives",
+          "originalText": "drives",
+          "lemma": "drive",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 179,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 183,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "tractor",
+          "originalText": "tractor",
+          "lemma": "tractor",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 191,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 192,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (PRP$ Her) (JJ total) (NN income))\n      (PP (IN for)\n        (NP (DT that) (NN week))))\n    (VP (VBZ is)\n      (NP (CD 416) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 2,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "income"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 5,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 6,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "416"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 2,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "income"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 5,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 6,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "416"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 1,
+          "dependentGloss": "Her"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 2,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "income"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "week",
+          "dependent": 5,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "income",
+          "dependent": 6,
+          "dependentGloss": "week"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "416"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Her",
+          "originalText": "Her",
+          "lemma": "she",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 196,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 202,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "income",
+          "originalText": "income",
+          "lemma": "income",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 209,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 210,
+          "characterOffsetEnd": 213,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 218,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "week",
+          "originalText": "week",
+          "lemma": "week",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 223,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1W",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "P1W"
+          }
+        },
+        {
+          "index": 7,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 226,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "416",
+          "originalText": "416",
+          "lemma": "416",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 230,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$416.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 238,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$416.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 239,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS hours))\n    (SQ (VBD did)\n      (NP (PRP she))\n      (VP (VB spend)\n        (PP (IN at)\n          (NP (DT the) (NN office)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 4,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 9,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 243,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 244,
+          "characterOffsetEnd": 248,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "hours",
+          "originalText": "hours",
+          "lemma": "hour",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 254,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PTXH",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DURATION",
+            "value": "PTXH"
+          }
+        },
+        {
+          "index": 4,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 258,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 262,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 263,
+          "characterOffsetEnd": 268,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 269,
+          "characterOffsetEnd": 271,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 272,
+          "characterOffsetEnd": 275,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "office",
+          "originalText": "office",
+          "lemma": "office",
+          "characterOffsetBegin": 276,
+          "characterOffsetEnd": 282,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 283,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS hours))\n    (S\n      (VP (VBG driving)\n        (NP (DT the) (NN tractor))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "driving"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "tractor",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 6,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "driving"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "tractor",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 6,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "driving"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "hours",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 3,
+          "dependentGloss": "hours"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "tractor",
+          "dependent": 5,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 6,
+          "dependentGloss": "tractor"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "driving",
+          "dependent": 7,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 284,
+          "characterOffsetEnd": 287,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 288,
+          "characterOffsetEnd": 292,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "hours",
+          "originalText": "hours",
+          "lemma": "hour",
+          "characterOffsetBegin": 293,
+          "characterOffsetEnd": 298,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PTXH",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "DURATION",
+            "value": "PTXH"
+          }
+        },
+        {
+          "index": 4,
+          "word": "driving",
+          "originalText": "driving",
+          "lemma": "drive",
+          "characterOffsetBegin": 299,
+          "characterOffsetEnd": 306,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 307,
+          "characterOffsetEnd": 310,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "tractor",
+          "originalText": "tractor",
+          "lemma": "tractor",
+          "characterOffsetBegin": 311,
+          "characterOffsetEnd": 318,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 318,
+          "characterOffsetEnd": 319,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Maggie",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 11,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "Her",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 16,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "a job working in an office for 10 dollars an hour and another job driving a tractor for 12 dollars an hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "an office for 10 dollars an hour and another job driving a tractor for 12 dollars an hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "an hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "an hour",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "another job driving a tractor for 12 dollars an hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a tractor for 12 dollars an hour",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "the tractor",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 18,
+        "text": "the tractor",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "One week",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "that week",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "the office twice as long",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 17,
+        "text": "the office",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "Her total income for that week",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

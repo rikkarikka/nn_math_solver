@@ -1,0 +1,1904 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (VP (TO To)\n        (VP (VB make)\n          (NP\n            (NP (CD 10) (NNS kilograms))\n            (PP (IN of)\n              (NP (NN aluminum) (NN alloy))))\n          (PP (IN with)\n            (NP\n              (ADJP (CD 60) (NN %))\n              (NN aluminum))))))\n    (, ,)\n    (NP (DT a) (NN scientist))\n    (VP (VBZ wants)\n      (S\n        (VP (TO to)\n          (VP (VB use)\n            (NP (CD 2) (NNS metals))\n            (PP (IN with)\n              (NP\n                (QP (CD 45) (NN %)\n                  (CC and)\n                  (CD 70) (NN %))\n                (NN aluminum) (NN content))\n              (ADVP (RB respectively)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 1,
+          "dependentGloss": "To"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 2,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "kilograms",
+          "dependent": 3,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 4,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "alloy",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "alloy",
+          "dependent": 6,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "kilograms",
+          "dependent": 7,
+          "dependentGloss": "alloy"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "aluminum",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "%",
+          "dependent": 9,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "aluminum",
+          "dependent": 10,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 11,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "scientist",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 14,
+          "dependentGloss": "scientist"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 17,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "metals",
+          "dependent": 18,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 19,
+          "dependentGloss": "metals"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 20,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 21,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "nummod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 22,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "cc",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 25,
+          "governorGloss": "%",
+          "dependent": 24,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "conj",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 26,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 27,
+          "dependentGloss": "content"
+        },
+        {
+          "dep": "advmod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 28,
+          "dependentGloss": "respectively"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 29,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 1,
+          "dependentGloss": "To"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 2,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "kilograms",
+          "dependent": 3,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 4,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "alloy",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "alloy",
+          "dependent": 6,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "kilograms",
+          "dependent": 7,
+          "dependentGloss": "alloy"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "aluminum",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "%",
+          "dependent": 9,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "aluminum",
+          "dependent": 10,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 11,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "scientist",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 14,
+          "dependentGloss": "scientist"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 17,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "metals",
+          "dependent": 18,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 19,
+          "dependentGloss": "metals"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 20,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 21,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "nummod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 22,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "cc",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 25,
+          "governorGloss": "%",
+          "dependent": 24,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 26,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 27,
+          "dependentGloss": "content"
+        },
+        {
+          "dep": "advmod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 28,
+          "dependentGloss": "respectively"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 29,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "mark",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 1,
+          "dependentGloss": "To"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 2,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "kilograms",
+          "dependent": 3,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 4,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "alloy",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "alloy",
+          "dependent": 6,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "kilograms",
+          "dependent": 7,
+          "dependentGloss": "alloy"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "aluminum",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "%",
+          "dependent": 9,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "aluminum",
+          "dependent": 10,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "make",
+          "dependent": 11,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "scientist",
+          "dependent": 13,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 14,
+          "dependentGloss": "scientist"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 17,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "metals",
+          "dependent": 18,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 19,
+          "dependentGloss": "metals"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 20,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 21,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "nummod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 22,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "cc",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 25,
+          "governorGloss": "%",
+          "dependent": 24,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 22,
+          "governorGloss": "%",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nummod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 25,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 26,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 17,
+          "governorGloss": "use",
+          "dependent": 27,
+          "dependentGloss": "content"
+        },
+        {
+          "dep": "advmod",
+          "governor": 27,
+          "governorGloss": "content",
+          "dependent": 28,
+          "dependentGloss": "respectively"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "wants",
+          "dependent": 29,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "To",
+          "originalText": "To",
+          "lemma": "to",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 7,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 10,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "kilograms",
+          "originalText": "kilograms",
+          "lemma": "kilogram",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 20,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 23,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "aluminum",
+          "originalText": "aluminum",
+          "lemma": "aluminum",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 32,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "alloy",
+          "originalText": "alloy",
+          "lemma": "alloy",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 38,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 43,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "60",
+          "originalText": "60",
+          "lemma": "60",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 46,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%60.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 48,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%60.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "aluminum",
+          "originalText": "aluminum",
+          "lemma": "aluminum",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 59,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 61,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "scientist",
+          "originalText": "scientist",
+          "lemma": "scientist",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "wants",
+          "originalText": "wants",
+          "lemma": "want",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 77,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 80,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "use",
+          "originalText": "use",
+          "lemma": "use",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 84,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 86,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "metals",
+          "originalText": "metals",
+          "lemma": "metal",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 93,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 98,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "45",
+          "originalText": "45",
+          "lemma": "45",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 101,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 103,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "70",
+          "originalText": "70",
+          "lemma": "70",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 110,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%70.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 112,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%70.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "aluminum",
+          "originalText": "aluminum",
+          "lemma": "aluminum",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 121,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "content",
+          "originalText": "content",
+          "lemma": "content",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 129,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "respectively",
+          "originalText": "respectively",
+          "lemma": "respectively",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 142,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 29,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 143,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NNS kilograms))\n        (PP (IN of)\n          (NP\n            (NP\n              (UCP\n                (NP\n                  (NP (CD 45) (NN %))\n                  (NP (NN aluminum)))\n                (CC and)\n                (ADJP\n                  (WHADVP (WRB how))\n                  (JJ many)))\n              (NNS kilograms))\n            (PP (IN of)\n              (NP\n                (ADJP (CD 70) (NN %))\n                (NN aluminum)))))))\n    (SQ (MD should)\n      (NP (PRP she))\n      (VP (VB mix)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "kilograms",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 3,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "many",
+          "dependent": 9,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "kilograms",
+          "dependent": 11,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "aluminum",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "%",
+          "dependent": 13,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "aluminum",
+          "dependent": 14,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 15,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 16,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "kilograms",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 3,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "many",
+          "dependent": 9,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "kilograms",
+          "dependent": 11,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "aluminum",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "%",
+          "dependent": 13,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "aluminum",
+          "dependent": 14,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 15,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 16,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "kilograms",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 3,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "45"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 7,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "many",
+          "dependent": 9,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 10,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "kilograms",
+          "dependent": 11,
+          "dependentGloss": "kilograms"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "aluminum",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "%",
+          "dependent": 13,
+          "dependentGloss": "70"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "aluminum",
+          "dependent": 14,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "kilograms",
+          "dependent": 15,
+          "dependentGloss": "aluminum"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 16,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 17,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "mix",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 147,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 152,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "kilograms",
+          "originalText": "kilograms",
+          "lemma": "kilogram",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 162,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 165,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "45",
+          "originalText": "45",
+          "lemma": "45",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 168,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 170,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "aluminum",
+          "originalText": "aluminum",
+          "lemma": "aluminum",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 179,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 183,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 187,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 192,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "kilograms",
+          "originalText": "kilograms",
+          "lemma": "kilogram",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 202,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 205,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "70",
+          "originalText": "70",
+          "lemma": "70",
+          "characterOffsetBegin": 206,
+          "characterOffsetEnd": 208,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%70.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 210,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%70.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "aluminum",
+          "originalText": "aluminum",
+          "lemma": "aluminum",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 219,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 226,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 230,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "mix",
+          "originalText": "mix",
+          "lemma": "mix",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 234,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 235,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "10",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "10 kilograms of aluminum alloy",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "aluminum alloy",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "60 % aluminum",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a scientist",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 13,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2 metals",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "45 % and 70 % aluminum content",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 28,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "kilograms of 45 % aluminum and how many kilograms of 70 % aluminum",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "45 % aluminum and how many kilograms of 70 % aluminum",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "70 % aluminum",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

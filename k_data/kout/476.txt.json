@@ -1,0 +1,1791 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT A) (NN physician) (POS 's))\n      (NN assistant))\n    (VP\n      (VP (VBZ measures)\n        (NP (DT a) (NN child)))\n      (CC and)\n      (VP (VBZ finds)\n        (SBAR (IN that)\n          (S\n            (NP (PRP$ his) (NN height))\n            (VP (VBZ is)\n              (NP (CD 41.5) (NNS inches)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "measures"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "physician",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "assistant",
+          "dependent": 2,
+          "dependentGloss": "physician"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "physician",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 4,
+          "dependentGloss": "assistant"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "child",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 7,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 9,
+          "dependentGloss": "finds"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 12,
+          "governorGloss": "height",
+          "dependent": 11,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 12,
+          "dependentGloss": "height"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 14,
+          "dependentGloss": "41.5"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "finds",
+          "dependent": 15,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "measures"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "physician",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "assistant",
+          "dependent": 2,
+          "dependentGloss": "physician"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "physician",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 4,
+          "dependentGloss": "assistant"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "child",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 7,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 9,
+          "dependentGloss": "finds"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 12,
+          "governorGloss": "height",
+          "dependent": 11,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 12,
+          "dependentGloss": "height"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 14,
+          "dependentGloss": "41.5"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "finds",
+          "dependent": 15,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "measures"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "physician",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "assistant",
+          "dependent": 2,
+          "dependentGloss": "physician"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "physician",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 4,
+          "dependentGloss": "assistant"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "finds",
+          "dependent": 4,
+          "dependentGloss": "assistant"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "child",
+          "dependent": 6,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 7,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 9,
+          "dependentGloss": "finds"
+        },
+        {
+          "dep": "mark",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 12,
+          "governorGloss": "height",
+          "dependent": 11,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 12,
+          "dependentGloss": "height"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 13,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 14,
+          "dependentGloss": "41.5"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "finds",
+          "dependent": 15,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "measures",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "physician",
+          "originalText": "physician",
+          "lemma": "physician",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 11,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 14,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "assistant",
+          "originalText": "assistant",
+          "lemma": "assistant",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 24,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "measures",
+          "originalText": "measures",
+          "lemma": "measure",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 33,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 35,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "child",
+          "originalText": "child",
+          "lemma": "child",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 41,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 45,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "finds",
+          "originalText": "finds",
+          "lemma": "find",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 51,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 56,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "his",
+          "originalText": "his",
+          "lemma": "he",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "height",
+          "originalText": "height",
+          "lemma": "height",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 67,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "41.5",
+          "originalText": "41.5",
+          "lemma": "41.5",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 75,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "41.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "inches",
+          "originalText": "inches",
+          "lemma": "inch",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 83,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN At)\n      (NP\n        (NP (PRP$ his) (JJ last) (NN visit))\n        (PP (TO to)\n          (NP\n            (NP (DT the) (NN doctor) (POS 's))\n            (NN office)))))\n    (, ,)\n    (NP (DT the) (NN child))\n    (VP (VBD was)\n      (ADJP\n        (NP (CD 38.5) (NNS inches))\n        (JJ tall)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 16,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 2,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 3,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 4,
+          "dependentGloss": "visit"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "doctor",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "doctor"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "doctor",
+          "dependent": 8,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 9,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "child",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 12,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cop",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 13,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 14,
+          "dependentGloss": "38.5"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 15,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 16,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 2,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 3,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 4,
+          "dependentGloss": "visit"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "doctor",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "doctor"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "doctor",
+          "dependent": 8,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 9,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "child",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 12,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cop",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 13,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 14,
+          "dependentGloss": "38.5"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 15,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 16,
+          "dependentGloss": "tall"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 2,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 3,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 4,
+          "dependentGloss": "visit"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "doctor",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "office",
+          "dependent": 7,
+          "dependentGloss": "doctor"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "doctor",
+          "dependent": 8,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 4,
+          "governorGloss": "visit",
+          "dependent": 9,
+          "dependentGloss": "office"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "child",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 12,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "cop",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 13,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "inches",
+          "dependent": 14,
+          "dependentGloss": "38.5"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 15,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "tall",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "At",
+          "originalText": "At",
+          "lemma": "at",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 86,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "his",
+          "originalText": "his",
+          "lemma": "he",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 90,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "last",
+          "originalText": "last",
+          "lemma": "last",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 95,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "visit",
+          "originalText": "visit",
+          "lemma": "visit",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 101,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 104,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 108,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "doctor",
+          "originalText": "doctor",
+          "lemma": "doctor",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 117,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "office",
+          "originalText": "office",
+          "lemma": "office",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 124,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 126,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 130,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "child",
+          "originalText": "child",
+          "lemma": "child",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 136,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 140,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "38.5",
+          "originalText": "38.5",
+          "lemma": "38.5",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 145,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "38.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "inches",
+          "originalText": "inches",
+          "lemma": "inch",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 152,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "tall",
+          "originalText": "tall",
+          "lemma": "tall",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 157,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 158,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ (VBD did)\n      (NP (DT the) (NN child))\n      (VP (VB grow) (, ,)\n        (PP (IN in)\n          (NP (NNS inches)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "grow"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "child",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 5,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "inches",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 9,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "grow"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "child",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 5,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "inches",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 9,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "grow"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 3,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "child",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 5,
+          "dependentGloss": "child"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "inches",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 9,
+          "dependentGloss": "inches"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "grow",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 162,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 175,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "child",
+          "originalText": "child",
+          "lemma": "child",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 181,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "grow",
+          "originalText": "grow",
+          "lemma": "grow",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 186,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 188,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 191,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "inches",
+          "originalText": "inches",
+          "lemma": "inch",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 198,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 199,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "41.5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A physician 's assistant",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "his",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 10,
+        "text": "his",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "A physician 's",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a child",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 13,
+        "text": "the child",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "the child",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "his height",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "41.5 inches",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "38.5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "his last visit to the doctor's office",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "the doctor's office",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "the doctor's",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "38.5 inches",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 16,
+        "text": "inches",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1741 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (PRP You))\n    (VP (VBP are)\n      (VP (VBG making)\n        (NP\n          (NP (CD 10) (NNS tons))\n          (PP (IN of)\n            (NP (NN concrete)))\n          (SBAR\n            (WHNP (WDT that))\n            (S\n              (VP (VBZ is)\n                (NP\n                  (NP (CD 62) (NN %) (NN cement))\n                  (PP (IN by)\n                    (S\n                      (VP (VBG mixing)\n                        (NP\n                          (NP (DT a)\n                            (ADJP (CD 20) (NN %))\n                            (NN cement) (NN mixture))\n                          (PP (IN with)\n                            (NP (DT a)\n                              (ADJP (CD 80) (NN %))\n                              (NN cement) (NN mixture))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "making"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 5,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "concrete",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 7,
+          "dependentGloss": "concrete"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 8,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 10,
+          "dependentGloss": "62"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 11,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 12,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "mixing",
+          "dependent": 13,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "acl",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 14,
+          "dependentGloss": "mixing"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "%",
+          "dependent": 16,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 17,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 18,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "mixing",
+          "dependent": 19,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 20,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 21,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "%",
+          "dependent": 22,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 23,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 24,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 25,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "making"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 5,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "concrete",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 7,
+          "dependentGloss": "concrete"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 8,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 10,
+          "dependentGloss": "62"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 11,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 12,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "mixing",
+          "dependent": 13,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "acl",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 14,
+          "dependentGloss": "mixing"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "%",
+          "dependent": 16,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 17,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 18,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "mixing",
+          "dependent": 19,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 20,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 21,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "%",
+          "dependent": 22,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 23,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 24,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 25,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "making"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "10"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 5,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "concrete",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 7,
+          "dependentGloss": "concrete"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 8,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 9,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 10,
+          "dependentGloss": "62"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 11,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 12,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "mixing",
+          "dependent": 13,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "acl",
+          "governor": 12,
+          "governorGloss": "cement",
+          "dependent": 14,
+          "dependentGloss": "mixing"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 15,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "%",
+          "dependent": 16,
+          "dependentGloss": "20"
+        },
+        {
+          "dep": "amod",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 17,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 18,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "mixing",
+          "dependent": 19,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 20,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 21,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "%",
+          "dependent": 22,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 23,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 25,
+          "governorGloss": "mixture",
+          "dependent": 24,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 19,
+          "governorGloss": "mixture",
+          "dependent": 25,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "making",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "You",
+          "originalText": "You",
+          "lemma": "you",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 7,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "making",
+          "originalText": "making",
+          "lemma": "make",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 14,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "10",
+          "originalText": "10",
+          "lemma": "10",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 17,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "10.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 22,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 25,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "concrete",
+          "originalText": "concrete",
+          "lemma": "concrete",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 34,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 39,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 42,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "62",
+          "originalText": "62",
+          "lemma": "62",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%62.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 47,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%62.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 54,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 57,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "mixing",
+          "originalText": "mixing",
+          "lemma": "mix",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 64,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "20",
+          "originalText": "20",
+          "lemma": "20",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 69,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "mixture",
+          "originalText": "mixture",
+          "lemma": "mixture",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 86,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 91,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 93,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "80",
+          "originalText": "80",
+          "lemma": "80",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 96,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%80.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 98,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%80.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 105,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "mixture",
+          "originalText": "mixture",
+          "lemma": "mixture",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 113,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 114,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHNP (WRB How) (RB much))\n      (PP (IN of)\n        (NP (DT the)\n          (ADJP (CD 80) (NN %))\n          (NN cement) (NN mixture))))\n    (SQ (MD must)\n      (NP (PRP you))\n      (VP (VB use)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 7,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 8,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 9,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 10,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 7,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 8,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 9,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 10,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 11,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "%",
+          "dependent": 5,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 6,
+          "dependentGloss": "%"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "mixture",
+          "dependent": 7,
+          "dependentGloss": "cement"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 8,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "aux",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 9,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 10,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "use",
+          "dependent": 12,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 123,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 126,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 130,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "80",
+          "originalText": "80",
+          "lemma": "80",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 133,
+          "pos": "CD",
+          "ner": "PERCENT",
+          "normalizedNER": "%80.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "%",
+          "originalText": "%",
+          "lemma": "%",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 135,
+          "pos": "NN",
+          "ner": "PERCENT",
+          "normalizedNER": "%80.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "cement",
+          "originalText": "cement",
+          "lemma": "cement",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 142,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mixture",
+          "originalText": "mixture",
+          "lemma": "mixture",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 150,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "must",
+          "originalText": "must",
+          "lemma": "must",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 155,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 159,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "use",
+          "originalText": "use",
+          "lemma": "use",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 163,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 164,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (NP\n    (NP (NN Answer))\n    (PP (IN in)\n      (NP (NNS units)))\n    (PP (IN of)\n      (NP (NNS tons)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Answer"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "units",
+          "dependent": 2,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 3,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 5,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Answer"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "units",
+          "dependent": 2,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 3,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 5,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Answer"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "units",
+          "dependent": 2,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 3,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 5,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Answer",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Answer",
+          "originalText": "Answer",
+          "lemma": "answer",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 171,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 174,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 180,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 183,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 188,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 189,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "10",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "You",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "10 tons of concrete that is 62 % cement by mixing a 20 % cement mixture with a 80 % cement mixture",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "tons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "62 % cement by mixing a 20 % cement mixture with a 80 % cement mixture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a 20 % cement mixture with a 80 % cement mixture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "the 80 % cement mixture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a 80 % cement mixture",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "Answer in units of tons.",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 7,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "units",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

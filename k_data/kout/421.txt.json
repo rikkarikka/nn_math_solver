@@ -1,0 +1,1260 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN recipe))\n    (VP (VBZ calls)\n      (PP (IN for)\n        (NP\n          (NP (CD 2) (NNS cups))\n          (PP (IN of)\n            (NP (NN sugar))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "recipe",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 2,
+          "dependentGloss": "recipe"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 6,
+          "dependentGloss": "cups"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "sugar",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 8,
+          "dependentGloss": "sugar"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "recipe",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 2,
+          "dependentGloss": "recipe"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 6,
+          "dependentGloss": "cups"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "sugar",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 8,
+          "dependentGloss": "sugar"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "recipe",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 2,
+          "dependentGloss": "recipe"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 6,
+          "dependentGloss": "cups"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "sugar",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "cups",
+          "dependent": 8,
+          "dependentGloss": "sugar"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "calls",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "recipe",
+          "originalText": "recipe",
+          "lemma": "recipe",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 8,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "calls",
+          "originalText": "calls",
+          "lemma": "call",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 14,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 18,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 20,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "cups",
+          "originalText": "cups",
+          "lemma": "cup",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 25,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 28,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "sugar",
+          "originalText": "sugar",
+          "lemma": "sugar",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 34,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 35,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP You))\n    (VP (VBP find)\n      (SBAR (IN that)\n        (S\n          (NP (PRP you))\n          (ADVP (RB only))\n          (VP (VBP have)\n            (NP\n              (NP (CD 0.3333) (NNS cups))\n              (PP (IN of)\n                (NP\n                  (NP (NN sugar))\n                  (VP (VBD left)))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cups",
+          "dependent": 7,
+          "dependentGloss": "0.3333"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "cups"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "sugar",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "cups",
+          "dependent": 10,
+          "dependentGloss": "sugar"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "sugar",
+          "dependent": 11,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cups",
+          "dependent": 7,
+          "dependentGloss": "0.3333"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "cups"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "sugar",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "cups",
+          "dependent": 10,
+          "dependentGloss": "sugar"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "sugar",
+          "dependent": 11,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 3,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 4,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 5,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 6,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "cups",
+          "dependent": 7,
+          "dependentGloss": "0.3333"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "have",
+          "dependent": 8,
+          "dependentGloss": "cups"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "sugar",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "cups",
+          "dependent": 10,
+          "dependentGloss": "sugar"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "sugar",
+          "dependent": 11,
+          "dependentGloss": "left"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "You",
+          "originalText": "You",
+          "lemma": "you",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 39,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 44,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 49,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 53,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 58,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 63,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "0.3333",
+          "originalText": "0.3333",
+          "lemma": "0.3333",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 70,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.3333",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "cups",
+          "originalText": "cups",
+          "lemma": "cup",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 75,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 78,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "sugar",
+          "originalText": "sugar",
+          "lemma": "sugar",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 84,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "left",
+          "originalText": "left",
+          "lemma": "leave",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 89,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 90,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WDT What)\n      (NP (NN fraction)\n        (PP (IN of)\n          (NP (DT the) (NN recipe)))))\n    (SQ (MD can)\n      (NP (PRP you))\n      (VP (VB make)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "fraction",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 2,
+          "dependentGloss": "fraction"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "recipe",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "recipe",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "fraction",
+          "dependent": 5,
+          "dependentGloss": "recipe"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 6,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 7,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "fraction",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 2,
+          "dependentGloss": "fraction"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "recipe",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "recipe",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "fraction",
+          "dependent": 5,
+          "dependentGloss": "recipe"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 6,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 7,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "fraction",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 2,
+          "dependentGloss": "fraction"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "recipe",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "recipe",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "fraction",
+          "dependent": 5,
+          "dependentGloss": "recipe"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 6,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 7,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "make",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 91,
+          "characterOffsetEnd": 95,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "fraction",
+          "originalText": "fraction",
+          "lemma": "fraction",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 104,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 107,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 111,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "recipe",
+          "originalText": "recipe",
+          "lemma": "recipe",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 122,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 126,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 131,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 132,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A recipe",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "the recipe",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "2 cups of sugar",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "0.3333",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "You",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "0.3333 cups of sugar left",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "sugar left",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "fraction of the recipe",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

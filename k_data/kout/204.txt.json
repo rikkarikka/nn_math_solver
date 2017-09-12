@@ -1,0 +1,2737 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (PP (IN For)\n      (NP\n        (NP (NNP Monday) (NN morning) (POS 's))\n        (NN staff) (NN meeting)))\n    (, ,)\n    (NP (NNP Jim))\n    (VP\n      (VP (VBD bought)\n        (NP\n          (NP\n            (NP (CD 2) (NNS bags))\n            (PP (IN of)\n              (NP (NNS bagels))))\n          (CC and)\n          (NP\n            (NP (CD 3) (NNS packages))\n            (PP (IN of)\n              (NP (NN cream) (NN cheese))))))\n      (CC and)\n      (VP (VBD paid)\n        (NP (CD 12.00) (NNS dollars))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "morning",
+          "dependent": 2,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 3,
+          "dependentGloss": "morning"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "morning",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 5,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "meeting"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 8,
+          "dependentGloss": "Jim"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 11,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "bagels",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 13,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "packages",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 16,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "cheese",
+          "dependent": 17,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "cheese",
+          "dependent": 18,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "packages",
+          "dependent": 19,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 20,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 21,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 23,
+          "governorGloss": "dollars",
+          "dependent": 22,
+          "dependentGloss": "12.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "paid",
+          "dependent": 23,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "morning",
+          "dependent": 2,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 3,
+          "dependentGloss": "morning"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "morning",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 5,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "meeting"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 8,
+          "dependentGloss": "Jim"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 11,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "bagels",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 13,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "packages",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 16,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "cheese",
+          "dependent": 17,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "cheese",
+          "dependent": 18,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 16,
+          "governorGloss": "packages",
+          "dependent": 19,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 20,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 21,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 23,
+          "governorGloss": "dollars",
+          "dependent": 22,
+          "dependentGloss": "12.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "paid",
+          "dependent": 23,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "morning",
+          "dependent": 2,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 3,
+          "dependentGloss": "morning"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "morning",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "meeting",
+          "dependent": 5,
+          "dependentGloss": "staff"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "meeting"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 8,
+          "dependentGloss": "Jim"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "paid",
+          "dependent": 8,
+          "dependentGloss": "Jim"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 10,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 11,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "bagels",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 13,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 16,
+          "governorGloss": "packages",
+          "dependent": 15,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 16,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "bags",
+          "dependent": 16,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "cheese",
+          "dependent": 17,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 19,
+          "governorGloss": "cheese",
+          "dependent": 18,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 16,
+          "governorGloss": "packages",
+          "dependent": 19,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 20,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 21,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 23,
+          "governorGloss": "dollars",
+          "dependent": 22,
+          "dependentGloss": "12.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 21,
+          "governorGloss": "paid",
+          "dependent": 23,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "bought",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "For",
+          "originalText": "For",
+          "lemma": "for",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Monday",
+          "originalText": "Monday",
+          "lemma": "Monday",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 10,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-1TMO",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "TIME",
+            "value": "XXXX-WXX-1TMO"
+          }
+        },
+        {
+          "index": 3,
+          "word": "morning",
+          "originalText": "morning",
+          "lemma": "morning",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "TIME",
+          "normalizedNER": "XXXX-WXX-1TMO",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "TIME",
+            "value": "XXXX-WXX-1TMO"
+          }
+        },
+        {
+          "index": 4,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 21,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "staff",
+          "originalText": "staff",
+          "lemma": "staff",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 27,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "meeting",
+          "originalText": "meeting",
+          "lemma": "meeting",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 35,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 37,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Jim",
+          "originalText": "Jim",
+          "lemma": "Jim",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 41,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 48,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 50,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bags",
+          "originalText": "bags",
+          "lemma": "bag",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 55,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 58,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "bagels",
+          "originalText": "bagels",
+          "lemma": "bagel",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 65,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 69,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 71,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "packages",
+          "originalText": "packages",
+          "lemma": "package",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 80,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 83,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "cream",
+          "originalText": "cream",
+          "lemma": "cream",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 89,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "cheese",
+          "originalText": "cheese",
+          "lemma": "cheese",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 96,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 100,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 105,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "12.00",
+          "originalText": "12.00",
+          "lemma": "12.00",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 111,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 119,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 24,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 120,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN For)\n      (NP\n        (NP (NNP Friday) (POS 's))\n        (NN meeting)))\n    (, ,)\n    (NP (PRP he))\n    (VP\n      (VP (VBD bought)\n        (NP\n          (NP\n            (NP (CD 4) (NNS bags))\n            (PP (IN of)\n              (NP (NNS bagels))))\n          (CC and)\n          (NP\n            (NP (CD 2) (NNS packages))\n            (PP (IN of)\n              (NP (NN cream) (NN cheese))))))\n      (CC and)\n      (VP (VBD paid)\n        (NP (CD 14.00) (NNS dollars))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "meeting",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "meeting",
+          "dependent": 2,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Friday",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": "meeting"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 8,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 9,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bagels",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 11,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "packages",
+          "dependent": 13,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 14,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "cheese",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "cheese",
+          "dependent": 16,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "packages",
+          "dependent": 17,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 18,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 19,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "14.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "paid",
+          "dependent": 21,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "meeting",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "meeting",
+          "dependent": 2,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Friday",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": "meeting"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 8,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 9,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bagels",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 11,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "packages",
+          "dependent": 13,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 14,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "cheese",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "cheese",
+          "dependent": 16,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "packages",
+          "dependent": 17,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 18,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 19,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "14.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "paid",
+          "dependent": 21,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "meeting",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 4,
+          "governorGloss": "meeting",
+          "dependent": 2,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "case",
+          "governor": 2,
+          "governorGloss": "Friday",
+          "dependent": 3,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 4,
+          "dependentGloss": "meeting"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 8,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 9,
+          "dependentGloss": "bags"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "bagels",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 11,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "packages",
+          "dependent": 13,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 14,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 9,
+          "governorGloss": "bags",
+          "dependent": 14,
+          "dependentGloss": "packages"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "cheese",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "cheese",
+          "dependent": 16,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "packages",
+          "dependent": 17,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 18,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 19,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "14.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 19,
+          "governorGloss": "paid",
+          "dependent": 21,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "bought",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "For",
+          "originalText": "For",
+          "lemma": "for",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Friday",
+          "originalText": "Friday",
+          "lemma": "Friday",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 131,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-5"
+          }
+        },
+        {
+          "index": 3,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 134,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "meeting",
+          "originalText": "meeting",
+          "lemma": "meeting",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 142,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 144,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 147,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 154,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 156,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "bags",
+          "originalText": "bags",
+          "lemma": "bag",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 161,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 164,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "bagels",
+          "originalText": "bagels",
+          "lemma": "bagel",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 171,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 175,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 177,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "packages",
+          "originalText": "packages",
+          "lemma": "package",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 186,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 189,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "cream",
+          "originalText": "cream",
+          "lemma": "cream",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 195,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "cheese",
+          "originalText": "cheese",
+          "lemma": "cheese",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 202,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 206,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 211,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "14.00",
+          "originalText": "14.00",
+          "lemma": "14.00",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 217,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 225,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 226,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WRB How) (RB much))\n    (SQ (VBZ does)\n      (NP\n        (NP (DT a) (NN bag))\n        (PP (IN of)\n          (NP\n            (NP (NNS bagels))\n            (CC and)\n            (NP\n              (NP (DT a) (NN package))\n              (PP (IN of)\n                (NP (NN cream) (NN cheese) (NN cost)))))))\n      (, ,)\n      (PP (IN in)\n        (NP (NNS dollars))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 5,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 7,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "package",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 10,
+          "dependentGloss": "package"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 12,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 13,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "package",
+          "dependent": 14,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 5,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 7,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "package",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 10,
+          "dependentGloss": "package"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 12,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 13,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "package",
+          "dependent": 14,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "does"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 5,
+          "dependentGloss": "bag"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 7,
+          "dependentGloss": "bagels"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "package",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "bag",
+          "dependent": 10,
+          "dependentGloss": "package"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "bagels",
+          "dependent": 10,
+          "dependentGloss": "package"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 12,
+          "dependentGloss": "cream"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "cost",
+          "dependent": 13,
+          "dependentGloss": "cheese"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "package",
+          "dependent": 14,
+          "dependentGloss": "cost"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "dollars",
+          "dependent": 16,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 17,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "does",
+          "dependent": 18,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 227,
+          "characterOffsetEnd": 230,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 235,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "does",
+          "originalText": "does",
+          "lemma": "do",
+          "characterOffsetBegin": 236,
+          "characterOffsetEnd": 240,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 241,
+          "characterOffsetEnd": 242,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "bag",
+          "originalText": "bag",
+          "lemma": "bag",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 246,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 249,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "bagels",
+          "originalText": "bagels",
+          "lemma": "bagel",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 256,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 260,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 261,
+          "characterOffsetEnd": 262,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "package",
+          "originalText": "package",
+          "lemma": "package",
+          "characterOffsetBegin": 263,
+          "characterOffsetEnd": 270,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 271,
+          "characterOffsetEnd": 273,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "cream",
+          "originalText": "cream",
+          "lemma": "cream",
+          "characterOffsetBegin": 274,
+          "characterOffsetEnd": 279,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "cheese",
+          "originalText": "cheese",
+          "lemma": "cheese",
+          "characterOffsetBegin": 280,
+          "characterOffsetEnd": 286,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "cost",
+          "originalText": "cost",
+          "lemma": "cost",
+          "characterOffsetBegin": 287,
+          "characterOffsetEnd": 291,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 292,
+          "characterOffsetEnd": 293,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 294,
+          "characterOffsetEnd": 296,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 297,
+          "characterOffsetEnd": 304,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 18,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 305,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Jim",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 15,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Monday morning 's staff meeting",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Monday morning 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "2 bags of bagels and 3 packages of cream cheese",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2 bags of bagels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "bagels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 18,
+        "text": "bagels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 23,
+        "text": "bagels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "3 packages of cream cheese",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "cream cheese",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 20,
+        "text": "cream cheese",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          10
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "Friday 's meeting",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "Friday 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "4 bags of bagels and 2 packages of cream cheese",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "4 bags of bagels",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "2 packages of cream cheese",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 18,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "a bag of bagels and a package of cream cheese cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "22": [
+      {
+        "id": 22,
+        "text": "bagels and a package of cream cheese cost",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "24": [
+      {
+        "id": 24,
+        "text": "a package of cream cheese cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "25": [
+      {
+        "id": 25,
+        "text": "cream cheese cost",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 15,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "26": [
+      {
+        "id": 26,
+        "text": "dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

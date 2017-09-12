@@ -1,0 +1,1904 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (NP\n    (NP (DT An) (NN ice) (NN skating) (NN rink) (NNS charges))\n    (PP\n      (NP (CD 5) (NNS dollars))\n      (IN for)\n      (NP\n        (NP (NN admission))\n        (CC and)\n        (NP (CD 2.50) (NNS dollars))))\n    (S\n      (VP (TO to)\n        (VP (VB rent)\n          (NP (NNS skates)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 1,
+          "dependentGloss": "An"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 2,
+          "dependentGloss": "ice"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 3,
+          "dependentGloss": "skating"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 4,
+          "dependentGloss": "rink"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "admission"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "admission",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "2.50"
+        },
+        {
+          "dep": "conj",
+          "governor": 9,
+          "governorGloss": "admission",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 14,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 15,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 1,
+          "dependentGloss": "An"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 2,
+          "dependentGloss": "ice"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 3,
+          "dependentGloss": "skating"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 4,
+          "dependentGloss": "rink"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "admission"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "admission",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "2.50"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 9,
+          "governorGloss": "admission",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 14,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 15,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 1,
+          "dependentGloss": "An"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 2,
+          "dependentGloss": "ice"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 3,
+          "dependentGloss": "skating"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 4,
+          "dependentGloss": "rink"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "admission"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "admission",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 12,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "2.50"
+        },
+        {
+          "dep": "dep",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 9,
+          "governorGloss": "admission",
+          "dependent": 12,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 14,
+          "dependentGloss": "rent"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "rent",
+          "dependent": 15,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "charges",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "An",
+          "originalText": "An",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "ice",
+          "originalText": "ice",
+          "lemma": "ice",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 6,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "skating",
+          "originalText": "skating",
+          "lemma": "skating",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 14,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "rink",
+          "originalText": "rink",
+          "lemma": "rink",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 19,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "charges",
+          "originalText": "charges",
+          "lemma": "charge",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 29,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 37,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 41,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "admission",
+          "originalText": "admission",
+          "lemma": "admission",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "2.50",
+          "originalText": "2.50",
+          "lemma": "2.50",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$2.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 68,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$2.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 71,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "rent",
+          "originalText": "rent",
+          "lemma": "rent",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 76,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "skates",
+          "originalText": "skates",
+          "lemma": "skate",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 83,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 84,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Jill))\n    (VP (MD can)\n      (VP (VB purchase)\n        (NP\n          (NP (DT a) (JJ new) (NN pair))\n          (PP (IN of)\n            (NP\n              (NP (NNS skates))\n              (PP (IN for)\n                (NP (CD 65) (NNS dollars))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 1,
+          "dependentGloss": "Jill"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 5,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 6,
+          "dependentGloss": "pair"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "skates",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 8,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "65"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "skates",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 1,
+          "dependentGloss": "Jill"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 5,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 6,
+          "dependentGloss": "pair"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "skates",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 8,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "65"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "skates",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 1,
+          "dependentGloss": "Jill"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 4,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 5,
+          "dependentGloss": "new"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 6,
+          "dependentGloss": "pair"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "skates",
+          "dependent": 7,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 6,
+          "governorGloss": "pair",
+          "dependent": 8,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "65"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "skates",
+          "dependent": 11,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "purchase",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Jill",
+          "originalText": "Jill",
+          "lemma": "Jill",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 89,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 93,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "purchase",
+          "originalText": "purchase",
+          "lemma": "purchase",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 102,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 104,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "new",
+          "originalText": "new",
+          "lemma": "new",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 108,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "pair",
+          "originalText": "pair",
+          "lemma": "pair",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 113,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 116,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "skates",
+          "originalText": "skates",
+          "lemma": "skate",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 123,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 127,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "65",
+          "originalText": "65",
+          "lemma": "65",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 130,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$65.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 138,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$65.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 139,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS times))\n    (SQ (MD would)\n      (NP (PRP she))\n      (VP (VB need)\n        (S\n          (VP (TO to)\n            (VP (VB go)\n              (NP (DT the) (NN rink)\n                (S\n                  (VP (TO to)\n                    (VP (VB justify)\n                      (S\n                        (VP\n                          (VP (VBG buying)\n                            (NP (DT the) (NNS skates)))\n                          (CONJP (RB rather) (IN than))\n                          (VP (VBG renting)\n                            (NP (DT a) (NN pair))))))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 3,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "go",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 8,
+          "dependentGloss": "go"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "rink",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "go",
+          "dependent": 10,
+          "dependentGloss": "rink"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "rink",
+          "dependent": 12,
+          "dependentGloss": "justify"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 13,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "skates",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 15,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 16,
+          "dependentGloss": "rather"
+        },
+        {
+          "dep": "mwe",
+          "governor": 16,
+          "governorGloss": "rather",
+          "dependent": 17,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 18,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "pair",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "renting",
+          "dependent": 20,
+          "dependentGloss": "pair"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 3,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "go",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 8,
+          "dependentGloss": "go"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "rink",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "go",
+          "dependent": 10,
+          "dependentGloss": "rink"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "rink",
+          "dependent": 12,
+          "dependentGloss": "justify"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 13,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "skates",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 15,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 16,
+          "dependentGloss": "rather"
+        },
+        {
+          "dep": "mwe",
+          "governor": 16,
+          "governorGloss": "rather",
+          "dependent": 17,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "conj:negcc",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 18,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "pair",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "renting",
+          "dependent": 20,
+          "dependentGloss": "pair"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "need"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "times",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 3,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 4,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 5,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "go",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 8,
+          "dependentGloss": "go"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "rink",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "go",
+          "dependent": 10,
+          "dependentGloss": "rink"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 11,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "rink",
+          "dependent": 12,
+          "dependentGloss": "justify"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 13,
+          "dependentGloss": "buying"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "skates",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 15,
+          "dependentGloss": "skates"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 16,
+          "dependentGloss": "rather"
+        },
+        {
+          "dep": "mwe",
+          "governor": 16,
+          "governorGloss": "rather",
+          "dependent": 17,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "justify",
+          "dependent": 18,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "conj:negcc",
+          "governor": 13,
+          "governorGloss": "buying",
+          "dependent": 18,
+          "dependentGloss": "renting"
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "pair",
+          "dependent": 19,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "renting",
+          "dependent": 20,
+          "dependentGloss": "pair"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "need",
+          "dependent": 21,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 143,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 148,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 154,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "would",
+          "originalText": "would",
+          "lemma": "would",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 160,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 164,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "need",
+          "originalText": "need",
+          "lemma": "need",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 169,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 172,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "go",
+          "originalText": "go",
+          "lemma": "go",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 175,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 179,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "rink",
+          "originalText": "rink",
+          "lemma": "rink",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 184,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 187,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "justify",
+          "originalText": "justify",
+          "lemma": "justify",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 195,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "buying",
+          "originalText": "buying",
+          "lemma": "buy",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 202,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 206,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "skates",
+          "originalText": "skates",
+          "lemma": "skate",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 213,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "rather",
+          "originalText": "rather",
+          "lemma": "rather",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 220,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 225,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "renting",
+          "originalText": "renting",
+          "lemma": "rent",
+          "characterOffsetBegin": 226,
+          "characterOffsetEnd": 233,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 235,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "pair",
+          "originalText": "pair",
+          "lemma": "pair",
+          "characterOffsetBegin": 236,
+          "characterOffsetEnd": 240,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 240,
+          "characterOffsetEnd": 241,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "An ice skating rink charges 5 dollars for admission and 2.50 dollars to rent skates.",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "admission and 2.50 dollars",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "skates",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Jill",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 7,
+        "text": "she",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "FEMALE",
+        "animacy": "ANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a new pair of skates for 65 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "skates for 65 dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 9,
+        "text": "the skates",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the rink to justify buying the skates rather than renting a pair",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "a pair",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

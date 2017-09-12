@@ -1,0 +1,1464 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN truck)\n      (CC and)\n      (NN trailer))\n    (ADVP (RB together))\n    (VP (VBP weigh)\n      (NP (CD 7,000) (NNS pounds)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "weigh"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 2,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 4,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 5,
+          "dependentGloss": "together"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "pounds",
+          "dependent": 7,
+          "dependentGloss": "7,000"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 8,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "weigh"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 2,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 4,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 5,
+          "dependentGloss": "together"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "pounds",
+          "dependent": 7,
+          "dependentGloss": "7,000"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 8,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "weigh"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 2,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 3,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "truck",
+          "dependent": 4,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 4,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "advmod",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 5,
+          "dependentGloss": "together"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "pounds",
+          "dependent": 7,
+          "dependentGloss": "7,000"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 8,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "weigh",
+          "dependent": 9,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "truck",
+          "originalText": "truck",
+          "lemma": "truck",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 7,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 11,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "trailer",
+          "originalText": "trailer",
+          "lemma": "trailer",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 19,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "together",
+          "originalText": "together",
+          "lemma": "together",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 28,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "weigh",
+          "originalText": "weigh",
+          "lemma": "weigh",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 34,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "7,000",
+          "originalText": "7,000",
+          "lemma": "7,000",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7000.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 47,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 48,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NN trailer))\n    (VP (VBZ weighs)\n      (NP (CD 200) (NNS pounds)\n        (QP (JJR less) (IN than) (CD 0.5)))\n      (ADVP (RB as) (RB much))\n      (PP (IN as)\n        (NP (DT the) (NN truck))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "weighs"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "trailer",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 2,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pounds",
+          "dependent": 4,
+          "dependentGloss": "200"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 5,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "0.5",
+          "dependent": 6,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "mwe",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "much",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 10,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "truck",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "truck",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 13,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "weighs"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "trailer",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 2,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pounds",
+          "dependent": 4,
+          "dependentGloss": "200"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 5,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "0.5",
+          "dependent": 6,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "mwe",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "much",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 10,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "truck",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "truck",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 13,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "weighs"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "trailer",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 2,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pounds",
+          "dependent": 4,
+          "dependentGloss": "200"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 5,
+          "dependentGloss": "pounds"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "0.5",
+          "dependent": 6,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "mwe",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "pounds",
+          "dependent": 8,
+          "dependentGloss": "0.5"
+        },
+        {
+          "dep": "advmod",
+          "governor": 10,
+          "governorGloss": "much",
+          "dependent": 9,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 10,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "truck",
+          "dependent": 11,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "truck",
+          "dependent": 12,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 13,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "weighs",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 52,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "trailer",
+          "originalText": "trailer",
+          "lemma": "trailer",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 60,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "weighs",
+          "originalText": "weighs",
+          "lemma": "weigh",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 67,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "200",
+          "originalText": "200",
+          "lemma": "200",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "200.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "pounds",
+          "originalText": "pounds",
+          "lemma": "pound",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 78,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "less",
+          "originalText": "less",
+          "lemma": "less",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 83,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 88,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "0.5",
+          "originalText": "0.5",
+          "lemma": "0.5",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 92,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "<0.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 95,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 100,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 103,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "truck",
+          "originalText": "truck",
+          "lemma": "truck",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 113,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 114,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (NN truck) (POS 's))\n        (NN weight)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "truck",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "truck",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "truck",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "truck",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "truck",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "truck"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "truck",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 123,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "truck",
+          "originalText": "truck",
+          "lemma": "truck",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 129,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 132,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 139,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 140,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (NN trailer) (POS 's))\n        (NN weight)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "trailer",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "trailer",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "trailer",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "trailer",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "trailer",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 5,
+          "governorGloss": "weight",
+          "dependent": 3,
+          "dependentGloss": "trailer"
+        },
+        {
+          "dep": "case",
+          "governor": 3,
+          "governorGloss": "trailer",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 5,
+          "dependentGloss": "weight"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 6,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 145,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 149,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "trailer",
+          "originalText": "trailer",
+          "lemma": "trailer",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 157,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 160,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "weight",
+          "originalText": "weight",
+          "lemma": "weight",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 167,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 168,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "7,000",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "A truck and trailer",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "the truck",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "the truck 's",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "7,000 pounds",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "200",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "0.5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "The trailer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "the trailer 's",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "200 pounds less than 0.5",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the truck 's weight",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "the trailer 's weight",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

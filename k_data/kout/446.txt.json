@@ -1,0 +1,1438 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (PRP You))\n    (VP\n      (VP (VBD had)\n        (NP\n          (NP (CD 6,800.00) (NNS dollars))\n          (SBAR\n            (S\n              (VP (TO to)\n                (VP (VB spend)))))))\n      (CC and)\n      (VP (VBD purchased)\n        (NP\n          (NP (CD 250) (NNS sets))\n          (PP (IN of)\n            (NP (NNS dishes))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "6,800.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "purchased"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 9,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "purchased",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "dishes",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 12,
+          "dependentGloss": "dishes"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "6,800.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "purchased"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 9,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "purchased",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "dishes",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 12,
+          "dependentGloss": "dishes"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "purchased",
+          "dependent": 1,
+          "dependentGloss": "You"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "6,800.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "mark",
+          "governor": 6,
+          "governorGloss": "spend",
+          "dependent": 5,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "spend"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 7,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 8,
+          "dependentGloss": "purchased"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 9,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "purchased",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "dishes",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "sets",
+          "dependent": 12,
+          "dependentGloss": "dishes"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "had",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "You",
+          "originalText": "You",
+          "lemma": "you",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 3,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 7,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "6,800.00",
+          "originalText": "6,800.00",
+          "lemma": "6,800.00",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 16,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$6800.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 24,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$6800.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "spend",
+          "originalText": "spend",
+          "lemma": "spend",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 33,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 37,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "purchased",
+          "originalText": "purchased",
+          "lemma": "purchase",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 47,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "250",
+          "originalText": "250",
+          "lemma": "250",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 51,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "250.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "sets",
+          "originalText": "sets",
+          "lemma": "set",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 56,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 59,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "dishes",
+          "originalText": "dishes",
+          "lemma": "dish",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 66,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 67,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN If)\n      (S\n        (NP (PRP you))\n        (VP (VBD spent)\n          (NP (NN everything)))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NP\n        (NP (CD 20.00) (NNS dollars))\n        (NP (NNS sets))))\n    (SQ (VBD did)\n      (NP (PRP you))\n      (VP (VB purchase)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 3,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "everything"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "many",
+          "dependent": 6,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "20.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "aux",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 11,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 12,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 3,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "everything"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "many",
+          "dependent": 6,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "20.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "aux",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 11,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 12,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 13,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "mark",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 2,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 3,
+          "dependentGloss": "spent"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "spent",
+          "dependent": 4,
+          "dependentGloss": "everything"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "many",
+          "dependent": 6,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "20.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 9,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 9,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "aux",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 11,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 12,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 13,
+          "governorGloss": "purchase",
+          "dependent": 14,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "spent",
+          "originalText": "spent",
+          "lemma": "spend",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 80,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "everything",
+          "originalText": "everything",
+          "lemma": "everything",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 91,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 93,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 97,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 102,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "20.00",
+          "originalText": "20.00",
+          "lemma": "20.00",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 108,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 116,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$20.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "sets",
+          "originalText": "sets",
+          "lemma": "set",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 121,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 125,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 129,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "purchase",
+          "originalText": "purchase",
+          "lemma": "purchase",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 138,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 139,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (CD 45.00) (NNS dollars))\n        (NP (NNS sets))))\n    (SQ (VBD did)\n      (NP (PRP you))\n      (VP (VB purchase)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "45.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 7,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "45.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 7,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "purchase"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 3,
+          "dependentGloss": "45.00"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 4,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "dep",
+          "governor": 4,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "sets"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 6,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 7,
+          "dependentGloss": "you"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "purchase",
+          "dependent": 9,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 143,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 148,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "45.00",
+          "originalText": "45.00",
+          "lemma": "45.00",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 154,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 162,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$45.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "sets",
+          "originalText": "sets",
+          "lemma": "set",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 171,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "you",
+          "originalText": "you",
+          "lemma": "you",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 175,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "purchase",
+          "originalText": "purchase",
+          "lemma": "purchase",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 184,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 9,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 185,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "250",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "You",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "250 sets of dishes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "sets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 8,
+        "text": "sets",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "dishes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "you",
+        "type": "PRONOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

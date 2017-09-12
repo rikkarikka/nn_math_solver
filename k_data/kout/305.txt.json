@@ -1,0 +1,2968 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNS Customers))\n      (PP (IN of)\n        (NP (DT a) (NN phone) (NN company))))\n    (VP (MD can)\n      (VP (VB choose)\n        (PP (IN between)\n          (NP\n            (NP (CD 2) (NN service) (NNS plans))\n            (PP (IN for)\n              (NP (JJ long) (NN distance) (NNS calls)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "choose"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 1,
+          "dependentGloss": "Customers"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 4,
+          "dependentGloss": "phone"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Customers",
+          "dependent": 5,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 6,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 8,
+          "dependentGloss": "between"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 9,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 10,
+          "dependentGloss": "service"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 11,
+          "dependentGloss": "plans"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 13,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 14,
+          "dependentGloss": "distance"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 15,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "choose"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 1,
+          "dependentGloss": "Customers"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 4,
+          "dependentGloss": "phone"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "Customers",
+          "dependent": 5,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 6,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 8,
+          "dependentGloss": "between"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 9,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 10,
+          "dependentGloss": "service"
+        },
+        {
+          "dep": "nmod:between",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 11,
+          "dependentGloss": "plans"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 13,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 14,
+          "dependentGloss": "distance"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 15,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "choose"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 1,
+          "dependentGloss": "Customers"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "company",
+          "dependent": 4,
+          "dependentGloss": "phone"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "Customers",
+          "dependent": 5,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 6,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 8,
+          "dependentGloss": "between"
+        },
+        {
+          "dep": "nummod",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 9,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 10,
+          "dependentGloss": "service"
+        },
+        {
+          "dep": "nmod:between",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 11,
+          "dependentGloss": "plans"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 12,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 13,
+          "dependentGloss": "long"
+        },
+        {
+          "dep": "compound",
+          "governor": 15,
+          "governorGloss": "calls",
+          "dependent": 14,
+          "dependentGloss": "distance"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 11,
+          "governorGloss": "plans",
+          "dependent": 15,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "choose",
+          "dependent": 16,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Customers",
+          "originalText": "Customers",
+          "lemma": "customer",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 9,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 14,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "phone",
+          "originalText": "phone",
+          "lemma": "phone",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 20,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 28,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 32,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "choose",
+          "originalText": "choose",
+          "lemma": "choose",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 39,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "between",
+          "originalText": "between",
+          "lemma": "between",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 47,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 49,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "service",
+          "originalText": "service",
+          "lemma": "service",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 57,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "plans",
+          "originalText": "plans",
+          "lemma": "plan",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 63,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 67,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "long",
+          "originalText": "long",
+          "lemma": "long",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 72,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "distance",
+          "originalText": "distance",
+          "lemma": "distance",
+          "characterOffsetBegin": 73,
+          "characterOffsetEnd": 81,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "calls",
+          "originalText": "calls",
+          "lemma": "call",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 87,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 88,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ first) (NN plan))\n    (VP\n      (VP (VBZ has)\n        (NP (DT a)\n          (ADJP\n            (QP (CD 22) (NNS dollars)))\n          (JJ monthly) (NN fee)))\n      (CC and)\n      (VP (VBZ charges)\n        (NP\n          (NP (DT an) (JJ additional) (CD 0.13) (NNS dollars))\n          (PP (IN for)\n            (NP\n              (NP (DT each) (NN minute))\n              (PP (IN of)\n                (NP (NNS calls))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 2,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "22"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "additional"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "0.13"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "minute"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "calls",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 20,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 2,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "22"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "additional"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "0.13"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "minute"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "calls",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 20,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 2,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "22"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "additional"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "0.13"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "minute"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "calls",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 20,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 92,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "first",
+          "originalText": "first",
+          "lemma": "first",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 98,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "plan",
+          "originalText": "plan",
+          "lemma": "plan",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 103,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 107,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 109,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "22",
+          "originalText": "22",
+          "lemma": "22",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$22.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 120,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$22.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "monthly",
+          "originalText": "monthly",
+          "lemma": "monthly",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 128,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "SET",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 9,
+          "word": "fee",
+          "originalText": "fee",
+          "lemma": "fee",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 132,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 136,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "charges",
+          "originalText": "charges",
+          "lemma": "charge",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 144,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 147,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "additional",
+          "originalText": "additional",
+          "lemma": "additional",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 158,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "0.13",
+          "originalText": "0.13",
+          "lemma": "0.13",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 163,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.13",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 171,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.13",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 175,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 180,
+          "pos": "DT",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "SET",
+            "value": "PT1M"
+          }
+        },
+        {
+          "index": 18,
+          "word": "minute",
+          "originalText": "minute",
+          "lemma": "minute",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 187,
+          "pos": "NN",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "SET",
+            "value": "PT1M"
+          }
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 190,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "calls",
+          "originalText": "calls",
+          "lemma": "call",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 196,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 196,
+          "characterOffsetEnd": 197,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ second) (NN plan))\n    (VP\n      (VP (VBZ has)\n        (NP (DT an)\n          (ADJP\n            (QP (CD 8) (NNS dollars)))\n          (JJ monthly) (NN fee)))\n      (CC and)\n      (VP (VBZ charges)\n        (NP\n          (NP (DT an) (JJ additional) (CD 0.18) (NNS dollars))\n          (PP (IN for)\n            (NP\n              (NP (DT each) (NN minute))\n              (PP (IN of)\n                (NP (NNS calls))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 2,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "additional"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "0.18"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "minute"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "calls",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 20,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 2,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "additional"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "0.18"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "minute"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "calls",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 20,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "plan",
+          "dependent": 2,
+          "dependentGloss": "second"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 3,
+          "dependentGloss": "plan"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 5,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "compound",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "8"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "fee",
+          "dependent": 8,
+          "dependentGloss": "monthly"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 9,
+          "dependentGloss": "fee"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "charges"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "additional"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "0.18"
+        },
+        {
+          "dep": "dobj",
+          "governor": 11,
+          "governorGloss": "charges",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "minute"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "calls",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "minute",
+          "dependent": 20,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 201,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "second",
+          "originalText": "second",
+          "lemma": "second",
+          "characterOffsetBegin": 202,
+          "characterOffsetEnd": 208,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "plan",
+          "originalText": "plan",
+          "lemma": "plan",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 213,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 217,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 220,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "8",
+          "originalText": "8",
+          "lemma": "8",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 222,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 230,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$8.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "monthly",
+          "originalText": "monthly",
+          "lemma": "monthly",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 238,
+          "pos": "JJ",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "SET",
+            "value": "P1M"
+          }
+        },
+        {
+          "index": 9,
+          "word": "fee",
+          "originalText": "fee",
+          "lemma": "fee",
+          "characterOffsetBegin": 239,
+          "characterOffsetEnd": 242,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 246,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "charges",
+          "originalText": "charges",
+          "lemma": "charge",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 254,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 257,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "additional",
+          "originalText": "additional",
+          "lemma": "additional",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 268,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "0.18",
+          "originalText": "0.18",
+          "lemma": "0.18",
+          "characterOffsetBegin": 269,
+          "characterOffsetEnd": 273,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$0.18",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 274,
+          "characterOffsetEnd": 281,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$0.18",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 285,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 286,
+          "characterOffsetEnd": 290,
+          "pos": "DT",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "SET",
+            "value": "PT1M"
+          }
+        },
+        {
+          "index": 18,
+          "word": "minute",
+          "originalText": "minute",
+          "lemma": "minute",
+          "characterOffsetBegin": 291,
+          "characterOffsetEnd": 297,
+          "pos": "NN",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t4",
+            "type": "SET",
+            "value": "PT1M"
+          }
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 298,
+          "characterOffsetEnd": 300,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "calls",
+          "originalText": "calls",
+          "lemma": "call",
+          "characterOffsetBegin": 301,
+          "characterOffsetEnd": 306,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 306,
+          "characterOffsetEnd": 307,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHPP (IN For)\n      (WHNP\n        (WHNP\n          (WHADJP (WRB how) (JJ many))\n          (NNS minutes))\n        (PP (IN of)\n          (NP (NNS calls)))))\n    (SQ (MD will)\n      (NP\n        (NP (DT the) (NNS costs))\n        (PP (IN of)\n          (NP (DT the) (CD two) (NNS plans))))\n      (VP (VB be)\n        (ADJP (JJ equal))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "many",
+          "dependent": 2,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 3,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 4,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "calls",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 6,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "costs",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 9,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 12,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "costs",
+          "dependent": 13,
+          "dependentGloss": "plans"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 14,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "many",
+          "dependent": 2,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 3,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 4,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "calls",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 6,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "costs",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 9,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 12,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "costs",
+          "dependent": 13,
+          "dependentGloss": "plans"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 14,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 15,
+          "dependentGloss": "equal"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 1,
+          "dependentGloss": "For"
+        },
+        {
+          "dep": "advmod",
+          "governor": 3,
+          "governorGloss": "many",
+          "dependent": 2,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 3,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 4,
+          "dependentGloss": "minutes"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "calls",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "minutes",
+          "dependent": 6,
+          "dependentGloss": "calls"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 7,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "costs",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 9,
+          "dependentGloss": "costs"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "plans",
+          "dependent": 12,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "costs",
+          "dependent": 13,
+          "dependentGloss": "plans"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 14,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "equal",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "For",
+          "originalText": "For",
+          "lemma": "for",
+          "characterOffsetBegin": 308,
+          "characterOffsetEnd": 311,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 315,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 316,
+          "characterOffsetEnd": 320,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "minutes",
+          "originalText": "minutes",
+          "lemma": "minute",
+          "characterOffsetBegin": 321,
+          "characterOffsetEnd": 328,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PTXM",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t5",
+            "type": "DURATION",
+            "value": "PTXM"
+          }
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 329,
+          "characterOffsetEnd": 331,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "calls",
+          "originalText": "calls",
+          "lemma": "call",
+          "characterOffsetBegin": 332,
+          "characterOffsetEnd": 337,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 338,
+          "characterOffsetEnd": 342,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 343,
+          "characterOffsetEnd": 346,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "costs",
+          "originalText": "costs",
+          "lemma": "cost",
+          "characterOffsetBegin": 347,
+          "characterOffsetEnd": 352,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 353,
+          "characterOffsetEnd": 355,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 356,
+          "characterOffsetEnd": 359,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 360,
+          "characterOffsetEnd": 363,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "plans",
+          "originalText": "plans",
+          "lemma": "plan",
+          "characterOffsetBegin": 364,
+          "characterOffsetEnd": 369,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 370,
+          "characterOffsetEnd": 372,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "equal",
+          "originalText": "equal",
+          "lemma": "equal",
+          "characterOffsetBegin": 373,
+          "characterOffsetEnd": 378,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 378,
+          "characterOffsetEnd": 379,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Customers of a phone company",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "a phone company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "2 service plans for long distance calls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "long distance calls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 10,
+        "text": "calls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 15,
+        "text": "calls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 17,
+        "text": "calls",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "first",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "The first plan",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "a 22 dollars monthly fee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "each minute of calls",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "second",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "The second plan",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "an 8 dollars monthly fee",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "each minute of calls",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the costs of the two plans",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 14,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "the two plans",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 14,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

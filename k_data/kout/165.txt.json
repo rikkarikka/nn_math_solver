@@ -1,0 +1,1442 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Jerry) (NNP Weller))\n    (VP (VBD received)\n      (NP (CD 20,196) (JJR more) (NNS votes))\n      (PP (IN than)\n        (NP (NN opponent) (NNP John) (NNP Pavich))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "received"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Weller",
+          "dependent": 1,
+          "dependentGloss": "Jerry"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 2,
+          "dependentGloss": "Weller"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 4,
+          "dependentGloss": "20,196"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 5,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 6,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 8,
+          "dependentGloss": "opponent"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 9,
+          "dependentGloss": "John"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 10,
+          "dependentGloss": "Pavich"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "received"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Weller",
+          "dependent": 1,
+          "dependentGloss": "Jerry"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 2,
+          "dependentGloss": "Weller"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 4,
+          "dependentGloss": "20,196"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 5,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 6,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 8,
+          "dependentGloss": "opponent"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 9,
+          "dependentGloss": "John"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 10,
+          "dependentGloss": "Pavich"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "received"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Weller",
+          "dependent": 1,
+          "dependentGloss": "Jerry"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 2,
+          "dependentGloss": "Weller"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 4,
+          "dependentGloss": "20,196"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 5,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 6,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 8,
+          "dependentGloss": "opponent"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "Pavich",
+          "dependent": 9,
+          "dependentGloss": "John"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 10,
+          "dependentGloss": "Pavich"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "received",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Jerry",
+          "originalText": "Jerry",
+          "lemma": "Jerry",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Weller",
+          "originalText": "Weller",
+          "lemma": "Weller",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 12,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "received",
+          "originalText": "received",
+          "lemma": "receive",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 21,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "20,196",
+          "originalText": "20,196",
+          "lemma": "20,196",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 28,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "20196.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 33,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "votes",
+          "originalText": "votes",
+          "lemma": "vote",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 39,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 44,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "opponent",
+          "originalText": "opponent",
+          "lemma": "opponent",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 53,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "John",
+          "originalText": "John",
+          "lemma": "John",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 58,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "Pavich",
+          "originalText": "Pavich",
+          "lemma": "Pavich",
+          "characterOffsetBegin": 59,
+          "characterOffsetEnd": 65,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN If)\n      (S\n        (NP\n          (NP (DT the) (JJ total) (NN number))\n          (PP (IN of)\n            (NP (NNS votes))))\n        (VP (VBD was)\n          (NP (CD 196,554)))))\n    (, ,)\n    (VP (VB find)\n      (NP\n        (NP (DT the) (NN number))\n        (PP (IN of)\n          (NP\n            (NP (NNS votes))\n            (PP (IN for)\n              (NP (NNP Jerry)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 7,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "196,554"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "number",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "votes",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "number",
+          "dependent": 14,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Jerry",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "votes",
+          "dependent": 16,
+          "dependentGloss": "Jerry"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 7,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "196,554"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "number",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "votes",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "number",
+          "dependent": 14,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Jerry",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "votes",
+          "dependent": 16,
+          "dependentGloss": "Jerry"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 10,
+          "dependentGloss": "find"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "votes",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 6,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "cop",
+          "governor": 8,
+          "governorGloss": "196,554",
+          "dependent": 7,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 8,
+          "dependentGloss": "196,554"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 9,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "number",
+          "dependent": 11,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 12,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "votes",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "number",
+          "dependent": 14,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Jerry",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "votes",
+          "dependent": 16,
+          "dependentGloss": "Jerry"
+        },
+        {
+          "dep": "punct",
+          "governor": 10,
+          "governorGloss": "find",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 69,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 73,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "total",
+          "originalText": "total",
+          "lemma": "total",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 79,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 86,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 89,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "votes",
+          "originalText": "votes",
+          "lemma": "vote",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 95,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "196,554",
+          "originalText": "196,554",
+          "lemma": "196,554",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 107,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "196554.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 109,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "find",
+          "originalText": "find",
+          "lemma": "find",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 114,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 118,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 125,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 128,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "votes",
+          "originalText": "votes",
+          "lemma": "vote",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 134,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 138,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "Jerry",
+          "originalText": "Jerry",
+          "lemma": "Jerry",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 144,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 144,
+          "characterOffsetEnd": 145,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP\n        (NP (DT the) (NN number))\n        (PP (IN of)\n          (NP\n            (NP (NNS votes))\n            (PP (IN for)\n              (NP (NNP John)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "votes",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "John",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "votes",
+          "dependent": 7,
+          "dependentGloss": "John"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "votes",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "John",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "votes",
+          "dependent": 7,
+          "dependentGloss": "John"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "votes",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 5,
+          "dependentGloss": "votes"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "John",
+          "dependent": 6,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 5,
+          "governorGloss": "votes",
+          "dependent": 7,
+          "dependentGloss": "John"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 150,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 154,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 161,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 164,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "votes",
+          "originalText": "votes",
+          "lemma": "vote",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 170,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 171,
+          "characterOffsetEnd": 174,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "John",
+          "originalText": "John",
+          "lemma": "John",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 179,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 180,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Jerry Weller",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 6,
+        "text": "Jerry",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 16,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "20,196",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "20,196 more votes",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "opponent John Pavich",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "John",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the total number of votes",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 5,
+        "text": "196,554",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the number of votes for Jerry",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 17,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "the number of votes for John",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

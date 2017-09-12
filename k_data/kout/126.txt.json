@@ -1,0 +1,2378 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP\n        (NP (DT Each) (NN unit))\n        (PP (IN of)\n          (NP (NN grain) (NN A))))\n      (VP (VBZ contains)\n        (NP\n          (NP (CD 2) (NNS grams))\n          (PP (IN of)\n            (NP\n              (NP (JJ fat))\n              (CC and)\n              (NP (CD 80) (NNS calories)))))))\n    (, ,)\n    (CC and)\n    (S\n      (NP (NN unit) (NN B))\n      (VP (VBZ has)\n        (NP\n          (NP (CD 3) (NNS grams))\n          (PP (IN of)\n            (NP\n              (NP (JJ fat))\n              (CC and)\n              (NP (CD 60) (NNS calories)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "contains"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "unit",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 2,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "A",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "A",
+          "dependent": 4,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "unit",
+          "dependent": 5,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 7,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 8,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 10,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "calories",
+          "dependent": 12,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 13,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 14,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "B",
+          "dependent": 16,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "has",
+          "dependent": 17,
+          "dependentGloss": "B"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 18,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 19,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "has",
+          "dependent": 20,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 21,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 22,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 25,
+          "governorGloss": "calories",
+          "dependent": 24,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "conj",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 25,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "contains"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "unit",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 2,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "A",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "A",
+          "dependent": 4,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "unit",
+          "dependent": 5,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 7,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 8,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 10,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "calories",
+          "dependent": 12,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 13,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 14,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "B",
+          "dependent": 16,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "has",
+          "dependent": 17,
+          "dependentGloss": "B"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 18,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 19,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "has",
+          "dependent": 20,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 21,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 22,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 25,
+          "governorGloss": "calories",
+          "dependent": 24,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 25,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "contains"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "unit",
+          "dependent": 1,
+          "dependentGloss": "Each"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 2,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "A",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 5,
+          "governorGloss": "A",
+          "dependent": 4,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "unit",
+          "dependent": 5,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 7,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 8,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 10,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "calories",
+          "dependent": 12,
+          "dependentGloss": "80"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "grams",
+          "dependent": 13,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "fat",
+          "dependent": 13,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 14,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 15,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 17,
+          "governorGloss": "B",
+          "dependent": 16,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "has",
+          "dependent": 17,
+          "dependentGloss": "B"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 18,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "nummod",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 19,
+          "dependentGloss": "3"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "has",
+          "dependent": 20,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 21,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 22,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 23,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 25,
+          "governorGloss": "calories",
+          "dependent": 24,
+          "dependentGloss": "60"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 20,
+          "governorGloss": "grams",
+          "dependent": 25,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 22,
+          "governorGloss": "fat",
+          "dependent": 25,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "contains",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Each",
+          "originalText": "Each",
+          "lemma": "each",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 4,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "unit",
+          "originalText": "unit",
+          "lemma": "unit",
+          "characterOffsetBegin": 5,
+          "characterOffsetEnd": 9,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 12,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "grain",
+          "originalText": "grain",
+          "lemma": "grain",
+          "characterOffsetBegin": 13,
+          "characterOffsetEnd": 18,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 20,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "contains",
+          "originalText": "contains",
+          "lemma": "contain",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 29,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 31,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "grams",
+          "originalText": "grams",
+          "lemma": "gram",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 37,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 40,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "fat",
+          "originalText": "fat",
+          "lemma": "fat",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 44,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 48,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "80",
+          "originalText": "80",
+          "lemma": "80",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 51,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "80.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "calories",
+          "originalText": "calories",
+          "lemma": "calorie",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 60,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 62,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 66,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "unit",
+          "originalText": "unit",
+          "lemma": "unit",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 71,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "B",
+          "originalText": "B",
+          "lemma": "b",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 73,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 77,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "3",
+          "originalText": "3",
+          "lemma": "3",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 79,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "grams",
+          "originalText": "grams",
+          "lemma": "gram",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 85,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 88,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "fat",
+          "originalText": "fat",
+          "lemma": "fat",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 92,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 96,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "60",
+          "originalText": "60",
+          "lemma": "60",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "60.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "calories",
+          "originalText": "calories",
+          "lemma": "calorie",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 108,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 109,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (FRAG\n    (SBAR (IN If)\n      (S\n        (NP (DT the) (JJ final) (NN product))\n        (VP (VBZ is)\n          (S\n            (VP (TO to)\n              (VP (VB provide)\n                (NP\n                  (NP (CD 18) (NNS grams))\n                  (PP (IN of)\n                    (NP\n                      (NP (JJ fat)\n                        (CC and)\n                        (CD 480) (NNS calories))\n                      (, ,)\n                      (SBAR\n                        (WHNP (WRB how) (JJ much))\n                        (S\n                          (UCP\n                            (PP (IN of)\n                              (NP (NN grain) (NN A)))\n                            (CC and)\n                            (SBAR\n                              (WHNP\n                                (WHNP (WRB how) (JJ much))\n                                (PP (IN of)\n                                  (NP (NN grain) (NN B))))\n                              (S\n                                (VP (MD should)\n                                  (VP (VB be)\n                                    (VP (VBN used))))))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "product",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "product",
+          "dependent": 3,
+          "dependentGloss": "final"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 4,
+          "dependentGloss": "product"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "provide",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "provide"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "grams",
+          "dependent": 8,
+          "dependentGloss": "18"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "provide",
+          "dependent": 9,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 11,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "fat",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 11,
+          "governorGloss": "fat",
+          "dependent": 13,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "grams",
+          "dependent": 14,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "much",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 17,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 19,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 20,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 23,
+          "governorGloss": "much",
+          "dependent": 22,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 23,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 26,
+          "governorGloss": "B",
+          "dependent": 24,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 26,
+          "governorGloss": "B",
+          "dependent": 25,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod",
+          "governor": 23,
+          "governorGloss": "much",
+          "dependent": 26,
+          "dependentGloss": "B"
+        },
+        {
+          "dep": "aux",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 27,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 28,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "conj",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 29,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 30,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "product",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "product",
+          "dependent": 3,
+          "dependentGloss": "final"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 4,
+          "dependentGloss": "product"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "provide",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "provide"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "grams",
+          "dependent": 8,
+          "dependentGloss": "18"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "provide",
+          "dependent": 9,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 11,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "fat",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "fat",
+          "dependent": 13,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "grams",
+          "dependent": 14,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "much",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 17,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 19,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 20,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 23,
+          "governorGloss": "much",
+          "dependent": 22,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 23,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 26,
+          "governorGloss": "B",
+          "dependent": 24,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 26,
+          "governorGloss": "B",
+          "dependent": 25,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 23,
+          "governorGloss": "much",
+          "dependent": 26,
+          "dependentGloss": "B"
+        },
+        {
+          "dep": "aux",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 27,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 28,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 29,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 30,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 1,
+          "dependentGloss": "If"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "product",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "product",
+          "dependent": 3,
+          "dependentGloss": "final"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 4,
+          "dependentGloss": "product"
+        },
+        {
+          "dep": "mark",
+          "governor": 7,
+          "governorGloss": "provide",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 7,
+          "dependentGloss": "provide"
+        },
+        {
+          "dep": "nummod",
+          "governor": 9,
+          "governorGloss": "grams",
+          "dependent": 8,
+          "dependentGloss": "18"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "provide",
+          "dependent": 9,
+          "dependentGloss": "grams"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 11,
+          "dependentGloss": "fat"
+        },
+        {
+          "dep": "cc",
+          "governor": 11,
+          "governorGloss": "fat",
+          "dependent": 12,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 11,
+          "governorGloss": "fat",
+          "dependent": 13,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 13,
+          "dependentGloss": "480"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "grams",
+          "dependent": 14,
+          "dependentGloss": "calories"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 15,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 17,
+          "governorGloss": "much",
+          "dependent": 16,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "advmod",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 17,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 18,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 19,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 20,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 21,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 23,
+          "governorGloss": "much",
+          "dependent": 22,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 23,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "case",
+          "governor": 26,
+          "governorGloss": "B",
+          "dependent": 24,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "compound",
+          "governor": 26,
+          "governorGloss": "B",
+          "dependent": 25,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 23,
+          "governorGloss": "much",
+          "dependent": 26,
+          "dependentGloss": "B"
+        },
+        {
+          "dep": "aux",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 27,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 29,
+          "governorGloss": "used",
+          "dependent": 28,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 14,
+          "governorGloss": "calories",
+          "dependent": 29,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 20,
+          "governorGloss": "A",
+          "dependent": 29,
+          "dependentGloss": "used"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "is",
+          "dependent": 30,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "If",
+          "originalText": "If",
+          "lemma": "if",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 116,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "final",
+          "originalText": "final",
+          "lemma": "final",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 122,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "product",
+          "originalText": "product",
+          "lemma": "product",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 130,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 133,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 136,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "provide",
+          "originalText": "provide",
+          "lemma": "provide",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 144,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "18",
+          "originalText": "18",
+          "lemma": "18",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 147,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "18.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "grams",
+          "originalText": "grams",
+          "lemma": "gram",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 153,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 156,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "fat",
+          "originalText": "fat",
+          "lemma": "fat",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 164,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "480",
+          "originalText": "480",
+          "lemma": "480",
+          "characterOffsetBegin": 165,
+          "characterOffsetEnd": 168,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "480.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "calories",
+          "originalText": "calories",
+          "lemma": "calorie",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 177,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 179,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 183,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 188,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 191,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "grain",
+          "originalText": "grain",
+          "lemma": "grain",
+          "characterOffsetBegin": 192,
+          "characterOffsetEnd": 197,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 199,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 203,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 207,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 212,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 215,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "grain",
+          "originalText": "grain",
+          "lemma": "grain",
+          "characterOffsetBegin": 216,
+          "characterOffsetEnd": 221,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "B",
+          "originalText": "B",
+          "lemma": "b",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 223,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 230,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 233,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "used",
+          "originalText": "used",
+          "lemma": "use",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 238,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 30,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 239,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "80",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "3",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 20,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "60",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          15
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Each unit of grain A",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "grain A",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 22,
+        "text": "grain A",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 19,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "2 grams of fat and 80 calories",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "fat and 80 calories",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "fat",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "fat",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 22,
+        "endIndex": 23,
+        "sentNum": 1,
+        "position": [
+          1,
+          13
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "80 calories",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "unit B",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 18,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "3 grams of fat and 60 calories",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "fat and 60 calories",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 22,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          12
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "60 calories",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 26,
+        "sentNum": 1,
+        "position": [
+          1,
+          14
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "18",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "480",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the final product",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "18 grams of fat and 480 calories , how much of grain A and how much of grain B should be used",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 30,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "fat and 480 calories , how much of grain A and how much of grain B should be used",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 30,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "fat and 480 calories",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "23": [
+      {
+        "id": 23,
+        "text": "grain B",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 25,
+        "endIndex": 27,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

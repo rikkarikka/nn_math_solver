@@ -1,0 +1,2949 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Snookers) (NNP Lumber))\n    (VP (MD can)\n      (VP (VB convert)\n        (NP (NNS logs))\n        (PP (IN into)\n          (NP (CC either)\n            (NP (NN lumber))\n            (CC or)\n            (NP (NN plywood))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "convert"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Lumber",
+          "dependent": 1,
+          "dependentGloss": "Snookers"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 2,
+          "dependentGloss": "Lumber"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 3,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 5,
+          "dependentGloss": "logs"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 6,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "cc:preconj",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 7,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 8,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 9,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 10,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "convert"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Lumber",
+          "dependent": 1,
+          "dependentGloss": "Snookers"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 2,
+          "dependentGloss": "Lumber"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 3,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 5,
+          "dependentGloss": "logs"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 6,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "cc:preconj",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 7,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 8,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 9,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 10,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "convert"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Lumber",
+          "dependent": 1,
+          "dependentGloss": "Snookers"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 2,
+          "dependentGloss": "Lumber"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 3,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 5,
+          "dependentGloss": "logs"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 6,
+          "dependentGloss": "into"
+        },
+        {
+          "dep": "cc:preconj",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 7,
+          "dependentGloss": "either"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 8,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 9,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "nmod:into",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 10,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 8,
+          "governorGloss": "lumber",
+          "dependent": 10,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "convert",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Snookers",
+          "originalText": "Snookers",
+          "lemma": "Snookers",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 8,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Lumber",
+          "originalText": "Lumber",
+          "lemma": "Lumber",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 15,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 19,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "convert",
+          "originalText": "convert",
+          "lemma": "convert",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 27,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "logs",
+          "originalText": "logs",
+          "lemma": "log",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 32,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "into",
+          "originalText": "into",
+          "lemma": "into",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "either",
+          "originalText": "either",
+          "lemma": "either",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 44,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "lumber",
+          "originalText": "lumber",
+          "lemma": "lumber",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 51,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 54,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "plywood",
+          "originalText": "plywood",
+          "lemma": "plywood",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 62,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 63,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (DT a) (VBN given) (NN day)))\n    (, ,)\n    (NP (DT the) (NN mill))\n    (VP (VBZ turns)\n      (PRT (RP out))\n      (NP\n        (NP\n          (QP (CD three) (NNS times) (IN as) (JJ many))\n          (NNS units))\n        (PP (IN of)\n          (NP\n            (NP (NN plywood))\n            (PP (IN as)\n              (NP (NN lumber)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "turns"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 3,
+          "dependentGloss": "given"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 4,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "mill",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 7,
+          "dependentGloss": "mill"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 9,
+          "dependentGloss": "out"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 10,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "units",
+          "dependent": 11,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 14,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "plywood",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "units",
+          "dependent": 16,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "lumber",
+          "dependent": 17,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "plywood",
+          "dependent": 18,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "turns"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 3,
+          "dependentGloss": "given"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 4,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "mill",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 7,
+          "dependentGloss": "mill"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 9,
+          "dependentGloss": "out"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 10,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "units",
+          "dependent": 11,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 14,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "plywood",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "units",
+          "dependent": 16,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "lumber",
+          "dependent": 17,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 16,
+          "governorGloss": "plywood",
+          "dependent": 18,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "turns"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 1,
+          "dependentGloss": "In"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 2,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "day",
+          "dependent": 3,
+          "dependentGloss": "given"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 4,
+          "dependentGloss": "day"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "mill",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 7,
+          "dependentGloss": "mill"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 9,
+          "dependentGloss": "out"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 10,
+          "dependentGloss": "three"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "units",
+          "dependent": 11,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 12,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 11,
+          "governorGloss": "times",
+          "dependent": 13,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 14,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "plywood",
+          "dependent": 15,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 14,
+          "governorGloss": "units",
+          "dependent": 16,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "lumber",
+          "dependent": 17,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 16,
+          "governorGloss": "plywood",
+          "dependent": 18,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "turns",
+          "dependent": 19,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "In",
+          "originalText": "In",
+          "lemma": "in",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 66,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 68,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "given",
+          "originalText": "given",
+          "lemma": "give",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 74,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "day",
+          "originalText": "day",
+          "lemma": "day",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "DURATION",
+          "normalizedNER": "P1D",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DURATION",
+            "value": "P1D"
+          }
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 80,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 84,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "mill",
+          "originalText": "mill",
+          "lemma": "mill",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 89,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "turns",
+          "originalText": "turns",
+          "lemma": "turn",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 95,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "out",
+          "originalText": "out",
+          "lemma": "out",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "RP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "three",
+          "originalText": "three",
+          "lemma": "three",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 105,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "3.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 111,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 114,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 119,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 120,
+          "characterOffsetEnd": 125,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 128,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "plywood",
+          "originalText": "plywood",
+          "lemma": "plywood",
+          "characterOffsetBegin": 129,
+          "characterOffsetEnd": 136,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 139,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "lumber",
+          "originalText": "lumber",
+          "lemma": "lumber",
+          "characterOffsetBegin": 140,
+          "characterOffsetEnd": 146,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 147,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (PRP It))\n    (VP (VBZ makes)\n      (NP\n        (NP (DT a) (NN profit))\n        (PP (IN of)\n          (NP\n            (NP\n              (NP (CD 30) (NNS dollars))\n              (PP (IN on)\n                (NP\n                  (NP (DT a) (NN unit))\n                  (PP (IN of)\n                    (NP (NN lumber))))))\n            (CC and)\n            (NP\n              (NP (CD 50) (NNS dollars))\n              (PP (IN on)\n                (NP\n                  (NP (DT a) (NN unit))\n                  (PP (IN of)\n                    (NP (NN plywood))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "makes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 1,
+          "dependentGloss": "It"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 4,
+          "dependentGloss": "profit"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "lumber",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 12,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "conj",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 16,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "plywood",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 20,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "makes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 1,
+          "dependentGloss": "It"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 4,
+          "dependentGloss": "profit"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "lumber",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 12,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 16,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "plywood",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 20,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "makes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 1,
+          "dependentGloss": "It"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 4,
+          "dependentGloss": "profit"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "30"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "lumber",
+          "dependent": 11,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 10,
+          "governorGloss": "unit",
+          "dependent": 12,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "50"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 4,
+          "governorGloss": "profit",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 16,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "unit"
+        },
+        {
+          "dep": "case",
+          "governor": 20,
+          "governorGloss": "plywood",
+          "dependent": 19,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 18,
+          "governorGloss": "unit",
+          "dependent": 20,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "makes",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "It",
+          "originalText": "It",
+          "lemma": "it",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 150,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "makes",
+          "originalText": "makes",
+          "lemma": "make",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 156,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 158,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "profit",
+          "originalText": "profit",
+          "lemma": "profit",
+          "characterOffsetBegin": 159,
+          "characterOffsetEnd": 165,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 168,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "30",
+          "originalText": "30",
+          "lemma": "30",
+          "characterOffsetBegin": 169,
+          "characterOffsetEnd": 171,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 179,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$30.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 182,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 184,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "unit",
+          "originalText": "unit",
+          "lemma": "unit",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 189,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 192,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "lumber",
+          "originalText": "lumber",
+          "lemma": "lumber",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 199,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 203,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "50",
+          "originalText": "50",
+          "lemma": "50",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 206,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$50.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 214,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$50.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 217,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 219,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "unit",
+          "originalText": "unit",
+          "lemma": "unit",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 224,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 227,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "plywood",
+          "originalText": "plywood",
+          "lemma": "plywood",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 235,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 236,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (NP (NNS Snookers))\n    (VP (VBP lumber)\n      (SBAR\n        (S\n          (VP (MD must)\n            (VP (VB produce)\n              (CC and)\n              (VB sell)\n              (NP\n                (NP\n                  (NP (CD ___) (NNS units))\n                  (PP (IN of)\n                    (NP (NN lumber))))\n                (CC and)\n                (NP\n                  (NP (CD ___) (NNS units))\n                  (PP (IN of)\n                    (NP (NN plywood)))))\n              (S\n                (VP (TO to)\n                  (VP (VB make)\n                    (NP\n                      (NP (DT a) (NN profit))\n                      (PP (IN of)\n                        (NP (CD 18360) (NNS dollars))))))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 1,
+          "dependentGloss": "Snookers"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 3,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 4,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 7,
+          "dependentGloss": "___"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 8,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "lumber",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 10,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "units",
+          "dependent": 12,
+          "dependentGloss": "___"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 13,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "plywood",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "units",
+          "dependent": 15,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "make",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 17,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "profit",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "make",
+          "dependent": 19,
+          "dependentGloss": "profit"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "18360"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "profit",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 1,
+          "dependentGloss": "Snookers"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 3,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 4,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 7,
+          "dependentGloss": "___"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 8,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "lumber",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 10,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "units",
+          "dependent": 12,
+          "dependentGloss": "___"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 13,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "plywood",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "units",
+          "dependent": 15,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "make",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 17,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "profit",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "make",
+          "dependent": 19,
+          "dependentGloss": "profit"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "18360"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 19,
+          "governorGloss": "profit",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 1,
+          "dependentGloss": "Snookers"
+        },
+        {
+          "dep": "aux",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 3,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 4,
+          "dependentGloss": "produce"
+        },
+        {
+          "dep": "cc",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 5,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 6,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 7,
+          "dependentGloss": "___"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 8,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "lumber",
+          "dependent": 9,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 10,
+          "dependentGloss": "lumber"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "units",
+          "dependent": 12,
+          "dependentGloss": "___"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 13,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "units",
+          "dependent": 13,
+          "dependentGloss": "units"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "plywood",
+          "dependent": 14,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 13,
+          "governorGloss": "units",
+          "dependent": 15,
+          "dependentGloss": "plywood"
+        },
+        {
+          "dep": "mark",
+          "governor": 17,
+          "governorGloss": "make",
+          "dependent": 16,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "produce",
+          "dependent": 17,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 19,
+          "governorGloss": "profit",
+          "dependent": 18,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 17,
+          "governorGloss": "make",
+          "dependent": 19,
+          "dependentGloss": "profit"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 20,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 22,
+          "governorGloss": "dollars",
+          "dependent": 21,
+          "dependentGloss": "18360"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 19,
+          "governorGloss": "profit",
+          "dependent": 22,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "lumber",
+          "dependent": 23,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Snookers",
+          "originalText": "Snookers",
+          "lemma": "snooker",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 245,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "lumber",
+          "originalText": "lumber",
+          "lemma": "lumber",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 252,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "must",
+          "originalText": "must",
+          "lemma": "must",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 257,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "produce",
+          "originalText": "produce",
+          "lemma": "produce",
+          "characterOffsetBegin": 258,
+          "characterOffsetEnd": 265,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 266,
+          "characterOffsetEnd": 269,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 270,
+          "characterOffsetEnd": 274,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "___",
+          "originalText": "___",
+          "lemma": "___",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 278,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 284,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 285,
+          "characterOffsetEnd": 287,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "lumber",
+          "originalText": "lumber",
+          "lemma": "lumber",
+          "characterOffsetBegin": 288,
+          "characterOffsetEnd": 294,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 295,
+          "characterOffsetEnd": 298,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "___",
+          "originalText": "___",
+          "lemma": "___",
+          "characterOffsetBegin": 299,
+          "characterOffsetEnd": 302,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "units",
+          "originalText": "units",
+          "lemma": "unit",
+          "characterOffsetBegin": 303,
+          "characterOffsetEnd": 308,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 309,
+          "characterOffsetEnd": 311,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "plywood",
+          "originalText": "plywood",
+          "lemma": "plywood",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 319,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 320,
+          "characterOffsetEnd": 322,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 323,
+          "characterOffsetEnd": 327,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 328,
+          "characterOffsetEnd": 329,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "profit",
+          "originalText": "profit",
+          "lemma": "profit",
+          "characterOffsetBegin": 330,
+          "characterOffsetEnd": 336,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 337,
+          "characterOffsetEnd": 339,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "18360",
+          "originalText": "18360",
+          "lemma": "18360",
+          "characterOffsetBegin": 340,
+          "characterOffsetEnd": 345,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$18360.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 346,
+          "characterOffsetEnd": 353,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$18360.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 23,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 353,
+          "characterOffsetEnd": 354,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Snookers Lumber",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "logs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "either lumber or plywood",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "three",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "a given day",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 5,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "It",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the mill",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "three times as many units of plywood as lumber",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "plywood as lumber",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "a profit of 30 dollars on a unit of lumber and 50 dollars on a unit of plywood",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "a unit of lumber",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 13,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "a unit of plywood",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 21,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "___",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "___",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 4,
+        "position": [
+          4,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "Snookers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "___ units of lumber and ___ units of plywood",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 16,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "___ units of lumber",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "___ units of plywood",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 16,
+        "sentNum": 4,
+        "position": [
+          4,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "a profit of 18360 dollars",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 18,
+        "endIndex": 23,
+        "sentNum": 4,
+        "position": [
+          4,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

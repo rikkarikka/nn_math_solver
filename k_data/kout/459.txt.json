@@ -1,0 +1,2195 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT A) (NN baseball) (NN team))\n    (VP (VBZ has)\n      (NP\n        (NP (NN home) (NNS games))\n        (PP (IN on)\n          (NP (NNP Wednesday)\n            (CC and)\n            (NNP Saturday)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "team",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "team",
+          "dependent": 2,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "team"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "home"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 8,
+          "dependentGloss": "Wednesday"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 10,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "team",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "team",
+          "dependent": 2,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "team"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "home"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 8,
+          "dependentGloss": "Wednesday"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 10,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "team",
+          "dependent": 1,
+          "dependentGloss": "A"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "team",
+          "dependent": 2,
+          "dependentGloss": "baseball"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 3,
+          "dependentGloss": "team"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 5,
+          "dependentGloss": "home"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 6,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 7,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 8,
+          "dependentGloss": "Wednesday"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 9,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 6,
+          "governorGloss": "games",
+          "dependent": 10,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 10,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "has",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "A",
+          "originalText": "A",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "baseball",
+          "originalText": "baseball",
+          "lemma": "baseball",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 10,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "team",
+          "originalText": "team",
+          "lemma": "team",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "lemma": "have",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 19,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "home",
+          "originalText": "home",
+          "lemma": "home",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 24,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 30,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Wednesday",
+          "originalText": "Wednesday",
+          "lemma": "Wednesday",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 43,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-3",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-3"
+          }
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 47,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "Saturday",
+          "originalText": "Saturday",
+          "lemma": "Saturday",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 56,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-6"
+          }
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 57,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (CD two) (NNS games))\n    (ADVP (RB together))\n    (VP (VBP earn)\n      (NP\n        (NP (CD 5,182.50) (NNS dollars))\n        (PP (IN for)\n          (NP (DT the) (NN team)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "earn"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "games",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 3,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 4,
+          "dependentGloss": "together"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "5,182.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "team",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "team",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "team"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "earn"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "games",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 3,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 4,
+          "dependentGloss": "together"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "5,182.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "team",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "team",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "team"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "earn"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "games",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nummod",
+          "governor": 3,
+          "governorGloss": "games",
+          "dependent": 2,
+          "dependentGloss": "two"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 3,
+          "dependentGloss": "games"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 4,
+          "dependentGloss": "together"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "5,182.50"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 7,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "team",
+          "dependent": 8,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "team",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 7,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "team"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "earn",
+          "dependent": 11,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 61,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "two",
+          "originalText": "two",
+          "lemma": "two",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 65,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 71,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "together",
+          "originalText": "together",
+          "lemma": "together",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 80,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "earn",
+          "originalText": "earn",
+          "lemma": "earn",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "5,182.50",
+          "originalText": "5,182.50",
+          "lemma": "5,182.50",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 94,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$5182.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 102,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$5182.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 103,
+          "characterOffsetEnd": 106,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 110,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "team",
+          "originalText": "team",
+          "lemma": "team",
+          "characterOffsetBegin": 111,
+          "characterOffsetEnd": 115,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 116,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (NNS Wednesdays) (NN game))\n    (VP (VBZ generates)\n      (ADJP\n        (ADJP\n          (NP (CD 142.50) (NNS dollars))\n          (JJR less))\n        (PP (IN than)\n          (NP (NNP Saturdays) (NN game)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "generates"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "game",
+          "dependent": 1,
+          "dependentGloss": "Wednesdays"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 2,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "142.50"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 6,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Saturdays"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 9,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "generates"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "game",
+          "dependent": 1,
+          "dependentGloss": "Wednesdays"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 2,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "142.50"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 6,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Saturdays"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 9,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "generates"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "game",
+          "dependent": 1,
+          "dependentGloss": "Wednesdays"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 2,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "142.50"
+        },
+        {
+          "dep": "nmod:npmod",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 5,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 6,
+          "dependentGloss": "less"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "than"
+        },
+        {
+          "dep": "compound",
+          "governor": 9,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Saturdays"
+        },
+        {
+          "dep": "nmod:than",
+          "governor": 6,
+          "governorGloss": "less",
+          "dependent": 9,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "generates",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Wednesdays",
+          "originalText": "Wednesdays",
+          "lemma": "wednesday",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 127,
+          "pos": "NNS",
+          "ner": "SET",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "SET",
+            "value": "XXXX-WXX-3"
+          }
+        },
+        {
+          "index": 2,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 132,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "generates",
+          "originalText": "generates",
+          "lemma": "generate",
+          "characterOffsetBegin": 133,
+          "characterOffsetEnd": 142,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "142.50",
+          "originalText": "142.50",
+          "lemma": "142.50",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 149,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$142.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 157,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$142.5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "less",
+          "originalText": "less",
+          "lemma": "less",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 162,
+          "pos": "JJR",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Saturdays",
+          "originalText": "Saturdays",
+          "lemma": "Saturdays",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 177,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-6"
+          }
+        },
+        {
+          "index": 9,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 182,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 183,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ much))\n      (NN money))\n    (SQ (VBD was)\n      (VP (VBN taken)\n        (PP (IN in)\n          (PP (IN at)\n            (NP\n              (NP (NNP Wednesday) (POS 's))\n              (NN game))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "taken"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Wednesday"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 9,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 10,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "taken"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Wednesday"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 9,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 10,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "taken"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Wednesday"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Wednesday",
+          "dependent": 9,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 10,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 187,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 192,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 198,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 202,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "taken",
+          "originalText": "taken",
+          "lemma": "take",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 208,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 211,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 214,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Wednesday",
+          "originalText": "Wednesday",
+          "lemma": "Wednesday",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 224,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-3",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-3"
+          }
+        },
+        {
+          "index": 9,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 227,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 232,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 233,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ much))\n      (NN money))\n    (SQ (VBD was)\n      (VP (VBN taken)\n        (PP (IN in)\n          (PP (IN at)\n            (NP\n              (NP (NNP Saturday) (POS 's))\n              (NN game))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "taken"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Saturday",
+          "dependent": 9,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 10,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "taken"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Saturday",
+          "dependent": 9,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 10,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "taken"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "much",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "money",
+          "dependent": 2,
+          "dependentGloss": "much"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 3,
+          "dependentGloss": "money"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 4,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 7,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "game",
+          "dependent": 8,
+          "dependentGloss": "Saturday"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "Saturday",
+          "dependent": 9,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 10,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "taken",
+          "dependent": 11,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 234,
+          "characterOffsetEnd": 237,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "much",
+          "originalText": "much",
+          "lemma": "much",
+          "characterOffsetBegin": 238,
+          "characterOffsetEnd": 242,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "money",
+          "originalText": "money",
+          "lemma": "money",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 248,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 252,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "taken",
+          "originalText": "taken",
+          "lemma": "take",
+          "characterOffsetBegin": 253,
+          "characterOffsetEnd": 258,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 261,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 264,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Saturday",
+          "originalText": "Saturday",
+          "lemma": "Saturday",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 273,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-6",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "XXXX-WXX-6"
+          }
+        },
+        {
+          "index": 9,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 274,
+          "characterOffsetEnd": 276,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 281,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 11,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 281,
+          "characterOffsetEnd": 282,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "A baseball team",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "the team",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "home games on Wednesday and Saturday",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Wednesday and Saturday",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "Saturday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "Saturday 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Wednesday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "Wednesday 's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "two",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "The two games",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "Wednesdays game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "Saturdays game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "Wednesday 's game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "Saturday 's game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 11,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

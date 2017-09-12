@@ -1,0 +1,2122 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (DT a) (NN grocer))\n    (VP (VBZ wants)\n      (S\n        (VP (TO to)\n          (VP (VB mix)\n            (NP\n              (NP (NNS nuts))\n              (SBAR\n                (WHNP (WDT which))\n                (S\n                  (VP (VBP sell)\n                    (PP (IN for)\n                      (NP\n                        (NP (NNS rs) (CD 4))\n                        (PP (IN per)\n                          (NP (NN kilo)))))\n                    (PP (IN with)\n                      (NP\n                        (NP (NNS nuts))\n                        (SBAR\n                          (WHNP (WDT which))\n                          (S\n                            (VP (VBP sell)\n                              (PP (IN for)\n                                (NP\n                                  (NP (NNS rs) (CD 7))\n                                  (PP (IN per)\n                                    (NP (NN kilo)))))\n                              (SBAR (IN in) (NN order)\n                                (S\n                                  (VP (TO to)\n                                    (VP (VB make)\n                                      (NP\n                                        (NP (DT a) (NN mixture))\n                                        (SBAR\n                                          (WHNP (WDT which))\n                                          (S\n                                            (VP (MD could)\n                                              (VP (VB sell)\n                                                (PP (IN for)\n                                                  (NP\n                                                    (NP (NNS rs) (CD 5))\n                                                    (PP (IN per)\n                                                      (NP (NN kilo)))))))))))))))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "grocer",
+          "dependent": 1,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 2,
+          "dependentGloss": "grocer"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "mix",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 5,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "nuts"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 7,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "nuts",
+          "dependent": 8,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 10,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 11,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "kilo",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 13,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "nuts",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 15,
+          "dependentGloss": "nuts"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 16,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 15,
+          "governorGloss": "nuts",
+          "dependent": 17,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 18,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 19,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 20,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "kilo",
+          "dependent": 21,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 22,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "mwe",
+          "governor": 23,
+          "governorGloss": "in",
+          "dependent": 24,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 25,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 26,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "mixture",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 28,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 29,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "aux",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 30,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 28,
+          "governorGloss": "mixture",
+          "dependent": 31,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 32,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 33,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 34,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "case",
+          "governor": 36,
+          "governorGloss": "kilo",
+          "dependent": 35,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 36,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 37,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "grocer",
+          "dependent": 1,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 2,
+          "dependentGloss": "grocer"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "mix",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 5,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "nuts"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 7,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "nuts",
+          "dependent": 8,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 10,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 11,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "kilo",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 13,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "nuts",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 15,
+          "dependentGloss": "nuts"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 16,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 15,
+          "governorGloss": "nuts",
+          "dependent": 17,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 18,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 19,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 20,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "kilo",
+          "dependent": 21,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 22,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "mwe",
+          "governor": 23,
+          "governorGloss": "in",
+          "dependent": 24,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 25,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 26,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "mixture",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 28,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 29,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "aux",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 30,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 28,
+          "governorGloss": "mixture",
+          "dependent": 31,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 32,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 33,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 34,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "case",
+          "governor": 36,
+          "governorGloss": "kilo",
+          "dependent": 35,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 36,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 37,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "wants"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "grocer",
+          "dependent": 1,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 2,
+          "dependentGloss": "grocer"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "mix",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 5,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "nuts"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 7,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "nuts",
+          "dependent": 8,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 10,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 11,
+          "dependentGloss": "4"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "kilo",
+          "dependent": 12,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 10,
+          "governorGloss": "rs",
+          "dependent": 13,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "nuts",
+          "dependent": 14,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 8,
+          "governorGloss": "sell",
+          "dependent": 15,
+          "dependentGloss": "nuts"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 16,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 15,
+          "governorGloss": "nuts",
+          "dependent": 17,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 18,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 19,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 20,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "case",
+          "governor": 22,
+          "governorGloss": "kilo",
+          "dependent": 21,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 19,
+          "governorGloss": "rs",
+          "dependent": 22,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "mwe",
+          "governor": 23,
+          "governorGloss": "in",
+          "dependent": 24,
+          "dependentGloss": "order"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 25,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 17,
+          "governorGloss": "sell",
+          "dependent": 26,
+          "dependentGloss": "make"
+        },
+        {
+          "dep": "det",
+          "governor": 28,
+          "governorGloss": "mixture",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "make",
+          "dependent": 28,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 29,
+          "dependentGloss": "which"
+        },
+        {
+          "dep": "aux",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 30,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 28,
+          "governorGloss": "mixture",
+          "dependent": 31,
+          "dependentGloss": "sell"
+        },
+        {
+          "dep": "case",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 32,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 31,
+          "governorGloss": "sell",
+          "dependent": 33,
+          "dependentGloss": "rs"
+        },
+        {
+          "dep": "nummod",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 34,
+          "dependentGloss": "5"
+        },
+        {
+          "dep": "case",
+          "governor": 36,
+          "governorGloss": "kilo",
+          "dependent": 35,
+          "dependentGloss": "per"
+        },
+        {
+          "dep": "nmod:per",
+          "governor": 33,
+          "governorGloss": "rs",
+          "dependent": 36,
+          "dependentGloss": "kilo"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "wants",
+          "dependent": 37,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 1,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "grocer",
+          "originalText": "grocer",
+          "lemma": "grocer",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 8,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "wants",
+          "originalText": "wants",
+          "lemma": "want",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 14,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 17,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "mix",
+          "originalText": "mix",
+          "lemma": "mix",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 21,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "nuts",
+          "originalText": "nuts",
+          "lemma": "nut",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 26,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "which",
+          "originalText": "which",
+          "lemma": "which",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 32,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 37,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 41,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "rs",
+          "originalText": "rs",
+          "lemma": "r",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 44,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "4",
+          "originalText": "4",
+          "lemma": "4",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 46,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "4.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 50,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "kilo",
+          "originalText": "kilo",
+          "lemma": "kilo",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 55,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "nuts",
+          "originalText": "nuts",
+          "lemma": "nut",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "which",
+          "originalText": "which",
+          "lemma": "which",
+          "characterOffsetBegin": 66,
+          "characterOffsetEnd": 71,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 76,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 77,
+          "characterOffsetEnd": 80,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "rs",
+          "originalText": "rs",
+          "lemma": "r",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 83,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "7",
+          "originalText": "7",
+          "lemma": "7",
+          "characterOffsetBegin": 84,
+          "characterOffsetEnd": 85,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 89,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "kilo",
+          "originalText": "kilo",
+          "lemma": "kilo",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 94,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 95,
+          "characterOffsetEnd": 97,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "order",
+          "originalText": "order",
+          "lemma": "order",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 103,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 106,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "make",
+          "originalText": "make",
+          "lemma": "make",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 111,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 113,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "mixture",
+          "originalText": "mixture",
+          "lemma": "mixture",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 121,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "which",
+          "originalText": "which",
+          "lemma": "which",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 127,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "could",
+          "originalText": "could",
+          "lemma": "could",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 133,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "sell",
+          "originalText": "sell",
+          "lemma": "sell",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 142,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "rs",
+          "originalText": "rs",
+          "lemma": "r",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "5",
+          "originalText": "5",
+          "lemma": "5",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 147,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "per",
+          "originalText": "per",
+          "lemma": "per",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 151,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "kilo",
+          "originalText": "kilo",
+          "lemma": "kilo",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 156,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 37,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 157,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NP\n        (NP (NNS kilos))\n        (PP (IN of)\n          (NP (DT each)))))\n    (SQ (MD should)\n      (NP (PRP he))\n      (VP (VB mix)\n        (S\n          (VP (TO to)\n            (VP (VB get)\n              (NP\n                (NP (DT a) (NN mixture))\n                (PP (IN of)\n                  (NP (CD 42) (NNS kilos)))))))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "kilos",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 3,
+          "dependentGloss": "kilos"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "each",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "kilos",
+          "dependent": 5,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 7,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "get",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 10,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mixture",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "get",
+          "dependent": 12,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "kilos",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "kilos",
+          "dependent": 14,
+          "dependentGloss": "42"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "mixture",
+          "dependent": 15,
+          "dependentGloss": "kilos"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "kilos",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 3,
+          "dependentGloss": "kilos"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "each",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "kilos",
+          "dependent": 5,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 7,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "get",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 10,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mixture",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "get",
+          "dependent": 12,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "kilos",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "kilos",
+          "dependent": 14,
+          "dependentGloss": "42"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "mixture",
+          "dependent": 15,
+          "dependentGloss": "kilos"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 8,
+          "dependentGloss": "mix"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "kilos",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 3,
+          "dependentGloss": "kilos"
+        },
+        {
+          "dep": "case",
+          "governor": 5,
+          "governorGloss": "each",
+          "dependent": 4,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 3,
+          "governorGloss": "kilos",
+          "dependent": 5,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "aux",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 6,
+          "dependentGloss": "should"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 7,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "get",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 10,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "mixture",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "get",
+          "dependent": 12,
+          "dependentGloss": "mixture"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "kilos",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "kilos",
+          "dependent": 14,
+          "dependentGloss": "42"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "mixture",
+          "dependent": 15,
+          "dependentGloss": "kilos"
+        },
+        {
+          "dep": "punct",
+          "governor": 8,
+          "governorGloss": "mix",
+          "dependent": 16,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 161,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 166,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "kilos",
+          "originalText": "kilos",
+          "lemma": "kilo",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 172,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 175,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 180,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "should",
+          "originalText": "should",
+          "lemma": "should",
+          "characterOffsetBegin": 181,
+          "characterOffsetEnd": 187,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 188,
+          "characterOffsetEnd": 190,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "mix",
+          "originalText": "mix",
+          "lemma": "mix",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 194,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 197,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "get",
+          "originalText": "get",
+          "lemma": "get",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 201,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 202,
+          "characterOffsetEnd": 203,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "mixture",
+          "originalText": "mixture",
+          "lemma": "mixture",
+          "characterOffsetBegin": 204,
+          "characterOffsetEnd": 211,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 214,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "42",
+          "originalText": "42",
+          "lemma": "42",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 217,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "42.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "kilos",
+          "originalText": "kilos",
+          "lemma": "kilo",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 223,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 16,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 224,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "4",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "7",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "5",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 34,
+        "endIndex": 35,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "a grocer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "nuts which sell for rs 4 per kilo with nuts which sell for rs 7 per kilo in order to make a mixture which could sell for rs 5 per kilo",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 37,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "rs 4 per kilo",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "nuts which sell for rs 7 per kilo in order to make a mixture which could sell for rs 5 per kilo",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 37,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "rs 7 per kilo",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 23,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "a mixture which could sell for rs 5 per kilo",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 27,
+        "endIndex": 37,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "rs 5 per kilo",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 33,
+        "endIndex": 37,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "42",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "kilos of each",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "each",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "he",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "a mixture of 42 kilos",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "42 kilos",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

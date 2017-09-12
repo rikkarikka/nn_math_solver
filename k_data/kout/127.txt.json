@@ -1,0 +1,1553 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Freeport) (NNP McMoran) (NNS projects))\n      (SBAR\n        (WHNP (WDT that))\n        (S\n          (PP (IN in)\n            (NP (CD 2010)))\n          (NP (DT the) (NN world) (NN grain) (NN supply))\n          (VP (MD will)\n            (VP (VB be)\n              (NP\n                (NP (CD 1800000) (JJ metric) (NNS tons))\n                (CC and)\n                (NP (DT the) (NN supply))))))))\n    (VP (MD will)\n      (VP (VB be)\n        (NP\n          (NP (RB only) (CD 0.75))\n          (PP (IN of)\n            (NP (DT the) (NN world) (NN grain) (NN demand))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 22,
+          "dependentGloss": "0.75"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 1,
+          "dependentGloss": "Freeport"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 2,
+          "dependentGloss": "McMoran"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 3,
+          "dependentGloss": "projects"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "2010",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 6,
+          "dependentGloss": "2010"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 8,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 9,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 10,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 11,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 12,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 13,
+          "dependentGloss": "1800000"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 14,
+          "dependentGloss": "metric"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 15,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "supply",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 18,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "aux",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 19,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 20,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 21,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 23,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 25,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 26,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 27,
+          "dependentGloss": "demand"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 28,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 22,
+          "dependentGloss": "0.75"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 1,
+          "dependentGloss": "Freeport"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 2,
+          "dependentGloss": "McMoran"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 3,
+          "dependentGloss": "projects"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "2010",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 6,
+          "dependentGloss": "2010"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 8,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 9,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 10,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 11,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 12,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 13,
+          "dependentGloss": "1800000"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 14,
+          "dependentGloss": "metric"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 15,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "supply",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 18,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "aux",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 19,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 20,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 21,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 23,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 25,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 26,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 27,
+          "dependentGloss": "demand"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 28,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 22,
+          "dependentGloss": "0.75"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 1,
+          "dependentGloss": "Freeport"
+        },
+        {
+          "dep": "compound",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 2,
+          "dependentGloss": "McMoran"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 3,
+          "dependentGloss": "projects"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 4,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "2010",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 6,
+          "dependentGloss": "2010"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 8,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "supply",
+          "dependent": 9,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 10,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 11,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 12,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 13,
+          "dependentGloss": "1800000"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 14,
+          "dependentGloss": "metric"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 15,
+          "dependentGloss": "tons"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 16,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "supply",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 3,
+          "governorGloss": "projects",
+          "dependent": 18,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 15,
+          "governorGloss": "tons",
+          "dependent": 18,
+          "dependentGloss": "supply"
+        },
+        {
+          "dep": "aux",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 19,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "cop",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 20,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 21,
+          "dependentGloss": "only"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 23,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 25,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "demand",
+          "dependent": 26,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 27,
+          "dependentGloss": "demand"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "0.75",
+          "dependent": 28,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Freeport",
+          "originalText": "Freeport",
+          "lemma": "Freeport",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 8,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "McMoran",
+          "originalText": "McMoran",
+          "lemma": "McMoran",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 16,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "projects",
+          "originalText": "projects",
+          "lemma": "project",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 25,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 30,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 33,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "2010",
+          "originalText": "2010",
+          "lemma": "2010",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 38,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "2010",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "2010"
+          }
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 42,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "world",
+          "originalText": "world",
+          "lemma": "world",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 48,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "grain",
+          "originalText": "grain",
+          "lemma": "grain",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 54,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "supply",
+          "originalText": "supply",
+          "lemma": "supply",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 61,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 66,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 69,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "1800000",
+          "originalText": "1800000",
+          "lemma": "1800000",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 77,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "1800000.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "metric",
+          "originalText": "metric",
+          "lemma": "metric",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "tons",
+          "originalText": "tons",
+          "lemma": "ton",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 89,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 93,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 97,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "supply",
+          "originalText": "supply",
+          "lemma": "supply",
+          "characterOffsetBegin": 98,
+          "characterOffsetEnd": 104,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 109,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 112,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "only",
+          "originalText": "only",
+          "lemma": "only",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 117,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "0.75",
+          "originalText": "0.75",
+          "lemma": "0.75",
+          "characterOffsetBegin": 118,
+          "characterOffsetEnd": 122,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "0.75",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 125,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 129,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "world",
+          "originalText": "world",
+          "lemma": "world",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 135,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "grain",
+          "originalText": "grain",
+          "lemma": "grain",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 141,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "demand",
+          "originalText": "demand",
+          "lemma": "demand",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 148,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 28,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 149,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP (WP What))\n    (SQ (MD will)\n      (NP (DT the) (NN world) (NN grain) (NN demand))\n      (VP (VB be)\n        (PP (IN in)\n          (NP (CD 2010)))))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "2010"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 2,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 4,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 5,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 6,
+          "dependentGloss": "demand"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 7,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "2010"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 2,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 4,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 5,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 6,
+          "dependentGloss": "demand"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 7,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "2010"
+        },
+        {
+          "dep": "dobj",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 1,
+          "dependentGloss": "What"
+        },
+        {
+          "dep": "aux",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 2,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 4,
+          "dependentGloss": "world"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "demand",
+          "dependent": 5,
+          "dependentGloss": "grain"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 6,
+          "dependentGloss": "demand"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 7,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 8,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "2010",
+          "dependent": 10,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "What",
+          "originalText": "What",
+          "lemma": "what",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 154,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 159,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 160,
+          "characterOffsetEnd": 163,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "world",
+          "originalText": "world",
+          "lemma": "world",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 169,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "grain",
+          "originalText": "grain",
+          "lemma": "grain",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 175,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "demand",
+          "originalText": "demand",
+          "lemma": "demand",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 182,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 185,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 186,
+          "characterOffsetEnd": 188,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "2010",
+          "originalText": "2010",
+          "lemma": "2010",
+          "characterOffsetBegin": 189,
+          "characterOffsetEnd": 193,
+          "pos": "CD",
+          "ner": "DATE",
+          "normalizedNER": "2010",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t2",
+            "type": "DATE",
+            "value": "2010"
+          }
+        },
+        {
+          "index": 10,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 194,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Freeport",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "1800000",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Freeport McMoran projects that in 2010 the world grain supply will be 1800000 metric tons and the supply",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "2010",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "2010",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "the world grain supply",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 8,
+        "text": "the supply",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "1800000 metric tons and the supply",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "1800000 metric tons",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "only 0.75 of the world grain demand",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 28,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "the world grain demand",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 28,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "the world grain demand",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 7,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,2071 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Wal-Mart))\n    (VP (VBZ sells)\n      (NP\n        (NP (NNS thermometers))\n        (PP (IN for)\n          (NP\n            (NP\n              (QP (CD 2) (NNS dollars)))\n            (, ,)\n            (CC and)\n            (NP\n              (NP (JJ hot-water) (NNS bottles))\n              (PP (IN for)\n                (NP (CD 6) (NNS dollars))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "Wal-Mart"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 9,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 13,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "Wal-Mart"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 9,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 13,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "sells"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 1,
+          "dependentGloss": "Wal-Mart"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 3,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 4,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 9,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 11,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "nummod",
+          "governor": 13,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 13,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "sells",
+          "dependent": 14,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Wal-Mart",
+          "originalText": "Wal-Mart",
+          "lemma": "Wal-Mart",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 8,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "sells",
+          "originalText": "sells",
+          "lemma": "sell",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 14,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "thermometers",
+          "originalText": "thermometers",
+          "lemma": "thermometer",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 27,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 33,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 34,
+          "characterOffsetEnd": 41,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 42,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 46,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "hot-water",
+          "originalText": "hot-water",
+          "lemma": "hot-water",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 56,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "bottles",
+          "originalText": "bottles",
+          "lemma": "bottle",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 64,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 68,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 70,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 78,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 14,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 79,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (JJ Total) (NNS sales))\n      (PP (IN for)\n        (NP\n          (NP (DT these) (CD 2) (NNS items))\n          (PP (IN during)\n            (NP\n              (NP (DT the) (NN month))\n              (PP (IN of)\n                (NP (NNP January))))))))\n    (VP (VBD was)\n      (NP (CD 1,200) (NNS dollars)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "sales",
+          "dependent": 1,
+          "dependentGloss": "Total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "sales"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 3,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 4,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "sales",
+          "dependent": 6,
+          "dependentGloss": "items"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 7,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 9,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "January",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 11,
+          "dependentGloss": "January"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "1,200"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "sales",
+          "dependent": 1,
+          "dependentGloss": "Total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "sales"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 3,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 4,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "sales",
+          "dependent": 6,
+          "dependentGloss": "items"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 7,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 9,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "January",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 11,
+          "dependentGloss": "January"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "1,200"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "sales",
+          "dependent": 1,
+          "dependentGloss": "Total"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 2,
+          "dependentGloss": "sales"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 3,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 4,
+          "dependentGloss": "these"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 5,
+          "dependentGloss": "2"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 2,
+          "governorGloss": "sales",
+          "dependent": 6,
+          "dependentGloss": "items"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 7,
+          "dependentGloss": "during"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:during",
+          "governor": 6,
+          "governorGloss": "items",
+          "dependent": 9,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "January",
+          "dependent": 10,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 9,
+          "governorGloss": "month",
+          "dependent": 11,
+          "dependentGloss": "January"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "nummod",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "1,200"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Total",
+          "originalText": "Total",
+          "lemma": "total",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 85,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "sales",
+          "originalText": "sales",
+          "lemma": "sale",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 91,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 95,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "these",
+          "originalText": "these",
+          "lemma": "these",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 101,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "2",
+          "originalText": "2",
+          "lemma": "2",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 103,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "2.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "items",
+          "originalText": "items",
+          "lemma": "item",
+          "characterOffsetBegin": 104,
+          "characterOffsetEnd": 109,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "during",
+          "originalText": "during",
+          "lemma": "during",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 116,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 120,
+          "pos": "DT",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M INTERSECT XXXX-01",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "THIS P1M INTERSECT XXXX-01"
+          }
+        },
+        {
+          "index": 9,
+          "word": "month",
+          "originalText": "month",
+          "lemma": "month",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 126,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M INTERSECT XXXX-01",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "THIS P1M INTERSECT XXXX-01"
+          }
+        },
+        {
+          "index": 10,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 129,
+          "pos": "IN",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M INTERSECT XXXX-01",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "THIS P1M INTERSECT XXXX-01"
+          }
+        },
+        {
+          "index": 11,
+          "word": "January",
+          "originalText": "January",
+          "lemma": "January",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 137,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M INTERSECT XXXX-01",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "altValue": "THIS P1M INTERSECT XXXX-01"
+          }
+        },
+        {
+          "index": 12,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 141,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "1,200",
+          "originalText": "1,200",
+          "lemma": "1,200",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 147,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$1200.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 155,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$1200.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 155,
+          "characterOffsetEnd": 156,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBD were)\n      (NP\n        (QP (CD 7) (NNS times) (IN as) (JJ many))\n        (NNS thermometers))\n      (PP (IN as)\n        (NP\n          (NP (JJ hot-water) (NNS bottles))\n          (VP (VBN sold)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "thermometers",
+          "dependent": 4,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 7,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 8,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 9,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 11,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "thermometers",
+          "dependent": 4,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 7,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 8,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 9,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 11,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 3,
+          "dependentGloss": "7"
+        },
+        {
+          "dep": "nummod",
+          "governor": 7,
+          "governorGloss": "thermometers",
+          "dependent": 4,
+          "dependentGloss": "times"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 5,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "advmod",
+          "governor": 4,
+          "governorGloss": "times",
+          "dependent": 6,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 7,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 8,
+          "dependentGloss": "as"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 9,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "nmod:as",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 10,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "acl",
+          "governor": 10,
+          "governorGloss": "bottles",
+          "dependent": 11,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "were",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 162,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "7",
+          "originalText": "7",
+          "lemma": "7",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 169,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "7.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "times",
+          "originalText": "times",
+          "lemma": "time",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 175,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 178,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 183,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "thermometers",
+          "originalText": "thermometers",
+          "lemma": "thermometer",
+          "characterOffsetBegin": 184,
+          "characterOffsetEnd": 196,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "as",
+          "originalText": "as",
+          "lemma": "as",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 199,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "hot-water",
+          "originalText": "hot-water",
+          "lemma": "hot-water",
+          "characterOffsetBegin": 200,
+          "characterOffsetEnd": 209,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "bottles",
+          "originalText": "bottles",
+          "lemma": "bottle",
+          "characterOffsetBegin": 210,
+          "characterOffsetEnd": 217,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 222,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 223,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (SBARQ\n    (WHNP\n      (WHADJP (WRB How) (JJ many))\n      (NNS thermometers))\n    (SQ (VBD were)\n      (VP (VBN sold)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 3,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 3,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "sold"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "thermometers",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 3,
+          "dependentGloss": "thermometers"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 4,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "sold",
+          "dependent": 6,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 224,
+          "characterOffsetEnd": 227,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 232,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "thermometers",
+          "originalText": "thermometers",
+          "lemma": "thermometer",
+          "characterOffsetBegin": 233,
+          "characterOffsetEnd": 245,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 250,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "sold",
+          "originalText": "sold",
+          "lemma": "sell",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 255,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 256,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (FRAG\n    (SBARQ\n      (WHNP\n        (WHADJP (WRB How) (JJ many))\n        (ADJP (JJ hot-water))\n        (NNS bottles))\n      (. ?))))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 3,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 3,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "bottles"
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "many",
+          "dependent": 1,
+          "dependentGloss": "How"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 2,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 3,
+          "dependentGloss": "hot-water"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "bottles",
+          "dependent": 5,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "How",
+          "originalText": "How",
+          "lemma": "how",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 260,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 261,
+          "characterOffsetEnd": 265,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "hot-water",
+          "originalText": "hot-water",
+          "lemma": "hot-water",
+          "characterOffsetBegin": 266,
+          "characterOffsetEnd": 275,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "bottles",
+          "originalText": "bottles",
+          "lemma": "bottle",
+          "characterOffsetBegin": 276,
+          "characterOffsetEnd": 283,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 283,
+          "characterOffsetEnd": 284,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "Wal-Mart",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "thermometers for 2 dollars, and hot-water bottles for 6 dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "hot-water bottles for 6 dollars",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "2",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Total sales for these 2 items during the month of January",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "these 2 items during the month of January",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the month of January",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "January",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 12,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "7",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "7 times as many thermometers",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 8,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "hot-water bottles sold",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 12,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

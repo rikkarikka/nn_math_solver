@@ -1,0 +1,2426 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBP are)\n      (NP\n        (NP (CD 850) (NNS douglas))\n        (SBAR\n          (S\n            (NP (NN fir)\n              (CC and)\n              (NN ponderosa))\n            (VP (VBP pine)\n              (NP\n                (NP (NNS trees))\n                (PP (IN in)\n                  (NP\n                    (NP (DT a) (NN section))\n                    (PP (IN of)\n                      (NP\n                        (NP (DT the) (NN forest))\n                        (VP (VBN bought)\n                          (PP (IN by)\n                            (NP (NNP Sawz)))\n                          (S\n                            (NP (VBG logging) (NN company))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "douglas",
+          "dependent": 3,
+          "dependentGloss": "850"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "douglas"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 5,
+          "dependentGloss": "fir"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "fir",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "fir",
+          "dependent": 7,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "douglas",
+          "dependent": 8,
+          "dependentGloss": "pine"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 9,
+          "dependentGloss": "trees"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 12,
+          "dependentGloss": "section"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 15,
+          "dependentGloss": "forest"
+        },
+        {
+          "dep": "acl",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 16,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "Sawz",
+          "dependent": 17,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod",
+          "governor": 16,
+          "governorGloss": "bought",
+          "dependent": 18,
+          "dependentGloss": "Sawz"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "company",
+          "dependent": 19,
+          "dependentGloss": "logging"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "bought",
+          "dependent": 20,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "douglas",
+          "dependent": 3,
+          "dependentGloss": "850"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "douglas"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 5,
+          "dependentGloss": "fir"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "fir",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "fir",
+          "dependent": 7,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "douglas",
+          "dependent": 8,
+          "dependentGloss": "pine"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 9,
+          "dependentGloss": "trees"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 12,
+          "dependentGloss": "section"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 15,
+          "dependentGloss": "forest"
+        },
+        {
+          "dep": "acl",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 16,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "Sawz",
+          "dependent": 17,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 16,
+          "governorGloss": "bought",
+          "dependent": 18,
+          "dependentGloss": "Sawz"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "company",
+          "dependent": 19,
+          "dependentGloss": "logging"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "bought",
+          "dependent": 20,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "are"
+        },
+        {
+          "dep": "expl",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 1,
+          "dependentGloss": "There"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "douglas",
+          "dependent": 3,
+          "dependentGloss": "850"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 4,
+          "dependentGloss": "douglas"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 5,
+          "dependentGloss": "fir"
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "fir",
+          "dependent": 6,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 5,
+          "governorGloss": "fir",
+          "dependent": 7,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 7,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 4,
+          "governorGloss": "douglas",
+          "dependent": 8,
+          "dependentGloss": "pine"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "pine",
+          "dependent": 9,
+          "dependentGloss": "trees"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 12,
+          "dependentGloss": "section"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 13,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 12,
+          "governorGloss": "section",
+          "dependent": 15,
+          "dependentGloss": "forest"
+        },
+        {
+          "dep": "acl",
+          "governor": 15,
+          "governorGloss": "forest",
+          "dependent": 16,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "Sawz",
+          "dependent": 17,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nmod:by",
+          "governor": 16,
+          "governorGloss": "bought",
+          "dependent": 18,
+          "dependentGloss": "Sawz"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "company",
+          "dependent": 19,
+          "dependentGloss": "logging"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "bought",
+          "dependent": 20,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "are",
+          "dependent": 21,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "There",
+          "originalText": "There",
+          "lemma": "there",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "EX",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 9,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "850",
+          "originalText": "850",
+          "lemma": "850",
+          "characterOffsetBegin": 10,
+          "characterOffsetEnd": 13,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "850.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "douglas",
+          "originalText": "douglas",
+          "lemma": "dougla",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 21,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "fir",
+          "originalText": "fir",
+          "lemma": "fir",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 25,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 26,
+          "characterOffsetEnd": 29,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "ponderosa",
+          "originalText": "ponderosa",
+          "lemma": "ponderosa",
+          "characterOffsetBegin": 30,
+          "characterOffsetEnd": 39,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "pine",
+          "originalText": "pine",
+          "lemma": "pine",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 44,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "trees",
+          "originalText": "trees",
+          "lemma": "tree",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 50,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 53,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 55,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "section",
+          "originalText": "section",
+          "lemma": "section",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 63,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 66,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 70,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "forest",
+          "originalText": "forest",
+          "lemma": "forest",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 77,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 84,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 87,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "Sawz",
+          "originalText": "Sawz",
+          "lemma": "Sawz",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 92,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "logging",
+          "originalText": "logging",
+          "lemma": "log",
+          "characterOffsetBegin": 93,
+          "characterOffsetEnd": 100,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 101,
+          "characterOffsetEnd": 108,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 109,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (NN company))\n    (VP (VBD paid)\n      (SBAR\n        (S\n          (NP\n            (NP (DT an) (NN average))\n            (PP (IN of)\n              (NP\n                (NP\n                  (NP (CD 300) (NNS dollars))\n                  (PP (IN for)\n                    (NP (DT each) (NNS douglas) (NN fir))))\n                (CC and)\n                (NP\n                  (NP (CD 250) (NNS dollars))\n                  (PP (IN for)\n                    (NP (DT each) (NN ponderosa)))))))\n          (VP (VBP pine)))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 2,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "pine",
+          "dependent": 5,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "300"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 10,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 11,
+          "dependentGloss": "douglas"
+        },
+        {
+          "dep": "nmod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "fir"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "conj",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "ponderosa",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "ponderosa",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 19,
+          "dependentGloss": "pine"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 2,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "pine",
+          "dependent": 5,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "300"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 10,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 11,
+          "dependentGloss": "douglas"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "fir"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "ponderosa",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "ponderosa",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 19,
+          "dependentGloss": "pine"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "company",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 2,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 4,
+          "dependentGloss": "an"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 19,
+          "governorGloss": "pine",
+          "dependent": 5,
+          "dependentGloss": "average"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nummod",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 7,
+          "dependentGloss": "300"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 8,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 9,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 10,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "fir",
+          "dependent": 11,
+          "dependentGloss": "douglas"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 12,
+          "dependentGloss": "fir"
+        },
+        {
+          "dep": "cc",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 13,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "nummod",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 14,
+          "dependentGloss": "250"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "average",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 8,
+          "governorGloss": "dollars",
+          "dependent": 15,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "ponderosa",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "ponderosa",
+          "dependent": 17,
+          "dependentGloss": "each"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 15,
+          "governorGloss": "dollars",
+          "dependent": 18,
+          "dependentGloss": "ponderosa"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 19,
+          "dependentGloss": "pine"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "paid",
+          "dependent": 20,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 113,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 121,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 126,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "an",
+          "originalText": "an",
+          "lemma": "a",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 129,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "average",
+          "originalText": "average",
+          "lemma": "average",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 137,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 138,
+          "characterOffsetEnd": 140,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "300",
+          "originalText": "300",
+          "lemma": "300",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 144,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$300.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 152,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$300.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 156,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 161,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "douglas",
+          "originalText": "douglas",
+          "lemma": "dougla",
+          "characterOffsetBegin": 162,
+          "characterOffsetEnd": 169,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "fir",
+          "originalText": "fir",
+          "lemma": "fir",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 173,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 177,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "250",
+          "originalText": "250",
+          "lemma": "250",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 181,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$250.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 182,
+          "characterOffsetEnd": 189,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$250.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 193,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "each",
+          "originalText": "each",
+          "lemma": "each",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 198,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "ponderosa",
+          "originalText": "ponderosa",
+          "lemma": "ponderosa",
+          "characterOffsetBegin": 199,
+          "characterOffsetEnd": 208,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "pine",
+          "originalText": "pine",
+          "lemma": "pine",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 213,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 214,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (SBARQ\n    (SBAR (IN if)\n      (S\n        (NP (DT the) (NN company))\n        (VP (VBD paid)\n          (NP (CD 217,500) (NNS dollars))\n          (PP (IN for)\n            (NP (DT the) (NNS trees))))))\n    (, ,)\n    (WHNP\n      (WHADJP (WRB how) (JJ many))\n      (NP\n        (NP (NNS firs))\n        (CC and)\n        (NP (NNS pines))))\n    (SQ (VBD did)\n      (NP (PRP they))\n      (VP (VB buy)))\n    (. ?)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 4,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "217,500"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "trees"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 13,
+          "dependentGloss": "firs"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 15,
+          "dependentGloss": "pines"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 17,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 4,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "217,500"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "trees"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 13,
+          "dependentGloss": "firs"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 15,
+          "dependentGloss": "pines"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 17,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 18,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 1,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "company",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 3,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "advcl",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 4,
+          "dependentGloss": "paid"
+        },
+        {
+          "dep": "nummod",
+          "governor": 6,
+          "governorGloss": "dollars",
+          "dependent": 5,
+          "dependentGloss": "217,500"
+        },
+        {
+          "dep": "dobj",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 6,
+          "dependentGloss": "dollars"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 7,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "trees",
+          "dependent": 8,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 4,
+          "governorGloss": "paid",
+          "dependent": 9,
+          "dependentGloss": "trees"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 12,
+          "governorGloss": "many",
+          "dependent": 11,
+          "dependentGloss": "how"
+        },
+        {
+          "dep": "amod",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 12,
+          "dependentGloss": "many"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 13,
+          "dependentGloss": "firs"
+        },
+        {
+          "dep": "cc",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 14,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 13,
+          "governorGloss": "firs",
+          "dependent": 15,
+          "dependentGloss": "pines"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 15,
+          "dependentGloss": "pines"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 16,
+          "dependentGloss": "did"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 17,
+          "dependentGloss": "they"
+        },
+        {
+          "dep": "punct",
+          "governor": 18,
+          "governorGloss": "buy",
+          "dependent": 19,
+          "dependentGloss": "?"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "if",
+          "originalText": "if",
+          "lemma": "if",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 217,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 221,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "company",
+          "originalText": "company",
+          "lemma": "company",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 229,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "paid",
+          "originalText": "paid",
+          "lemma": "pay",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 234,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "217,500",
+          "originalText": "217,500",
+          "lemma": "217,500",
+          "characterOffsetBegin": 235,
+          "characterOffsetEnd": 242,
+          "pos": "CD",
+          "ner": "MONEY",
+          "normalizedNER": "$217500.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dollars",
+          "originalText": "dollars",
+          "lemma": "dollar",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 250,
+          "pos": "NNS",
+          "ner": "MONEY",
+          "normalizedNER": "$217500.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 254,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 258,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "trees",
+          "originalText": "trees",
+          "lemma": "tree",
+          "characterOffsetBegin": 259,
+          "characterOffsetEnd": 264,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 265,
+          "characterOffsetEnd": 266,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "how",
+          "originalText": "how",
+          "lemma": "how",
+          "characterOffsetBegin": 267,
+          "characterOffsetEnd": 270,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "many",
+          "originalText": "many",
+          "lemma": "many",
+          "characterOffsetBegin": 271,
+          "characterOffsetEnd": 275,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "firs",
+          "originalText": "firs",
+          "lemma": "fir",
+          "characterOffsetBegin": 276,
+          "characterOffsetEnd": 280,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 281,
+          "characterOffsetEnd": 284,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "pines",
+          "originalText": "pines",
+          "lemma": "pine",
+          "characterOffsetBegin": 285,
+          "characterOffsetEnd": 290,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "did",
+          "originalText": "did",
+          "lemma": "do",
+          "characterOffsetBegin": 291,
+          "characterOffsetEnd": 294,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 295,
+          "characterOffsetEnd": 299,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "buy",
+          "originalText": "buy",
+          "lemma": "buy",
+          "characterOffsetBegin": 300,
+          "characterOffsetEnd": 303,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "?",
+          "originalText": "?",
+          "lemma": "?",
+          "characterOffsetBegin": 303,
+          "characterOffsetEnd": 304,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "850",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Sawz",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 18,
+        "endIndex": 19,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "850 douglas fir and ponderosa pine trees in a section of the forest bought by Sawz logging company",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 3,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 18,
+        "text": "they",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 17,
+        "endIndex": 18,
+        "sentNum": 3,
+        "position": [
+          3,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "fir and ponderosa",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 5,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "trees in a section of the forest bought by Sawz logging company",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 14,
+        "text": "the trees",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "a section of the forest bought by Sawz logging company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "the forest bought by Sawz logging company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "logging company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 21,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 9,
+        "text": "The company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 13,
+        "text": "the company",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "an average of 300 dollars for each douglas fir and 250 dollars for each ponderosa",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "each douglas fir",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "each ponderosa",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "UNKNOWN",
+        "startIndex": 17,
+        "endIndex": 19,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "firs and pines",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "firs",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 3,
+        "position": [
+          3,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "pines",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 3,
+        "position": [
+          3,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}

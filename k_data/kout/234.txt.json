@@ -1,0 +1,736 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (VP (VB Think)\n        (PP (IN of)\n          (NP (DT a) (NN number)))))\n    (, ,)\n    (NP\n      (NP\n        (NP (NN half))\n        (NP (PRP it)))\n      (CC and)\n      (NP (DT the) (NN result)))\n    (VP (VBZ is)\n      (NP (CD 9)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 1,
+          "dependentGloss": "Think"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 1,
+          "governorGloss": "Think",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 6,
+          "dependentGloss": "half"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "result",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 10,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 11,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 1,
+          "dependentGloss": "Think"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "Think",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 6,
+          "dependentGloss": "half"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "result",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 10,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 11,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 12,
+          "dependentGloss": "9"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 1,
+          "dependentGloss": "Think"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "number",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 1,
+          "governorGloss": "Think",
+          "dependent": 4,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 6,
+          "dependentGloss": "half"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 7,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "cc",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 8,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "result",
+          "dependent": 9,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 6,
+          "governorGloss": "half",
+          "dependent": 10,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 10,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "cop",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 11,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "9",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Think",
+          "originalText": "Think",
+          "lemma": "think",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 5,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 6,
+          "characterOffsetEnd": 8,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 10,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 19,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "half",
+          "originalText": "half",
+          "lemma": "half",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 24,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 25,
+          "characterOffsetEnd": 27,
+          "pos": "PRP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 31,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 35,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "result",
+          "originalText": "result",
+          "lemma": "result",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 42,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "is",
+          "originalText": "is",
+          "lemma": "be",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "9",
+          "originalText": "9",
+          "lemma": "9",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 47,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "9.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 48,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (VP (VB Find)\n      (NP (DT the) (NN number)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Find"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "number",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 3,
+          "dependentGloss": "number"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Find",
+          "dependent": 4,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Find",
+          "originalText": "Find",
+          "lemma": "find",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 53,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 54,
+          "characterOffsetEnd": 57,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "number",
+          "originalText": "number",
+          "lemma": "number",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 64,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 65,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "2": [
+      {
+        "id": 2,
+        "text": "a number",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 5,
+        "text": "it",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 7,
+        "text": "the number",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 2,
+        "endIndex": 4,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "half it and the result",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "half it",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 8,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 1,
+        "text": "9",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "the result",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 11,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}
