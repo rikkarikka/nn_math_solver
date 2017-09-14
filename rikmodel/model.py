@@ -2,8 +2,8 @@ import torch
 from torch import autograd, nn
 import torch.nn.functional as F
 
-num_layers = 7
-num_direction = 1
+num_layers = 1
+num_direction = 2
 batch_size = 11
 hidden_size = 300
 emb_dim = 300
@@ -21,8 +21,8 @@ class Model(nn.Module):
           self.emb.weight = nn.Parameter(prevecs)
         if embfix:
           self.emb.weight.requires_grad=False
-        self.lstm = nn.LSTM(emb_dim, hidden_size, batch_first=True)
-        self.Lin = nn.Linear(hidden_size, num_classes)
+        self.lstm = nn.LSTM(emb_dim, hidden_size, batch_first=True,bidirectional=(num_direction==2))
+        self.Lin = nn.Linear(hidden_size*num_direction, num_classes)
 
     def get_ch(self,size):
         hx = autograd.Variable(torch.cuda.FloatTensor(num_layers*num_direction, size,
@@ -35,5 +35,8 @@ class Model(nn.Module):
         hc = self.get_ch(inp.size(0))
         e = self.emb(inp)
         _, (y,_) = self.lstm(e, hc)
-        y = torch.squeeze(y[0])
-        return F.softmax(self.Lin(y))
+        if num_direction==2:
+          y = torch.cat([y[0:y.size(0):2], y[1:y.size(0):2]], 2)
+        y = torch.squeeze(y,0)
+        #y = y[-1]
+        return self.Lin(y)

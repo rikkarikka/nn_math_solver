@@ -18,7 +18,7 @@ from torchtext.vocab import GloVe
 hidden_size = 300
 batch_size = 11
 learning_rate = .001
-epochs = 10
+epochs = 100
 cuda = int(torch.cuda.is_available())-1
 print("CUDA: ",cuda)
 save_dir = './saved_models'
@@ -54,7 +54,7 @@ model = m.Model(input_size=input_size, hidden_size=hidden_size,
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adamax(model.parameters())
 #params = model.parameters()
-#optimizer = torch.optim.SGD(params,lr=0.1)
+#optimizer = torch.optim.SGD(params,lr=100,momentum=0.5)
 
 
 ###############################################################################
