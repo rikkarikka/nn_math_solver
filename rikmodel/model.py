@@ -34,7 +34,6 @@ class Model(nn.Module):
     def forward(self, inp):
         hc = self.get_ch(inp.size(0))
         e = self.emb(inp)
-        l = self.lstm(e, hc)
-        y = l[-1] #batch x 1 x hidden
+        _, (y,_) = self.lstm(e, hc)
         y = torch.squeeze(y[0])
         return F.softmax(self.Lin(y))
