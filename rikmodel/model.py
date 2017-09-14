@@ -25,9 +25,9 @@ class Model(nn.Module):
         self.Lin = nn.Linear(hidden_size, num_classes)
 
     def get_ch(self,size):
-        hx = autograd.Variable(torch.FloatTensor(num_layers*num_direction, size,
+        hx = autograd.Variable(torch.cuda.FloatTensor(num_layers*num_direction, size,
                                                         hidden_size).zero_())
-        cx = autograd.Variable(torch.FloatTensor(num_layers*num_direction, size,
+        cx = autograd.Variable(torch.cuda.FloatTensor(num_layers*num_direction, size,
                                                         hidden_size).zero_())
         return (hx,cx)
 
