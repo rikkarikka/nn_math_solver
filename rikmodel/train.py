@@ -62,7 +62,7 @@ optimizer = torch.optim.Adamax(model.parameters())
 ###############################################################################
 print('CUDA?', str(cuda == 0))
 if cuda == 0:
-    cnn = cnn.cuda()
+    model = model.cuda()
 
 print('Training Model...')
 for epoch in range(epochs):
