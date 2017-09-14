@@ -2,14 +2,14 @@ import torch
 from torch import autograd, nn
 import torch.nn.functional as F
 from numpy import genfromtxt
-import time
-import csv
+import os
 
 import data
 import model as m
 from torchtext import data, datasets
 import mydatasets
 from evalTest import eval,test
+from torchtext.vocab import GloVe
 
 ###############################################################################
 # Training Parameters
@@ -21,6 +21,7 @@ learning_rate = .001
 epochs = 10
 cuda = int(torch.cuda.is_available())-1
 print("CUDA: ",cuda)
+save_dir = './saved_models'
 
 ###############################################################################
 # Load data
@@ -35,7 +36,7 @@ train, val, test = data.TabularDataset.splits(
     fields=[('text', TEXT), ('label', LABELS)])
 
 print("Making vocab w/ glove.6B.300 dim vectors")
-TEXT.build_vocab(train,wv_type="glove.6B")
+TEXT.build_vocab(train,vectors=GloVe(name='6B'))#wv_type="glove.6B")
 LABELS.build_vocab(train)
 print('Making interator for splits...')
 train_iter, val_iter, test_iter = data.BucketIterator.splits(
@@ -59,14 +60,15 @@ optimizer = torch.optim.Adamax(model.parameters())
 ###############################################################################
 # Training the Model
 ###############################################################################
-#model.train()
+print('Training Model...')
 for epoch in range(epochs):
+    print('Starting Epoch ' + str(epoch) + '...')
     losses = []
     train_iter.repeat=False
     for batch_count,batch in enumerate(train_iter):
         model.zero_grad()
         inp = batch.text.t()
-        print("INP: ",inp.size())
+        #print("INP: ",inp.size())
         preds = model(inp)
         #print("PREDS: ",preds.size())
         #print("LABELS: ",batch.label.size())
@@ -76,7 +78,12 @@ for epoch in range(epochs):
         losses.append(loss)
 
         if (batch_count % 20 == 0):
-            print('Batch:', batch_count,', Loss: ', losses[-1].data)
+            print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
     eval(val_iter, model)
+
+    if not os.path.isdir(save_dir): os.makedirs(save_dir)
+    save_prefix = os.path.join(save_dir, 'snapshot')
+    save_path = '{}_epoch{}.pt'.format(save_prefix, epoch)
+    torch.save(model, save_path)
 
 #print('test', '2',TEXT,LABEL)

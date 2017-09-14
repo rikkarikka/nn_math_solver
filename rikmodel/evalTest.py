@@ -35,5 +35,3 @@ def test(text, model, text_field, label_field):
     output = model(x)
     _, predicted = torch.max(output, 1)
     return predicted.data[0][0]+1
-
-
