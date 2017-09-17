@@ -2,122 +2,92 @@ import torch
 from torch import autograd, nn
 import torch.nn.functional as F
 from numpy import genfromtxt
-import time
-import csv
+import os
 
 import data
 import model as m
 from torchtext import data, datasets
 import mydatasets
+from evalTest import eval,test
+from torchtext.vocab import GloVe
 
 ###############################################################################
 # Training Parameters
 ###############################################################################
 
-shift = 2
-input_size = 3150 + shift
-hidden_size = 3
-num_classes = 839 + shift
+hidden_size = 300
 batch_size = 11
 learning_rate = .001
-epochs = 10
+epochs = 100
+cuda = int(torch.cuda.is_available())-1
+print("CUDA: ",cuda)
+save_dir = './saved_models'
 
 ###############################################################################
 # Load data
 ###############################################################################
 
-train_src = torch.from_numpy(genfromtxt('../data/_final/train_src.csv',
-                    dtype="i8", delimiter=',')).type(torch.LongTensor)+shift
-train_tgt = torch.from_numpy(genfromtxt('../data/_final/train_tgt.csv',
-                    dtype="i8", delimiter=',')).type(torch.LongTensor)+shift
-val_src = torch.from_numpy(genfromtxt('../data/_final/val_src.csv',
-                    dtype="i8", delimiter=',')).type(torch.LongTensor)+shift
-val_tgt = torch.from_numpy(genfromtxt('../data/_final/val_tgt.csv',
-                    dtype="i8", delimiter=',')).type(torch.LongTensor)+shift
-test_src = torch.from_numpy(genfromtxt('../data/_final/test_src.csv',
-                    dtype="i8", delimiter=',')).type(torch.LongTensor)+shift
-test_tgt = torch.from_numpy(genfromtxt('../data/_final/test_tgt.csv',
-                    dtype="i8", delimiter=',')).type(torch.LongTensor)+shift
+TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
+LABELS = data.Field(sequential=False)
 
-# Load Data using torchtext
-TEXT = data.Field(use_vocab=False)
-LABEL = data.Field(use_vocab=False, sequential=False)
+train, val, test = data.TabularDataset.splits(
+    path='../new_data/kdata', train='_train.tsv',
+    validation='_dev.tsv', test='_test.tsv', format='tsv',
+    fields=[('text', TEXT), ('label', LABELS)])
 
-train, val, test = mydatasets.MWP.splits(text_field=TEXT,label_field=LABEL,
-                                        train_src=train_src,train_tgt=train_tgt,
-                                        val_src=val_src,val_tgt=val_tgt,
-                                        test_src=test_src,test_tgt=test_tgt)
-
-# Make iterator for splits
-
+print("Making vocab w/ glove.6B.300 dim vectors")
+TEXT.build_vocab(train,vectors=GloVe(name='6B'))#wv_type="glove.6B")
+LABELS.build_vocab(train)
 print('Making interator for splits...')
-train_iter, val_iter, test_iter = data.Iterator.splits(
-    (train, val, test), batch_size=batch_size, device=-1)
+train_iter, val_iter, test_iter = data.BucketIterator.splits(
+    (train, val, test), batch_sizes=(batch_size, 256, 256),
+    sort_key=lambda x: len(x.text), device=cuda)
 
+num_classes = len(LABELS.vocab)
+input_size = len(TEXT.vocab)
 ###############################################################################
 # Build the model
 ###############################################################################
 
 model = m.Model(input_size=input_size, hidden_size=hidden_size,
-                num_classes=num_classes)
+                num_classes=num_classes,prevecs=TEXT.vocab.vectors)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adamax(model.parameters())
 #params = model.parameters()
-#optimizer = torch.optim.SGD(params,lr=0.1)
+#optimizer = torch.optim.SGD(params,lr=100,momentum=0.5)
 
 
 ###############################################################################
 # Training the Model
 ###############################################################################
-def eval(data_iter, model):
-    model.eval()
-    corrects, avg_loss = 0, 0
-    for batch_count,batch in enumerate(data_iter):
-        feature, target = batch.text, batch.label
-        feature.data.t_(), target.data.sub_(1)  # batch first, index align
-        #if args.cuda:
-        #    feature, target = feature.cuda(), target.cuda()
+print('CUDA?', str(cuda == 0))
+if cuda == 0:
+    model = model.cuda()
 
-        logit = model(feature)
-        loss = F.cross_entropy(logit, target, size_average=False)
-
-        avg_loss += loss.data[0]
-        corrects += (torch.max(logit, 1)
-                     [1].view(target.size()).data == target.data).sum()
-
-    size = len(data_iter.dataset)
-    avg_loss = loss.data[0]/size
-    accuracy = 100.0 * corrects/size
-    model.train()
-    print('\nEvaluation - loss: {:.6f}  acc: {:.4f}%({}/{}) \n'.format(avg_loss,
-                                                                       accuracy,
-                                                                       corrects,
-                                                                       size))
-
-def test(text, model, text_field, label_field):
-    model.eval()
-    x = text_field.tensor_type(text)
-    x = autograd.Variable(x, volatile=True)
-    print(x)
-    output = model(x)
-    _, predicted = torch.max(output, 1)
-    return predicted.data[0][0]+1
-
-#model.train()
+print('Training Model...')
 for epoch in range(epochs):
+    print('Starting Epoch ' + str(epoch) + '...')
     losses = []
     train_iter.repeat=False
     for batch_count,batch in enumerate(train_iter):
         model.zero_grad()
         inp = batch.text.t()
+        #print("INP: ",inp.size())
         preds = model(inp)
+        #print("PREDS: ",preds.size())
+        #print("LABELS: ",batch.label.size())
         loss = criterion(preds, batch.label)
         loss.backward()
         optimizer.step()
         losses.append(loss)
 
         if (batch_count % 20 == 0):
-            print('Batch:', batch_count,', Loss: ', losses[-1].data)
+            print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
     eval(val_iter, model)
+
+    if not os.path.isdir(save_dir): os.makedirs(save_dir)
+    save_prefix = os.path.join(save_dir, 'snapshot')
+    save_path = '{}_epoch{}.pt'.format(save_prefix, epoch)
+    torch.save(model, save_path)
 
 #print('test', '2',TEXT,LABEL)
