@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 def eval(data_iter, model):
     model.eval()
-    corrects, avg_loss = 0, 0
+    corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
         feature, target = batch.text, batch.label
         feature.data.t_()#, target.data.sub_(1)  # batch first, index align
@@ -17,15 +17,34 @@ def eval(data_iter, model):
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
         corrects += preds.data.eq(target.data).sum()
+        # Rank 5
+        _, t5_indices = torch.topk(logit, 5)
+        x = torch.unsqueeze(target.data, 1)
+        target_index = torch.cat((x, x, x, x, x), 1)
+        t5_corrects += t5_indices.data.eq(target_index).sum()
+        # Mean Reciprocal Rank
+        _, rank = torch.sort(logit, descending=True)
+        target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
+        y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
+        y = (y.long() * target_index.long()).sum(1).float().reciprocal()
+        rr += y.sum()
+
 
     size = len(data_iter.dataset)
     avg_loss = loss.data[0]/size
     accuracy = 100.0 * corrects/size
+    t5_acc = 100.0 * t5_corrects/size
+    mrr = rr/size
     model.train()
-    print('\nEvaluation - loss: {:.6f}  acc: {:.4f}%({}/{}) \n'.format(avg_loss,
+
+    print('\nEvaluation - loss: {:.6f}  acc: {:.4f}%({}/{}) t5_acc: {:.4f}%({}/{}) MRR: {:.6f}\n'.format(avg_loss,
                                                                        accuracy,
                                                                        corrects,
-                                                                       size))
+                                                                       size,
+                                                                       t5_acc,
+                                                                       t5_corrects,
+                                                                       size,
+                                                                       mrr))
 
 def test(text, model, text_field, label_field):
     model.eval()

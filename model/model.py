@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 num_layers = 1
 num_direction = 2
-batch_size = 11
+batch_size = 64
 hidden_size = 300
 emb_dim = 300
 
@@ -25,10 +25,13 @@ class Model(nn.Module):
         self.Lin = nn.Linear(hidden_size*num_direction, num_classes)
 
     def get_ch(self,size):
-        hx = autograd.Variable(torch.cuda.FloatTensor(num_layers*num_direction, size,
-                                                        hidden_size).zero_())
-        cx = autograd.Variable(torch.cuda.FloatTensor(num_layers*num_direction, size,
-                                                        hidden_size).zero_())
+        hx = autograd.Variable(torch.FloatTensor(num_layers*num_direction,
+                                                    size, hidden_size).zero_())
+        cx = autograd.Variable(torch.FloatTensor(num_layers*num_direction,
+                                                    size, hidden_size).zero_())
+        if int(torch.cuda.is_available()) == 1:
+            hx.data = hx.data.cuda()
+            cx.data = cx.data.cuda()
         return (hx,cx)
 
     def forward(self, inp):
