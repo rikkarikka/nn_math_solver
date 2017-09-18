@@ -45,6 +45,7 @@ def eval(data_iter, model):
                                                                        t5_corrects,
                                                                        size,
                                                                        mrr))
+    return(accuracy);
 
 def test(text, model, text_field, label_field):
     model.eval()

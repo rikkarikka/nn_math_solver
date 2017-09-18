@@ -28,19 +28,23 @@ parser.add_argument('-save-dir', type=str, default='snapshot', help='where to sa
 parser.add_argument('-shuffle', action='store_true', default=False, help='shuffle the data every epoch' )
 # model
 parser.add_argument('-num-layers', type=int, default=1, help='number of layers [default: 1]')
+parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]')
 parser.add_argument('-num-directions', type=int, default=2, help='number of directions [default: 2]')
 parser.add_argument('-embed-dim', type=int, default=300, help='number of embedding dimension [default: 128]')
-parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]')
 parser.add_argument('-static', action='store_true', default=False, help='fix the embedding')
 
 # options
 parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
 parser.add_argument('-save-prefix', type=str, default='_default_save_prefix_', help='path to save models [default: ./saved_models]')
-parser.add_argument('-snapshot', type=str, default='snapshot', help='filename of model snapshot [default: snapshot]')
+parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
 args = parser.parse_args()
 
 cuda = int(torch.cuda.is_available())-1
 print("CUDA: ",cuda)
+
+args.save_path += '/lay' + str(args.num_layers) + '_hs' + str(args.hidden_sz) + '_dir' + str(args.num_directions) + '_emb' + str(args.embed_dim)
+
+if not os.path.isdir(args.save_path): os.makedirs(args.save_path)
 
 ###############################################################################
 # Load data
@@ -105,11 +109,10 @@ for epoch in range(args.epochs):
         #if (batch_count % 20 == 0):
             #print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
     print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
-    eval(val_iter, model)
+    acc = eval(val_iter, model)
 
-    if not os.path.isdir(args.save_path): os.makedirs(args.save_path)
-    save_prefix = os.path.join(args.save_path, args.snapshot)
-    save_path = '{}_epoch{}.pt'.format(save_prefix, epoch)
+    save_prefix = os.path.join(args.save_path, args.folder)
+    save_path = '{}/acc{:.2f}_e{}.pt'.format(save_prefix, acc, epoch)
     torch.save(model, save_path)
 
 #print('test', '2',TEXT,LABEL)
