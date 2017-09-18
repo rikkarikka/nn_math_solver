@@ -25,10 +25,10 @@ def eval(data_iter, model):
         # Mean Reciprocal Rank
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
+        y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
         cuda = int(torch.cuda.is_available())-1
         if cuda == 0:
             y = y.cuda()
-        y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
         y = (y.long() * target_index.long()).sum(1).float().reciprocal()
         rr += y.sum()
 
