@@ -4,7 +4,7 @@ import itertools
 import train
 
 lr = (.001, .002)
-epochs = 100,
+epochs = 3,
 bs = 64,
 opt = ('adamax', 'adam', 'sgd')
 num_lay = (1, 2, 4)
@@ -17,7 +17,8 @@ ptemb = (True, False)
 x = list(itertools.product(lr, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb))
 try:
     for (lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb) in x:
-        print((lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb))
+        print(('Training: (lr=%f, epoch=%d, bs=%d, opt=%s, num_lay=%d, hs=%d, num_dir=%d, embdim=%d, embfix=%s, ptemb=%s)') %
+        (lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb))
         os.system('python train.py' + \
                     ' -lr=' + str(lr) + \
                     ' -epochs=' + str(epochs[0]) + \

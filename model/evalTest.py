@@ -39,6 +39,7 @@ def eval(data_iter, model):
     mrr = rr/size
     model.train()
 
+    """
     print('\nEvaluation - loss: {:.6f}  acc: {:.4f}%({}/{}) t5_acc: {:.4f}%({}/{}) MRR: {:.6f}\n'.format(avg_loss,
                                                                        accuracy,
                                                                        corrects,
@@ -47,6 +48,7 @@ def eval(data_iter, model):
                                                                        t5_corrects,
                                                                        size,
                                                                        mrr))
+    """
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
 def test(text, model, text_field, label_field):
