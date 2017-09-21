@@ -32,7 +32,6 @@ def eval(data_iter, model):
         y = (y.long() * target_index.long()).sum(1).float().reciprocal()
         rr += y.sum()
 
-
     size = len(data_iter.dataset)
     avg_loss = loss.data[0]/size
     accuracy = 100.0 * corrects/size
@@ -48,7 +47,7 @@ def eval(data_iter, model):
                                                                        t5_corrects,
                                                                        size,
                                                                        mrr))
-    return(accuracy);
+    return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
 def test(text, model, text_field, label_field):
     model.eval()
