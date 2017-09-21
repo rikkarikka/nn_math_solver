@@ -4,7 +4,7 @@ import itertools
 import train
 
 lr = (.001, .002)
-epochs = 1,
+epochs = 100,
 bs = 64,
 opt = ('adamax', 'adam', 'sgd')
 num_lay = (1, 2, 4)
