@@ -30,6 +30,7 @@ def main():
     parser.add_argument('-emb-dim', type=int, default=300, help='number of embedding dimension [default: 300]') #
     parser.add_argument('-embfix', type=bool, default=True, help='fix the embeddings [default: False]') #
     parser.add_argument('-pretr-emb', type=bool, default=True, help='use pretrained embeddings') #
+    parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
 
     # options
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
@@ -51,7 +52,8 @@ def main():
                         '_dr' + str(args.num_dir) + \
                         '_ed' + str(args.emb_dim) + \
                         '_femb' + str(args.embfix) + \
-                        '_ptemb' +str(args.pretr_emb)
+                        '_ptemb' + str(args.pretr_emb) + \
+                        '_drp' + str(args.dropout)
 
     if not os.path.isdir(args.save_path): os.makedirs(args.save_path)
 
@@ -92,7 +94,7 @@ def main():
                     num_classes=num_classes,prevecs=prevecs,
                     num_layers=args.num_layers, num_dir=args.num_dir,
                     batch_size=args.batch_size, emb_dim=args.emb_dim,
-                    embfix=args.embfix)
+                    embfix=args.embfix, dropout=args.dropout)
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
