@@ -58,11 +58,11 @@ def main():
 
     if not os.path.isdir(args.save_path):
         os.makedirs(args.save_path)
-        train()
+        train(args)
     else:
         print('Previously Trained')
 
-def train():
+def train(args):
     ###############################################################################
     # Load data
     ###############################################################################
