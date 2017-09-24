@@ -56,8 +56,13 @@ def main():
                         '_ptemb' + str(args.pretr_emb) + \
                         '_drp' + str(args.dropout)
 
-    if not os.path.isdir(args.save_path): os.makedirs(args.save_path)
+    if not os.path.isdir(args.save_path):
+        os.makedirs(args.save_path)
+        train()
+    else:
+        print('Previously Trained')
 
+def train():
     ###############################################################################
     # Load data
     ###############################################################################
@@ -136,7 +141,7 @@ def main():
     highest_t1_acc = 0
     highest_t1_acc_params = ''
     for epoch in range(args.epochs):
-        print('Starting Epoch ' + str(epoch) + '...')
+        #print('Starting Epoch ' + str(epoch) + '...')
         losses = []
         tot_loss = 0
         train_iter.repeat=False
@@ -155,7 +160,7 @@ def main():
 
             #if (batch_count % 20 == 0):
                 #print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
-        print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
+        #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
         (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model)
         if accuracy > args.acc_thresh:
             save_prefix = os.path.join(args.save_path, args.folder)
