@@ -19,8 +19,8 @@ dropout = (0, .3, .5, .7)
 x = list(itertools.product(net_type, lr, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
 try:
     for (net_type, lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout) in x:
-        print(('Training: (lr=%f, epoch=%d, bs=%d, opt=%s, num_lay=%d, hs=%d, num_dir=%d, embdim=%d, embfix=%s, ptemb=%s, dropout=%f)') %
-        (lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
+        print(('Training: (net_type=%s, lr=%f, epoch=%d, bs=%d, opt=%s, num_lay=%d, hs=%d, num_dir=%d, embdim=%d, embfix=%s, ptemb=%s, dropout=%f)') %
+        (net_type, lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
         os.system('python train.py' + \
                     ' -net-type=' + str(net_type) + \
                     ' -lr=' + str(lr) + \

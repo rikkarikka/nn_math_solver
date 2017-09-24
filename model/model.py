@@ -13,6 +13,7 @@ class Model(nn.Module):
         self.hidden_size = hidden_size
         self.emd_dim = emb_dim
         self.emb = nn.Embedding(input_size, emb_dim)
+        self.net_type=net_type
 
         # Some Error Here?
         if embfix:
@@ -24,7 +25,7 @@ class Model(nn.Module):
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
         elif net_type == 'gru':
-            self.lstm = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
+            self.gru = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
@@ -42,7 +43,10 @@ class Model(nn.Module):
     def forward(self, inp):
         hc = self.get_ch(inp.size(0))
         e = self.emb(inp)
-        _, (y,_) = self.lstm(e, hc)
+        if self.net_type == 'lstm':
+            _, (y,_) = self.lstm(e, hc)
+        elif self.net_type == 'gru':
+            _, y = self.gru(e, hc)
         if self.num_dir==2:
             y = torch.cat([y[0:y.size(0):2], y[1:y.size(0):2]], 2)
         if self.num_layers>1:
