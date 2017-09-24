@@ -30,7 +30,7 @@ try:
                     ' -num-dir=' + str(num_dir) + \
                     ' -emb-dim=' + str(embdim) + \
                     ' -embfix=' + str(embfix) + \
-                    ' -pretr-emb=' + str(ptemb)) + \
-                    '-dropout=' + str(dropout)
+                    ' -pretr-emb=' + str(ptemb) + \
+                    '-dropout=' + str(dropout))
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
