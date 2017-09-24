@@ -5,7 +5,7 @@ import torch.nn.functional as F
 class Model(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes, num_layers,
                      num_dir, batch_size, emb_dim,
-                     dropout, prevecs=None, embfix=False):
+                     dropout, net_type, prevecs=None, embfix=False):
         super().__init__()
         self.num_layers = num_layers
         self.num_dir = num_dir
@@ -19,8 +19,12 @@ class Model(nn.Module):
             self.emb.weight.requires_grad=False
         if prevecs is not None:
             self.emb.weight = nn.Parameter(prevecs)
-
-        self.lstm = nn.LSTM(emb_dim, hidden_size, num_layers=num_layers,
+        if net_type == 'lstm':
+            self.lstm = nn.LSTM(emb_dim, hidden_size, num_layers=num_layers,
+                                    batch_first=True,bidirectional=(num_dir==2),
+                                    dropout=dropout)
+        elif net_type == 'gru':
+            self.lstm = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)

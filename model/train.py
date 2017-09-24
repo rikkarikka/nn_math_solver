@@ -24,6 +24,7 @@ def main():
     parser.add_argument('-opt', type=str, default='adamax', help='optimizer [default: adamax]') #
 
     # model
+    parser.add_argument('-net-type', type=str, default='lstm', help='network type [default: lstm]')
     parser.add_argument('-num-layers', type=int, default=4, help='number of layers [default: 1]') #
     parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]') #
     parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
@@ -94,7 +95,8 @@ def main():
                     num_classes=num_classes,prevecs=prevecs,
                     num_layers=args.num_layers, num_dir=args.num_dir,
                     batch_size=args.batch_size, emb_dim=args.emb_dim,
-                    embfix=args.embfix, dropout=args.dropout)
+                    embfix=args.embfix, dropout=args.dropout,
+                    net_type=args.net_type)
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):

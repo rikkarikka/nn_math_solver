@@ -3,6 +3,7 @@ import os
 import itertools
 import train
 
+net_type = ('lstm', 'gru')
 lr = (.001, .002)
 epochs = 100,
 bs = 64,
@@ -15,12 +16,13 @@ embfix = (True, False)
 ptemb = (False, True)
 dropout = (0, .3, .5, .7)
 
-x = list(itertools.product(lr, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
+x = list(itertools.product(net_type, lr, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
 try:
-    for (lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout) in x:
+    for (net_type, lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout) in x:
         print(('Training: (lr=%f, epoch=%d, bs=%d, opt=%s, num_lay=%d, hs=%d, num_dir=%d, embdim=%d, embfix=%s, ptemb=%s, dropout=%f)') %
         (lr, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
         os.system('python train.py' + \
+                    ' -net-type=' + str(net_type) + \
                     ' -lr=' + str(lr) + \
                     ' -epochs=' + str(epochs[0]) + \
                     ' -batch-size=' + str(bs) + \
@@ -31,6 +33,6 @@ try:
                     ' -emb-dim=' + str(embdim) + \
                     ' -embfix=' + str(embfix) + \
                     ' -pretr-emb=' + str(ptemb) + \
-                    '-dropout=' + str(dropout))
+                    ' -dropout=' + str(dropout))
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
