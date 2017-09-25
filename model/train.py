@@ -175,35 +175,10 @@ def train(args):
 
         if highest_t1_acc < accuracy:
             highest_t1_acc = accuracy
-            highest_t1_acc_params = ('EPOCH{:2d} - loss: {:.4f}  acc: '\
-                                    '{:6.4f}%({:3d}/{}) t5_acc: {:6.4f}%({:3d}'\
-                                    '/{}) MRR: {:.6f}\n'.format(epoch, tot_loss/
-                                    len(losses), accuracy, corrects, size,
-                                    t5_acc, t5_corrects, size, mrr))
-            """
-            highest_t1_acc_params += ('\nPARAMETERS:\n' \
-                    'Learning Rate: %f\n' \
-                    'Epochs: %i\n' \
-                    'Batch Size: %i\n' \
-                    'Optimizer: %s\n' \
-                    'Num Layers: %i\n' \
-                    'Hidden Size: %i\n' \
-                    'Num Directions: %i\n'
-                    'Embedding Dimension: %i\n' \
-                    'Fixed Embeddings: %s\n' \
-                    'Pretrained Embeddings: %s\n'
-                    % (args.lr, args.epochs, args.batch_size, args.opt, args.num_layers,
-                    args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb))
-        """
-        f.write('\nEPOCH{:2d} - loss: {:.4f}  acc: {:6.4f}%({:3d}/{}) t5_acc: {:6.4f}%({:3d}' \
-                '/{}) MRR: {:.6f}'.format(epoch, tot_loss/len(losses), accuracy,
-                                        corrects, size, t5_acc, t5_corrects, size,
-                                        mrr))
-        if highest_t1_acc > args.acc_thresh:
-            g = open('./saved_models' + '/best_models.txt','a')
-            g.write('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
+            highest_t1_acc_params = ('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
                     '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
-            g.write((' PARAMETERS:' \
+
+            highest_t1_acc_params += ((' PARAMETERS:' \
                     'net-%s' \
                     '_e%i' \
                     '_bs%i' \
@@ -217,7 +192,14 @@ def train(args):
                     '_drp%.1f\n'
                     % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
                     args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout)))
-            g.close()
+        f.write('\nEPOCH{:2d} - loss: {:.4f}  acc: {:6.4f}%({:3d}/{}) t5_acc: {:6.4f}%({:3d}' \
+                '/{}) MRR: {:.6f}'.format(epoch, tot_loss/len(losses), accuracy,
+                                        corrects, size, t5_acc, t5_corrects, size,
+                                        mrr))
+    if highest_t1_acc > args.acc_thresh:
+        g = open('./saved_models' + '/best_models.txt','a')
+        g.write(highest_t1_acc_params)
+        g.close()
     print(highest_t1_acc_params)
     f.close()
     #print('test', '2',TEXT,LABEL)
