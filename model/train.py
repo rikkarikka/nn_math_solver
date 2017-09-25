@@ -37,7 +37,7 @@ def main():
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
     parser.add_argument('-save-prefix', type=str, default='_default_save_prefix_', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
-    parser.add_argument('-acc-thresh', type=float, default=5, help='top1 accuracy threshold to save model')
+    parser.add_argument('-acc-thresh', type=float, default=35, help='top1 accuracy threshold to save model')
     args = parser.parse_args()
 
     args.save_path +=   '/net-' + str(args.net_type) + \
@@ -52,6 +52,7 @@ def main():
                         '_ptemb' + str(args.pretr_emb) + \
                         '_drp' + str(args.dropout)
 
+    print ('PATH:', args.save_path)
     if not os.path.isdir(args.save_path):
         os.makedirs(args.save_path)
         train(args)
@@ -170,17 +171,17 @@ def train(args):
             g.write('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
                     '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
             g.write((' PARAMETERS:' \
-                    'net- %s' \
-                    '_e %i' \
-                    '_bs %i' \
-                    '_opt- %s' \
-                    '_ly %i' \
-                    '_hs %i' \
-                    '_dr %i'
-                    '_ed %i' \
-                    '_femb %s' \
-                    '_ptemb %s' \
-                    '_drp + %.1f\n'
+                    'net-%s' \
+                    '_e%i' \
+                    '_bs%i' \
+                    '_opt-%s' \
+                    '_ly%i' \
+                    '_hs%i' \
+                    '_dr%i'
+                    '_ed%i' \
+                    '_femb%s' \
+                    '_ptemb%s' \
+                    '_drp%.1f\n'
                     % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
                     args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout)))
             g.close()
