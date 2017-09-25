@@ -36,6 +36,6 @@ try:
                     ' -embfix=' + str(embfix) + \
                     ' -pretr-emb=' + str(ptemb) + \
                     ' -dropout=' + str(dropout))
-            os.system('sort -o ./saved_models/best_models.txt ./saved_models/best_models.txt'
+            os.system('sort -o ./saved_models/best_models.txt ./saved_models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
