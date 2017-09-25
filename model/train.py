@@ -40,11 +40,7 @@ def main():
     parser.add_argument('-acc-thresh', type=float, default=40, help='top1 accuracy threshold to save model')
     args = parser.parse_args()
 
-    cuda = int(torch.cuda.is_available())-1
-    #print("CUDA: ",cuda)
-    #print('args.pretr_emb', args.pretr_emb)
-
-    args.save_path +=   '/lr' + str(args.lr) + \
+    args.save_path +=   '/net-' + str(args.net_type) + \
                         '_e' + str(args.epochs) + \
                         '_bs' + str(args.batch_size) + \
                         '_opt-' + str(args.opt) + \
@@ -66,6 +62,8 @@ def train(args):
     ###############################################################################
     # Load data
     ###############################################################################
+
+    cuda = int(torch.cuda.is_available())-1
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
@@ -105,11 +103,11 @@ def train(args):
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
-        optimizer = torch.optim.Adamax(model.parameters(), lr=args.lr)
+        optimizer = torch.optim.Adamax(model.parameters())#, lr=args.lr)
     elif (args.opt == 'adam'):
-        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
+        optimizer = torch.optim.Adam(model.parameters())#, lr=args.lr)
     elif (args.opt == 'sgd'):
-        optimizer = torch.optim.SGD(model.parameters(),lr=args.lr,momentum=0.5)
+        optimizer = torch.optim.SGD(model.parameters(),momentum=0.5)#,lr=args.lr,momentum=0.5)
     else:
         #print('Optimizer unknown, defaulting to adamax')
         optimizer = torch.optim.Adamax(model.parameters())
@@ -126,7 +124,8 @@ def train(args):
     #print('Training Model...')
     f = open(args.save_path + '/results.txt','w')
     f.write('PARAMETERS:\n' \
-            'Learning Rate: %f\n' \
+            'Net Type: %s\n' \
+            #'Learning Rate: %f\n' \
             'Epochs: %i\n' \
             'Batch Size: %i\n' \
             'Optimizer: %s\n' \
@@ -136,7 +135,7 @@ def train(args):
             'Embedding Dimension: %i\n' \
             'Fixed Embeddings: %s\n' \
             'Pretrained Embeddings: %s\n'
-            % (args.lr, args.epochs, args.batch_size, args.opt, args.num_layers,
+            % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
             args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb))
     highest_t1_acc = 0
     highest_t1_acc_params = ''
@@ -166,6 +165,25 @@ def train(args):
             save_prefix = os.path.join(args.save_path, args.folder)
             save_path = '{}/acc{:.2f}_e{}.pt'.format(save_prefix, accuracy, epoch)
             torch.save(model, save_path)
+            g = open('./saved_models' + '/best_models.txt','a')
+            g.write('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
+                    '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
+            g.write((' PARAMETERS:' \
+                    'net- %s' \
+                    '_e %i' \
+                    '_bs %i' \
+                    '_opt- %s' \
+                    '_ly %i' \
+                    '_hs %i' \
+                    '_dr %i'
+                    '_ed %i' \
+                    '_femb %s' \
+                    '_ptemb %s' \
+                    '_drp + %.1f'
+                    % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
+                    args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout)))
+            g.close()
+
         if highest_t1_acc < accuracy:
             highest_t1_acc = accuracy
             highest_t1_acc_params = ('EPOCH{:2d} - loss: {:.4f}  acc: '\
