@@ -33,7 +33,7 @@ try:
                     ' -emb-dim=' + str(embdim) + \
                     ' -embfix=' + str(embfix) + \
                     ' -pretr-emb=' + str(ptemb) + \
-                    ' -dropout=' + str(dropout)))
+                    ' -dropout=' + str(dropout))
         os.system('python train.py' + \
                     ' -net-type=' + str(net_type) + \
                     #' -lr=' + str(lr) + \
