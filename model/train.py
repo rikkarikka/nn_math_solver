@@ -179,7 +179,7 @@ def train(args):
             highest_t1_acc_metrics = ('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
                     '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
 
-            highest_t1_acc_params = ((' PARAMETERS:' \
+            highest_t1_acc_params = (('PARAMETERS:' \
                     'net-%s' \
                     '_e%i' \
                     '_bs%i' \
@@ -202,7 +202,7 @@ def train(args):
         g.write(highest_t1_acc_metrics)
         g.write(highest_t1_acc_params)
         g.close()
-    print(highest_t1_acc_params)
+    print(highest_t1_acc_metrics + '\n')
     f.close()
     #print('test', '2',TEXT,LABEL)
 
