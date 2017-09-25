@@ -37,7 +37,7 @@ def main():
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
     parser.add_argument('-save-prefix', type=str, default='_default_save_prefix_', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
-    parser.add_argument('-acc-thresh', type=float, default=20, help='top1 accuracy threshold to save model')
+    parser.add_argument('-acc-thresh', type=float, default=35, help='top1 accuracy threshold to save model')
     args = parser.parse_args()
 
     args.embfix = (args.embfix == 'True')
