@@ -55,9 +55,9 @@ def main():
                         '_ptemb' + str(args.pretr_emb) + \
                         '_drp' + str(args.dropout)
 
-    print ('PATH:', args.save_path)
-    print('args.embfix:', args.embfix)
-    print('args.pretr_emb:', args.pretr_emb)
+    #print ('PATH:', args.save_path)
+    #print('args.embfix:', args.embfix)
+    #print('args.pretr_emb:', args.pretr_emb)
     if not os.path.isdir(args.save_path):
         os.makedirs(args.save_path)
         train(args)
@@ -79,7 +79,7 @@ def train(args):
         validation='_dev.tsv', test='_test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
-    print('args.pretr_emb:', args.pretr_emb)
+    #print('args.pretr_emb:', args.pretr_emb)
     prevecs = None
     if (args.pretr_emb == True):
         #print('Making vocab w/ glove.6B.' + str(args.emb_dim) + ' dim vectors')
