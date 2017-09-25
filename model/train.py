@@ -41,7 +41,7 @@ def main():
     args = parser.parse_args()
 
     args.embfix = (args.embfix == 'True')
-    args.pretr_emb = (pretr_emb == 'True')
+    args.pretr_emb = (args.pretr_emb == 'True')
 
     args.save_path +=   '/net-' + str(args.net_type) + \
                         '_e' + str(args.epochs) + \
