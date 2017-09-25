@@ -113,7 +113,7 @@ def train(args):
     elif (args.opt == 'adam'):
         optimizer = torch.optim.Adam(model.parameters())#, lr=args.lr)
     elif (args.opt == 'sgd'):
-        optimizer = torch.optim.SGD(model.parameters(),momentum=0.5)#,lr=args.lr,momentum=0.5)
+        optimizer = torch.optim.SGD(model.parameters(),lr=0.1, momentum=0.5)#,lr=args.lr,momentum=0.5)
     else:
         #print('Optimizer unknown, defaulting to adamax')
         optimizer = torch.optim.Adamax(model.parameters())
