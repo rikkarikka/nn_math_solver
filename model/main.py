@@ -21,6 +21,19 @@ try:
     for (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout) in x:
         print(('Training: (net_type=%s, epoch=%d, bs=%d, opt=%s, num_lay=%d, hs=%d, num_dir=%d, embdim=%d, embfix=%s, ptemb=%s, dropout=%.1f})') %
         (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
+        print('python train.py' + \
+                    ' -net-type=' + str(net_type) + \
+                    #' -lr=' + str(lr) + \
+                    ' -epochs=' + str(epochs[0]) + \
+                    ' -batch-size=' + str(bs) + \
+                    ' -opt=' + opt + \
+                    ' -num-layers=' + str(num_lay) + \
+                    ' -hidden-sz=' + str(hs) + \
+                    ' -num-dir=' + str(num_dir) + \
+                    ' -emb-dim=' + str(embdim) + \
+                    ' -embfix=' + str(embfix) + \
+                    ' -pretr-emb=' + str(ptemb) + \
+                    ' -dropout=' + str(dropout)))
         os.system('python train.py' + \
                     ' -net-type=' + str(net_type) + \
                     #' -lr=' + str(lr) + \
