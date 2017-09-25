@@ -29,8 +29,8 @@ def main():
     parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]') #
     parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
     parser.add_argument('-emb-dim', type=int, default=300, help='number of embedding dimension [default: 300]') #
-    parser.add_argument('-embfix', type=bool, default=False, help='fix the embeddings [default: False]') #
-    parser.add_argument('-pretr-emb', type=bool, default=False, help='use pretrained embeddings') #
+    parser.add_argument('-embfix', type=str, default=False, help='fix the embeddings [default: False]') #
+    parser.add_argument('-pretr-emb', type=str, default=False, help='use pretrained embeddings') #
     parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
 
     # options
@@ -39,6 +39,9 @@ def main():
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
     parser.add_argument('-acc-thresh', type=float, default=35, help='top1 accuracy threshold to save model')
     args = parser.parse_args()
+
+    args.embfix = (args.embfix == 'True')
+    args.pretr_emb = (pretr_emb == 'True')
 
     args.save_path +=   '/net-' + str(args.net_type) + \
                         '_e' + str(args.epochs) + \
