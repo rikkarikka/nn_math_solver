@@ -166,7 +166,6 @@ def train(args):
             save_prefix = os.path.join(args.save_path, args.folder)
             save_path = '{}/acc{:.2f}_e{}.pt'.format(save_prefix, accuracy, epoch)
             torch.save(model, save_path)
-            print('ACC high enough')
             g = open('./saved_models' + '/best_models.txt','a')
             g.write('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
                     '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
@@ -181,7 +180,7 @@ def train(args):
                     '_ed %i' \
                     '_femb %s' \
                     '_ptemb %s' \
-                    '_drp + %.1f'
+                    '_drp + %.1f\n'
                     % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
                     args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout)))
             g.close()
