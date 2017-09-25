@@ -29,8 +29,8 @@ def main():
     parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]') #
     parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
     parser.add_argument('-emb-dim', type=int, default=300, help='number of embedding dimension [default: 300]') #
-    parser.add_argument('-embfix', type=bool, default=True, help='fix the embeddings [default: False]') #
-    parser.add_argument('-pretr-emb', type=bool, default=True, help='use pretrained embeddings') #
+    parser.add_argument('-embfix', type=bool, default=False, help='fix the embeddings [default: False]') #
+    parser.add_argument('-pretr-emb', type=bool, default=False, help='use pretrained embeddings') #
     parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
 
     # options
