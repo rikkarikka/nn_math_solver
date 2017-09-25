@@ -37,7 +37,7 @@ def main():
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
     parser.add_argument('-save-prefix', type=str, default='_default_save_prefix_', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
-    parser.add_argument('-acc-thresh', type=float, default=40, help='top1 accuracy threshold to save model')
+    parser.add_argument('-acc-thresh', type=float, default=5, help='top1 accuracy threshold to save model')
     args = parser.parse_args()
 
     args.save_path +=   '/net-' + str(args.net_type) + \
@@ -135,8 +135,9 @@ def train(args):
             'Embedding Dimension: %i\n' \
             'Fixed Embeddings: %s\n' \
             'Pretrained Embeddings: %s\n'
+            'Dropout: %.1f\n'
             % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
-            args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb))
+            args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout))
     highest_t1_acc = 0
     highest_t1_acc_params = ''
     for epoch in range(args.epochs):
@@ -165,6 +166,7 @@ def train(args):
             save_prefix = os.path.join(args.save_path, args.folder)
             save_path = '{}/acc{:.2f}_e{}.pt'.format(save_prefix, accuracy, epoch)
             torch.save(model, save_path)
+            print('ACC high enough')
             g = open('./saved_models' + '/best_models.txt','a')
             g.write('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
                     '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
