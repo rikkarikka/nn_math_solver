@@ -145,6 +145,7 @@ def train(args):
             % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
             args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout))
     highest_t1_acc = 0
+    highest_t1_acc_metrics = ''
     highest_t1_acc_params = ''
     for epoch in range(args.epochs):
         #print('Starting Epoch ' + str(epoch) + '...')
@@ -175,10 +176,10 @@ def train(args):
 
         if highest_t1_acc < accuracy:
             highest_t1_acc = accuracy
-            highest_t1_acc_params = ('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
+            highest_t1_acc_metrics = ('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
                     '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
 
-            highest_t1_acc_params += ((' PARAMETERS:' \
+            highest_t1_acc_params = ((' PARAMETERS:' \
                     'net-%s' \
                     '_e%i' \
                     '_bs%i' \
@@ -198,6 +199,7 @@ def train(args):
                                         mrr))
     if highest_t1_acc > args.acc_thresh:
         g = open('./saved_models' + '/best_models.txt','a')
+        g.write(highest_t1_acc_metrics)
         g.write(highest_t1_acc_params)
         g.close()
     print(highest_t1_acc_params)
