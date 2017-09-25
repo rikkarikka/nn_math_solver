@@ -1,7 +1,10 @@
 import sys
 import os
+import random
 import itertools
 import train
+
+rand = True
 
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
@@ -16,7 +19,10 @@ embfix = (True, False)
 ptemb = (False, True)
 dropout = (0, .3, .5, .7)
 
+
+
 x = list(itertools.product(net_type, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
+if rand: random.shuffle(x)
 try:
     for (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout) in x:
         if not (embfix and not ptemb):
