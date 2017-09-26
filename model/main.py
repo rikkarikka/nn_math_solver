@@ -5,10 +5,10 @@ import itertools
 import train
 import torch
 
-print('Current Device:', torch.cuda.current_device())
-device = int(input("Which GPU? "))
-torch.cuda.set_device(device)
-print('Current Device:', torch.cuda.current_device())
+#print('Current Device:', torch.cuda.current_device())
+#device = int(input("Which GPU? "))
+torch.cuda.set_device(1)
+#print('Current Device:', torch.cuda.current_device())
 
 rand = True
 
