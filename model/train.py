@@ -13,7 +13,7 @@ from evalTest import eval,test
 from torchtext.vocab import GloVe
 
 def main():
-    args = getParams()
+    args = parseParams()
     #if int(torch.cuda.is_available()) == 1:
     #    torch.cuda.set_device(args.device)
     if not os.path.isdir(args.save_path_full):
@@ -164,12 +164,12 @@ def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_
         g.write(highest_t1_acc_params)
         g.close()
 
-def getParams():
+def parseParams():
     parser = argparse.ArgumentParser(description='LSTM text classifier')
     # learning
     parser.add_argument('-lr', type=float, default=0.001, help='initial learning rate [default: 0.001]') #
-    parser.add_argument('-epochs', type=int, default=3, help='number of epochs for train [default: 100]') #
-    parser.add_argument('-batch-size', type=int, default=16, help='batch size for training [default: 64]') #
+    parser.add_argument('-epochs', type=int, default=100, help='number of epochs for train [default: 100]') #
+    parser.add_argument('-batch-size', type=int, default=64, help='batch size for training [default: 64]') #
     parser.add_argument('-opt', type=str, default='adamax', help='optimizer [default: adamax]') #
 
     # model
@@ -184,7 +184,7 @@ def getParams():
 
     # options
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
-    parser.add_argument('-folder', type=str, default='/test', help='folder to save models [default: '']')
+    parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
     parser.add_argument('-acc-thresh', type=float, default=35, help='top1 accuracy threshold to save model')
     parser.add_argument('-device', type=int, default=1, help='GPU to use [default: 1]')
     args = parser.parse_args()
