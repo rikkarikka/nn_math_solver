@@ -11,12 +11,12 @@ torch.cuda.device(0)
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
 epochs = 100,
-bs = 4,
-opt = ('adamax',)# 'adam', 'sgd')
-num_lay = (4,) #(1, 2,
-hs = (100, 300, 500)#, 750, 1000, 2000)
+bs = 64,
+opt = ('adamax', 'adam', 'sgd')
+num_lay =  (1, 2,) #4
+hs = (300,)#, 100, 500, 750, 1000, 2000)
 num_dir = 2,
-embdim = (50, 100, 200, 300, 500, 750, 1000, 1250, 1500)
+embdim = (750, 1000, 1250, 1500) #(50, 100, 200, 300, 500, 
 embfix = (False,)#True)
 ptemb = (False,)# True)
 dropout = (0, .3, .5, .7)
