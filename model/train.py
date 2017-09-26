@@ -14,8 +14,8 @@ from torchtext.vocab import GloVe
 
 def main():
     args = parseParams()
-    #if int(torch.cuda.is_available()) == 1:
-    #    torch.cuda.set_device(args.device)
+    if int(torch.cuda.is_available()) == 1:
+        os.environ['CUDA_VISIBLE_DEVICES'] = args.device
     if not os.path.isdir(args.save_path_full):
         train(args)
     else:
