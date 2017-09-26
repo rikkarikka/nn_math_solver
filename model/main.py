@@ -6,11 +6,12 @@ import train
 import torch
 
 rand = True
+torch.cuda.device(0)
 
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
 epochs = 100,
-bs = 32,
+bs = 16,
 opt = ('adamax',)# 'adam', 'sgd')
 num_lay = (4,) #(1, 2,
 hs = (100, 300, 500)#, 750, 1000, 2000)
@@ -20,7 +21,7 @@ embfix = (False,)#True)
 ptemb = (False,)# True)
 dropout = (0, .3, .5, .7)
 
-print('Cuda Device:', torch.cuda.current_device())
+
 
 x = list(itertools.product(net_type, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
 if rand: random.shuffle(x)
