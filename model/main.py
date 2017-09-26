@@ -7,7 +7,9 @@ import torch
 
 rand = True
 print('Current Device:', torch.cuda.current_device())
-#torch.cuda.device(int(input("Which GPU? ")))
+torch.cuda.set_device(int(input("Which GPU? ")))
+print('Current Device:', torch.cuda.current_device())
+
 
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
