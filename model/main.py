@@ -7,7 +7,8 @@ import torch
 
 rand = True
 print('Current Device:', torch.cuda.current_device())
-torch.cuda.set_device(int(input("Which GPU? ")))
+device = int(input("Which GPU? "))
+torch.cuda.set_device(device)
 print('Current Device:', torch.cuda.current_device())
 
 
@@ -46,7 +47,8 @@ try:
                     ' -emb-dim=' + str(embdim) + \
                     ' -embfix=' + str(embfix) + \
                     ' -pretr-emb=' + str(ptemb) + \
-                    ' -dropout=' + str(dropout))
+                    ' -dropout=' + str(dropout) + \
+                    ' -device=' + str(device))
             os.system('sort -o ./saved_models/best_models.txt ./saved_models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")

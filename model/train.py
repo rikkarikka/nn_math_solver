@@ -38,6 +38,7 @@ def main():
     parser.add_argument('-save-prefix', type=str, default='_default_save_prefix_', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
     parser.add_argument('-acc-thresh', type=float, default=35, help='top1 accuracy threshold to save model')
+    parser.add_argument('-device', type=int, default=1, help='GPU to use [default: 1]')
     args = parser.parse_args()
 
     args.embfix = (args.embfix == 'True')
@@ -58,6 +59,7 @@ def main():
     #print ('PATH:', args.save_path)
     #print('args.embfix:', args.embfix)
     #print('args.pretr_emb:', args.pretr_emb)
+    torch.cuda.set_device(args.device)
     if not os.path.isdir(args.save_path):
         os.makedirs(args.save_path)
         train(args)
