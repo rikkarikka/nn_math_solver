@@ -6,6 +6,7 @@ import train
 import torch
 
 rand = True
+print('Current Device:', torch.cuda.current_device())
 #torch.cuda.device(int(input("Which GPU? ")))
 
 net_type = ('lstm', 'gru')

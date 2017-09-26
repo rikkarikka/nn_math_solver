@@ -70,7 +70,7 @@ def train(args):
     ###############################################################################
 
     cuda = int(torch.cuda.is_available())-1
-    print('cuda', cuda)
+    #print('cuda', cuda)
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
