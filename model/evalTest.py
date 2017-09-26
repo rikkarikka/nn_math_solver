@@ -3,7 +3,7 @@ from torch import autograd, nn
 import torch.nn.functional as F
 
 def eval(data_iter, model, device):
-    torch.cuda.set_device(device)
+    #torch.cuda.set_device(device)
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):

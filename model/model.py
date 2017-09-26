@@ -13,8 +13,8 @@ class Model(nn.Module):
         self.hidden_size = hidden_size
         self.emd_dim = emb_dim
         self.emb = nn.Embedding(input_size, emb_dim)
-        self.net_type=net_type
-        torch.cuda.set_device(1)
+        self.net_type = net_type
+        # torch.cuda.set_device(1)
         # Some Error Here?
         if embfix:
             self.emb.weight.requires_grad=False
