@@ -14,9 +14,9 @@ opt = ('adamax', 'adam', 'sgd')
 num_lay = (1, 2, 4)
 hs = (100, 300, 500, 750, 1000, 2000)
 num_dir = 2,
-embdim = (50, 100, 200, 300)
-embfix = (True, False)
-ptemb = (False, True)
+embdim = (50, 100, 200, 300, 500, 750, 1000)
+embfix = (False,)#True)
+ptemb = (False,)# True)
 dropout = (0, .3, .5, .7)
 
 
