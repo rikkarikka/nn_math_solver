@@ -127,7 +127,7 @@ def train(args):
     ###############################################################################
     #print('CUDA?', str(cuda == 0))
     if cuda == 0:
-        model = model.cuda(device=1)
+        model = model.cuda(device_id=1)
 
     #print('Training Model...')
     f = open(args.save_path + '/results.txt','w')

@@ -36,8 +36,8 @@ class Model(nn.Module):
         cx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
                                                 size, self.hidden_size).zero_())
         if int(torch.cuda.is_available()) == 1:
-            hx.data = hx.data.cuda(device=1)
-            cx.data = cx.data.cuda(device=1)
+            hx.data = hx.data.cuda(device_id=1)
+            cx.data = cx.data.cuda(device_id=1)
         return (hx,cx)
 
     def forward(self, inp):

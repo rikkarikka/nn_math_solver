@@ -29,7 +29,7 @@ def eval(data_iter, model, device):
         y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
         cuda = int(torch.cuda.is_available())-1
         if cuda == 0:
-            y = y.cuda(device=1)
+            y = y.cuda(device_id=1)
         y = (y.long() * target_index.long()).sum(1).float().reciprocal()
         rr += y.sum()
 
