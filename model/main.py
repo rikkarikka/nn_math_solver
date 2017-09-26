@@ -19,7 +19,7 @@ embfix = (False,)#True)
 ptemb = (False,)# True)
 dropout = (0, .3, .5, .7)
 
-
+print('Cuda Device:', torch.cuda.current_device())
 
 x = list(itertools.product(net_type, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
 if rand: random.shuffle(x)
