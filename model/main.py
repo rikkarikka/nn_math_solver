@@ -3,6 +3,7 @@ import os
 import random
 import itertools
 import train
+import torch
 
 rand = True
 
