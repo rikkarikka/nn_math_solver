@@ -11,7 +11,7 @@ torch.cuda.device(0)
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
 epochs = 100,
-bs = 8,
+bs = 1,
 opt = ('adamax',)# 'adam', 'sgd')
 num_lay = (4,) #(1, 2,
 hs = (100, 300, 500)#, 750, 1000, 2000)
