@@ -171,7 +171,7 @@ def train(args):
             #if (batch_count % 20 == 0):
                 #print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
-        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model)
+        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, args.device)
         if accuracy > args.acc_thresh:
             save_prefix = os.path.join(args.save_path, args.folder)
             save_path = '{}/acc{:.2f}_e{}.pt'.format(save_prefix, accuracy, epoch)

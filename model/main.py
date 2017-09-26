@@ -5,12 +5,12 @@ import itertools
 import train
 import torch
 
-rand = True
 print('Current Device:', torch.cuda.current_device())
 device = int(input("Which GPU? "))
 torch.cuda.set_device(device)
 print('Current Device:', torch.cuda.current_device())
 
+rand = True
 
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
