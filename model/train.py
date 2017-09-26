@@ -61,7 +61,7 @@ def train(args):
                     num_layers=args.num_layers, num_dir=args.num_dir,
                     batch_size=args.batch_size, emb_dim=args.emb_dim,
                     embfix=args.embfix, dropout=args.dropout,
-                    net_type=args.net_type)
+                    net_type=args.net_type, device=args.device)
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
@@ -79,7 +79,7 @@ def train(args):
     # Training the Model
     ###############################################################################
     if cuda == 0:
-        model = model.cuda()
+        model = model.cuda(args.device)
 
     highest_t1_acc = 0
     highest_t1_acc_metrics = ''

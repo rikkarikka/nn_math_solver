@@ -5,7 +5,7 @@ import torch.nn.functional as F
 class Model(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes, num_layers,
                      num_dir, batch_size, emb_dim,
-                     dropout, net_type, prevecs=None, embfix=False):
+                     dropout, net_type, prevecs=None, embfix=False, device=1):
         super().__init__()
         self.num_layers = num_layers
         self.num_dir = num_dir
@@ -36,8 +36,8 @@ class Model(nn.Module):
         cx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
                                                 size, self.hidden_size).zero_())
         if int(torch.cuda.is_available()) == 1:
-            hx.data = hx.data.cuda()
-            cx.data = cx.data.cuda()
+            hx.data = hx.data.cuda(device)
+            cx.data = cx.data.cuda(device)
         return (hx,cx)
 
     def forward(self, inp):
