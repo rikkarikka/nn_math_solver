@@ -14,6 +14,7 @@ class Model(nn.Module):
         self.emd_dim = emb_dim
         self.emb = nn.Embedding(input_size, emb_dim)
         self.net_type = net_type
+        self.device = device
         # torch.cuda.set_device(1)
         # Some Error Here?
         if embfix:
@@ -36,8 +37,8 @@ class Model(nn.Module):
         cx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
                                                 size, self.hidden_size).zero_())
         if int(torch.cuda.is_available()) == 1:
-            hx.data = hx.data.cuda(device)
-            cx.data = cx.data.cuda(device)
+            hx.data = hx.data.cuda(self.device)
+            cx.data = cx.data.cuda(self.device)
         return (hx,cx)
 
     def forward(self, inp):
