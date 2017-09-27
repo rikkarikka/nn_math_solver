@@ -14,10 +14,6 @@ from torchtext.vocab import GloVe
 
 def main():
     args = parseParams()
-    #if int(torch.cuda.is_available()) == 1:
-    #    print('Device', torch.cuda.current_device())
-    #    os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-    #    print('Device', torch.cuda.current_device())
     if not os.path.isdir(args.save_path_full):
         train(args)
     else:
@@ -47,7 +43,7 @@ def train(args):
     LABELS.build_vocab(train)
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
-        (train, val, test), batch_sizes=(args.batch_size, 256, 256),
+        (train, val, test), batch_sizes=(args.batch_size, args.batch_size, args.batch_size),
         sort_key=lambda x: len(x.text))#, device=cuda)
 
     num_classes = len(LABELS.vocab)
