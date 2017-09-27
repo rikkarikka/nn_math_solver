@@ -6,7 +6,7 @@ import train
 import torch
 
 #print('Current Device:', torch.cuda.current_device())
-device = 1#int(input("Which GPU? "))
+#device = 1#int(input("Which GPU? "))
 #torch.cuda.set_device(1)
 #print('Current Device:', torch.cuda.current_device())
 
@@ -47,8 +47,7 @@ try:
                     ' -emb-dim=' + str(embdim) + \
                     ' -embfix=' + str(embfix) + \
                     ' -pretr-emb=' + str(ptemb) + \
-                    ' -dropout=' + str(dropout) + \
-                    ' -device=' + str(device))
+                    ' -dropout=' + str(dropout))
             os.system('sort -o ./saved_models/best_models.txt ./saved_models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")

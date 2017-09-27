@@ -2,8 +2,7 @@ import torch
 from torch import autograd, nn
 import torch.nn.functional as F
 
-def eval(data_iter, model, device):
-    #torch.cuda.set_device(device)
+def eval(data_iter, model):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
@@ -29,7 +28,7 @@ def eval(data_iter, model, device):
         y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
         cuda = int(torch.cuda.is_available())-1
         if cuda == 0:
-            y = y.cuda(device)
+            y = y.cuda()
         y = (y.long() * target_index.long()).sum(1).float().reciprocal()
         rr += y.sum()
 

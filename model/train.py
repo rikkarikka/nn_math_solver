@@ -48,7 +48,7 @@ def train(args):
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
         (train, val, test), batch_sizes=(args.batch_size, 256, 256),
-        sort_key=lambda x: len(x.text), device=cuda)
+        sort_key=lambda x: len(x.text))#, device=cuda)
 
     num_classes = len(LABELS.vocab)
     input_size = len(TEXT.vocab)
@@ -61,7 +61,7 @@ def train(args):
                     num_layers=args.num_layers, num_dir=args.num_dir,
                     batch_size=args.batch_size, emb_dim=args.emb_dim,
                     embfix=args.embfix, dropout=args.dropout,
-                    net_type=args.net_type, device=args.device)
+                    net_type=args.net_type)#, device=args.device)
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
@@ -79,7 +79,7 @@ def train(args):
     # Training the Model
     ###############################################################################
     if cuda == 0:
-        model = model.cuda(args.device)
+        model = model.cuda()#args.device)
 
     highest_t1_acc = 0
     highest_t1_acc_metrics = ''
@@ -105,7 +105,7 @@ def train(args):
             #if (batch_count % 20 == 0):
                 #print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
-        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, args.device)
+        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model)#, args.device)
         if accuracy > args.acc_thresh:
             save_path = '{}/acc{:.2f}_e{}.pt'.format(args.save_path_full, accuracy, epoch)
             if not os.path.isdir(args.save_path_full):

@@ -5,7 +5,7 @@ import torch.nn.functional as F
 class Model(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes, num_layers,
                      num_dir, batch_size, emb_dim,
-                     dropout, net_type, prevecs=None, embfix=False, device=1):
+                     dropout, net_type, prevecs=None, embfix=False):
         super().__init__()
         self.num_layers = num_layers
         self.num_dir = num_dir
@@ -14,9 +14,7 @@ class Model(nn.Module):
         self.emd_dim = emb_dim
         self.emb = nn.Embedding(input_size, emb_dim)
         self.net_type = net_type
-        self.device = device
-        # torch.cuda.set_device(1)
-        # Some Error Here?
+
         if embfix:
             self.emb.weight.requires_grad=False
         if prevecs is not None:
@@ -37,8 +35,8 @@ class Model(nn.Module):
         cx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
                                                 size, self.hidden_size).zero_())
         if int(torch.cuda.is_available()) == 1:
-            hx.data = hx.data.cuda(self.device)
-            cx.data = cx.data.cuda(self.device)
+            hx.data = hx.data.cuda()
+            cx.data = cx.data.cuda()
         return (hx,cx)
 
     def forward(self, inp):
