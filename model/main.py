@@ -7,7 +7,7 @@ import torch
 
 #print('Current Device:', torch.cuda.current_device())
 device = 1#int(input("Which GPU? "))
-torch.cuda.set_device(1)
+#torch.cuda.set_device(1)
 #print('Current Device:', torch.cuda.current_device())
 
 rand = True
