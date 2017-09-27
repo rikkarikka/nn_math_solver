@@ -183,7 +183,7 @@ def parseParams():
     # options
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
-    parser.add_argument('-acc-thresh', type=float, default=35, help='top1 accuracy threshold to save model')
+    parser.add_argument('-acc-thresh', type=float, default=55, help='top1 accuracy threshold to save model')
     parser.add_argument('-device', type=int, default=1, help='GPU to use [default: 1]')
     args = parser.parse_args()
 
