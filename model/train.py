@@ -36,7 +36,7 @@ def train(args):
     prevecs = None
     if (args.pretr_emb == True):
         #print('Making vocab w/ glove.6B.' + str(args.emb_dim) + ' dim vectors')
-        TEXT.build_vocab(train,vectors=GloVe(name='6B', dim=args.emb_dim))#wv_type="glove.6B")
+        TEXT.build_vocab(train,vectors=GloVe(name='6B', dim=args.emb_dim),min_freq=args.mf)#wv_type="glove.6B")
         prevecs=TEXT.vocab.vectors
     else:
         TEXT.build_vocab(train)
@@ -167,6 +167,7 @@ def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_
 def parseParams():
     parser = argparse.ArgumentParser(description='LSTM text classifier')
     # learning
+    parser.add_argument('-mf', type=int, default=1, help='min_freq for vocab [default: 1]') #
     parser.add_argument('-lr', type=float, default=0.001, help='initial learning rate [default: 0.001]') #
     parser.add_argument('-epochs', type=int, default=100, help='number of epochs for train [default: 100]') #
     parser.add_argument('-batch-size', type=int, default=64, help='batch size for training [default: 64]') #
@@ -205,6 +206,8 @@ def parseParams():
                         '_femb' + str(args.embfix) + \
                         '_ptemb' + str(args.pretr_emb) + \
                         '_drp' + str(args.dropout)
+    if args.mf > 1: args.save_path_full + \
+                        '_mf' + str(args.mf)
     return args
 
 if __name__ == '__main__':
