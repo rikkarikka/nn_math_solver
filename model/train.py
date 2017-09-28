@@ -206,9 +206,7 @@ def parseParams():
                         '_femb' + str(args.embfix) + \
                         '_ptemb' + str(args.pretr_emb) + \
                         '_drp' + str(args.dropout)
-    print('args.mf', args.mf)
-    if args.mf > 1: args.save_path_full + \
-                        '_mf' + str(args.mf)
+    if args.mf > 1: args.save_path_full += '_mf' + str(args.mf)
     return args
 
 if __name__ == '__main__':
