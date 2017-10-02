@@ -29,10 +29,10 @@ dropout = (0, .3, .5, .7)
 
 
 
-x = list(itertools.product(net_type, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
+x = list(itertools.product(net_type, epochs, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout, mf))
 if rand: random.shuffle(x)
 try:
-    for (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout) in x:
+    for (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout, mf) in x:
         if not (embfix and not ptemb):
             print(('Training: (net_type=%s, epoch=%d, bs=%d, opt=%s, num_lay=%d, hs=%d, num_dir=%d, embdim=%d, embfix=%s, ptemb=%s, dropout=%.1f})') %
                 (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb, dropout))
