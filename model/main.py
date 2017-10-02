@@ -13,6 +13,7 @@ import torch
 
 rand = True
 
+mf = (1,2,3)
 net_type = ('lstm', 'gru')
 #lr = (.001, .002)
 epochs = 100,
