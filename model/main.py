@@ -48,7 +48,8 @@ try:
                         ' -emb-dim=' + str(embdim) + \
                         ' -embfix=' + str(embfix) + \
                         ' -pretr-emb=' + str(ptemb) + \
-                        ' -dropout=' + str(dropout))
+                        ' -dropout=' + str(dropout) + \
+                        ' -mf=' + str(mf))
             os.system('sort -o ./saved_models/best_models.txt ./saved_models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
