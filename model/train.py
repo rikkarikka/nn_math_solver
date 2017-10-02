@@ -126,9 +126,10 @@ def train(args):
                     '_ed%i' \
                     '_femb%s' \
                     '_ptemb%s' \
-                    '_drp%.1f\n'
+                    '_drp%.1f' \
+                    '_mf%d\n'
                     % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
-                    args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout)))
+                    args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout, args.mf)))
         results += ('\nEPOCH{:2d} - loss: {:.4f}  acc: {:6.4f}%({:3d}/{}) t5_acc: {:6.4f}%({:3d}' \
                 '/{}) MRR: {:.6f}'.format(epoch, tot_loss/len(losses), accuracy,
                                         corrects, size, t5_acc, t5_corrects, size,
@@ -152,10 +153,11 @@ def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_
             'Num Directions: %i\n'
             'Embedding Dimension: %i\n' \
             'Fixed Embeddings: %s\n' \
-            'Pretrained Embeddings: %s\n'
-            'Dropout: %.1f\n'
+            'Pretrained Embeddings: %s\n' \
+            'Dropout: %.1f\n' \
+            'Min Freq: %d'
             % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
-            args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout))
+            args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout, args.mf))
     f.write(results)
     f.close()
     if highest_t1_acc > args.acc_thresh:
