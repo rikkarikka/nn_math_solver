@@ -50,7 +50,6 @@ def eval(data_iter, model):
                                                                        size,
                                                                        mrr))
     """
-    print('avg_loss:', avg_loss)
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
 def test(text, model, text_field, label_field):
