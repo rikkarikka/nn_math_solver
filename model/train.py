@@ -33,12 +33,12 @@ def train(args):
         path='../kushman/', train='0-train.tsv',
         validation='0-test.tsv', test='0-test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
-        """
-        # Our data
-        path='../new_data/kdata', train='_train.tsv',
-        validation='_dev.tsv', test='_test.tsv', format='tsv',
-        fields=[('text', TEXT), ('label', LABELS)])
-        """
+    """
+    # Our data
+    path='../new_data/kdata', train='_train.tsv',
+    validation='_dev.tsv', test='_test.tsv', format='tsv',
+    fields=[('text', TEXT), ('label', LABELS)])
+    """
 
     prevecs = None
     if (args.pretr_emb == True):
