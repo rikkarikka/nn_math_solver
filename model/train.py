@@ -120,7 +120,7 @@ def train(args):
         if highest_t1_acc < accuracy:
             highest_t1_acc = accuracy
             highest_t1_acc_metrics = ('acc: {:6.4f}%({:3d}/{}) EPOCH{:2d} - loss: {:.4f} t5_acc: {:6.4f}%({:3d}' \
-                    '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, tot_loss/len(losses), t5_acc, t5_corrects, size, mrr))
+                    '/{}) MRR: {:.6f}'.format(accuracy, corrects, size,epoch, avg_loss, t5_acc, t5_corrects, size, mrr))
 
             highest_t1_acc_params = (('PARAMETERS:' \
                     'net-%s' \
@@ -138,7 +138,7 @@ def train(args):
                     % (args.net_type, args.epochs, args.batch_size, args.opt, args.num_layers,
                     args.hidden_sz, args.num_dir, args.emb_dim, args.embfix, args.pretr_emb, args.dropout, args.mf)))
         results += ('\nEPOCH{:2d} - loss: {:.4f}  acc: {:6.4f}%({:3d}/{}) t5_acc: {:6.4f}%({:3d}' \
-                '/{}) MRR: {:.6f}'.format(epoch, tot_loss/len(losses), accuracy,
+                '/{}) MRR: {:.6f}'.format(epoch, avg_loss, accuracy,
                                         corrects, size, t5_acc, t5_corrects, size,
                                         mrr))
 

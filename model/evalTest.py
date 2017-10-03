@@ -6,7 +6,7 @@ def eval(data_iter, model):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
-        print('avg_loss:', avg_loss)
+        #print('avg_loss:', avg_loss)
         feature, target = batch.text, batch.label
         feature.data.t_()#, target.data.sub_(1)  # batch first, index align
         #if args.cuda:
@@ -50,6 +50,7 @@ def eval(data_iter, model):
                                                                        size,
                                                                        mrr))
     """
+    print('avg_loss:', avg_loss)
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
 def test(text, model, text_field, label_field):
