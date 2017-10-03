@@ -29,9 +29,16 @@ def train(args):
     LABELS = data.Field(sequential=False)
 
     train, val, test = data.TabularDataset.splits(
+        # Kushman data
+        path='../kushman/', train='0-train.tsv',
+        validation='0-test.tsv', test='0-test.tsv', format='tsv',
+        fields=[('text', TEXT), ('label', LABELS)])
+        """
+        # Our data
         path='../new_data/kdata', train='_train.tsv',
         validation='_dev.tsv', test='_test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
+        """
 
     prevecs = None
     if (args.pretr_emb == True):
