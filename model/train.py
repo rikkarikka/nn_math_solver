@@ -7,7 +7,7 @@ from numpy import genfromtxt
 from torch.autograd import Variable
 
 import data
-import rik104model as m
+import model as m
 from torchtext import data, datasets
 import mydatasets
 from evalTest import eval,test
