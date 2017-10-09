@@ -112,8 +112,8 @@ def train(args):
             losses.append(loss)
             tot_loss += loss.data[0]
 
-            if (batch_count % 20 == 0):
-                print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
+            #if (batch_count % 20 == 0):
+            #    print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
         (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model,vecs,TEXT,args.emb_dim)#, args.device)
         if accuracy > args.acc_thresh:
