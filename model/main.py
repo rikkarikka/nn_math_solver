@@ -54,7 +54,7 @@ try:
                         ' -embfix=' + str(embfix) + \
                         ' -pretr-emb=' + str(ptemb) + \
                         ' -dropout=' + str(dropout) + \
-                        ' -mf=' + str(mf)
+                        ' -mf=' + str(mf) + \
                         ' -folder=' + 'test')
             os.system('sort -o ./saved_models/best_models.txt ' + \
                                 './saved_models/best_models.txt')
