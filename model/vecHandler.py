@@ -2,10 +2,10 @@ import torchtext
 import torch
 
 class Vecs:
-  def __init__(self):
-    self.gl = torchtext.vocab.GloVe(name='6B', dim=300, unk_init=torch.FloatTensor.uniform_)
+  def __init__(self,emb_dim):
+    self.gl = torchtext.vocab.GloVe(name='6B', dim=emb_dim, unk_init=torch.FloatTensor.uniform_)
     self.cache = {}
-  
+
   def __getitem__(self, w):
     try:
       x = self.cache[w]

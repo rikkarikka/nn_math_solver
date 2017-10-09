@@ -41,7 +41,8 @@ class Model(nn.Module):
 
     def forward(self, inp):
         hc = self.get_ch(inp.size(0))
-        e = self.emb(inp)
+        #e = self.emb(inp)
+        e = inp
         if self.net_type == 'lstm':
             _, (y,_) = self.lstm(e, hc)
         elif self.net_type == 'gru':

@@ -4,13 +4,15 @@ import torch
 from torch import autograd, nn
 import torch.nn.functional as F
 from numpy import genfromtxt
+from torch.autograd import Variable
 
 import data
-import model as m
+import rik104model as m
 from torchtext import data, datasets
 import mydatasets
 from evalTest import eval,test
 from torchtext.vocab import GloVe
+from vecHandler import Vecs
 
 def main():
     args = parseParams()
@@ -30,8 +32,8 @@ def train(args):
 
     train, val, test = data.TabularDataset.splits(
         # Kushman data
-        path='../kushman/', train='0-train.tsv',
-        validation='0-test.tsv', test='0-test.tsv', format='tsv',
+        path='../new_data/', train='kdata_train.tsv',
+        validation='kdata_dev.tsv', test='kdata_test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
     """
     # Our data
@@ -48,6 +50,7 @@ def train(args):
     else:
         TEXT.build_vocab(train)
     LABELS.build_vocab(train)
+    vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
         (train, val, test), batch_sizes=(args.batch_size, args.batch_size, args.batch_size),
@@ -95,8 +98,12 @@ def train(args):
         for batch_count,batch in enumerate(train_iter):
             model.zero_grad()
             inp = batch.text.t()
+            inp3d = torch.cuda.FloatTensor(inp.size(0),inp.size(1),args.emb_dim)
+            for i in range(inp.size(0)):
+              for j in range(inp.size(1)):
+                inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
             #print("INP: ",inp.size())
-            preds = model(inp)
+            preds = model(Variable(inp3d))
             #print("PREDS: ",preds.size())
             #print("LABELS: ",batch.label.size())
             loss = criterion(preds, batch.label)
@@ -105,17 +112,15 @@ def train(args):
             losses.append(loss)
             tot_loss += loss.data[0]
 
-            #if (batch_count % 20 == 0):
-                #print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
+            if (batch_count % 20 == 0):
+                print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
-        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model)#, args.device)
-        """
+        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model,vecs,TEXT,args.emb_dim)#, args.device)
         if accuracy > args.acc_thresh:
             save_path = '{}/acc{:.2f}_e{}.pt'.format(args.save_path_full, accuracy, epoch)
             if not os.path.isdir(args.save_path_full):
                 os.makedirs(args.save_path_full)
             torch.save(model, save_path)
-        """
 
         if highest_t1_acc < accuracy:
             highest_t1_acc = accuracy
@@ -184,10 +189,10 @@ def parseParams():
 
     # model
     parser.add_argument('-net-type', type=str, default='lstm', help='network type [default: lstm]')
-    parser.add_argument('-num-layers', type=int, default=1, help='number of layers [default: 1]') #
-    parser.add_argument('-hidden-sz', type=int, default=100, help='hidden size [default: 300]') #
+    parser.add_argument('-num-layers', type=int, default=4, help='number of layers [default: 1]') #
+    parser.add_argument('-hidden-sz', type=int, default=500, help='hidden size [default: 300]') #
     parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
-    parser.add_argument('-emb-dim', type=int, default=50, help='number of embedding dimension [default: 300]') #
+    parser.add_argument('-emb-dim', type=int, default=300, help='number of embedding dimension [default: 300]') #
     parser.add_argument('-embfix', type=str, default=False, help='fix the embeddings [default: False]') #
     parser.add_argument('-pretr-emb', type=str, default=False, help='use pretrained embeddings') #
     parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
@@ -195,7 +200,7 @@ def parseParams():
     # options
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
-    parser.add_argument('-acc-thresh', type=float, default=55, help='top1 accuracy threshold to save model')
+    parser.add_argument('-acc-thresh', type=float, default=40, help='top1 accuracy threshold to save model')
     parser.add_argument('-device', type=int, default=1, help='GPU to use [default: 1]')
     args = parser.parse_args()
 

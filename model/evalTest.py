@@ -1,18 +1,23 @@
 import torch
 from torch import autograd, nn
+from torch.autograd import Variable
 import torch.nn.functional as F
 
-def eval(data_iter, model):
+def eval(data_iter, model,vecs,TEXT,emb_dim):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
         #print('avg_loss:', avg_loss)
-        feature, target = batch.text, batch.label
-        feature.data.t_()#, target.data.sub_(1)  # batch first, index align
+        inp, target = batch.text, batch.label
+        inp.data.t_()#, target.data.sub_(1)  # batch first, index align
+        inp3d = torch.cuda.FloatTensor(inp.size(0),inp.size(1),emb_dim)
+        for i in range(inp.size(0)):
+          for j in range(inp.size(1)):
+            inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
         #if args.cuda:
         #    feature, target = feature.cuda(), target.cuda()
 
-        logit = model(feature)
+        logit = model(Variable(inp3d))
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
         avg_loss += loss.data[0]
