@@ -23,8 +23,8 @@ num_lay =  (1, 2, 4)
 hs = (100, 300, 500, 750, 1000, 2000)
 num_dir = 2,
 embdim = (50, 100, 200, 300, 500, 750, 1000, 1250, 1500)
-embfix = (False,)#True)
-ptemb = (False,)# True)
+embfix = (False,True)
+ptemb = (False,True)
 dropout = (0, .3, .5, .7)
 
 
@@ -54,7 +54,8 @@ try:
                         ' -embfix=' + str(embfix) + \
                         ' -pretr-emb=' + str(ptemb) + \
                         ' -dropout=' + str(dropout) + \
-                        ' -mf=' + str(mf))
+                        ' -mf=' + str(mf)
+                        ' -folder=' + 'test')
             os.system('sort -o ./saved_models/best_models.txt ' + \
                                 './saved_models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
