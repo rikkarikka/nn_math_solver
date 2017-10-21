@@ -39,13 +39,13 @@ def train(args):
     print('train:',train)
 
     prevecs = None
-    """
     if (args.pretr_emb == True):
         #print('Making vocab w/ glove.6B.' + str(args.emb_dim) + ' dim vectors')
         TEXT.build_vocab(train,vectors=GloVe(name='6B', dim=args.emb_dim),min_freq=args.mf)#wv_type="glove.6B")
         prevecs=TEXT.vocab.vectors
     else:
         TEXT.build_vocab(train)
+    """
     LABELS.build_vocab(train)
     vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
