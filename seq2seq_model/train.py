@@ -28,7 +28,7 @@ def train(args):
     cuda = int(torch.cuda.is_available())-1
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
-    LABELS = data.Field(sequential=True)
+    LABELS = data.Field(sequential=False)
 
     train, val, test = data.TabularDataset.splits(
         # ms_draw data
