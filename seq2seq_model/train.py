@@ -45,7 +45,7 @@ def train(args):
         prevecs=TEXT.vocab.vectors
     else:
         TEXT.build_vocab(train)
-    """
+
     LABELS.build_vocab(train)
     vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
@@ -65,6 +65,7 @@ def train(args):
                     batch_size=args.batch_size, emb_dim=args.emb_dim,
                     embfix=args.embfix, dropout=args.dropout,
                     net_type=args.net_type)#, device=args.device)
+    """
     decode_model = seq2seq.DecoderRNN()
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
