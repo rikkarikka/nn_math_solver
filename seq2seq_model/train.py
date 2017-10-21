@@ -54,17 +54,17 @@ def train(args):
         sort_key=lambda x: len(x.text))#, device=cuda)
 
     num_classes = len(LABELS.vocab)
-    input_size = len(TEXT.vocab)
+    vocab_size = len(TEXT.vocab)
     ###############################################################################
     # Build the model
     ###############################################################################
 
-    encode_model = m.Model(input_size=input_size, hidden_size=args.hidden_sz,
-                    num_classes=num_classes,prevecs=prevecs,
-                    num_layers=args.num_layers, num_dir=args.num_dir,
-                    batch_size=args.batch_size, emb_dim=args.emb_dim,
-                    embfix=args.embfix, dropout=args.dropout,
-                    net_type=args.net_type)#, device=args.device)
+    encode_model = seq2seq.EncodeRNN(
+                    vocab_size=vocab_size,
+                    max_len=200,
+                    hidden_size=args.hidden_sz,
+                    sos_id=0,
+                    eos_id=2)
     """
     decode_model = seq2seq.DecoderRNN()
     criterion = nn.CrossEntropyLoss()
