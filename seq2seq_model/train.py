@@ -32,8 +32,8 @@ def train(args):
 
     train, val, test = data.TabularDataset.splits(
         # ms_draw data
-        path='../ms_draw/', train='draw-train.txt',
-        validation='draw-dev.txt', test='draw-test.txt', format='json',
+        path='../ms_draw/', train='draw-train.tsv',
+        validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
     prevecs = None
