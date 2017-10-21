@@ -32,7 +32,7 @@ def train(args):
 
     train, val, test = data.TabularDataset.splits(
         # ms_draw data
-        path='../ms_draw/draw.json', train='draw-train.txt',
+        path='../ms_draw/', train='draw-train.txt',
         validation='draw-dev.txt', test='draw-test.txt', format='json',
         fields=[('text', TEXT), ('label', LABELS)])
 
