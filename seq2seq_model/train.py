@@ -36,6 +36,8 @@ def train(args):
         validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
+    print('train:',train)
+
     prevecs = None
     if (args.pretr_emb == True):
         #print('Making vocab w/ glove.6B.' + str(args.emb_dim) + ' dim vectors')
