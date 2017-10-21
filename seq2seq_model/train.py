@@ -37,7 +37,7 @@ def train(args):
         fields=[('text', TEXT), ('label', LABELS)])
 
     print('train:',train)
-
+    """
     prevecs = None
     if (args.pretr_emb == True):
         #print('Making vocab w/ glove.6B.' + str(args.emb_dim) + ' dim vectors')
@@ -58,12 +58,13 @@ def train(args):
     # Build the model
     ###############################################################################
 
-    model = m.Model(input_size=input_size, hidden_size=args.hidden_sz,
+    encode_model = m.Model(input_size=input_size, hidden_size=args.hidden_sz,
                     num_classes=num_classes,prevecs=prevecs,
                     num_layers=args.num_layers, num_dir=args.num_dir,
                     batch_size=args.batch_size, emb_dim=args.emb_dim,
                     embfix=args.embfix, dropout=args.dropout,
                     net_type=args.net_type)#, device=args.device)
+    decode_model = seq2seq.DecoderRNN()
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
@@ -145,6 +146,7 @@ def train(args):
 
     print(highest_t1_acc_metrics + '\n')
     writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_t1_acc_params)
+    """
 
 def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_t1_acc_params):
     if not os.path.isdir(args.save_path_full):
