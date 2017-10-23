@@ -40,7 +40,7 @@ def train(args):
         validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
-    print('train:',train)
+    print('train.examples:',train.examples)
 
     prevecs = None
     if (args.pretr_emb == True):
