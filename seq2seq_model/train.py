@@ -67,11 +67,11 @@ def train(args):
                     max_len=200,
                     hidden_size=args.hidden_sz)
 
-    decode_model = seq2seq.DecoderRNN(
+    decode_model = DecoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz)
-    
+
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
