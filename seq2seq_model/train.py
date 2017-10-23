@@ -15,6 +15,7 @@ from vecHandler import Vecs
 
 import seq2seq
 from seq2seq.models import EncoderRNN
+from seq2seq.models import DecoderRNN
 
 def main():
     args = parseParams()
@@ -64,11 +65,13 @@ def train(args):
     encode_model = EncoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
-                    hidden_size=args.hidden_sz)#,
-                    #sos_id=0,
-                    #eos_id=2)
-    """
-    decode_model = seq2seq.DecoderRNN()
+                    hidden_size=args.hidden_sz)
+
+    decode_model = seq2seq.DecoderRNN(
+                    vocab_size=vocab_size,
+                    max_len=200,
+                    hidden_size=args.hidden_sz)
+    )
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
@@ -150,7 +153,7 @@ def train(args):
 
     print(highest_t1_acc_metrics + '\n')
     writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_t1_acc_params)
-    """
+    
 
 def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_t1_acc_params):
     if not os.path.isdir(args.save_path_full):
