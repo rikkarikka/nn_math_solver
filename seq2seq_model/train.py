@@ -9,10 +9,12 @@ from torch.autograd import Variable
 import data
 import model as m
 from torchtext import data, datasets
-import seq2seq
 from evalTest import eval,test
 from torchtext.vocab import GloVe
 from vecHandler import Vecs
+
+import seq2seq
+from seq2seq.models import EncoderRNN
 
 def main():
     args = parseParams()
