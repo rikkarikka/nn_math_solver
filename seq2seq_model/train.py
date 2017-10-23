@@ -16,7 +16,7 @@ from vecHandler import Vecs
 import seq2seq
 from seq2seq.models import EncoderRNN
 from seq2seq.models import DecoderRNN
-from seq2seq import Seq2seq
+from seq2seq.models import Seq2seq
 
 def main():
     args = parseParams()
