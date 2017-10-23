@@ -70,7 +70,9 @@ def train(args):
     decode_model = DecoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
-                    hidden_size=args.hidden_sz)
+                    hidden_size=args.hidden_sz,
+                    sos_id=3,
+                    eos_id=4)
 
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
