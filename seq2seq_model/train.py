@@ -71,7 +71,7 @@ def train(args):
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz)
-    )
+    
     criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
@@ -153,7 +153,7 @@ def train(args):
 
     print(highest_t1_acc_metrics + '\n')
     writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_t1_acc_params)
-    
+
 
 def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_t1_acc_params):
     if not os.path.isdir(args.save_path_full):
