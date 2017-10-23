@@ -59,7 +59,7 @@ def train(args):
     # Build the model
     ###############################################################################
 
-    encode_model = seq2seq.EncodeRNN(
+    encode_model = seq2seq.models.EncodeRNN(
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz,
