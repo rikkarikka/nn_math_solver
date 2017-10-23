@@ -64,9 +64,9 @@ def train(args):
     encode_model = EncoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
-                    hidden_size=args.hidden_sz,
-                    sos_id=0,
-                    eos_id=2)
+                    hidden_size=args.hidden_sz)#,
+                    #sos_id=0,
+                    #eos_id=2)
     """
     decode_model = seq2seq.DecoderRNN()
     criterion = nn.CrossEntropyLoss()
