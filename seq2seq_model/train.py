@@ -63,12 +63,12 @@ def train(args):
     # Build the model
     ###############################################################################
 
-    encode_model = EncoderRNN(
+    encoder_model = EncoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz)
 
-    decode_model = DecoderRNN(
+    decoder_model = DecoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz,
