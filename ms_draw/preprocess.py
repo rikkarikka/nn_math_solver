@@ -18,11 +18,9 @@ def jsonToTsv(indices_path, json_path, output_path):
                 for c in eq:
                     if c == '+' or c == '-' or c == '/' or c == '*' or c == '(' or c == ')' or c == '=':
                         result += ' ' + c + ' '
-                        print('_' + c + '_')
                     else:
-                        print(c)
                         result += c
-                result += str(eq) + ' ; '
+                result += ' ; '
             result = result[:-3]
             output.write(result + '\n')
 
