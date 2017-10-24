@@ -72,8 +72,8 @@ def train(args):
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz,
-                    sos_id=30, # Add to params
-                    eos_id=4) # Add to params
+                    sos_id=2, # Add to params
+                    eos_id=3) # Add to params
 
     model = Seq2seq(encoder_model, decoder_model)
 
