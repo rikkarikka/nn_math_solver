@@ -112,6 +112,7 @@ def train(args):
               for j in range(inp.size(1)):
                 inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
             #print("INP: ",inp.size())
+            print(inp3d)
             preds = model(Variable(inp3d))
             #print("PREDS: ",preds.size())
             #print("LABELS: ",batch.label.size())
