@@ -115,6 +115,7 @@ def train(args):
             #print("INP: ",inp.size())
             print(inp3d)
             """
+            print(inp)
             preds = model(inp)
             #print("PREDS: ",preds.size())
             #print("LABELS: ",batch.label.size())
