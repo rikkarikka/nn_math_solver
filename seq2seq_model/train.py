@@ -67,14 +67,29 @@ def train(args):
     encoder_model = EncoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
-                    hidden_size=args.hidden_sz)
+                    hidden_size=args.hidden_sz,
+                    input_dropout_p=0,
+                    dropout_p=args.dropout,
+                    n_layers=args.num_layers,
+                    bidirectional= args.num_dir==2,
+                    rnn_cell=args.net_type,
+                    variable_lengths=False
+                    )
 
     decoder_model = DecoderRNN(
                     vocab_size=vocab_size,
                     max_len=200,
                     hidden_size=args.hidden_sz,
                     sos_id=2, # Add to params
-                    eos_id=3) # Add to params
+                    eos_id=3, # Add to params
+                    n_layers=args.num_layers,
+                    rnn_cell=args.net_type,
+                    bidirectional= args.num_dir==2,
+                    input_dropout_p=0,
+                    dropout_p=args.dropout,
+                    use_attention=False
+
+                    )
 
     model = Seq2seq(encoder_model, decoder_model)
 
@@ -116,7 +131,7 @@ def train(args):
                 inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
             #print("INP: ",inp.size())
             print(inp3d)
-            
+
             print(inp)
             preds = model(inp)
             #print("PREDS: ",preds.size())
@@ -204,7 +219,7 @@ def parseParams():
     parser.add_argument('-opt', type=str, default='adamax', help='optimizer [default: adamax]') #
 
     # model
-    parser.add_argument('-net-type', type=str, default='lstm', help='network type [default: lstm]')
+    parser.add_argument('-net-type', type=str, default='gru', help='network type [default: gru]')
     parser.add_argument('-num-layers', type=int, default=4, help='number of layers [default: 1]') #
     parser.add_argument('-hidden-sz', type=int, default=500, help='hidden size [default: 300]') #
     parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
