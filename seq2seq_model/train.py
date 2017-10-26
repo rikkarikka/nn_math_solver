@@ -109,14 +109,14 @@ def train(args):
         for batch_count,batch in enumerate(train_iter):
             model.zero_grad()
             inp = batch.text.t()
-            """
+
             inp3d = torch.cuda.FloatTensor(inp.size(0),inp.size(1),args.emb_dim)
             for i in range(inp.size(0)):
               for j in range(inp.size(1)):
                 inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
             #print("INP: ",inp.size())
             print(inp3d)
-            """
+            
             print(inp)
             preds = model(inp)
             #print("PREDS: ",preds.size())
