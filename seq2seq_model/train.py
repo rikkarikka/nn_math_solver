@@ -14,6 +14,7 @@ from torchtext.vocab import GloVe
 from vecHandler import Vecs
 
 import seq2seq
+from seq2seq.loss import NLLLoss
 from seq2seq.models import EncoderRNN
 from seq2seq.models import DecoderRNN
 from seq2seq.models import Seq2seq
@@ -77,7 +78,8 @@ def train(args):
 
     model = Seq2seq(encoder_model, decoder_model)
 
-    criterion = nn.CrossEntropyLoss()
+    criterion = NLLLoss()
+    #criterion = nn.CrossEntropyLoss()
     # Select optimizer
     if (args.opt == 'adamax'):
         optimizer = torch.optim.Adamax(model.parameters())#, lr=args.lr)
