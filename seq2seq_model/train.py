@@ -134,10 +134,10 @@ def train(args):
 
             print(inp)
 
-
+            print('THERE IS A PROBLEM HERE')
             preds = model(inp3d)
-            print("PREDS: ",np.shape(preds))
-            print("LABELS: ",batch.label.size())
+            #print("PREDS: ",np.shape(preds))
+            #print("LABELS: ",batch.label.size())
 
             loss = criterion(preds, batch.label)
             loss.backward()

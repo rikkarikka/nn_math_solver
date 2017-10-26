@@ -37,7 +37,7 @@ class EncoderRNN(BaseRNN):
             input_dropout_p=0, dropout_p=0,
             n_layers=1, bidirectional=False, rnn_cell='gru', variable_lengths=False,
             prevecs=None, embfix=False):
-        print('THERE IS A PROBLEM HERE')
+        
         super(EncoderRNN, self).__init__(vocab_size, max_len, hidden_size,
                 input_dropout_p, dropout_p, n_layers, rnn_cell)
 
