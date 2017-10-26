@@ -64,8 +64,11 @@ class EncoderRNN(BaseRNN):
             - **output** (batch, seq_len, hidden_size): variable containing the encoded features of the input sequence
             - **hidden** (num_layers * num_directions, batch, hidden_size): variable containing the features in the hidden state h
         """
-        embedded = self.embedding(input_var)
-        embedded = self.input_dropout(embedded)
+        #embedded = self.embedding(input_var)
+        #embedded = self.input_dropout(embedded)
+
+        embedded = input_var
+
         if self.variable_lengths:
             embedded = nn.utils.rnn.pack_padded_sequence(embedded, input_lengths, batch_first=True)
         output, hidden = self.rnn(embedded)
