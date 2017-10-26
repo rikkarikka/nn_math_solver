@@ -66,7 +66,7 @@ class EncoderRNN(BaseRNN):
         """
         #embedded = self.embedding(input_var)
         #embedded = self.input_dropout(embedded)
-
+        print(input_var)
         embedded = input_var
 
         if self.variable_lengths:
