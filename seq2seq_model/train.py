@@ -88,7 +88,6 @@ def train(args):
                     input_dropout_p=0,
                     dropout_p=args.dropout,
                     use_attention=False
-
                     )
 
     model = Seq2seq(encoder_model, decoder_model)
