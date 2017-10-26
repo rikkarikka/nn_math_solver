@@ -130,11 +130,11 @@ def train(args):
               for j in range(inp.size(1)):
                 inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
             #print("INP: ",inp.size())
-            print(inp3d)
+            #print(inp3d)
 
-            print(inp)
+            #print(inp)
 
-            print('THERE IS A PROBLEM HERE')
+            
             preds = model(inp3d)
             #print("PREDS: ",np.shape(preds))
             #print("LABELS: ",batch.label.size())
