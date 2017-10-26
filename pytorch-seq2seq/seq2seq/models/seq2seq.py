@@ -35,7 +35,6 @@ class Seq2seq(nn.Module):
 
     def __init__(self, encoder, decoder, decode_function=F.log_softmax):
         super(Seq2seq, self).__init__()
-        print('THERE IS A PROBLEM HERE init')
         self.encoder = encoder
         self.decoder = decoder
         self.decode_function = decode_function
