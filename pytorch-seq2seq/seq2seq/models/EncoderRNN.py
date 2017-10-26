@@ -46,6 +46,7 @@ class EncoderRNN(BaseRNN):
         if embfix:
             self.embedding.weight.requires_grad=False
         if prevecs is not None:
+            print('THERE IS A PROBLEM HERE')
             self.embedding.weight = nn.Parameter(prevecs)
 
         self.rnn = self.rnn_cell(hidden_size, hidden_size, n_layers,
@@ -66,7 +67,7 @@ class EncoderRNN(BaseRNN):
         """
         #embedded = self.embedding(input_var)
         #embedded = self.input_dropout(embedded)
-        print(input_var)
+        
         embedded = input_var
 
         if self.variable_lengths:
