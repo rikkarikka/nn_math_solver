@@ -133,8 +133,8 @@ def train(args):
 
             print(inp)
             preds = model(inp3d)
-            #print("PREDS: ",preds.size())
-            #print("LABELS: ",batch.label.size())
+            print("PREDS: ",np.shape(preds))
+            print("LABELS: ",batch.label.size())
             loss = criterion(preds, batch.label)
             loss.backward()
             optimizer.step()
