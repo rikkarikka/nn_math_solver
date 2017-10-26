@@ -4,6 +4,7 @@ import torch
 from torch import autograd, nn
 import torch.nn.functional as F
 from numpy import genfromtxt
+import numpy as np
 from torch.autograd import Variable
 
 import data
@@ -134,7 +135,7 @@ def train(args):
             print(inp)
             print("PREDS: ",np.shape(preds))
             print("LABELS: ",batch.label.size())
-            
+
             preds = model(inp3d)
 
             loss = criterion(preds, batch.label)
