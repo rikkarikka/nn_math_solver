@@ -5,6 +5,7 @@ import logging
 
 import torch
 from torch import autograd, nn
+from torch.optim.lr_scheduler import StepLR
 import torch.nn.functional as F
 from numpy import genfromtxt
 import numpy as np
@@ -12,15 +13,15 @@ from torch.autograd import Variable
 
 import data
 import model as m
+
+import torchtext
 from torchtext import data, datasets
 from evalTest import eval,test
 from torchtext.vocab import GloVe
 from vecHandler import Vecs
 
-from torch.optim.lr_scheduler import StepLR
-import torchtext
-
 import seq2seq
+from seq2seq.loss import NLLLoss
 from seq2seq.trainer import SupervisedTrainer
 from seq2seq.models import EncoderRNN, DecoderRNN, Seq2seq
 from seq2seq.loss import Perplexity
