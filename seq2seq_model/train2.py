@@ -98,6 +98,8 @@ train, val, test = data.TabularDataset.splits(
     validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
     fields=[('src', TEXT), ('tgt', LABELS)])
 
+print('val:', val)
+
 """
 max_len = 50
 def len_filter(example):
