@@ -47,8 +47,9 @@ class Seq2seq(nn.Module):
     def forward(self, input_variable, input_lengths=None, target_variable=None,
                 teacher_forcing_ratio=0):
         print('type(input_variable)', type(input_variable))
-        print('np.shape(input_variable)', np.shape(input_variable))
-        print('input_lengths', input_lengths)
+        #print('np.shape(input_variable)', np.shape(input_variable))
+        #print('input_lengths', input_lengths)
+        print('##########################################')
         encoder_outputs, encoder_hidden = self.encoder(input_variable, input_lengths)
         print('There is a problem here, forward')
         result = self.decoder(inputs=target_variable,
