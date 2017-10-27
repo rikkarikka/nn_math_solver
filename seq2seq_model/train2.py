@@ -154,11 +154,11 @@ decoder_model = DecoderRNN(
                 dropout_p=args.dropout,
                 use_attention=False
                 )
-"""
+
 seq2seq = Seq2seq(encoder, decoder)
 if torch.cuda.is_available():
     seq2seq.cuda()
-
+"""
 for param in seq2seq.parameters():
     param.data.uniform_(-0.08, 0.08)
 
