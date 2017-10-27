@@ -127,6 +127,8 @@ class DecoderRNN(BaseRNN):
                     batch_size = encoder_hidden.size(1)
 
         if inputs is None:
+            print('Problem right adter this:')
+            print('input:', input)
             inputs = Variable(torch.LongTensor([self.sos_id]),
                                     volatile=True).view(batch_size, -1)
             if torch.cuda.is_available():
@@ -199,4 +201,3 @@ class DecoderRNN(BaseRNN):
         if self.bidirectional_encoder:
             h = torch.cat([h[0:h.size(0):2], h[1:h.size(0):2]], 2)
         return h
-
