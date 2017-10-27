@@ -103,10 +103,10 @@ train, val, test = data.TabularDataset.splits(
 max_len = 50
 # filter_pred
 
-src.build_vocab(train, max_size=50000)
-tgt.build_vocab(train, max_size=50000)
-input_vocab = src.vocab
-output_vocab = tgt.vocab
+TEXT.build_vocab(train, max_size=50000)
+LABEL.build_vocab(train, max_size=50000)
+input_vocab = TEXT.vocab
+output_vocab = LABEL.vocab
 
 # NOTE: If the source field name and the target field name
 # are different from 'src' and 'tgt' respectively, they have
