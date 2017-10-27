@@ -90,13 +90,13 @@ logging.info(opt)
 ################################################################################
 
 TEXT = SourceField()
-LABELS = TargetField()
+LABEL = TargetField()
 
 train, val, test = data.TabularDataset.splits(
     # ms_draw data
     path='../ms_draw/', train='draw-train.tsv',
     validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
-    fields=[('src', TEXT), ('tgt', LABELS)])
+    fields=[('src', TEXT), ('tgt', LABEL)])
 
 
 
