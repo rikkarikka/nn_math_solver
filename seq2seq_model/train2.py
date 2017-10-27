@@ -121,31 +121,53 @@ loss = Perplexity(weight, pad)
 if torch.cuda.is_available():
     loss.cuda()
 
-"""
+
 seq2seq = None
 optimizer = None
-if not opt.resume:
-    # Initialize model
-    hidden_size=128
-    bidirectional = True
-    encoder = EncoderRNN(len(src.vocab), max_len, hidden_size,
-                         bidirectional=bidirectional, variable_lengths=True)
-    decoder = DecoderRNN(len(tgt.vocab), max_len, hidden_size * 2 if bidirectional else 1,
-                         dropout_p=0.2, use_attention=True, bidirectional=bidirectional,
-                         eos_id=tgt.eos_id, sos_id=tgt.sos_id)
-    seq2seq = Seq2seq(encoder, decoder)
-    if torch.cuda.is_available():
-        seq2seq.cuda()
 
-    for param in seq2seq.parameters():
-        param.data.uniform_(-0.08, 0.08)
+# Initialize model
+hidden_size=128
+bidirectional = True
 
-    # Optimizer and learning rate scheduler can be customized by
-    # explicitly constructing the objects and pass to the trainer.
-    #
-    # optimizer = Optimizer(torch.optim.Adam(seq2seq.parameters()), max_grad_norm=5)
-    # scheduler = StepLR(optimizer.optimizer, 1)
-    # optimizer.set_scheduler(scheduler)
+encoder_model = EncoderRNN(
+                vocab_size=len(TEXT.vocab),
+                max_len=max_len,
+                hidden_size=args.hidden_sz,
+                input_dropout_p=0,
+                dropout_p=args.dropout,
+                n_layers=args.num_layers,
+                bidirectional= args.num_dir==2,
+                rnn_cell=args.net_type,
+                variable_lengths=False
+                )
+
+decoder_model = DecoderRNN(
+                vocab_size=len(LABEL.vocab),
+                max_len=max_len,
+                hidden_size=args.hidden_sz,
+                sos_id=LABEL.sos_id, # Add to params
+                eos_id=LABEL.eos_id, # Add to params
+                n_layers=args.num_layers,
+                rnn_cell=args.net_type,
+                bidirectional= args.num_dir==2,
+                input_dropout_p=0,
+                dropout_p=args.dropout,
+                use_attention=False
+                )
+"""
+seq2seq = Seq2seq(encoder, decoder)
+if torch.cuda.is_available():
+    seq2seq.cuda()
+
+for param in seq2seq.parameters():
+    param.data.uniform_(-0.08, 0.08)
+
+# Optimizer and learning rate scheduler can be customized by
+# explicitly constructing the objects and pass to the trainer.
+#
+# optimizer = Optimizer(torch.optim.Adam(seq2seq.parameters()), max_grad_norm=5)
+# scheduler = StepLR(optimizer.optimizer, 1)
+# optimizer.set_scheduler(scheduler)
 
 # train
 t = SupervisedTrainer(loss=loss, batch_size=32,
