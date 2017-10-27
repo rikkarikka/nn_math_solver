@@ -129,8 +129,8 @@ class DecoderRNN(BaseRNN):
         if inputs is None:
             print('Problem right adter this:')
             print('inputs:', inputs)
-            inputs = Variable(torch.LongTensor([self.sos_id]),
-                                    volatile=True).view(batch_size, -1)
+            inputs = Variable(torch.LongTensor([self.sos_id]), volatile=True)#.view(batch_size, -1)
+            print('inputs:', inputs)
             if torch.cuda.is_available():
                 inputs = inputs.cuda()
             max_length = self.max_length
