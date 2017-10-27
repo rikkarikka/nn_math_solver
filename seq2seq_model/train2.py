@@ -92,12 +92,13 @@ logging.info(opt)
 TEXT = SourceField()
 LABEL = TargetField()
 
-train = torchtext.data.TabularDataset(
+train = data.TabularDataset(
     path='../pytorch-seq2seq/data/toy_reverse/train/data.txt',
     format='tsv',
     fields=[('src', TEXT), ('tgt', LABEL)]
 )
-dev = torchtext.data.TabularDataset(
+
+dev = data.TabularDataset(
     path='../pytorch-seq2seq/data/toy_reverse/dev/data.txt',
     format='tsv',
     fields=[('src', TEXT), ('tgt', LABEL)]
