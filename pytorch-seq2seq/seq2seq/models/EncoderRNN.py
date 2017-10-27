@@ -37,7 +37,7 @@ class EncoderRNN(BaseRNN):
             input_dropout_p=0, dropout_p=0,
             n_layers=1, bidirectional=False, rnn_cell='gru', variable_lengths=False,
             prevecs=None, embfix=False):
-        
+
         super(EncoderRNN, self).__init__(vocab_size, max_len, hidden_size,
                 input_dropout_p, dropout_p, n_layers, rnn_cell)
 
@@ -47,7 +47,6 @@ class EncoderRNN(BaseRNN):
         if embfix:
             self.embedding.weight.requires_grad=False
         if prevecs is not None:
-
             self.embedding.weight = nn.Parameter(prevecs)
 
         self.rnn = self.rnn_cell(hidden_size, hidden_size, n_layers,
