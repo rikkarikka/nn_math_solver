@@ -108,23 +108,20 @@ LABEL.build_vocab(train, max_size=50000)
 input_vocab = TEXT.vocab
 output_vocab = LABEL.vocab
 
-print('Input Vocab:', input_vocab)
-print('Output Vocab:', output_vocab)
-
-
 # NOTE: If the source field name and the target field name
 # are different from 'src' and 'tgt' respectively, they have
 # to be set explicitly before any training or inference
 # seq2seq.src_field_name = 'src'
 # seq2seq.tgt_field_name = 'tgt'
-"""
+
 # Prepare loss
-weight = torch.ones(len(tgt.vocab))
-pad = tgt.vocab.stoi[tgt.pad_token]
+weight = torch.ones(len(TEXT.vocab))
+pad = LABEL.vocab.stoi[LABEL.pad_token]
 loss = Perplexity(weight, pad)
 if torch.cuda.is_available():
     loss.cuda()
 
+"""
 seq2seq = None
 optimizer = None
 if not opt.resume:
