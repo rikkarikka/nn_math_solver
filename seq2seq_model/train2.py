@@ -94,11 +94,18 @@ LABEL = TargetField()
 
 train, val, test = data.TabularDataset.splits(
     # ms_draw data
+    path='', train='../pytorch-seq2seq/data/toy_reverse/train/data.txt',
+    validation='../pytorch-seq2seq/data/toy_reverse/dev/data.txt',
+    test='../pytorch-seq2seq/data/toy_reverse/dev/data.txt', format='tsv',
+    fields=[('src', TEXT), ('tgt', LABEL)])
+
+"""
+train, val, test = data.TabularDataset.splits(
+    # ms_draw data
     path='../ms_draw/', train='draw-train.tsv',
     validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
     fields=[('src', TEXT), ('tgt', LABEL)])
-
-
+"""
 
 max_len = 50
 # filter_pred
