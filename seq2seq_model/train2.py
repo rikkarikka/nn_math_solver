@@ -17,7 +17,7 @@ import model as m
 import torchtext
 from torchtext import data, datasets
 from evalTest import eval,test
-from torchtext.vocab import GloVe
+#from torchtext.vocab import GloVe
 from vecHandler import Vecs
 
 import seq2seq
