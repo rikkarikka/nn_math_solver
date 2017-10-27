@@ -98,22 +98,11 @@ train, val, test = data.TabularDataset.splits(
     validation='draw-dev.tsv', test='draw-test.tsv', format='tsv',
     fields=[('src', TEXT), ('tgt', LABELS)])
 
-print('val:', val)
 
-"""
+
 max_len = 50
-def len_filter(example):
-    return len(example.src) <= max_len and len(example.tgt) <= max_len
-train = torchtext.data.TabularDataset(
-    path=opt.train_path, format='tsv',
-    fields=[('src', src), ('tgt', tgt)],
-    filter_pred=len_filter
-)
-dev = torchtext.data.TabularDataset(
-    path=opt.dev_path, format='tsv',
-    fields=[('src', src), ('tgt', tgt)],
-    filter_pred=len_filter
-)
+# filter_pred
+
 src.build_vocab(train, max_size=50000)
 tgt.build_vocab(train, max_size=50000)
 input_vocab = src.vocab
@@ -124,7 +113,7 @@ output_vocab = tgt.vocab
 # to be set explicitly before any training or inference
 # seq2seq.src_field_name = 'src'
 # seq2seq.tgt_field_name = 'tgt'
-
+"""
 # Prepare loss
 weight = torch.ones(len(tgt.vocab))
 pad = tgt.vocab.stoi[tgt.pad_token]
