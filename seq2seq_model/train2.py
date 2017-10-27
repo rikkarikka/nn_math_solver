@@ -2,7 +2,21 @@ import os
 import argparse
 import logging
 
+
 import torch
+from torch import autograd, nn
+import torch.nn.functional as F
+from numpy import genfromtxt
+import numpy as np
+from torch.autograd import Variable
+
+import data
+import model as m
+from torchtext import data, datasets
+from evalTest import eval,test
+from torchtext.vocab import GloVe
+from vecHandler import Vecs
+
 from torch.optim.lr_scheduler import StepLR
 import torchtext
 
@@ -14,11 +28,6 @@ from seq2seq.optim import Optimizer
 from seq2seq.dataset import SourceField, TargetField
 from seq2seq.evaluator import Predictor
 from seq2seq.util.checkpoint import Checkpoint
-
-try:
-    raw_input          # Python 2
-except NameError:
-    raw_input = input  # Python 3
 
 # Sample usage:
 #     # training
@@ -43,6 +52,48 @@ parser.add_argument('--resume', action='store_true', dest='resume',
 parser.add_argument('--log-level', dest='log_level',
                     default='info',
                     help='Logging level.')
+
+# learning
+parser.add_argument('-mf', type=int, default=1, help='min_freq for vocab [default: 1]') #
+parser.add_argument('-lr', type=float, default=0.001, help='initial learning rate [default: 0.001]') #
+parser.add_argument('-epochs', type=int, default=100, help='number of epochs for train [default: 100]') #
+parser.add_argument('-batch-size', type=int, default=64, help='batch size for training [default: 64]') #
+parser.add_argument('-opt', type=str, default='adamax', help='optimizer [default: adamax]') #
+
+# model
+parser.add_argument('-net-type', type=str, default='gru', help='network type [default: gru]')
+parser.add_argument('-num-layers', type=int, default=4, help='number of layers [default: 1]') #
+parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]') #
+parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
+parser.add_argument('-emb-dim', type=int, default=300, help='number of embedding dimension [default: 300]') #
+parser.add_argument('-embfix', type=str, default=False, help='fix the embeddings [default: False]') #
+parser.add_argument('-pretr-emb', type=str, default=False, help='use pretrained embeddings') #
+parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
+
+# options
+parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
+parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
+parser.add_argument('-acc-thresh', type=float, default=40, help='top1 accuracy threshold to save model')
+parser.add_argument('-device', type=int, default=1, help='GPU to use [default: 1]')
+args = parser.parse_args()
+
+args.embfix = (args.embfix == 'True')
+args.pretr_emb = (args.pretr_emb == 'True')
+
+args.save_path_full = args.save_path + \
+                    args.folder + \
+                    '/net-' + str(args.net_type) + \
+                    '_e' + str(args.epochs) + \
+                    '_bs' + str(args.batch_size) + \
+                    '_opt-' + str(args.opt) + \
+                    '_ly' + str(args.num_layers) + \
+                    '_hs' + str(args.hidden_sz) + \
+                    '_dr' + str(args.num_dir) + \
+                    '_ed' + str(args.emb_dim) + \
+                    '_femb' + str(args.embfix) + \
+                    '_ptemb' + str(args.pretr_emb) + \
+                    '_drp' + str(args.dropout)
+if args.mf > 1: args.save_path_full += '_mf' + str(args.mf)
 
 opt = parser.parse_args()
 
