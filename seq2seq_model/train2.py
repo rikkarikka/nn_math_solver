@@ -98,7 +98,7 @@ train = data.TabularDataset(
     fields=[('src', TEXT), ('tgt', LABEL)]
 )
 
-dev = data.TabularDataset(
+val = data.TabularDataset(
     path='../pytorch-seq2seq/data/toy_reverse/dev/data.txt',
     format='tsv',
     fields=[('src', TEXT), ('tgt', LABEL)]
