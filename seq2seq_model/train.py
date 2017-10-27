@@ -125,7 +125,7 @@ def train(args):
             model.zero_grad()
             inp = batch.text.t()
             print('type(inp)', type(inp))
-            inp3d = torch.cuda.FloatTensor(inp.size(0),inp.size(1),args.emb_dim)
+            inp3d = torch.autograd.Variable(torch.cuda.FloatTensor(inp.size(0),inp.size(1),args.emb_dim))
             print('type(inp3d)', type(inp3d))
             for i in range(inp.size(0)):
               for j in range(inp.size(1)):
