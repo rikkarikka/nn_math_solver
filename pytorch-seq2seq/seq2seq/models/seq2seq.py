@@ -49,12 +49,13 @@ class Seq2seq(nn.Module):
         print('type(input_variable)', type(input_variable))
         #print('np.shape(input_variable)', np.shape(input_variable))
         #print('input_lengths', input_lengths)
-        print('##########################################')
+
         encoder_outputs, encoder_hidden = self.encoder(input_variable, input_lengths)
-        print('There is a problem here, forward')
+
         result = self.decoder(inputs=target_variable,
                               encoder_hidden=encoder_hidden,
                               encoder_outputs=encoder_outputs,
                               function=self.decode_function,
                               teacher_forcing_ratio=teacher_forcing_ratio)
+        print('##########################################')
         return result
