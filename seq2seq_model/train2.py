@@ -158,9 +158,9 @@ decoder = DecoderRNN(
 seq2seq = Seq2seq(encoder, decoder)
 if torch.cuda.is_available():
     seq2seq.cuda()
-"""
-for param in seq2seq.parameters():
-    param.data.uniform_(-0.08, 0.08)
+
+# for param in seq2seq.parameters():
+#    param.data.uniform_(-0.08, 0.08)
 
 # Optimizer and learning rate scheduler can be customized by
 # explicitly constructing the objects and pass to the trainer.
@@ -181,4 +181,3 @@ seq2seq = t.train(seq2seq, train,
                   resume=opt.resume)
 
 predictor = Predictor(seq2seq, input_vocab, output_vocab)
-"""
