@@ -189,7 +189,6 @@ t = SupervisedTrainer(loss=loss, batch_size=32,
 seq2seq = t.train(seq2seq, train,
                   num_epochs=6, dev_data=val,
                   optimizer=optimizer,
-                  teacher_forcing_ratio=0.5,
-                  resume=opt.resume)
+                  teacher_forcing_ratio=0.5)
 
 predictor = Predictor(seq2seq, input_vocab, output_vocab)
