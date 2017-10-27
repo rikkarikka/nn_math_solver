@@ -129,7 +129,7 @@ optimizer = None
 hidden_size=128
 bidirectional = True
 
-encoder_model = EncoderRNN(
+encoder = EncoderRNN(
                 vocab_size=len(TEXT.vocab),
                 max_len=max_len,
                 hidden_size=args.hidden_sz,
@@ -141,7 +141,7 @@ encoder_model = EncoderRNN(
                 variable_lengths=False
                 )
 
-decoder_model = DecoderRNN(
+decoder = DecoderRNN(
                 vocab_size=len(LABEL.vocab),
                 max_len=max_len,
                 hidden_size=args.hidden_sz,
