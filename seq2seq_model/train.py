@@ -122,6 +122,7 @@ def train(args):
         tot_loss = 0
         train_iter.repeat=False
         for batch_count,batch in enumerate(train_iter):
+            print('Batch:', batch_count)
             model.zero_grad()
             inp = batch.text.t()
             print('type(inp)', type(inp))
@@ -148,6 +149,7 @@ def train(args):
 
             #if (batch_count % 20 == 0):
             #    print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
+            batch_count += 1
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
         (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model,vecs,TEXT,args.emb_dim)#, args.device)
         if accuracy > args.acc_thresh:
