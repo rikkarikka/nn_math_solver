@@ -227,7 +227,7 @@ def parseParams():
     # model
     parser.add_argument('-net-type', type=str, default='gru', help='network type [default: gru]')
     parser.add_argument('-num-layers', type=int, default=4, help='number of layers [default: 1]') #
-    parser.add_argument('-hidden-sz', type=int, default=500, help='hidden size [default: 300]') #
+    parser.add_argument('-hidden-sz', type=int, default=300, help='hidden size [default: 300]') #
     parser.add_argument('-num-dir', type=int, default=2, help='number of directions [default: 2]') #
     parser.add_argument('-emb-dim', type=int, default=300, help='number of embedding dimension [default: 300]') #
     parser.add_argument('-embfix', type=str, default=False, help='fix the embeddings [default: False]') #
