@@ -92,23 +92,21 @@ logging.info(opt)
 TEXT = SourceField()
 LABEL = TargetField()
 
-def len_filter(example):
-    return len(example.src) <= max_len and len(example.tgt) <= max_len
 
-    def len_filter(example):
-        return len(example.src) <= max_len and len(example.tgt) <= max_len
-    train = torchtext.data.TabularDataset(
-        path='../pytorch-seq2seq/data/toy_reverse/train/data.txt',
-        format='tsv',
-        fields=[('src', TEXT), ('tgt', LABEL)],
-        filter_pred=len_filter
-    )
-    dev = torchtext.data.TabularDataset(
-        path='../pytorch-seq2seq/data/toy_reverse/dev/data.txt',
-        format='tsv',
-        fields=[('src', TEXT), ('tgt', LABEL)],
-        filter_pred=len_filter
-    )
+def len_filter(example):
+    return len(example.TEXT) <= max_len and len(example.LABEL) <= max_len
+train = torchtext.data.TabularDataset(
+    path='../pytorch-seq2seq/data/toy_reverse/train/data.txt',
+    format='tsv',
+    fields=[('src', TEXT), ('tgt', LABEL)],
+    filter_pred=len_filter
+)
+dev = torchtext.data.TabularDataset(
+    path='../pytorch-seq2seq/data/toy_reverse/dev/data.txt',
+    format='tsv',
+    fields=[('src', TEXT), ('tgt', LABEL)],
+    filter_pred=len_filter
+)
 
 """
 train, val, test = data.TabularDataset.splits(
