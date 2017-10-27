@@ -108,6 +108,10 @@ LABEL.build_vocab(train, max_size=50000)
 input_vocab = TEXT.vocab
 output_vocab = LABEL.vocab
 
+print('Input Vocab:', input_vocab)
+print('Output Vocab:', output_vocab)
+
+
 # NOTE: If the source field name and the target field name
 # are different from 'src' and 'tgt' respectively, they have
 # to be set explicitly before any training or inference
