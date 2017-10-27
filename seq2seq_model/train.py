@@ -134,8 +134,8 @@ def train(args):
 
             #print(inp)
 
-            
-            preds = model(inp3d)
+
+            preds = model(inp)
             #print("PREDS: ",np.shape(preds))
             #print("LABELS: ",batch.label.size())
 
