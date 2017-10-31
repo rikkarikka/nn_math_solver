@@ -34,6 +34,8 @@ class Evaluator(object):
         loss.reset()
         match = 0
         total = 0
+        gold_match = 0
+        gold_total = 0
 
         device = None if torch.cuda.is_available() else -1
         batch_iterator = torchtext.data.BucketIterator(
@@ -59,6 +61,8 @@ class Evaluator(object):
                 correct = seqlist[step].view(-1).eq(target).masked_select(non_padding).sum().data[0]
                 match += correct
                 total += non_padding.sum().data[0]
+
+                print(target == data[0])
 
         if total == 0:
             accuracy = float('nan')
