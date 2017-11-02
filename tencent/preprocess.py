@@ -4,10 +4,10 @@ import random
 import math
 
 def main():
-    #split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
-    jsonToTsv('./Math23K-train.txt','./Math23K.json',   './Math23K-train-src.tsv',  './Math23K-train-tgt.tsv')
-    jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './Math23K-dev-src.tsv',    './Math23K-dev-tgt.tsv')
-    jsonToTsv('./Math23K-test.txt','./Math23K.json',    './Math23K-test-src.tsv',   './Math23K-test-tgt.tsv')
+    split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
+    #jsonToTsv('./Math23K-train.txt','./Math23K.json',   './Math23K-train-src.tsv',  './Math23K-train-tgt.tsv')
+    #jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './Math23K-dev-src.tsv',    './Math23K-dev-tgt.tsv')
+    #jsonToTsv('./Math23K-test.txt','./Math23K.json',    './Math23K-test-src.tsv',   './Math23K-test-tgt.tsv')
 
 def split(json_path, train_path, dev_path, test_path):
     data = json.loads(open(json_path).read())
@@ -16,24 +16,23 @@ def split(json_path, train_path, dev_path, test_path):
 
     # Train
     output = open(train_path, 'w')
-    for d in data[split_pts[0]:split_pts[1]]:
+    for d in data[500:-500]:
         output.write(d['id'] + '\n')
     output.close()
 
 
     # Dev
     output = open(dev_path, 'w')
-    for d in data[split_pts[1]+1:split_pts[2]]:
+
+    for d in data[:500]:
         output.write(d['id'] + '\n')
     output.close()
 
     # Test
     output = open(test_path, 'w')
-    for d in data[split_pts[2]+1:split_pts[3]]:
+    for d in data[-500:]:
         output.write(d['id'] + '\n')
     output.close()
-
-
 
 def jsonToTsv(indices_path, json_path, output_path_src, output_path_tgt):
     json_indices = np.genfromtxt(indices_path).astype(int)
