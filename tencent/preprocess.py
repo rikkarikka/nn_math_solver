@@ -5,9 +5,9 @@ import math
 
 def main():
     #split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
-    jsonToTsv('./Math23K-train.txt','./Math23K.json', './Math23K-train.tsv')
-    jsonToTsv('./Math23K-dev.txt','./Math23K.json', './Math23K-dev.tsv')
-    jsonToTsv('./Math23K-test.txt','./Math23K.json', './Math23K-test.tsv')
+    jsonToTsv('./Math23K-train.txt','./Math23K.json',   './Math23K-train-src.tsv',  './Math23K-train-tgt.tsv')
+    jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './Math23K-dev-src.tsv',    './Math23K-dev-tgt.tsv')
+    jsonToTsv('./Math23K-test.txt','./Math23K.json',    './Math23K-test-src.tsv',   './Math23K-test-tgt.tsv')
 
 def split(json_path, train_path, dev_path, test_path):
     data = json.loads(open(json_path).read())
@@ -35,31 +35,41 @@ def split(json_path, train_path, dev_path, test_path):
 
 
 
-def jsonToTsv(indices_path, json_path, output_path):
+def jsonToTsv(indices_path, json_path, output_path_src, output_path_tgt):
     json_indices = np.genfromtxt(indices_path).astype(int)
     data = json.loads(open(json_path).read())
-    output = open(output_path, 'w')
+    output_src = open(output_path_src, 'w')
+    output_tgt = open(output_path_tgt, 'w')
     for d in data:
-        #print(d['iIndex'] in indices)
-        if d['iIndex'] in json_indices:
-            print(d['sQuestion'])
+        if int(d['id']) in json_indices:
+
+            '+', '-', '*', '/', '(', ')', '='
+            equation = d['equation']
+            equation = equation.replace('+', ' + ')
+            equation = equation.replace('-', ' - ')
+            equation = equation.replace('*', ' * ')
+            equation = equation.replace('/', ' / ')
+            equation = equation.replace('(', ' ( ')
+            equation = equation.replace(')', ' ) ')
+            equation = equation.replace('=', ' = ')
+            equation = equation.split()
 
             # Preprocess Question
-            tokens = np.array(d['sQuestion'].split())
-            for a in d['Alignment']:
-                indices = np.array([])
-                indices = np.append(indices, np.where(tokens == '.')) # add . indicies
-                indices = np.append(indices, np.where(tokens == '?')) ## add ? indicies
-                indices += 1
-                indices = np.append(indices, [0])
-                indices.sort()
-                tokens[int(indices[a['SentenceId']] + a['TokenId'])] = '[' + a['coeff'] + ']'
+            tokens = np.array(d['segmented_text'].split())
+            i = 0
             for token in tokens:
-                output.write(token + ' ')
-            output.write('\t')
+                if isFloat(token):
+                    for symbol in equation:
+                        if symbol == token:
+                            equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
+                    token = '[' + chr(97 + i) + ']'
+                    i += 1
+                output_src.write(token + ' ')
+            output_src.write('\n')
+
 
             # Preprocess Equations
-            result = ''
+            """
             for eq in d['Template']:
                 symbols = eq.split()
                 for i,symbol in enumerate(symbols):
@@ -69,7 +79,9 @@ def jsonToTsv(indices_path, json_path, output_path):
                     result += str(symbol) + ' '
                 result += ' ; '
             result = result[:-3]
-            output.write(result + '\n')
+            """
+            output_tgt.write(' '.join(equation) + '\n')
+
 
 def isFloat(value):
   try:
