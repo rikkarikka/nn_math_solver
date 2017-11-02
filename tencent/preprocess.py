@@ -5,9 +5,9 @@ import math
 
 def main():
     split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
-    #jsonToTsv('./Math23K-train.txt','./Math23K.json',   './Math23K-train-src.tsv',  './Math23K-train-tgt.tsv')
-    #jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './Math23K-dev-src.tsv',    './Math23K-dev-tgt.tsv')
-    #jsonToTsv('./Math23K-test.txt','./Math23K.json',    './Math23K-test-src.tsv',   './Math23K-test-tgt.tsv')
+    jsonToTsv('./Math23K-train.txt','./Math23K.json',   './Math23K-train-src.tsv',  './Math23K-train-tgt.tsv')
+    jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './Math23K-dev-src.tsv',    './Math23K-dev-tgt.tsv')
+    jsonToTsv('./Math23K-test.txt','./Math23K.json',    './Math23K-test-src.tsv',   './Math23K-test-tgt.tsv')
 
 def split(json_path, train_path, dev_path, test_path):
     data = json.loads(open(json_path).read())
