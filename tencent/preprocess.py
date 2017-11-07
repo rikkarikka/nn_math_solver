@@ -2,12 +2,14 @@ import json
 import numpy as np
 import random
 import math
+import re
+import sys
 
 def main():
-    split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
-    jsonToTsv('./Math23K-train.txt','./Math23K.json',   './Math23K-train-src.tsv',  './Math23K-train-tgt.tsv')
-    jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './Math23K-dev-src.tsv',    './Math23K-dev-tgt.tsv')
-    jsonToTsv('./Math23K-test.txt','./Math23K.json',    './Math23K-test-src.tsv',   './Math23K-test-tgt.tsv')
+    #split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
+    jsonToTsv('./Math23K-train.txt','./Math23K.json',   './src-train.txt',  './tgt-train.txt')
+    jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './src-val.txt',    './tgt-val.txt')
+    jsonToTsv('./Math23K-test.txt','./Math23K.json',    './src-test.txt',   './tgt-test.txt')
 
 def split(json_path, train_path, dev_path, test_path):
     data = json.loads(open(json_path).read())
@@ -42,8 +44,15 @@ def jsonToTsv(indices_path, json_path, output_path_src, output_path_tgt):
     for d in data:
         if int(d['id']) in json_indices:
 
-            '+', '-', '*', '/', '(', ')', '='
+            #handle fractions and % and numbers with units
+            question = d['segmented_text'].replace('%', ' % ')
             equation = d['equation']
+
+            fractions = re.findall('\(\d+\)/\(\d+\)', question)
+            for i,fraction in enumerate(fractions):
+                question = question.replace(fraction, str(sys.maxsize - i))
+                equation = equation.replace(fraction, str(sys.maxsize - i))
+
             equation = equation.replace('+', ' + ')
             equation = equation.replace('-', ' - ')
             equation = equation.replace('*', ' * ')
@@ -51,11 +60,16 @@ def jsonToTsv(indices_path, json_path, output_path_src, output_path_tgt):
             equation = equation.replace('(', ' ( ')
             equation = equation.replace(')', ' ) ')
             equation = equation.replace('=', ' = ')
+            equation = equation.replace('^', ' ^ ')
             equation = equation.split()
 
+            question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
+
             # Preprocess Question
-            tokens = np.array(d['segmented_text'].split())
+
+            tokens = np.array(question.split())
             i = 0
+
             for token in tokens:
                 if isFloat(token):
                     for symbol in equation:
