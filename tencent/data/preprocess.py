@@ -6,15 +6,26 @@ import re
 import sys
 
 def main():
-    #split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
-    jsonToTsv('./Math23K-train.txt','./Math23K.json',   './src-train.txt',  './tgt-train.txt')
-    jsonToTsv('./Math23K-dev.txt','./Math23K.json',     './src-val.txt',    './tgt-val.txt')
-    jsonToTsv('./Math23K-test.txt','./Math23K.json',    './src-test.txt',   './tgt-test.txt')
+    split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
+    json2txt('./Math23K-train.txt','./Math23K.json',   './src-train.txt',  './tgt-train.txt')
+    json2txt('./Math23K-dev.txt','./Math23K.json',     './src-val.txt',    './tgt-val.txt')
+    json2txt('./Math23K-test.txt','./Math23K.json',    './src-test.txt',   './tgt-test.txt')
 
 def split(json_path, train_path, dev_path, test_path):
     data = json.loads(open(json_path).read())
     random.shuffle(data)
-    split_pts = [0, math.floor(len(data)*.8), math.floor(len(data)*.9), len(data)]
+
+    # 5 fold cross validation
+    k_test = 5 # fold to use for test
+    
+    k = 5
+    fold_size = math.floor(np.shape(data)[0] / k)
+    print(fold_size)
+    for i in range(1,6):
+        output = open('fold' + str(i) + '.txt', 'w')
+        for d in data[(i-1) * fold_size: i * fold_size]:
+            output.write(d['id'] + '\n')
+        output.close()
 
     # Train
     output = open(train_path, 'w')
@@ -36,7 +47,7 @@ def split(json_path, train_path, dev_path, test_path):
         output.write(d['id'] + '\n')
     output.close()
 
-def jsonToTsv(indices_path, json_path, output_path_src, output_path_tgt):
+def json2txt(indices_path, json_path, output_path_src, output_path_tgt):
     json_indices = np.genfromtxt(indices_path).astype(int)
     data = json.loads(open(json_path).read())
     output_src = open(output_path_src, 'w')
