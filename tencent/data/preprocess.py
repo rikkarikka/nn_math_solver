@@ -17,9 +17,10 @@ def split(json_path, train_path, dev_path, test_path):
 
     # 5 fold cross validation
     k_test = 5 # fold to use for test
-    
+
     k = 5
     fold_size = math.floor(np.shape(data)[0] / k)
+
     print(fold_size)
     for i in range(1,6):
         output = open('fold' + str(i) + '.txt', 'w')
@@ -27,24 +28,29 @@ def split(json_path, train_path, dev_path, test_path):
             output.write(d['id'] + '\n')
         output.close()
 
+    train_dev = []
+    for i in range(1,6):
+        if not i == k_test:
+            train_dev = np.append(train_dev, open('fold' + str(i) + '.txt').readlines())
+    #random.shuffle(train_dev)
+    test = open('fold' + str(k_test) + '.txt').readlines()
+
     # Train
     output = open(train_path, 'w')
-    for d in data[500:-500]:
-        output.write(d['id'] + '\n')
+    for d in train_dev[0:-500]:
+        output.write(d + '\n')
     output.close()
-
 
     # Dev
     output = open(dev_path, 'w')
-
-    for d in data[:500]:
-        output.write(d['id'] + '\n')
+    for d in train_dev[-500:]:
+        output.write(d + '\n')
     output.close()
 
     # Test
     output = open(test_path, 'w')
-    for d in data[-500:]:
-        output.write(d['id'] + '\n')
+    for d in test:
+        output.write(d + '\n')
     output.close()
 
 def json2txt(indices_path, json_path, output_path_src, output_path_tgt):
