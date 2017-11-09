@@ -15,13 +15,20 @@ def split(json_path, train_path, dev_path, test_path):
     data = json.loads(open(json_path).read())
     random.shuffle(data)
 
+    # remove uncommon equations
+    print('Started with', len(data), 'examples')
+    for d in data:
+        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'])
+    data = mostCommon(data, 80)
+    print('Filtered down to', len(data), 'examples')
+
+
     # 5 fold cross validation
     k_test = 5 # fold to use for test
 
     k = 5
     fold_size = math.floor(np.shape(data)[0] / k)
 
-    print(fold_size)
     for i in range(1,6):
         output = open('fold' + str(i) + '.txt', 'w')
         for d in data[(i-1) * fold_size: i * fold_size]:
@@ -53,6 +60,70 @@ def split(json_path, train_path, dev_path, test_path):
         output.write(d + '\n')
     output.close()
 
+def mostCommon(data, percent):
+    # returns PERCENT of data by # of equation occurences
+
+    equation, count= np.unique([d['equation'] for d in data], return_counts=True)
+    indices = np.asarray((equation, count)).T[:,1].astype(int).argsort()
+    result = np.asarray([[equation[i], count[i]] for i in indices])
+
+    total_eqs = np.sum(np.asarray(result[:,1]).astype(int))
+    num_equations_removed = 0
+    occurences = 1
+    while num_equations_removed < total_eqs * (1 - percent / 100):
+        print('Removing equations with', occurences, 'occurences...')
+        equations_to_remove = result[:,0][np.asarray(result[:,1]).astype(int) == occurences]
+        for eq in equations_to_remove:
+            eq = eq.strip()
+            for d in data:
+                if d['equation'].strip() == eq:
+                    data.remove(d)
+                    num_equations_removed += 1
+        print('total # equations removed:', num_equations_removed)
+        occurences += 1
+    return data
+
+
+def preprocess(question, equation):
+    #handle fractions and % and numbers with units
+    question = question.replace('%', ' % ')
+
+    fractions = re.findall('\(\d+\)/\(\d+\)', question)
+    for i,fraction in enumerate(fractions):
+        question = question.replace(fraction, str(sys.maxsize - i))
+        equation = equation.replace(fraction, str(sys.maxsize - i))
+
+    equation = equation.replace('+', ' + ')
+    equation = equation.replace('-', ' - ')
+    equation = equation.replace('*', ' * ')
+    equation = equation.replace('/', ' / ')
+    equation = equation.replace('(', ' ( ')
+    equation = equation.replace(')', ' ) ')
+    equation = equation.replace('=', ' = ')
+    equation = equation.replace('^', ' ^ ')
+    equation = equation.split()
+
+    question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
+
+    # Preprocess Question
+
+    question = question.split()
+
+    i = 0
+    for token in question:
+        if isFloat(token):
+            for symbol in equation:
+                if symbol == token:
+                    equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
+            for q in question:
+                if q == token:
+                    question[question.index(q)] = '[' + chr(97 + i) + ']'
+            i += 1
+
+    question = ' '.join(question) + '\n'
+    equation = ' '.join(equation) + '\n'
+    return question, equation
+
 def json2txt(indices_path, json_path, output_path_src, output_path_tgt):
     json_indices = np.genfromtxt(indices_path).astype(int)
     data = json.loads(open(json_path).read())
@@ -60,58 +131,11 @@ def json2txt(indices_path, json_path, output_path_src, output_path_tgt):
     output_tgt = open(output_path_tgt, 'w')
     for d in data:
         if int(d['id']) in json_indices:
-
-            #handle fractions and % and numbers with units
-            question = d['segmented_text'].replace('%', ' % ')
-            equation = d['equation']
-
-            fractions = re.findall('\(\d+\)/\(\d+\)', question)
-            for i,fraction in enumerate(fractions):
-                question = question.replace(fraction, str(sys.maxsize - i))
-                equation = equation.replace(fraction, str(sys.maxsize - i))
-
-            equation = equation.replace('+', ' + ')
-            equation = equation.replace('-', ' - ')
-            equation = equation.replace('*', ' * ')
-            equation = equation.replace('/', ' / ')
-            equation = equation.replace('(', ' ( ')
-            equation = equation.replace(')', ' ) ')
-            equation = equation.replace('=', ' = ')
-            equation = equation.replace('^', ' ^ ')
-            equation = equation.split()
-
-            question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
-
-            # Preprocess Question
-
-            tokens = np.array(question.split())
-            i = 0
-
-            for token in tokens:
-                if isFloat(token):
-                    for symbol in equation:
-                        if symbol == token:
-                            equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
-                    token = '[' + chr(97 + i) + ']'
-                    i += 1
-                output_src.write(token + ' ')
-            output_src.write('\n')
-
-
-            # Preprocess Equations
-            """
-            for eq in d['Template']:
-                symbols = eq.split()
-                for i,symbol in enumerate(symbols):
-                    if symbol not in ['+', '-', '*', '/', '(', ')', '='] and not isFloat(symbol):
-                        symbols[i] = '[' + symbol + ']'
-                for symbol in symbols:
-                    result += str(symbol) + ' '
-                result += ' ; '
-            result = result[:-3]
-            """
-            output_tgt.write(' '.join(equation) + '\n')
-
+            question, equation = preprocess(d['segmented_text'], d['equation'])
+            output_src.write(question)
+            output_tgt.write(equation)
+    output_src.close()
+    output_tgt.close()
 
 def isFloat(value):
   try:
