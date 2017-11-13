@@ -9,15 +9,18 @@ def main():
 
     # LOAD DATA
     data = json.loads(open('./Math23K.json').read())
-    random.shuffle(data)
 
     # PREPROCESS DATA
     for d in data:
         d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'])
 
     # 5 FOLD CROSS VALIDATION
-    print('Preforming cross validation splits...')
-    crossValidation(data, './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt', k = 5, k_test=5)
+    print('Using existing cross validation splits')
+    #print('Preforming cross validation splits...')
+    #crossValidation(data, k = 5, k_test=5)
+
+    # SAVE SPLIT INDICES
+    split('./Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt', k_test=5)
 
     # SAVE SRC/TGT files
     train_indices = np.genfromtxt('./Math23K-train.txt').astype(int)
@@ -28,8 +31,6 @@ def main():
     json2txt(test_indices,  data,   './src-test.txt',   './tgt-test.txt')
 
     # REMOVE TEST FOLD BEFORE COUNTING UNCOMMON EQUATIONS
-    print('len(data):',len(data))
-    print('len(test_indices):',len(test_indices))
     data = [d for d in data if int(d['id']) not in test_indices]
 
     # REMOVE UNCOMMON EQUATIONS
@@ -38,16 +39,24 @@ def main():
     common_data, uncommon_data = mostCommon(data, .8)
     print('Filtered down to', len(common_data), 'examples')
 
-    # SAVE SRC/TGT files (FILTERED DATA)
+    # SAVE SRC/TGT FILES (FILTERED DATA)
     train_dev_indices = np.append(train_indices, dev_indices)
     json2txt(train_dev_indices, common_data,    './src-train_dev_0.8_common.txt',   './tgt-train_dev_0.8_common.txt')
     json2txt(train_dev_indices, uncommon_data,  './src-train_dev_0.8_uncommon.txt', './tgt-train_dev_0.8_uncommon.txt')
 
-def crossValidation(data, train_path, dev_path, test_path, k = 5, k_test=5):
+    # SAVE TSV FILES
+    txt2tsv('./src-train.txt',  './tgt-train.txt', './train.tsv')
+    txt2tsv('./src-val.txt',  './tgt-val.txt', './val.tsv')
+    txt2tsv('./src-test.txt',  './tgt-test.txt', './test.tsv')
+    txt2tsv('./src-train_dev_0.8_common.txt',  './tgt-train_dev_0.8_common.txt', './train_dev_0.8_common.tsv')
+    txt2tsv('./src-train_dev_0.8_uncommon.txt',  './tgt-train_dev_0.8_uncommon.txt', './train_dev_0.8_uncommon.tsv')
+
+def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
     # k: k fold cross validation
     # k_test: fold to use for test
 
+    random.shuffle(data)
     fold_size = math.floor(np.shape(data)[0] / k)
     for i in range(1, k + 1):
         output = open('fold' + str(i) + '.txt', 'w')
@@ -56,6 +65,7 @@ def crossValidation(data, train_path, dev_path, test_path, k = 5, k_test=5):
         output.close()
         print('fold' + str(i) + '.txt' + ' saved')
 
+def split(train_path, dev_path, test_path, k_test=5):
     train_dev = []
     for i in range(1,6):
         if not i == k_test:
@@ -164,6 +174,13 @@ def isFloat(value):
     return True
   except ValueError:
     return False
+
+def txt2tsv(src_path, tgt_path, tsv_path):
+    src_txt = open(src_path).readlines()
+    tgt_txt = open(tgt_path).readlines()
+    tsv = open(tsv_path, 'w')
+    for i in range(len(src_txt)):
+        tsv.write(src_txt[i].strip() + '\t' + tgt_txt[i].strip() +'\n')
 
 if __name__ == '__main__':
     main()
