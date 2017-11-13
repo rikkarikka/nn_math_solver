@@ -6,34 +6,25 @@ import re
 import sys
 
 def main():
-    split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
+    crossValidation('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt', k = 5, k_test=5)
+    #split('./Math23K.json', './Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt')
     json2txt('./Math23K-train.txt','./Math23K.json',   './src-train.txt',  './tgt-train.txt')
     json2txt('./Math23K-dev.txt','./Math23K.json',     './src-val.txt',    './tgt-val.txt')
     json2txt('./Math23K-test.txt','./Math23K.json',    './src-test.txt',   './tgt-test.txt')
 
-def split(json_path, train_path, dev_path, test_path):
+def crossValidation(json_path, train_path, dev_path, test_path, k = 5, k_test=5):
+    # Saves k folds
+    # k: k fold cross validation
+    # k_test: fold to use for test
     data = json.loads(open(json_path).read())
     random.shuffle(data)
-
-    # remove uncommon equations
-    print('Started with', len(data), 'examples')
-    for d in data:
-        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'])
-    data = mostCommon(data, 80)
-    print('Filtered down to', len(data), 'examples')
-
-
-    # 5 fold cross validation
-    k_test = 5 # fold to use for test
-
-    k = 5
     fold_size = math.floor(np.shape(data)[0] / k)
-
-    for i in range(1,6):
+    for i in range(1, k + 1):
         output = open('fold' + str(i) + '.txt', 'w')
         for d in data[(i-1) * fold_size: i * fold_size]:
             output.write(d['id'] + '\n')
         output.close()
+        print('fold' + str(i) + '.txt' + ' saved')
 
     train_dev = []
     for i in range(1,6):
@@ -44,21 +35,35 @@ def split(json_path, train_path, dev_path, test_path):
 
     # Train
     output = open(train_path, 'w')
-    for d in train_dev[0:-500]:
-        output.write(d + '\n')
+    for d in train_dev[0:-1000]:
+        output.write(d)
     output.close()
 
     # Dev
     output = open(dev_path, 'w')
-    for d in train_dev[-500:]:
-        output.write(d + '\n')
+    for d in train_dev[-1000:]:
+        output.write(d)
     output.close()
 
     # Test
     output = open(test_path, 'w')
     for d in test:
-        output.write(d + '\n')
+        output.write(d)
     output.close()
+
+
+def split(json_path, train_path, dev_path, test_path, common=None):
+    data = json.loads(open(json_path).read())
+    random.shuffle(data)
+
+    # remove uncommon equations
+    print('Started with', len(data), 'examples')
+    for d in data:
+        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'])
+    if common is not None:
+        data = mostCommon(data, common)
+    print('Filtered down to', len(data), 'examples')
+
 
 def mostCommon(data, percent):
     # returns PERCENT of data by # of equation occurences
@@ -70,7 +75,7 @@ def mostCommon(data, percent):
     total_eqs = np.sum(np.asarray(result[:,1]).astype(int))
     num_equations_removed = 0
     occurences = 1
-    while num_equations_removed < total_eqs * (1 - percent / 100):
+    while num_equations_removed < total_eqs * (1 - percent):
         print('Removing equations with', occurences, 'occurences...')
         equations_to_remove = result[:,0][np.asarray(result[:,1]).astype(int) == occurences]
         for eq in equations_to_remove:
