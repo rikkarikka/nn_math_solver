@@ -20,11 +20,11 @@ epochs = 100,
 bs = 8, 16, 64
 opt = ('adamax', 'adam', 'sgd')
 num_lay =  (1, 2, 4)
-hs = (100, 300, 500, 750, 1000, 2000)
+hs = (100, 300, 500, 1000)
 num_dir = 2,
-embdim = (50, 100, 200, 300, 500, 750, 1000, 1250, 1500)
-embfix = (False,True)
-ptemb = (False,True)
+embdim = (50, 100, 200, 300, 500, 1000,  1500)
+embfix = (False,)#True)
+ptemb = (False,)#True)
 dropout = (0, .3, .5, .7)
 
 
@@ -42,6 +42,10 @@ try:
                 (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix,
                                                             ptemb, dropout, mf))
             os.system('python train.py' + \
+                        ' -data-path' + '../tencent/'+ \
+                        ' -train-path' + 'train.tsv' + \
+                        ' -dev-path' + 'val.tsv' + \
+                        ' -test-path' + 'test.tsv' + \
                         ' -net-type=' + str(net_type) + \
                         #' -lr=' + str(lr) + \
                         ' -epochs=' + str(epochs[0]) + \
@@ -55,7 +59,7 @@ try:
                         ' -pretr-emb=' + str(ptemb) + \
                         ' -dropout=' + str(dropout) + \
                         ' -mf=' + str(mf) + \
-                        ' -folder=' + 'test')
+                        ' -folder=' + 'models')
             os.system('sort -o ./saved_models/best_models.txt ' + \
                                 './saved_models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
