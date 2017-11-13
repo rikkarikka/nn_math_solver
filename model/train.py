@@ -31,9 +31,8 @@ def train(args):
     LABELS = data.Field(sequential=False)
 
     train, val, test = data.TabularDataset.splits(
-        # Kushman data
-        path='../new_data/', train='kdata_train.tsv',
-        validation='kdata_dev.tsv', test='kdata_test.tsv', format='tsv',
+        path=args.data_path, train=args.train_path,
+        validation=args.dev_path, test=args.test_path, format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
     """
     # Our data
@@ -181,6 +180,12 @@ def writeResults(args, results, highest_t1_acc, highest_t1_acc_metrics, highest_
 
 def parseParams():
     parser = argparse.ArgumentParser(description='LSTM text classifier')
+    # data
+    parser.add_argument('-data-path', type=str, default='../new_data/', help='data path [default: ../new_data/]') #
+    parser.add_argument('-train-path', type=str, default='kdata_train.tsv', help='data path [default: kdata_train.tsv]') #
+    parser.add_argument('-dev-path', type=str, default='kdata_dev.tsv', help='data path [default: kdata_dev.tsv]') #
+    parser.add_argument('-test-path', type=str, default='kdata_test.tsv', help='data path [default: kdata_test.tsv]') #
+
     # learning
     parser.add_argument('-mf', type=int, default=1, help='min_freq for vocab [default: 1]') #
     parser.add_argument('-lr', type=float, default=0.001, help='initial learning rate [default: 0.001]') #
