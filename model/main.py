@@ -42,10 +42,10 @@ try:
                 (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix,
                                                             ptemb, dropout, mf))
             os.system('python train.py' + \
-                        ' -data-path' + '../tencent/'+ \
-                        ' -train-path' + 'train.tsv' + \
-                        ' -dev-path' + 'val.tsv' + \
-                        ' -test-path' + 'test.tsv' + \
+                        ' -data-path=' + '../tencent/'+ \
+                        ' -train-path=' + 'train.tsv' + \
+                        ' -dev-path=' + 'val.tsv' + \
+                        ' -test-path=' + 'test.tsv' + \
                         ' -net-type=' + str(net_type) + \
                         #' -lr=' + str(lr) + \
                         ' -epochs=' + str(epochs[0]) + \
