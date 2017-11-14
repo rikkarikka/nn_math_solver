@@ -30,26 +30,6 @@ def main():
     json2txt(dev_indices,   data,   './src-val.txt',    './tgt-val.txt')
     json2txt(test_indices,  data,   './src-test.txt',   './tgt-test.txt')
 
-    # REMOVE TEST FOLD BEFORE COUNTING UNCOMMON EQUATIONS
-    data = [d for d in data if int(d['id']) not in test_indices]
-
-    # REMOVE UNCOMMON EQUATIONS
-    print('Removing uncommon equations...')
-    print('Started with', len(data), 'examples')
-    common_data, uncommon_data = mostCommon(data, .8)
-    print('Filtered down to', len(common_data), 'examples')
-
-    # SAVE SRC/TGT FILES (FILTERED DATA)
-    train_dev_indices = np.append(train_indices, dev_indices)
-    json2txt(train_dev_indices, common_data,    './src-train_dev_0.8_common.txt',   './tgt-train_dev_0.8_common.txt')
-    json2txt(train_dev_indices, uncommon_data,  './src-train_dev_0.8_uncommon.txt', './tgt-train_dev_0.8_uncommon.txt')
-
-    # SAVE TSV FILES
-    txt2tsv('./src-train.txt',  './tgt-train.txt', './train.tsv')
-    txt2tsv('./src-val.txt',  './tgt-val.txt', './val.tsv')
-    txt2tsv('./src-test.txt',  './tgt-test.txt', './test.tsv')
-    txt2tsv('./src-train_dev_0.8_common.txt',  './tgt-train_dev_0.8_common.txt', './train_dev_0.8_common.tsv')
-    txt2tsv('./src-train_dev_0.8_uncommon.txt',  './tgt-train_dev_0.8_uncommon.txt', './train_dev_0.8_uncommon.tsv')
 
 def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
@@ -142,17 +122,17 @@ def preprocess(question, equation):
 
     question = question.split()
 
-    i = 0
-    for token in question:
-        if isFloat(token):
-            for symbol in equation:
-                if symbol == token:
-                    equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
-            for q in question:
-                if q == token:
-                    question[question.index(q)] = '[' + chr(97 + i) + ']'
-            i += 1
-
+    numbers = np.array([token for token in question if isFloat(token)])
+    _, indices = np.unique(numbers, return_index=True)
+    numbers = numbers[np.sort(indices)]
+    result = np.array([])
+    equation = np.array([token.strip() for token in equation])
+    for number in numbers:
+        if number.strip() in equation:
+            result = np.append(result, 'yes')
+        else:
+            result = np.append(result, 'no')
+    equation = result
     question = ' '.join(question) + '\n'
     equation = ' '.join(equation) + '\n'
     return question, equation
@@ -162,9 +142,8 @@ def json2txt(json_indices, data, output_path_src, output_path_tgt):
     output_tgt = open(output_path_tgt, 'w')
     for d in data:
         if int(d['id']) in json_indices:
-            question, equation = preprocess(d['segmented_text'], d['equation'])
-            output_src.write(question)
-            output_tgt.write(equation)
+            output_src.write(d['segmented_text'])
+            output_tgt.write(d['equation'])
     output_src.close()
     output_tgt.close()
 
