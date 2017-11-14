@@ -42,7 +42,7 @@ try:
                 (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix,
                                                             ptemb, dropout, mf))
             os.system('python train.py' + \
-                        '-save-path=' + '../tencent/models/'+ \
+                        ' -save-path=' + '../tencent/models/'+ \
                         ' -data-path=' + '../tencent/data/'+ \
                         ' -train-path=' + 'train.tsv' + \
                         ' -dev-path=' + 'val.tsv' + \
