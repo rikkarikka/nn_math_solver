@@ -26,9 +26,9 @@ def main():
     train_indices = np.genfromtxt('./Math23K-train.txt').astype(int)
     dev_indices = np.genfromtxt('./Math23K-dev.txt').astype(int)
     test_indices = np.genfromtxt('./Math23K-test.txt').astype(int)
-    json2txt(train_indices, data,   './train.txt')
-    json2txt(dev_indices,   data,   './val.txt')
-    json2txt(test_indices,  data,   './test.txt')
+    json2txt(train_indices, data,   './train.tsv')
+    json2txt(dev_indices,   data,   './val.tsv')
+    json2txt(test_indices,  data,   './test.tsv')
 
 
 def crossValidation(data, k = 5, k_test=5):
