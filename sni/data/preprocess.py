@@ -126,7 +126,7 @@ def preprocess(question, equation):
     question = np.append(['null', 'null', 'null'], question)
     question = np.append(question, ['null', 'null', 'null'])
 
-    numbers = np.array([token for token in question if isFloat(token)])
+    numbers = np.array([token for token in question if isFloat(token) and not float(token) == 1])
     _, indices = np.unique(numbers, return_index=True)
     numbers = numbers[np.sort(indices)]
     equation = np.array([token.strip() for token in equation])
