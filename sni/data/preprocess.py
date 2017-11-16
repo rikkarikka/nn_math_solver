@@ -12,7 +12,7 @@ def main():
 
     # PREPROCESS DATA
     for d in data:
-        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'])
+        d['examples'] = preprocess(d['segmented_text'], d['equation'])
 
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
@@ -26,9 +26,9 @@ def main():
     train_indices = np.genfromtxt('./Math23K-train.txt').astype(int)
     dev_indices = np.genfromtxt('./Math23K-dev.txt').astype(int)
     test_indices = np.genfromtxt('./Math23K-test.txt').astype(int)
-    json2txt(train_indices, data,   './src-train.txt',  './tgt-train.txt')
-    json2txt(dev_indices,   data,   './src-val.txt',    './tgt-val.txt')
-    json2txt(test_indices,  data,   './src-test.txt',   './tgt-test.txt')
+    json2txt(train_indices, data,   './train.txt')
+    json2txt(dev_indices,   data,   './val.txt')
+    json2txt(test_indices,  data,   './test.txt')
 
 
 def crossValidation(data, k = 5, k_test=5):
@@ -98,6 +98,8 @@ def mostCommon(data, percent):
 
 
 def preprocess(question, equation):
+
+
     #handle fractions and % and numbers with units
     question = question.replace('%', ' % ')
 
@@ -121,31 +123,40 @@ def preprocess(question, equation):
     # Preprocess Question
 
     question = question.split()
+    question = np.append(['null', 'null', 'null'], question)
+    question = np.append(question, ['null', 'null', 'null'])
 
     numbers = np.array([token for token in question if isFloat(token)])
     _, indices = np.unique(numbers, return_index=True)
     numbers = numbers[np.sort(indices)]
-    result = np.array([])
     equation = np.array([token.strip() for token in equation])
-    for number in numbers:
-        if number.strip() in equation:
-            result = np.append(result, 'yes')
-        else:
-            result = np.append(result, 'no')
-    equation = result
-    question = ' '.join(question) + '\n'
-    equation = ' '.join(equation) + '\n'
-    return question, equation
 
-def json2txt(json_indices, data, output_path_src, output_path_tgt):
-    output_src = open(output_path_src, 'w')
-    output_tgt = open(output_path_tgt, 'w')
+    examples = []
+
+    for i,number in enumerate(numbers):
+        if number.strip() in equation:
+            index = np.where(question == number)[0][0]
+            src = question[index-3:index+4]
+            src = ' '.join(src)
+            #print('np.shape(examples):', np.shape(examples))
+            examples = np.append(examples, [src + '\t' + 'yes'])
+        else:
+            index = np.where(question == number)[0][0]
+            src = question[index-3:index+4]
+            src = ' '.join(src)
+            examples = np.append(examples, [src + '\t' + 'no'])
+    #print(examples)
+    return examples
+
+def json2txt(json_indices, data, output_path):
+    output = open(output_path, 'w')
     for d in data:
         if int(d['id']) in json_indices:
-            output_src.write(d['segmented_text'])
-            output_tgt.write(d['equation'])
-    output_src.close()
-    output_tgt.close()
+            print(d['examples'])
+            for example in d['examples']:
+                print(example)
+                output.write(example + '\n')
+    output.close()
 
 def isFloat(value):
   try:
