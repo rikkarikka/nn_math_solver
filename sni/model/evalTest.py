@@ -24,10 +24,12 @@ def eval(data_iter, model, TEXT, emb_dim):
         _, preds = torch.max(logit, 1)
         corrects += preds.data.eq(target.data).sum()
         # Rank 5
+        """
         _, t5_indices = torch.topk(logit, 5)
         x = torch.unsqueeze(target.data, 1)
         target_index = torch.cat((x, x, x, x, x), 1)
         t5_corrects += t5_indices.data.eq(target_index).sum()
+        """
         # Mean Reciprocal Rank
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
