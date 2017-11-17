@@ -27,6 +27,7 @@ class Model(nn.Module):
             self.gru = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
+        self.TanH = nn.TanH(hidden_size*num_dir*num_layers, num_classes)
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
 
     def get_ch(self,size):
@@ -41,8 +42,8 @@ class Model(nn.Module):
 
     def forward(self, inp):
         hc = self.get_ch(inp.size(0))
-        #e = self.emb(inp)
-        e = inp
+        e = self.emb(inp)
+        #e = inp
         if self.net_type == 'lstm':
             _, (y,_) = self.lstm(e, hc)
         elif self.net_type == 'gru':
@@ -52,4 +53,5 @@ class Model(nn.Module):
         if self.num_layers>1:
             y = torch.cat([y[i].unsqueeze(0) for i in range(self.num_layers)],2)
         y = torch.squeeze(y,0)
+        z = self.TanH(y)
         return self.Lin(y)

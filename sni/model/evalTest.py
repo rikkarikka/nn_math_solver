@@ -3,33 +3,31 @@ from torch import autograd, nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 
-def eval(data_iter, model,vecs,TEXT,emb_dim):
+def eval(data_iter, model, TEXT, emb_dim):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
         #print('avg_loss:', avg_loss)
         inp, target = batch.text, batch.label
         inp.data.t_()#, target.data.sub_(1)  # batch first, index align
-        inp3d = torch.cuda.FloatTensor(inp.size(0),inp.size(1),emb_dim)
-        for i in range(inp.size(0)):
-          for j in range(inp.size(1)):
-            inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
+        #inp3d = torch.cuda.FloatTensor(inp.size(0),inp.size(1),emb_dim)
+        #for i in range(inp.size(0)):
+        #  for j in range(inp.size(1)):
+        #    inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
         #if args.cuda:
         #    feature, target = feature.cuda(), target.cuda()
 
-        logit = model(Variable(inp3d))
+        logit = model(Variable(inp))
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
         corrects += preds.data.eq(target.data).sum()
         # Rank 5
-        """
         _, t5_indices = torch.topk(logit, 5)
         x = torch.unsqueeze(target.data, 1)
         target_index = torch.cat((x, x, x, x, x), 1)
         t5_corrects += t5_indices.data.eq(target_index).sum()
-        """
         # Mean Reciprocal Rank
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
