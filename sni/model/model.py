@@ -27,7 +27,7 @@ class Model(nn.Module):
             self.gru = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
-        self.Tanh = nn.Tanh(hidden_size*num_dir*num_layers, num_classes)
+        self.Tanh = nn.Tanh(hidden_size*num_dir*num_layers)
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
 
     def get_ch(self,size):
