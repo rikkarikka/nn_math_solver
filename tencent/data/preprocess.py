@@ -5,6 +5,7 @@ import math
 import re
 import sys
 import torch
+import model as m
 
 def main():
 
@@ -184,7 +185,7 @@ def isFloat(value):
     return False
 
 def isSignificant(example):
-    m = torch.load('../../sni/models/sni_best_model.pt')
+    model = torch.load('../../sni/models/sni_best_model.pt')
     #m.eval()
     return(True)
 
