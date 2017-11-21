@@ -19,7 +19,7 @@ def eval(data_iter, model, TEXT, emb_dim):
 
         logit = model(inp) #(Variable(inp))
         loss = F.cross_entropy(logit, target)#, size_average=False)
-
+        ####    
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
         corrects += preds.data.eq(target.data).sum()
