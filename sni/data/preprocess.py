@@ -8,7 +8,7 @@ import sys
 def main():
 
     # LOAD DATA
-    data = json.loads(open('./Math23K.json').read())
+    data = json.loads(open('../tencent/data/Math23K.json').read())
 
     # PREPROCESS DATA
     for d in data:
