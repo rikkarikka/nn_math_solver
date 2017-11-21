@@ -190,7 +190,7 @@ def isFloat(value):
     return False
 
 def isSignificant(model, example):
-    print(model(example))
+    print(str(model(example)))
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
