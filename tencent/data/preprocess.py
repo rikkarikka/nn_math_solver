@@ -5,7 +5,9 @@ import math
 import re
 import sys
 import torch
-import ../../model/model as m
+
+sys.path.append('../../sni/model')
+import model
 
 def main():
 
