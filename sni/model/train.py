@@ -120,7 +120,8 @@ def train(args):
             save_path = '{}/acc{:.2f}_e{}.pt'.format(args.save_path_full, accuracy, epoch)
             if not os.path.isdir(args.save_path_full):
                 os.makedirs(args.save_path_full)
-            #torch.save(model, save_path)
+            if args.save:
+                torch.save(model, save_path)
 
         if highest_t1_acc < accuracy:
             highest_t1_acc = accuracy
@@ -204,6 +205,7 @@ def parseParams():
     parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
 
     # options
+    parser.add_argument('-save', type=bool, default=False, help='if save models [default: False]')
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')
     parser.add_argument('-folder', type=str, default='', help='folder to save models [default: '']')
     parser.add_argument('-acc-thresh', type=float, default=40, help='top1 accuracy threshold to save model')
