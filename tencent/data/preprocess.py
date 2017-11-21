@@ -5,7 +5,7 @@ import math
 import re
 import sys
 import torch
-import model as m
+import ../../model/model as m
 
 def main():
 
