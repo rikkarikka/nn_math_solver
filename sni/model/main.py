@@ -26,7 +26,7 @@ embdim = (50, 100, 200, 300)
 embfix = (False,)#True)
 ptemb = (False,)#True)
 dropout = (0, .3, .5, .7)
-
+save = True
 
 
 x = list(itertools.product(net_type, epochs, bs, opt, num_lay, hs, num_dir,
@@ -42,8 +42,8 @@ try:
                 (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix,
                                                             ptemb, dropout, mf))
             os.system('python train.py' + \
-                        ' -save-path=' + '../tencent/models/'+ \
-                        ' -data-path=' + '../tencent/data/'+ \
+                        ' -save-path=' + '../models/'+ \
+                        ' -data-path=' + '../data/'+ \
                         ' -train-path=' + 'train.tsv' + \
                         ' -dev-path=' + 'val.tsv' + \
                         ' -test-path=' + 'test.tsv' + \
@@ -60,8 +60,9 @@ try:
                         ' -pretr-emb=' + str(ptemb) + \
                         ' -dropout=' + str(dropout) + \
                         ' -mf=' + str(mf) + \
-                        ' -folder=' + 'models')
-            os.system('sort -o ./saved_models/best_models.txt ' + \
-                                './saved_models/best_models.txt')
+                        ' -folder=' + 'models' + \
+                        ' -save=' + str(save))
+            os.system('sort -o ../models/best_models.txt ' + \
+                                '../models/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
