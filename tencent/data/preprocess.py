@@ -184,9 +184,9 @@ def isFloat(value):
     return False
 
 def isSignificant(example):
-    model = torch.load('../../sni/models/sni_best_model.pt')
-    model.eval()
-    return(model(example))
+    m = torch.load('../../sni/models/sni_best_model.pt')
+    m.eval()
+    return(m(example))
 
 def txt2tsv(src_path, tgt_path, tsv_path):
     src_txt = open(src_path).readlines()
