@@ -4,6 +4,7 @@ import random
 import math
 import re
 import sys
+import torch
 
 def main():
 
@@ -143,8 +144,13 @@ def preprocess(question, equation):
     question = question.split()
 
     i = 0
-    for token in question:
-        if isFloat(token):
+
+    question = ['null', 'null', 'null'] + question + ['null', 'null', 'null']
+    question_copy = [t for t in question]
+
+    for j,token in enumerate(question):
+        example = question_copy[j-3:j+4]
+        if isFloat(token) and isSignificant(example):
             for symbol in equation:
                 if symbol == token:
                     equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
@@ -152,6 +158,8 @@ def preprocess(question, equation):
                 if q == token:
                     question[question.index(q)] = '[' + chr(97 + i) + ']'
             i += 1
+
+    question = question[3:-3]
 
     question = ' '.join(question) + '\n'
     equation = ' '.join(equation) + '\n'
@@ -174,6 +182,11 @@ def isFloat(value):
     return True
   except ValueError:
     return False
+
+def isSignificant(example):
+    model = torch.load('../../sni/models/sni_best_model.pt')
+    model.eval()
+    return(model(example))
 
 def txt2tsv(src_path, tgt_path, tsv_path):
     src_txt = open(src_path).readlines()
