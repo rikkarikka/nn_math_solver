@@ -151,9 +151,12 @@ def preprocess(question, equation):
     question = ['null', 'null', 'null'] + question + ['null', 'null', 'null']
     question_copy = [t for t in question]
 
+    model = torch.load('../../sni/models/sni_best_model.pt')
+    model.eval()
+
     for j,token in enumerate(question):
         example = question_copy[j-3:j+4]
-        if isFloat(token) and isSignificant(example):
+        if isFloat(token) and isSignificant(model, example):
             for symbol in equation:
                 if symbol == token:
                     equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
@@ -186,9 +189,8 @@ def isFloat(value):
   except ValueError:
     return False
 
-def isSignificant(example):
-    model = torch.load('../../sni/models/sni_best_model.pt')
-    #m.eval()
+def isSignificant(model, example):
+    print(model(example))
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
