@@ -195,12 +195,17 @@ def isSignificant(model, example):
     LABELS = data.Field(sequential=False)
     fields=[('text', TEXT), ('label', LABELS)]
 
+
     print('isSignificant??')
 
     example = [example, '']
     example = data.Example.fromlist(example, fields)
 
     dataset = data.Dataset([example], fields)
+
+    TEXT.build_vocab(dataset)
+    LABELS.build_vocab(dataset)
+
     iterator = data.Iterator(dataset, batch_size=1)
     for batch_count, batch in enumerate(iterator):
         print(batch)
