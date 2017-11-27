@@ -171,6 +171,8 @@ def preprocess(question, equation):
 
     question = ' '.join(question) + '\n'
     equation = ' '.join(equation) + '\n'
+    print(question)
+    print(equation)
     return question, equation
 
 def json2txt(json_indices, data, output_path_src, output_path_tgt):
