@@ -79,4 +79,4 @@ def test(text, model, text_field, label_field, path):
     print('OUTPUT:', output)
     _, predicted = torch.max(output, 1)
     print('PREDICTED:', predicted)
-    return predicted.data[0][0]+1
+    return predicted
