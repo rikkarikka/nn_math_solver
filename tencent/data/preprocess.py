@@ -16,9 +16,19 @@ def main():
     # LOAD DATA
     data = json.loads(open('./Math23K.json').read())
 
+    # LOAD MODEL
+    model = torch.load('../../sni/models/sni_best_model.pt')
+    model.eval()
+    TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
+    LABEL = data.Field(sequential=False)
+    fields = [('text', TEXT), ('label', LABEL)]
+    train = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
+    TEXT.build_vocab(train)
+    LABEL.build_vocab(train)
+
     # PREPROCESS DATA
     for d in data:
-        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'])
+        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields, dataset)
 
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
@@ -123,7 +133,7 @@ def mostCommon(data, percent):
     return data, removed
 
 
-def preprocess(question, equation):
+def preprocess(question, equation, model, fields, dataset):
     #handle fractions and % and numbers with units
     question = question.replace('%', ' % ')
 
@@ -155,18 +165,6 @@ def preprocess(question, equation):
 
     question = ['null', 'null', 'null'] + question + ['null', 'null', 'null']
     question_copy = [t for t in question]
-
-    # Load model
-    model = torch.load('../../sni/models/sni_best_model.pt')
-    model.eval()
-    TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
-    LABEL = data.Field(sequential=False)
-    fields = [('text', TEXT), ('label', LABEL)]
-    train = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
-    TEXT.build_vocab(train)
-    LABEL.build_vocab(train)
-
-
 
     for j,token in enumerate(question):
         example = question_copy[j-3:j+4]
