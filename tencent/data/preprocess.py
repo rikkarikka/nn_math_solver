@@ -200,7 +200,8 @@ def isSignificant(model, example):
 
     inp = data.Dataset(example, fields)
     inp = data.Iterator(inp, batch_size=1)
-    print(inp[0])
+    for batch in inp:
+        inp = batch
 
     output = model(inp.text.t())
     return(True)
