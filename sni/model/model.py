@@ -23,12 +23,12 @@ class Model(nn.Module):
             self.lstm = nn.LSTM(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
-            self.lstm.flatten_parameters()
+            #self.lstm.flatten_parameters()
         elif net_type == 'gru':
             self.gru = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
-            self.gru.flatten_parameters()
+            #self.gru.flatten_parameters()
         self.Tanh = nn.Tanh()
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
 
@@ -47,10 +47,10 @@ class Model(nn.Module):
         e = self.emb(inp)
         #e = inp
         if self.net_type == 'lstm':
-            self.lstm.flatten_parameters()
+            #self.lstm.flatten_parameters()
             _, (y,_) = self.lstm(e, hc)
         elif self.net_type == 'gru':
-            self.gru.flatten_parameters()
+            #self.gru.flatten_parameters()
             _, y = self.gru(e, hc[0])
         if self.num_dir==2:
             y = torch.cat([y[0:y.size(0):2], y[1:y.size(0):2]], 2)
