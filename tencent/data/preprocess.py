@@ -219,6 +219,7 @@ def isFloat(value):
     return False
 
 def isSignificant(inp, model):
+    print(inp)
     significant = evalTest.fast_test(inp, model).data == 1
     return(True)
 
