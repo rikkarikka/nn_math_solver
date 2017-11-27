@@ -200,11 +200,12 @@ def isSignificant(model, example):
     example = [example, '']
     example = data.Example.fromlist(example, fields)
 
-    print('asdf')
+
     inp = data.Dataset(example, fields)
     inp = data.Iterator(inp, batch_size=1)
+    print('asdf')
     for batch in inp:
-        print(batch)
+        print('batch')
         inp = batch
 
     output = model(inp.text.t())
