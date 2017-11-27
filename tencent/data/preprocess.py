@@ -159,11 +159,12 @@ def preprocess(question, equation):
     # Load model
     model = torch.load('../../sni/models/sni_best_model.pt')
     model.eval()
-    fields = [('text', data.Field(lower=True,init_token="<start>",eos_token="<end>")),
-                            ('label', data.Field(sequential=False))]
+    TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
+    LABEL = data.Field(sequential=False)
+    fields = [('text', TEXT), ('label', label)]
     train = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
-    text_field.build_vocab(train)
-    label_field.build_vocab(train)
+    TEXT.build_vocab(train)
+    LABEL.build_vocab(train)
 
 
 
