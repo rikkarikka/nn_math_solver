@@ -74,7 +74,7 @@ def test(text, model, text_field, label_field, path):
     iterator = data.Iterator(dataset, batch_size=1)
     iterator.repeat=False
     for batch in iterator:
-        inp = batch
+        inp = batch.text.t()
     output = model(batch)
     _, predicted = torch.max(output, 1)
     return predicted.data[0][0]+1
