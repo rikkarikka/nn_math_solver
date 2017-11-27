@@ -208,9 +208,12 @@ def isSignificant(model, example):
     TEXT.build_vocab(dataset)
     LABELS.build_vocab(dataset)
 
-    batch = data.Batch(data=[example], dataset=dataset, train=False)
+    iterator = data.Iterator(dataset=dataset, batch_size=1)
+    iterator.repeat=False
 
-    output = model(batch)
+    output = None
+    for batch in iterator:
+        output = model(batch)
     print(output)
     return(True)
 
