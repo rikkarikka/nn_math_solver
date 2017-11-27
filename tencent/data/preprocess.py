@@ -198,8 +198,8 @@ def isSignificant(model, example):
     example = [example, '']
     example = data.Example.fromlist(example, fields)
 
-    inp = ' '.join(example)
-    inp = data.Interator()
+    inp = data.Dataset(example, fields)
+    inp = data.Interator(inp, batch_size=1)
     output = model(inp)
     return(True)
 
