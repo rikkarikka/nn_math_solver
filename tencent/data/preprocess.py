@@ -174,22 +174,23 @@ def preprocess(question, equation, model, fields):
     question_copy = [t for t in question]
 
     for j,token in enumerate(question):
-        example = question_copy[j-3:j+4]
-        ex = data.Example.fromlist([' '.join(example), ''], fields)
-        dataset = data.Dataset([ex], fields)
-        inp = None
-        iterator = data.Iterator(dataset, batch_size=1)
-        iterator.repeat=False
-        for batch in iterator:
-            inp = batch.text.t()
-        if isFloat(token) and isSignificant(inp, model):
-            for symbol in equation:
-                if symbol == token:
-                    equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
-            for q in question:
-                if q == token:
-                    question[question.index(q)] = '[' + chr(97 + i) + ']'
-            i += 1
+        if isFloat(token):
+            example = question_copy[j-3:j+4]
+            ex = data.Example.fromlist([' '.join(example), ''], fields)
+            dataset = data.Dataset([ex], fields)
+            inp = None
+            iterator = data.Iterator(dataset, batch_size=1)
+            iterator.repeat=False
+            for batch in iterator:
+                inp = batch.text.t()
+            if isSignificant(inp, model):
+                for symbol in equation:
+                    if symbol == token:
+                        equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
+                for q in question:
+                    if q == token:
+                        question[question.index(q)] = '[' + chr(97 + i) + ']'
+                i += 1
 
     question = question[3:-3]
 
