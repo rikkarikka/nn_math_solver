@@ -152,6 +152,7 @@ def preprocess(question, equation):
     question_copy = [t for t in question]
 
     model = torch.load('../../sni/models/sni_best_model.pt')
+    print('Loaded model')
     model.eval()
 
     for j,token in enumerate(question):
