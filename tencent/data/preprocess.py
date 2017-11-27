@@ -203,10 +203,11 @@ def isSignificant(model, example):
 
     inp = data.Dataset(example, fields)
     inp = data.Iterator(inp, batch_size=1)
-    print('asdf')
+
     for batch in inp:
         print('batch')
         inp = batch
+    print('asdf')
 
     output = model(inp.text.t())
     print(output)
