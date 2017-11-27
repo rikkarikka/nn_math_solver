@@ -2,6 +2,7 @@ import torch
 from torch import autograd, nn
 from torch.autograd import Variable
 import torch.nn.functional as F
+from torchtext import data, datasets
 
 def eval(data_iter, model, TEXT, emb_dim):
     model.eval()
