@@ -196,7 +196,7 @@ def isSignificant(model, example):
     fields=[('text', TEXT), ('label', LABELS)]
 
     example = [example, '']
-    example = data.fromlist(example, fields)
+    example = data.Example.fromlist(example, fields)
 
     inp = ' '.join(example)
     inp = data.Interator()
