@@ -203,6 +203,7 @@ def isSignificant(model, example):
     inp = data.Dataset(example, fields)
     inp = data.Iterator(inp, batch_size=1)
     for batch in inp:
+        print(batch)
         inp = batch
 
     output = model(inp.text.t())
