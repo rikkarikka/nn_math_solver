@@ -202,7 +202,7 @@ def isSignificant(model, example):
 
     dataset = data.Dataset(example, fields)
     iterator = data.Iterator(dataset, batch_size=1)
-    for batch_count, batch in enumerate(iterator)
+    for batch_count, batch in enumerate(iterator):
         print(batch)
 
     output = model(inp)
