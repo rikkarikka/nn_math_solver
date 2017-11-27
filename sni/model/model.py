@@ -29,6 +29,7 @@ class Model(nn.Module):
                                     dropout=dropout)
         self.Tanh = nn.Tanh()
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
+        self.lstm.flatten_parameters()
 
     def get_ch(self,size):
         hx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
@@ -54,5 +55,4 @@ class Model(nn.Module):
             y = torch.cat([y[i].unsqueeze(0) for i in range(self.num_layers)],2)
         y = torch.squeeze(y,0)
         z = self.Tanh(y)
-        self.lstm.flatten_parameters()
         return self.Lin(z)
