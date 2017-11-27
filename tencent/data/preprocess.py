@@ -170,7 +170,7 @@ def preprocess(question, equation):
 
     for j,token in enumerate(question):
         example = question_copy[j-3:j+4]
-        ex = data.Example.fromlist([text, ''], fields)
+        ex = data.Example.fromlist([' '.join(example), ''], fields)
         dataset = data.Dataset([ex], fields)
         inp = None
         iterator = data.Iterator(dataset, batch_size=1)
