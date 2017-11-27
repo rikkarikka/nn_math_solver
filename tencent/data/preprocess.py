@@ -30,7 +30,7 @@ def main():
 
     # PREPROCESS DATA
     for d in jsondata:
-        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields, dataset)
+        d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields)
 
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
@@ -135,7 +135,7 @@ def mostCommon(data, percent):
     return data, removed
 
 
-def preprocess(question, equation, model, fields, dataset):
+def preprocess(question, equation, model, fields):
     #handle fractions and % and numbers with units
     question = question.replace('%', ' % ')
 
