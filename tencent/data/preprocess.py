@@ -13,8 +13,7 @@ import evalTest
 
 def main():
 
-    # LOAD DATA
-    data = json.loads(open('./Math23K.json').read())
+
 
     # LOAD MODEL
     model = torch.load('../../sni/models/sni_best_model.pt')
@@ -25,6 +24,9 @@ def main():
     train = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
+
+    # LOAD DATA
+    data = json.loads(open('./Math23K.json').read())
 
     # PREPROCESS DATA
     for d in data:
