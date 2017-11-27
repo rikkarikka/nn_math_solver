@@ -9,6 +9,7 @@ from torchtext import data, datasets
 
 sys.path.append('../../sni/model')
 import model
+import evalTest
 
 def main():
 
@@ -191,30 +192,10 @@ def isFloat(value):
     return False
 
 def isSignificant(model, example):
-    model.eval()
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
-    fields=[('text', TEXT), ('label', LABELS)]
-
-
-    print('isSignificant??')
-
-    example = [example, '']
-    example = data.Example.fromlist(example, fields)
-
-    dataset = data.Dataset([example], fields)
-
-    TEXT.build_vocab(dataset)
-    LABELS.build_vocab(dataset)
-
-    iterator = data.Iterator(dataset=dataset, batch_size=1)
-    iterator.repeat=False
-
-    output = None
-    for batch in iterator:
-        output = model(batch)
-    print(output)
+    print(test(example, model, TEXT, LABEL))
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
