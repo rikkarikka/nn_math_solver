@@ -214,7 +214,7 @@ def isFloat(value):
 
 def isSignificant(inp, model):
     significant = evalTest.fast_test(inp, model).data == 1
-    return(significant)
+    return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
     src_txt = open(src_path).readlines()
