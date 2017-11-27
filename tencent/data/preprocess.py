@@ -126,7 +126,7 @@ def mostCommon(data, percent):
 def preprocess(question, equation):
     #handle fractions and % and numbers with units
     question = question.replace('%', ' % ')
-    equation = equation.replace('%', '')
+    #equation = equation.replace('%', '')
 
     equation = equation.replace('+', ' + ')
     equation = equation.replace('-', ' - ')
