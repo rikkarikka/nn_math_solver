@@ -205,6 +205,9 @@ def isSignificant(model, example):
 
     dataset = data.Dataset([example], fields)
 
+    TEXT.build_vocab(dataset)
+    LABELS.build_vocab(dataset)
+
     batch = data.Batch(data=[example], dataset=dataset, train=False)
 
     output = model(batch)
