@@ -71,7 +71,9 @@ def test(text, model, text_field, label_field, path):
     label_field.build_vocab(train)
 
     batch = None
-    for batch in data.Iterator(dataset, batch_size=1):
+    iterator = data.Iterator(dataset, batch_size=1)
+    iterator.repeat=False
+    for batch in iterator:
         inp = batch
     output = model(batch)
     _, predicted = torch.max(output, 1)
