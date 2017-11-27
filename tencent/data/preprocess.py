@@ -205,7 +205,7 @@ def isSignificant(model, example):
     iterator = data.BucketIterator(dataset, batch_size=1)
 
     print('iterator.dataset:', iterator.dataset)
-    inp = batch(dataset, batch_size=1)
+    inp = data.batch(dataset, batch_size=1)
     print('asdf')
 
     output = model(inp.text.t())
