@@ -207,10 +207,9 @@ def isSignificant(model, example):
     LABELS.build_vocab(dataset)
 
     iterator = data.Iterator(dataset, batch_size=1)
-    for batch_count, batch in enumerate(iterator):
-        print(batch)
+    batch = data.batch(dataset, fields)
 
-    output = model(inp)
+    output = model(batch)
     print(output)
     return(True)
 
