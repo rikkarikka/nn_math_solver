@@ -61,7 +61,7 @@ def eval(data_iter, model, TEXT, emb_dim):
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
 def test(text, model, text_field, label_field, path):
-    print(text)
+    #print(text)
     model.eval()
     fields = [('text', text_field), ('label', label_field)]
     example = data.Example.fromlist([text, ''], fields)

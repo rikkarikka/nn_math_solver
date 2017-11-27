@@ -197,7 +197,7 @@ def isSignificant(model, example):
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
-    print(evalTest.test(' '.join(example), model, TEXT, LABELS, path='./train.tsv'))
+    significant = evalTest.test(' '.join(example), model, TEXT, LABELS, path='./train.tsv').data == 1
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
