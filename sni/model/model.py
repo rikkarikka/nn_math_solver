@@ -48,8 +48,10 @@ class Model(nn.Module):
         #e = inp
         if self.net_type == 'lstm':
             _, (y,_) = self.lstm(e, hc)
+            self.lstm.flatten_parameters()
         elif self.net_type == 'gru':
             _, y = self.gru(e, hc[0])
+            self.gru.flatten_parameters()
         if self.num_dir==2:
             y = torch.cat([y[0:y.size(0):2], y[1:y.size(0):2]], 2)
         if self.num_layers>1:
