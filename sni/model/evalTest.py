@@ -65,6 +65,7 @@ def test(text, model, text_field, label_field):
     model.eval()
     fields = [('text', text_field), ('label', label_field)]
     example = data.Example.fromlist([text, ''], fields)
+    dataset = data.Dataset([examples], fields)
     output = model(text)
     _, predicted = torch.max(output, 1)
     return predicted.data[0][0]+1
