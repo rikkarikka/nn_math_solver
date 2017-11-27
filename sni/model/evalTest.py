@@ -62,7 +62,7 @@ def eval(data_iter, model, TEXT, emb_dim):
 def test(text, model, text_field, label_field):
     print(text)
     model.eval()
-    fields = [('text', TEXT), ('label', LABELS)]
+    fields = [('text', text_field), ('label', label_field)]
     example = data.Example([text, ''], fields)
     output = model(text)
     _, predicted = torch.max(output, 1)
