@@ -190,7 +190,6 @@ def isFloat(value):
     return False
 
 def isSignificant(model, example):
-    print(' '.join(example))
     output = model(' '.join(example))
     return(True)
 
