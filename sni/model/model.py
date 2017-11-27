@@ -23,13 +23,14 @@ class Model(nn.Module):
             self.lstm = nn.LSTM(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
+            self.lstm.flatten_parameters()
         elif net_type == 'gru':
             self.gru = nn.GRU(emb_dim, hidden_size, num_layers=num_layers,
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
+            self.gru.flatten_parameters()
         self.Tanh = nn.Tanh()
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
-        self.lstm.flatten_parameters()
 
     def get_ch(self,size):
         hx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
