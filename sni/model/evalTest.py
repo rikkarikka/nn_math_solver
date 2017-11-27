@@ -60,12 +60,15 @@ def eval(data_iter, model, TEXT, emb_dim):
     """
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
-def test(text, model, text_field, label_field):
+def test(text, model, text_field, label_field, path):
     print(text)
     model.eval()
     fields = [('text', text_field), ('label', label_field)]
     example = data.Example.fromlist([text, ''], fields)
     dataset = data.Dataset([example], fields)
+    train = data.TabularDataset(path=path, format='tsv', fields=fields)
+    TEXT.build_vocab(train)
+    LABELS.build_vocab(train)
     batch = data.Batch(data=[example], dataset=dataset, train=False)
     output = model(batch)
     _, predicted = torch.max(output, 1)
