@@ -62,9 +62,6 @@ def eval(data_iter, model, TEXT, emb_dim):
 def test(text, model, text_field, label_field):
     print(text)
     model.eval()
-    print(torch.Tensor([text]))
-    x = autograd.Variable(torch.Tensor([text]), volatile=True)
-    print(x)
-    output = model(x)
+    output = model(text)
     _, predicted = torch.max(output, 1)
     return predicted.data[0][0]+1
