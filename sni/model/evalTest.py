@@ -69,7 +69,10 @@ def test(text, model, text_field, label_field, path):
     train = data.TabularDataset(path=path, format='tsv', fields=fields)
     text_field.build_vocab(train)
     label_field.build_vocab(train)
-    batch = data.Batch(data=[example], dataset=dataset, train=False)
+
+    batch = None
+    for batch in data.Iterator(dataset, batch_size=1):
+        inp = batch
     output = model(batch)
     _, predicted = torch.max(output, 1)
     return predicted.data[0][0]+1
