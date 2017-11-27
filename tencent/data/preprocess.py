@@ -13,7 +13,8 @@ import evalTest
 
 def main():
 
-
+    # LOAD DATA
+    jsondata = json.loads(open('./Math23K.json').read())
 
     # LOAD MODEL
     model = torch.load('../../sni/models/sni_best_model.pt')
@@ -25,17 +26,16 @@ def main():
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
 
-    # LOAD DATA
-    data = json.loads(open('./Math23K.json').read())
+
 
     # PREPROCESS DATA
-    for d in data:
+    for d in jsondata:
         d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields, dataset)
 
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
     #print('Preforming cross validation splits...')
-    #crossValidation(data, k = 5, k_test=5)
+    #crossValidation(jsondata, k = 5, k_test=5)
 
     # SAVE SPLIT INDICES
     split('./Math23K-train.txt', './Math23K-dev.txt', './Math23K-test.txt', k_test=5)
@@ -44,17 +44,17 @@ def main():
     train_indices = np.genfromtxt('./Math23K-train.txt').astype(int)
     dev_indices = np.genfromtxt('./Math23K-dev.txt').astype(int)
     test_indices = np.genfromtxt('./Math23K-test.txt').astype(int)
-    json2txt(train_indices, data,   './src-train.txt',  './tgt-train.txt')
-    json2txt(dev_indices,   data,   './src-val.txt',    './tgt-val.txt')
-    json2txt(test_indices,  data,   './src-test.txt',   './tgt-test.txt')
+    json2txt(train_indices, jsondata,   './src-train.txt',  './tgt-train.txt')
+    json2txt(dev_indices,   jsondata,   './src-val.txt',    './tgt-val.txt')
+    json2txt(test_indices,  jsondata,   './src-test.txt',   './tgt-test.txt')
 
     # REMOVE TEST FOLD BEFORE COUNTING UNCOMMON EQUATIONS
-    data = [d for d in data if int(d['id']) not in test_indices]
+    jsondata = [d for d in jsondata if int(d['id']) not in test_indices]
 
     # REMOVE UNCOMMON EQUATIONS
     print('Removing uncommon equations...')
-    print('Started with', len(data), 'examples')
-    common_data, uncommon_data = mostCommon(data, .8)
+    print('Started with', len(jsondata), 'examples')
+    common_data, uncommon_data = mostCommon(jsondata, .8)
     print('Filtered down to', len(common_data), 'examples')
 
     # SAVE SRC/TGT FILES (FILTERED DATA)
