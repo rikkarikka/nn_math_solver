@@ -200,7 +200,7 @@ def isSignificant(model, example):
 
     inp = data.Dataset(example, fields)
     inp = data.Iterator(inp, batch_size=1)
-    output = model(inp)
+    output = model(inp.text.t())
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
