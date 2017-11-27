@@ -145,8 +145,6 @@ def preprocess(question, equation):
     equation = equation.replace('%', '')
     equation = equation.split()
 
-
-
     question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
 
     # Preprocess Question
@@ -158,12 +156,27 @@ def preprocess(question, equation):
     question = ['null', 'null', 'null'] + question + ['null', 'null', 'null']
     question_copy = [t for t in question]
 
+    # Load model
     model = torch.load('../../sni/models/sni_best_model.pt')
     model.eval()
+    fields = [('text', TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")),
+                            ('label', LABELS = data.Field(sequential=False))]
+    train = data.TabularDataset(path=path, format='tsv', fields=fields)
+    text_field.build_vocab(train)
+    label_field.build_vocab(train)
+
+
 
     for j,token in enumerate(question):
         example = question_copy[j-3:j+4]
-        if isFloat(token) and isSignificant(model, example):
+        ex = data.Example.fromlist([text, ''], fields)
+        dataset = data.Dataset([ex], fields)
+        inp = None
+        iterator = data.Iterator(dataset, batch_size=1)
+        iterator.repeat=False
+        for batch in iterator:
+            inp = batch.text.t()
+        if isFloat(token) and isSignificant(inp, model):
             for symbol in equation:
                 if symbol == token:
                     equation[equation.index(symbol)] = '[' + chr(97 + i) + ']'
@@ -198,12 +211,9 @@ def isFloat(value):
   except ValueError:
     return False
 
-def isSignificant(model, example):
-
-    TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
-    LABELS = data.Field(sequential=False)
-    significant = evalTest.test(' '.join(example), model, TEXT, LABELS, path='./train.tsv').data == 1
-    return(True)
+def isSignificant(inp, model):
+    significant = evalTest.fast_test(inp, model).data == 1
+    return(significant)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
     src_txt = open(src_path).readlines()

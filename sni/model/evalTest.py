@@ -60,6 +60,11 @@ def eval(data_iter, model, TEXT, emb_dim):
     """
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
+def fast_test(inp, model):
+    output = model(inp)
+    _, predicted = torch.max(output, 1)
+    return predicted
+
 def test(text, model, text_field, label_field, path):
     #print(text)
     model.eval()
