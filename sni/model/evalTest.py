@@ -19,7 +19,7 @@ def eval(data_iter, model, TEXT, emb_dim):
 
         logit = model(inp) #(Variable(inp))
         loss = F.cross_entropy(logit, target)#, size_average=False)
-        ####    
+        ####
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
         corrects += preds.data.eq(target.data).sum()
@@ -60,6 +60,7 @@ def eval(data_iter, model, TEXT, emb_dim):
     return(avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr);
 
 def test(text, model, text_field, label_field):
+    print(text)
     model.eval()
     x = text_field.tensor_type(text)
     x = autograd.Variable(x, volatile=True)
