@@ -161,7 +161,7 @@ def preprocess(question, equation):
     model.eval()
     fields = [('text', data.Field(lower=True,init_token="<start>",eos_token="<end>")),
                             ('label', data.Field(sequential=False))]
-    train = data.TabularDataset(path=path, format='tsv', fields=fields)
+    train = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
     text_field.build_vocab(train)
     label_field.build_vocab(train)
 
