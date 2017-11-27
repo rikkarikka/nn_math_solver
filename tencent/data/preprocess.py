@@ -18,6 +18,7 @@ def main():
 
     # LOAD MODEL
     model = torch.load('../../sni/models/sni_best_model.pt')
+    print(model)
 
     #if model.model.gru.flatten_parameters()
     model.lstm.flatten_parameters()
