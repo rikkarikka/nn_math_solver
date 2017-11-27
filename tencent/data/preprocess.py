@@ -200,12 +200,10 @@ def isSignificant(model, example):
     example = [example, '']
     example = data.Example.fromlist(example, fields)
 
-
     dataset = data.Dataset(example, fields)
-    iterator = data.BucketIterator(dataset, batch_size=1)
-
-    inp = data.batch(dataset, batch_size=1)
-    print(inp[0])
+    iterator = data.Iterator(dataset, batch_size=1)
+    for batch_count, batch in enumerate(iterator)
+        print(batch)
 
     output = model(inp)
     print(output)
