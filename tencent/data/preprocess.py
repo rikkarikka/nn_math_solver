@@ -191,6 +191,8 @@ def isFloat(value):
     return False
 
 def isSignificant(model, example):
+    model.eval()
+
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
     fields=[('text', TEXT), ('label', LABELS)]
