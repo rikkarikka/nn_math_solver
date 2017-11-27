@@ -62,7 +62,7 @@ def eval(data_iter, model, TEXT, emb_dim):
 def test(text, model, text_field, label_field):
     print(text)
     model.eval()
-    x = text_field.tensor_type(text)
+    x = text_field.tensor_type([text])
     x = autograd.Variable(x, volatile=True)
     print(x)
     output = model(x)
