@@ -5,6 +5,7 @@ import math
 import re
 import sys
 import torch
+from torchtext import data, datasets
 
 sys.path.append('../../sni/model')
 import model
@@ -152,7 +153,6 @@ def preprocess(question, equation):
     question_copy = [t for t in question]
 
     model = torch.load('../../sni/models/sni_best_model.pt')
-    print('Loaded model')
     model.eval()
 
     for j,token in enumerate(question):
@@ -191,7 +191,16 @@ def isFloat(value):
     return False
 
 def isSignificant(model, example):
-    output = model(' '.join(example))
+    TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
+    LABELS = data.Field(sequential=False)
+    fields=[('text', TEXT), ('label', LABELS)]
+
+    example = [example, '']
+    example = data.fromlist(example, fields)
+
+    inp = ' '.join(example)
+    inp = data.Interator()
+    output = model(inp)
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
