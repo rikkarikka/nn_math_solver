@@ -126,11 +126,7 @@ def mostCommon(data, percent):
 def preprocess(question, equation):
     #handle fractions and % and numbers with units
     question = question.replace('%', ' % ')
-
-    fractions = re.findall('\(\d+\)/\(\d+\)', question)
-    for i,fraction in enumerate(fractions):
-        question = question.replace(fraction, str(sys.maxsize - i))
-        equation = equation.replace(fraction, str(sys.maxsize - i))
+    equation = equation.replace('%', '')
 
     equation = equation.replace('+', ' + ')
     equation = equation.replace('-', ' - ')
@@ -141,6 +137,12 @@ def preprocess(question, equation):
     equation = equation.replace('=', ' = ')
     equation = equation.replace('^', ' ^ ')
     equation = equation.split()
+
+    fractions = re.findall('\(\d+\)/\(\d+\)', question)
+    fractions = np.append(fractions, re.findall('\(\d+/\d+\)', question))
+    for i,fraction in enumerate(fractions):
+        question = question.replace(fraction, str(sys.maxsize - i))
+        equation = equation.replace(fraction, str(sys.maxsize - i))
 
     question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
 
