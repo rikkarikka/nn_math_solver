@@ -18,7 +18,7 @@ def main():
 
     # LOAD MODEL
     model = torch.load('../../sni/models/sni_best_model.pt')
-    torch.nn.modules.flatten(model)
+    torch.nn.modules.rnn.flatten_parameters(model)
     model.eval()
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABEL = data.Field(sequential=False)
