@@ -195,6 +195,8 @@ def isSignificant(model, example):
     LABELS = data.Field(sequential=False)
     fields=[('text', TEXT), ('label', LABELS)]
 
+    print('isSignificant??')
+
     example = [example, '']
     example = data.Example.fromlist(example, fields)
 
@@ -204,6 +206,7 @@ def isSignificant(model, example):
         inp = batch
 
     output = model(inp.text.t())
+    print(output)
     return(True)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
