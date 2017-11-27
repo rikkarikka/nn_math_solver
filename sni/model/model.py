@@ -54,5 +54,5 @@ class Model(nn.Module):
             y = torch.cat([y[i].unsqueeze(0) for i in range(self.num_layers)],2)
         y = torch.squeeze(y,0)
         z = self.Tanh(y)
-        self.flatten_parameters()
+        self.lstm.flatten_parameters()
         return self.Lin(z)
