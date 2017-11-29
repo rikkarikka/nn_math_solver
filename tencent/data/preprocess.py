@@ -34,8 +34,8 @@ def main():
 
     # PREPROCESS DATA
     for d in jsondata:
-        print(d['segmented_text'])
-        print(d['equation'])
+        #print(d['segmented_text'])
+        #print(d['equation'])
         d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields)
 
     # 5 FOLD CROSS VALIDATION
