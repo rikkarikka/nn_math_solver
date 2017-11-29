@@ -220,8 +220,8 @@ def isFloat(value):
     return False
 
 def isSignificant(inp, model):
-    #print(inp)
-    print(evalTest.fast_test(inp, model).data)
+    print('inp:', inp)
+    print('evalTest.fast_test(inp, model).data', evalTest.fast_test(inp, model).data)
     return(evalTest.fast_test(inp, model).data == 1)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
