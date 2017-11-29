@@ -206,7 +206,7 @@ def json2txt(json_indices, data, output_path_src, output_path_tgt):
     output_tgt = open(output_path_tgt, 'w')
     for d in data:
         if int(d['id']) in json_indices:
-            #question, equation = preprocess(d['segmented_text'], d['equation'])
+            question, equation = d['segmented_text'], d['equation'] #No preprocessing needed here
             output_src.write(question)
             output_tgt.write(equation)
     output_src.close()
