@@ -197,8 +197,8 @@ def preprocess(question, equation, model, fields):
 
     question = ' '.join(question) + '\n'
     equation = ' '.join(equation) + '\n'
-    print(question)
-    print(equation)
+    #print(question)
+    #print(equation)
     return question, equation
 
 def json2txt(json_indices, data, output_path_src, output_path_tgt):
@@ -220,9 +220,8 @@ def isFloat(value):
     return False
 
 def isSignificant(inp, model):
-    print(inp)
-    significant = evalTest.fast_test(inp, model).data == 1
-    return(True)
+    #print(inp)
+    return(evalTest.fast_test(inp, model).data == 1)
 
 def txt2tsv(src_path, tgt_path, tsv_path):
     src_txt = open(src_path).readlines()
