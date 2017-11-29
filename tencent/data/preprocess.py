@@ -16,7 +16,7 @@ def main():
     # LOAD DATA
     jsondata = json.loads(open('./Math23K.json').read())
 
-    # LOAD MODEL
+    # LOAD SNI MODEL
     model = torch.load('../../sni/models/sni_best_model.pt')
     print(model)
 
@@ -26,7 +26,7 @@ def main():
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABEL = data.Field(sequential=False)
     fields = [('text', TEXT), ('label', LABEL)]
-    train = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
+    train = data.TabularDataset(path='../../sni/data/train.tsv', format='tsv', fields=fields)
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
 
@@ -206,7 +206,7 @@ def json2txt(json_indices, data, output_path_src, output_path_tgt):
     output_tgt = open(output_path_tgt, 'w')
     for d in data:
         if int(d['id']) in json_indices:
-            question, equation = preprocess(d['segmented_text'], d['equation'])
+            #question, equation = preprocess(d['segmented_text'], d['equation'])
             output_src.write(question)
             output_tgt.write(equation)
     output_src.close()
