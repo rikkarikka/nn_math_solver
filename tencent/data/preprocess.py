@@ -191,6 +191,8 @@ def preprocess(question, equation, model, fields):
                     if q == token:
                         question[question.index(q)] = '[' + chr(97 + i) + ']'
                 i += 1
+        else:
+            print(token)
 
     question = question[3:-3]
 
