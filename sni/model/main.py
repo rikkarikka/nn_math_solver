@@ -13,19 +13,19 @@ import torch
 
 rand = True
 
-mf = (1,2,3)
+mf = (1,2,3,4,5)
 net_type = ('lstm',)# 'gru')
 #lr = (.001, .002)
-epochs = 30,
-bs = 16, 64
+epochs = 10,
+bs = 64,
 opt = ('adamax',)# 'adam', 'sgd')
-num_lay =  (1, 2, 4)
-hs = (100, 128, 300, 500)
+num_lay =  (1,)
+hs = (128,)
 num_dir = 2,
-embdim = (50, 100, 200, 300)
+embdim = (100,)
 embfix = (False,)#True)
 ptemb = (False,)#True)
-dropout = (0, .3, .5, .7)
+dropout = (0,)
 save = True
 
 
@@ -60,7 +60,7 @@ try:
                         ' -pretr-emb=' + str(ptemb) + \
                         ' -dropout=' + str(dropout) + \
                         ' -mf=' + str(mf) + \
-                        ' -folder=' + 'models' + \
+                        ' -folder=' + '' + \
                         ' -save=' + str(save))
             os.system('sort -o ../models/best_models.txt ' + \
                                 '../models/best_models.txt')
