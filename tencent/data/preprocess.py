@@ -154,6 +154,7 @@ def preprocess(question, equation, model, fields):
         question = question.replace(fraction, str(sys.maxsize - i))
         equation = equation.replace(fraction, str(sys.maxsize - i))
 
+    print('equation:', equation)
     equation = equation.replace('+', ' + ')
     equation = equation.replace('-', ' - ')
     equation = equation.replace('*', ' * ')
@@ -164,6 +165,7 @@ def preprocess(question, equation, model, fields):
     equation = equation.replace('^', ' ^ ')
     equation = equation.replace('%', ' / 100')
     equation = equation.split()
+    print('equation:', equation)
 
     question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
 
