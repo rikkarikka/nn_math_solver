@@ -60,7 +60,7 @@ def main():
     # REMOVE UNCOMMON EQUATIONS
     print('Removing uncommon equations...')
     print('Started with', len(jsondata), 'examples')
-    common_data, uncommon_data = mostCommon(jsondata, .8)
+    common_data, uncommon_data = mostCommon(jsondata, .1)
     print('Filtered down to', len(common_data), 'examples')
 
     # SAVE SRC/TGT FILES (FILTERED DATA)

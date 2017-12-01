@@ -3,9 +3,9 @@ import numpy as np
 import re
 from matplotlib.ticker import MaxNLocator
 
-with open('./data/src-train.txt') as f:
+with open('./data/src-train_dev_0.8_common.txt') as f:
     src_train = np.array(f.readlines())
-with open('./data/tgt-train.txt') as f:
+with open('./data/tgt-train_dev_0.8_common.txt') as f:
     tgt_train = np.array(f.readlines())
 
 print(len(tgt_train))
