@@ -159,7 +159,7 @@ def preprocess(question, equation, model, fields):
     equation = equation.replace(')', ' ) ')
     equation = equation.replace('=', ' = ')
     equation = equation.replace('^', ' ^ ')
-    equation = equation.replace('%', ' / 100')
+    equation = equation.replace('%', ' / 100 ')
     equation = equation.split()
 
     question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
@@ -191,8 +191,6 @@ def preprocess(question, equation, model, fields):
                     if q == token:
                         question[question.index(q)] = '[' + chr(97 + i) + ']'
                 i += 1
-        else:
-            print(token)
 
     question = question[3:-3]
 
