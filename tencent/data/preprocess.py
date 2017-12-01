@@ -162,7 +162,7 @@ def preprocess(question, equation, model, fields):
     equation = equation.replace(')', ' ) ')
     equation = equation.replace('=', ' = ')
     equation = equation.replace('^', ' ^ ')
-    equation = equation.replace('%', '') # / 100
+    equation = equation.replace('%', ' / 100')
     equation = equation.split()
 
     question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
