@@ -143,7 +143,9 @@ def mostCommon(data, percent):
 
 def preprocess(question, equation, model, fields):
     #handle fractions and % and numbers with units
+    print('question:', question)
     question = question.replace('%', ' % ')
+    print('question:', question)
 
 
     fractions = re.findall('\(\d+\)/\(\d+\)', question)
@@ -160,7 +162,7 @@ def preprocess(question, equation, model, fields):
     equation = equation.replace(')', ' ) ')
     equation = equation.replace('=', ' = ')
     equation = equation.replace('^', ' ^ ')
-    equation = equation.replace('%', '')
+    equation = equation.replace('%', '') # / 100
     equation = equation.split()
 
     question = re.sub(r'(\d+)([A-z]{1,2})', r'\1 \2', question)
@@ -168,6 +170,7 @@ def preprocess(question, equation, model, fields):
     # Preprocess Question
 
     question = question.split()
+    print('question:', question)
 
     i = 0
 
