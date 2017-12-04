@@ -33,8 +33,8 @@ def main():
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
     train_classifier = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields)
-    LABEL.build_vocab(train_classifier)
-    print(LABEL.vocab.itos)
+    LABEL.build_vocab(train)
+    #print(LABEL.vocab.itos)
     exit()
 
 
