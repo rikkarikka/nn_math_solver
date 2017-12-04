@@ -103,7 +103,7 @@ def train(args):
             #    inp3d[i,j,:] = vecs[TEXT.vocab.itos[inp[i,j].data[0]]]
             #print("INP: ",inp.size())
 
-            preds = model(Variable(inp))
+            preds = model(inp)
             #print("PREDS: ",preds.size())
             #print("LABELS: ",batch.label.size())
             loss = criterion(preds, batch.label)
