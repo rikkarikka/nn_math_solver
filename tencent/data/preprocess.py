@@ -233,7 +233,7 @@ def tsvs2txt(common_path, uncommon_path, output_path_src, output_path_tgt):
     output_tgt.close()
 
 def splitTrainDev(train_dev_path, output_train_path, output_dev_path):
-    train_dev = open(common_path).readlines()
+    train_dev = open(train_dev_path).readlines()
     random.shuffle(train_dev)
     output_train = open(output_train_path, 'w')
     output_dev = open(output_dev_path, 'w')
