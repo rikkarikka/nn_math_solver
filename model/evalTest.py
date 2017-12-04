@@ -7,7 +7,7 @@ def eval(data_iter, model, TEXT, emb_dim):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
-        print('batch_count',batch_count)
+        #print('batch_count',batch_count)
         #print('avg_loss:', avg_loss)
         inp, target = batch.text, batch.label
         inp.data.t_()#, target.data.sub_(1)  # batch first, index align

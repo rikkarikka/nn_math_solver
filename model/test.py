@@ -22,7 +22,7 @@ def main():
 
     train, val, test = data.TabularDataset.splits(
         path='../tencent/data/', train='train_0.2.tsv',
-        validation='dev_0.2.tsv', test='test.tsv', format='tsv',
+        validation='train_dev_0.2_common.tsv', test='train_dev_0.2_uncommon.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
     TEXT.build_vocab(train)
@@ -34,8 +34,10 @@ def main():
 
     model = torch.load('../tencent/models/common_0.2/net-lstm_e100_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc94.00_e19.pt')
 
-    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(train_iter, model, TEXT, 300)
-    print('ACCURACY:', accuracy)
+    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, 300)
+    print('COMMON ACCURACY:', accuracy)
+    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(test_iter, model, TEXT, 300)
+    print('UNCOMMON ACCURACY:', accuracy)
 
 if __name__ == '__main__':
     main()
