@@ -42,7 +42,7 @@ def main():
 
     with open('./Math23K-preprocessed.json', 'w') as outfile:
         json.dump(jsondata, outfile)
-    jsondata = json.loads(open('./Math23K-preprocessed.json').read())
+    #jsondata = json.loads(open('./Math23K-preprocessed.json').read())
 
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
@@ -175,16 +175,14 @@ def tsvs2tsv(common_path, uncommon_path, output_path):
     takes tsv for both common and uncommon data
     writes a combined tsv with uncommon tgt replaced with 'seq'
     """
-
-    common = np.loadtxt(open(common_path, "r"), delimiter="\t")
-    uncommon = np.loadtxt(open(uncommon_path, "r"), delimiter="\t")
-    print(common)
-    print(uncommon)
-    uncommon[:,1] = 'seq'
-    print(uncommon)
-    data = np.concatenate(common, uncommon, axis=0)
+    common = open(common_path).readlines()
+    uncommon = open(uncommon_path).readlines()
     output = open(output_path, 'w')
-    for d in data:
+    for d in uncommon:
+        result = d.split('\t')
+        result[1] = 'seq'
+        output.write('\t'.join(result))
+    for d in common:
         output.write(d)
     output.close()
 
