@@ -33,10 +33,12 @@ def main():
 
 
     # PREPROCESS DATA
+    print('Preprocessing...')
     for d in jsondata:
         #print(d['segmented_text'])
         #print(d['equation'])
         d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields)
+    print('Preprocessing Complete...')
 
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
@@ -92,6 +94,12 @@ def main():
     txt2tsv('./src-train_dev_0.6_uncommon.txt', './tgt-train_dev_0.6_uncommon.txt', './train_dev_0.6_uncommon.tsv')
     txt2tsv('./src-train_dev_0.8_common.txt',   './tgt-train_dev_0.8_common.txt',   './train_dev_0.8_common.tsv')
     txt2tsv('./src-train_dev_0.8_uncommon.txt', './tgt-train_dev_0.8_uncommon.txt', './train_dev_0.8_uncommon.tsv')
+
+    # SAVE FULL TSV FILES
+    tsvs2tsv('./train_dev_0.2_common.tsv', './train_dev_0.2_uncommon.tsv', './train_dev_0.2.tsv')
+    tsvs2tsv('./train_dev_0.4_common.tsv', './train_dev_0.4_uncommon.tsv', './train_dev_0.4.tsv')
+    tsvs2tsv('./train_dev_0.6_common.tsv', './train_dev_0.6_uncommon.tsv', './train_dev_0.6.tsv')
+    tsvs2tsv('./train_dev_0.8_common.tsv', './train_dev_0.8_uncommon.tsv', './train_dev_0.8.tsv')
 
 def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
@@ -157,6 +165,18 @@ def mostCommon(data, percent):
         print('total # equations removed:', len(removed))
         occurences += 1
     return data, removed
+
+def tsvs2tsv(common_path, uncommon_path, output_path):
+    """
+    takes tsv for both common and uncommon data
+    writes a combined tsv with uncommon tgt replaced with 'seq'
+    """
+
+    common = numpy.loadtxt(open(common_path, "rb"), delimiter="\t")
+    uncommon = numpy.loadtxt(open(uncommon_path, "rb"), delimiter="\t")
+    print(common)
+    print(uncommon)
+    output = open(output_path, 'w')
 
 
 def preprocess(question, equation, model, fields):
