@@ -104,6 +104,7 @@ def preprocess(question, equation):
     question = question.replace('%', ' % ')
 
     fractions = re.findall('\(\d+\)/\(\d+\)', question)
+    fractions = np.append(fractions, re.findall('\(\d+/\d+\)', question))
     for i,fraction in enumerate(fractions):
         question = question.replace(fraction, str(sys.maxsize - i))
         equation = equation.replace(fraction, str(sys.maxsize - i))
