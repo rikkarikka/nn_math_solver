@@ -60,20 +60,38 @@ def main():
     # REMOVE UNCOMMON EQUATIONS
     print('Removing uncommon equations...')
     print('Started with', len(jsondata), 'examples')
-    common_data, uncommon_data = mostCommon(jsondata, .1)
+    common_data2, uncommon_data2 = mostCommon(jsondata, .2)
+    common_data4, uncommon_data4 = mostCommon(jsondata, .4)
+    common_data6, uncommon_data6 = mostCommon(jsondata, .6)
+    common_data8, uncommon_data8 = mostCommon(jsondata, .8)
     print('Filtered down to', len(common_data), 'examples')
 
     # SAVE SRC/TGT FILES (FILTERED DATA)
     train_dev_indices = np.append(train_indices, dev_indices)
-    json2txt(train_dev_indices, common_data,    './src-train_dev_0.8_common.txt',   './tgt-train_dev_0.8_common.txt')
-    json2txt(train_dev_indices, uncommon_data,  './src-train_dev_0.8_uncommon.txt', './tgt-train_dev_0.8_uncommon.txt')
+    json2txt(train_dev_indices, common_data2,    './src-train_dev_0.2_common.txt',   './tgt-train_dev_0.2_common.txt')
+    json2txt(train_dev_indices, uncommon_data2,  './src-train_dev_0.2_uncommon.txt', './tgt-train_dev_0.2_uncommon.txt')
+
+    json2txt(train_dev_indices, common_data4,    './src-train_dev_0.4_common.txt',   './tgt-train_dev_0.4_common.txt')
+    json2txt(train_dev_indices, uncommon_data4,  './src-train_dev_0.4_uncommon.txt', './tgt-train_dev_0.4_uncommon.txt')
+
+    json2txt(train_dev_indices, common_data6,    './src-train_dev_0.6_common.txt',   './tgt-train_dev_0.6_common.txt')
+    json2txt(train_dev_indices, uncommon_data6,  './src-train_dev_0.6_uncommon.txt', './tgt-train_dev_0.6_uncommon.txt')
+
+    json2txt(train_dev_indices, common_data8,    './src-train_dev_0.8_common.txt',   './tgt-train_dev_0.8_common.txt')
+    json2txt(train_dev_indices, uncommon_data8,  './src-train_dev_0.8_uncommon.txt', './tgt-train_dev_0.8_uncommon.txt')
 
     # SAVE TSV FILES
     txt2tsv('./src-train.txt',  './tgt-train.txt', './train.tsv')
     txt2tsv('./src-val.txt',  './tgt-val.txt', './val.tsv')
     txt2tsv('./src-test.txt',  './tgt-test.txt', './test.tsv')
-    txt2tsv('./src-train_dev_0.8_common.txt',  './tgt-train_dev_0.8_common.txt', './train_dev_0.8_common.tsv')
-    txt2tsv('./src-train_dev_0.8_uncommon.txt',  './tgt-train_dev_0.8_uncommon.txt', './train_dev_0.8_uncommon.tsv')
+    txt2tsv('./src-train_dev_0.2_common.txt',   './tgt-train_dev_0.2_common.txt',   './train_dev_0.2_common.tsv')
+    txt2tsv('./src-train_dev_0.2_uncommon.txt', './tgt-train_dev_0.2_uncommon.txt', './train_dev_0.2_uncommon.tsv')
+    txt2tsv('./src-train_dev_0.4_common.txt',   './tgt-train_dev_0.4_common.txt',   './train_dev_0.4_common.tsv')
+    txt2tsv('./src-train_dev_0.4_uncommon.txt', './tgt-train_dev_0.4_uncommon.txt', './train_dev_0.4_uncommon.tsv')
+    txt2tsv('./src-train_dev_0.6_common.txt',   './tgt-train_dev_0.6_common.txt',   './train_dev_0.6_common.tsv')
+    txt2tsv('./src-train_dev_0.6_uncommon.txt', './tgt-train_dev_0.6_uncommon.txt', './train_dev_0.6_uncommon.tsv')
+    txt2tsv('./src-train_dev_0.8_common.txt',   './tgt-train_dev_0.8_common.txt',   './train_dev_0.8_common.tsv')
+    txt2tsv('./src-train_dev_0.8_uncommon.txt', './tgt-train_dev_0.8_uncommon.txt', './train_dev_0.8_uncommon.tsv')
 
 def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
