@@ -32,7 +32,7 @@ def main():
     train = data.TabularDataset(path='../../sni/data/train.tsv', format='tsv', fields=fields)
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
-    print(LABEL.vocab)
+    print(LABEL.vocab.itos)
     exit()
 
 
