@@ -37,7 +37,7 @@ def main():
     train_dev_iter = data.BucketIterator(train_dev, 8)
     model = torch.load('../tencent/models/common_0.2/net-lstm_e100_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc94.00_e19.pt')
 
-    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(train_dev_iter, model, TEXT, args.emb_dim)
+    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(train_dev_iter, model, TEXT, 300)
     print('ACCURACY:', accuracy)
 
 if __name__ == '__main__':
