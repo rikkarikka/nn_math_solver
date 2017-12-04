@@ -25,7 +25,7 @@ def main():
     LABELS = data.Field(sequential=False)
 
     train_dev = data.TabularDataset(
-        path='../tencent/data/train_dev_0.2',
+        path='../tencent/data/train_dev_0.2.tsv',
         format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
