@@ -40,6 +40,10 @@ def main():
         d['segmented_text'], d['equation'] = preprocess(d['segmented_text'], d['equation'], model, fields)
     print('Preprocessing Complete...')
 
+    with open('./Math23K-preprocessed.json', 'w') as outfile:
+        json.dump(jsondata, outfile)
+    jsondata = json.loads(open('./Math23K-preprocessed.json').read())
+
     # 5 FOLD CROSS VALIDATION
     print('Using existing cross validation splits')
     #print('Preforming cross validation splits...')
@@ -172,8 +176,8 @@ def tsvs2tsv(common_path, uncommon_path, output_path):
     writes a combined tsv with uncommon tgt replaced with 'seq'
     """
 
-    common = np.loadtxt(open(common_path, "rb"), delimiter="\t")
-    uncommon = np.loadtxt(open(uncommon_path, "rb"), delimiter="\t")
+    common = np.loadtxt(open(common_path, "r"), delimiter="\t")
+    uncommon = np.loadtxt(open(uncommon_path, "r"), delimiter="\t")
     print(common)
     print(uncommon)
     uncommon[:,1] = 'seq'
