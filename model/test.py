@@ -30,7 +30,7 @@ def main():
 
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
         (train, val, test), batch_sizes=(8, 8, 8),
-        sort_key=lambda x: len(x.text))
+        sort_key=lambda x: len(x.text), repeat=False)
 
     model = torch.load('../tencent/models/common_0.2/net-lstm_e100_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc94.00_e19.pt')
 
