@@ -27,11 +27,13 @@ def main():
     model.eval()
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABEL = data.Field(sequential=False)
+
     fields = [('text', TEXT), ('label', LABEL)]
     train = data.TabularDataset(path='../../sni/data/train.tsv', format='tsv', fields=fields)
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
-
+    print(LABEL.vocab)
+    break
 
 
     # PREPROCESS DATA
