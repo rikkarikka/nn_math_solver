@@ -32,7 +32,7 @@ def main():
         (train, val, test), batch_sizes=(8, 8, 8),
         sort_key=lambda x: len(x.text), repeat=False)
 
-    model = torch.load('../tencent/models/common_0.4/net-lstm_e100_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc94.00_e19.pt')
+    model = torch.load('../tencent/models/common_0.4/net-lstm_e100_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc46.00_e6.pt')
 
     (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, 300)
     print('COMMON ACCURACY:', accuracy)
