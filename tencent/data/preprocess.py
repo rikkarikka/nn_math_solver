@@ -172,11 +172,17 @@ def tsvs2tsv(common_path, uncommon_path, output_path):
     writes a combined tsv with uncommon tgt replaced with 'seq'
     """
 
-    common = numpy.loadtxt(open(common_path, "rb"), delimiter="\t")
-    uncommon = numpy.loadtxt(open(uncommon_path, "rb"), delimiter="\t")
+    common = np.loadtxt(open(common_path, "rb"), delimiter="\t")
+    uncommon = np.loadtxt(open(uncommon_path, "rb"), delimiter="\t")
     print(common)
     print(uncommon)
+    uncommon[:,1] = 'seq'
+    print(uncommon)
+    data = np.concatenate(common, uncommon, axis=0)
     output = open(output_path, 'w')
+    for d in data:
+        output.write(d)
+    output.close()
 
 
 def preprocess(question, equation, model, fields):
