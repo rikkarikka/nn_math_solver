@@ -15,26 +15,23 @@ from torchtext.vocab import GloVe
 from vecHandler import Vecs
 
 def main():
-    parser = argparse.ArgumentParser(description='LSTM text classifier')
-    parser.add_argument('-path', type=str, default='', help='path to data file [default:]')
-    args = parser.parse_args()
-
-    #train_dev = open(train_dev_path).readlines()
+    cuda = int(torch.cuda.is_available())-1
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
 
-    train_dev = data.TabularDataset(
-        path='../tencent/data/train_dev_0.2.tsv',
-        format='tsv',
+    train, val, test = data.TabularDataset.splits(
+        path='../tencent/data/', train='train_0.2.tsv',
+        validation='val_0.2.tsv', test='test.tsv', format='tsv',
         fields=[('text', TEXT), ('label', LABELS)])
 
-    TEXT.build_vocab(train_dev)
-    LABELS.build_vocab(train_dev)
+    TEXT.build_vocab(train)
+    LABELS.build_vocab(train)
 
+    train_iter, val_iter, test_iter = data.BucketIterator.splits(
+        (train, val, test), batch_sizes=(8, 8, 8),
+        sort_key=lambda x: len(x.text))
 
-
-    train_dev_iter = data.BucketIterator(train_dev, 8)
     model = torch.load('../tencent/models/common_0.2/net-lstm_e100_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc94.00_e19.pt')
 
     (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(train_dev_iter, model, TEXT, 300)
