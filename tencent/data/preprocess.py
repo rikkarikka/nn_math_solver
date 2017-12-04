@@ -202,7 +202,7 @@ def tsvs2tsv(common_path, uncommon_path, output_path):
     output = open(output_path, 'w')
     for d in uncommon:
         result = d.split('\t')
-        result[1] = 'seq\n'
+        result[1] = result[1]
         output.write('\t'.join(result))
     for d in common:
         output.write(d)
