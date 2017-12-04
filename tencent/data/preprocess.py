@@ -18,6 +18,8 @@ def main():
 
     # LOAD SNI MODEL
     model = torch.load('../../sni/models/sni_best_model.pt')
+    if int(torch.cuda.is_available()) == 1:
+        model = model.cuda()
     print(model)
 
     #if model.model.gru.flatten_parameters()
