@@ -105,11 +105,27 @@ def main():
     tsvs2tsv('./train_dev_0.6_common.tsv', './train_dev_0.6_uncommon.tsv', './train_dev_0.6.tsv')
     tsvs2tsv('./train_dev_0.8_common.tsv', './train_dev_0.8_uncommon.tsv', './train_dev_0.8.tsv')
 
-    # SAVE FULL TSV FILES FOR SEQ2SEQ
-    tsvs2txt('./train_dev_0.2_common.tsv', './train_dev_0.2_uncommon.tsv', './src-train_dev_0.2.tsv', './tgt-train_dev_0.2.tsv')
-    tsvs2txt('./train_dev_0.4_common.tsv', './train_dev_0.4_uncommon.tsv', './src-train_dev_0.4.tsv', './tgt-train_dev_0.4.tsv')
-    tsvs2txt('./train_dev_0.6_common.tsv', './train_dev_0.6_uncommon.tsv', './src-train_dev_0.6.tsv', './tgt-train_dev_0.6.tsv')
-    tsvs2txt('./train_dev_0.8_common.tsv', './train_dev_0.8_uncommon.tsv', './src-train_dev_0.8.tsv', './tgt-train_dev_0.8.tsv')
+    # SAVE FULL TXT FILES FOR SEQ2SEQ
+    tsvs2txt('./train_dev_0.2_common.tsv', './train_dev_0.2_uncommon.tsv', './src-train_dev_0.2.txt', './tgt-train_dev_0.2.txt')
+    tsvs2txt('./train_dev_0.4_common.tsv', './train_dev_0.4_uncommon.tsv', './src-train_dev_0.4.txt', './tgt-train_dev_0.4.txt')
+    tsvs2txt('./train_dev_0.6_common.tsv', './train_dev_0.6_uncommon.tsv', './src-train_dev_0.6.txt', './tgt-train_dev_0.6.txt')
+    tsvs2txt('./train_dev_0.8_common.tsv', './train_dev_0.8_uncommon.tsv', './src-train_dev_0.8.txt', './tgt-train_dev_0.8.txt')
+
+    # SPLIT TRAIN DEV FOR CLASSIFIER
+    splitTrainDev('./train_dev_0.2.tsv', './train_0.2.tsv', './dev_0.2.tsv')
+    splitTrainDev('./train_dev_0.4.tsv', './train_0.4.tsv', './dev_0.4.tsv')
+    splitTrainDev('./train_dev_0.6.tsv', './train_0.6.tsv', './dev_0.6.tsv')
+    splitTrainDev('./train_dev_0.8.tsv', './train_0.8.tsv', './dev_0.8.tsv')
+
+    # SPLIT TRAIN DEV FOR SEQ2SEQ
+    splitTrainDev('./src-train_dev_0.2.txt', './src-train_0.2.txt', './src-dev_0.2.txt')
+    splitTrainDev('./tgt-train_dev_0.2.txt', './tgt-train_0.2.txt', './tgt-dev_0.2.txt')
+    splitTrainDev('./src-train_dev_0.4.txt', './src-train_0.4.txt', './src-dev_0.4.txt')
+    splitTrainDev('./tgt-train_dev_0.4.txt', './tgt-train_0.4.txt', './tgt-dev_0.4.txt')
+    splitTrainDev('./src-train_dev_0.6.txt', './src-train_0.6.txt', './src-dev_0.6.txt')
+    splitTrainDev('./tgt-train_dev_0.6.txt', './tgt-train_0.6.txt', './tgt-dev_0.6.txt')
+    splitTrainDev('./src-train_dev_0.8.txt', './src-train_0.8.txt', './src-dev_0.8.txt')
+    splitTrainDev('./tgt-train_dev_0.8.txt', './tgt-train_0.8.txt', './tgt-dev_0.8.txt')
 
 def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
@@ -216,6 +232,17 @@ def tsvs2txt(common_path, uncommon_path, output_path_src, output_path_tgt):
     output_src.close()
     output_tgt.close()
 
+def splitTrainDev(train_dev_path, output_train_path, output_dev_path):
+    train_dev = open(common_path).readlines()
+    random.shuffle(train_dev)
+    output_train = open(output_train_path, 'w')
+    output_dev = open(output_dev_path, 'w')
+    for d in train_dev[:1000]:
+        output_dev.write(d)
+    for d in train_dev[1000:]:
+        output_train.write(d)
+    output_train.close()
+    output_dev.close()
 
 def preprocess(question, equation, model, fields):
     #handle fractions and % and numbers with units
