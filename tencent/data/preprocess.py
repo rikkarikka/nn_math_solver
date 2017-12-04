@@ -105,6 +105,12 @@ def main():
     tsvs2tsv('./train_dev_0.6_common.tsv', './train_dev_0.6_uncommon.tsv', './train_dev_0.6.tsv')
     tsvs2tsv('./train_dev_0.8_common.tsv', './train_dev_0.8_uncommon.tsv', './train_dev_0.8.tsv')
 
+    # SAVE FULL TSV FILES FOR SEQ2SEQ
+    tsvs2txt('./train_dev_0.2_common.tsv', './train_dev_0.2_uncommon.tsv', './src-train_dev_0.2.tsv', './tgt-train_dev_0.2.tsv')
+    tsvs2txt('./train_dev_0.4_common.tsv', './train_dev_0.4_uncommon.tsv', './src-train_dev_0.4.tsv', './tgt-train_dev_0.4.tsv')
+    tsvs2txt('./train_dev_0.6_common.tsv', './train_dev_0.6_uncommon.tsv', './src-train_dev_0.6.tsv', './tgt-train_dev_0.6.tsv')
+    tsvs2txt('./train_dev_0.8_common.tsv', './train_dev_0.8_uncommon.tsv', './src-train_dev_0.8.tsv', './tgt-train_dev_0.8.tsv')
+
 def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
     # k: k fold cross validation
@@ -180,11 +186,35 @@ def tsvs2tsv(common_path, uncommon_path, output_path):
     output = open(output_path, 'w')
     for d in uncommon:
         result = d.split('\t')
-        result[1] = 'seq'
+        result[1] = 'seq\n'
         output.write('\t'.join(result))
     for d in common:
         output.write(d)
     output.close()
+
+def tsvs2txt(common_path, uncommon_path, output_path_src, output_path_tgt):
+    """
+    takes tsv for both common and uncommon data
+    writes combined txts with uncommon tgt replaced with 'seq'
+    """
+    common = open(common_path).readlines()
+    uncommon = open(uncommon_path).readlines()
+    output_src = open(output_path_src, 'w')
+    output_tgt = open(output_path_tgt, 'w')
+    for d in uncommon:
+        result = d.split('\t')
+        result[0] = result[0].strip() + '\n'
+        result[1] = 'seq\n'
+        output_src.write(result[0])
+        output_tgt.write(result[1])
+    for d in common:
+        result = d.split('\t')
+        result[0] = result[0].strip() + '\n'
+        result[1] = result[1].strip() + '\n'
+        output_src.write(result[0])
+        output_tgt.write(result[1])
+    output_src.close()
+    output_tgt.close()
 
 
 def preprocess(question, equation, model, fields):
