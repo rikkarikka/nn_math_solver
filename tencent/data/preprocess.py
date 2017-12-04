@@ -33,7 +33,7 @@ def main():
     TEXT.build_vocab(train)
     LABEL.build_vocab(train)
     print(LABEL.vocab)
-    break
+    exit()
 
 
     # PREPROCESS DATA
