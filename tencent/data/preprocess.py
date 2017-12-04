@@ -64,7 +64,7 @@ def main():
     common_data4, uncommon_data4 = mostCommon(jsondata, .4)
     common_data6, uncommon_data6 = mostCommon(jsondata, .6)
     common_data8, uncommon_data8 = mostCommon(jsondata, .8)
-    print('Filtered down to', len(common_data), 'examples')
+    #print('Filtered down to', len(common_data), 'examples')
 
     # SAVE SRC/TGT FILES (FILTERED DATA)
     train_dev_indices = np.append(train_indices, dev_indices)
