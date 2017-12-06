@@ -29,6 +29,7 @@ def train(args):
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
+    print(LABELS.vocab)
 
     train, val, test = data.TabularDataset.splits(
         path=args.data_path, train=args.train_path,
