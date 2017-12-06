@@ -19,6 +19,7 @@ def eval(data_iter, model, TEXT, emb_dim):
         #    feature, target = feature.cuda(), target.cuda()
 
         logit = model(inp)
+        print(logit)
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
         avg_loss += loss.data[0]
