@@ -29,7 +29,6 @@ def train(args):
 
     TEXT = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABELS = data.Field(sequential=False)
-    print(LABELS)
 
     train, val, test = data.TabularDataset.splits(
         path=args.data_path, train=args.train_path,
@@ -50,7 +49,7 @@ def train(args):
     else:
         TEXT.build_vocab(train)
     LABELS.build_vocab(train)
-    print(LABELS.vocab)
+    print(LABELS.vocab.vectors)
     #vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
