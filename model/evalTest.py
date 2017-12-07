@@ -33,7 +33,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS):
         _, t1_indices = torch.topk(logit, 1)
         #print('EQS:', LABELS.vocab.itos[t1_indices.data])
         # Mean Reciprocal Rank
-        print(t1_indices.data)
+        print('t1_indices', t1_indices.data)
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
         y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
