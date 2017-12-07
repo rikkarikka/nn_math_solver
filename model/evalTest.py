@@ -30,7 +30,8 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS):
         x = torch.unsqueeze(target.data, 1)
         target_index = torch.cat((x, x, x, x, x), 1)
         t5_corrects += t5_indices.data.eq(target_index).sum()
-        print('EQS:', LABELS.vocab.itos[torch.topk(logit, 1)])
+        _, t1_indices = torch.topk(logit, 1)
+        print('EQS:', LABELS.vocab.itos[t1_indices])
         # Mean Reciprocal Rank
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
