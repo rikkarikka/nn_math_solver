@@ -62,7 +62,7 @@ try:
                         ' -dropout=' + str(dropout) + \
                         ' -mf=' + str(mf) + \
                         ' -folder=' + 'common' + str(common_data) + '/')
-            os.system('sort -o ./saved_models/best_models.txt ' + \
-                                './saved_models/best_models.txt')
+            os.system('sort -o ./models/common' + str(common_data) + '/best_models.txt'
+                                './models/common' + str(common_data) + '/best_models.txt')
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
