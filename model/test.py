@@ -33,7 +33,7 @@ def main():
         sort_key=lambda x: len(x.text), repeat=False)
 
     #path = raw_input("enter model path: ")
-    model = torch.load('../tencent/models/common_0.8/net-lstm_e25_bs8_opt-adam_ly1_hs300_dr2_ed200_fembFalse_ptembFalse_drp0.3/acc47.60_e6.pt')
+    model = torch.load('../tencent/models/common_0.8/best_model.pt')
 
     (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, 300)
     print('COMMON ACCURACY:', accuracy)
