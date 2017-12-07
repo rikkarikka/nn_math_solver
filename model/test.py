@@ -35,9 +35,9 @@ def main():
     #path = raw_input("enter model path: ")
     model = torch.load('../tencent/models/common0.8/best_model.pt')
 
-    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, 300)
+    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, 300, LABELS)
     print('COMMON ACCURACY:', accuracy)
-    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(test_iter, model, TEXT, 300)
+    (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(test_iter, model, TEXT, 300, LABELS)
     print('UNCOMMON ACCURACY:', accuracy)
 
 if __name__ == '__main__':
