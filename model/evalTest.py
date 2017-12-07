@@ -3,7 +3,7 @@ from torch import autograd, nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 
-def eval(data_iter, model, TEXT, emb_dim):
+def eval(data_iter, model, TEXT, emb_dim, LABELS):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
@@ -30,7 +30,7 @@ def eval(data_iter, model, TEXT, emb_dim):
         x = torch.unsqueeze(target.data, 1)
         target_index = torch.cat((x, x, x, x, x), 1)
         t5_corrects += t5_indices.data.eq(target_index).sum()
-        print('VALUES:', values)
+        print('EQS:', LABELS.vocab[torch.topk(logit, 1)])
         # Mean Reciprocal Rank
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
