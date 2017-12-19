@@ -49,9 +49,8 @@ def train(args):
     else:
         TEXT.build_vocab(train)
     LABELS.build_vocab(train)
-    print(LABELS.vocab.itos)
-    counts = [eq.count('[') for eq in LABELS.vocab.itos]
-    print(counts)
+    number_sni = dict(zip(LABELS.vocab.itos, [eq.count('[') for eq in LABELS.vocab.itos]))
+    print(number_sni)
     #vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
