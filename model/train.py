@@ -49,7 +49,7 @@ def train(args):
     else:
         TEXT.build_vocab(train)
     LABELS.build_vocab(train)
-    sni_dict = dict(zip(LABELS.vocab.itos, [eq.count('[') for eq in LABELS.vocab.itos]))
+    snis= zip(LABELS.vocab.itos, [eq.count('[') for eq in LABELS.vocab.itos]))
     #vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
@@ -116,7 +116,7 @@ def train(args):
             #if (batch_count % 20 == 0):
             #    print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
-        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, args.emb_dim, LABELS, sni_dict)#, args.device)
+        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, args.emb_dim, LABELS, snis)#, args.device)
         if accuracy > args.acc_thresh:
             save_path = '{}/acc{:.2f}_e{}.pt'.format(args.save_path_full, accuracy, epoch)
             if not os.path.isdir(args.save_path_full):

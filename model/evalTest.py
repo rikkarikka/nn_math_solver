@@ -4,7 +4,7 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 import numpy as np
 
-def eval(data_iter, model, TEXT, emb_dim, LABELS, sni_dict):
+def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
@@ -20,12 +20,11 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, sni_dict):
         #    feature, target = feature.cuda(), target.cuda()
 
         logit = model(inp)
-        print('inp', inp)
-        print('target', target)
-        print('logit', logit)
+
+        print(snis)
+
         loss = F.cross_entropy(logit, target)#, size_average=False)
-        print('np.shape(loss)', np.shape(loss))
-        print('target', target)
+
 
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
