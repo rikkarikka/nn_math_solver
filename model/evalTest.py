@@ -35,7 +35,8 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         mask[mask == 0] = -sys.maxsize -1
         print('mask', mask)
         print('np.shape(mask)', np.shape(mask))
-        print('np.shape(logit)', np.shape(np.squeeze(logit)))
+        print('type(logit)', type(logit))
+        #print('np.shape(logit)', np.shape(np.squeeze(logit)))
         logit = np.multiply(np.squeeze(logit), mask)
         print('multiplied')
 
