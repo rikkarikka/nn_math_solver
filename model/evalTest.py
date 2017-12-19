@@ -34,8 +34,8 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         print('mask', mask)
         mask[mask == 0] = -sys.maxsize -1
 
-        print(list(np.multiply(logit.data, mask)))
-        logit.data = list(np.multiply(logit.data, mask))
+        print(list(np.multiply(logit.data[0], mask)))
+        logit.data = torch.Tensor(np.multiply(logit.data[0], mask))
         print('multiplied')
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
