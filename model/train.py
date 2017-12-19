@@ -50,7 +50,7 @@ def train(args):
         TEXT.build_vocab(train)
     LABELS.build_vocab(train)
     print(LABELS.vocab.itos)
-    counts = [eq.count('[') for eq in LABELS.vocab.itos)]
+    counts = [eq.count('[') for eq in LABELS.vocab.itos]
     print(counts)
     #vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
