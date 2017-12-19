@@ -50,8 +50,8 @@ def train(args):
         TEXT.build_vocab(train)
     LABELS.build_vocab(train)
     print(LABELS.vocab.itos)
-    print("NOW THIS")
-    print(LABELS.vocab.itos[:].count('['))
+    counts = [eq.count('[') for eq in LABELS.vocab.itos)]
+    print(counts)
     #vecs = Vecs(args.emb_dim)
     #print('Making interator for splits...')
     train_iter, val_iter, test_iter = data.BucketIterator.splits(
