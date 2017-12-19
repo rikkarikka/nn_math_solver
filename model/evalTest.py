@@ -33,6 +33,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
             mask[:,i] = temp
         print('mask', mask)
         for element in mask[:,:]:
+            print(element)
             if element == 0:
                 element == float('-inf')
         print('mask', mask)
