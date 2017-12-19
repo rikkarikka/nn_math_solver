@@ -21,7 +21,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
 
         logit = model(inp)
 
-        print(snis)
+        print(zip(*snis))
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
