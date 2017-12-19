@@ -32,7 +32,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
             mask[:,i] = np.equal(correct_number_sni,column)
         print('mask', mask)
         mask[mask == 0] = -sys.maxsize - 1
-        mask = torch.LongTensor(mask)
+        mask = torch.FloatTensor(mask)
         print('np.shape(logit.data)', np.shape(logit.data))
         print('np.shape(mask)', np.shape(mask))
         print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
