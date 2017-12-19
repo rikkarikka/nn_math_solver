@@ -25,8 +25,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         # Filter predictions based upon SNI
         a = LABELS.vocab.itos
         mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
-        print(target.data)
-        correct_number_sni = snis[list(target.data)]
+        correct_number_sni = [snis[i] for i in target.data]
         print('correct_number_sni', correct_number_sni)
         print('np.shape(mask)\n', np.shape(mask))
         logit = np.multiply(logit, mask)
