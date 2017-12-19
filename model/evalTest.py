@@ -29,9 +29,11 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
         for i,column in enumerate(mask.T):
             temp = np.equal(correct_number_sni,column)
-            temp = [if t==0: float('-inf') else t for t in temp]
+            for t in temp:
+                if t==0:
+                    t = float('-inf')
             mask[:,i] = temp
-        #print('mask', mask)
+        print('mask', mask)
         logit = np.multiply(logit, mask)
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
