@@ -24,13 +24,17 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         # Filter predictions based upon SNI
         a = LABELS.vocab.itos
         mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
-        print('np.shape(mask)', np.shape(mask))
+        #print('np.shape(mask)', np.shape(mask))
         #print('mask', mask)
         correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
         for i,column in enumerate(mask.T):
             temp = np.equal(correct_number_sni,column)
             #print('temp', temp)
             mask[:,i] = temp
+        print('mask', mask)
+        for element in mask[:,:]:
+            if element == 0:
+                element == float('-inf')
         print('mask', mask)
         logit = np.multiply(logit, mask)
         print('multiplied')
