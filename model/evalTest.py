@@ -20,7 +20,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, sni_dict):
         #    feature, target = feature.cuda(), target.cuda()
 
         logit = model(inp)
-        print('np.shape(logit)', np.shape(logit))
+        print('logit', logit)
         loss = F.cross_entropy(logit, target)#, size_average=False)
         print('np.shape(loss)', np.shape(loss))
         print('target', target)
