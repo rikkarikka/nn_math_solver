@@ -24,9 +24,10 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         # Filter predictions based upon SNI
         a = LABELS.vocab.itos
         mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
-        correct_number_sni = np.array([snis[i] for i in target.data]).transpose() * 100
-        print(mask)
-        print(correct_number_sni)
+        correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
+        for i,column in enumerate(mask[,:]):
+            print(column)
+
         #logit = np.multiply(logit, mask)
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
