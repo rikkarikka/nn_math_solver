@@ -30,11 +30,12 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
         for i,column in enumerate(mask.T):
             temp = np.equal(correct_number_sni,column)
-            #print('temp', temp)
             mask[:,i] = temp
         print('mask', mask)
         mask[mask == 0] = -sys.maxsize -1
         print('mask', mask)
+        print('np.shape(mask)', np.shape(mask))
+        print('np.shape(logit)', np.shape(logit))
         logit = np.multiply(logit, mask)
         print('multiplied')
 
