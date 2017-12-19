@@ -28,7 +28,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         correct_number_sni = [snis[i] for i in target.data]
         print('correct_number_sni', correct_number_sni)
         print('np.shape(mask)\n', np.shape(mask))
-        logit = np.multiply(logit, mask)
+        #logit = np.multiply(logit, mask)
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
