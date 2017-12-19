@@ -34,6 +34,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         print('mask', mask)
         mask[mask == 0] = -sys.maxsize -1
 
+        print('logit.data[0]', logit.data[0])
         print(list(np.multiply(logit.data[0], mask)))
         logit.data = torch.Tensor(np.multiply(logit.data[0], mask))
         print('multiplied')
