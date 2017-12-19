@@ -36,7 +36,8 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
 
         print('logit.data', logit.data)
         print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
-        logit.data = np.multiply(logit.data, mask)
+        #logit.data = np.multiply(logit.data, mask)
+        logit.data = torch.FloatTensor(8, 3190)
         print('multiplied')
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
