@@ -23,6 +23,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, sni_dict):
         print('np.shape(logit)', np.shape(logit))
         loss = F.cross_entropy(logit, target)#, size_average=False)
         print('np.shape(loss)', np.shape(loss))
+        print('target', target)
 
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
