@@ -20,14 +20,16 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         #    feature, target = feature.cuda(), target.cuda()
 
         logit = model(inp)
-        #print('np.shape(logit)', np.shape(logit))
-        #print('np.shape(snis)', np.shape(snis))
 
+        print('target:', target)
+        # Filter predictions based upon SNI
+        a = LABELS.vocab.itos
         mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
+        correct_number_sni = target
         print('np.shape(mask)\n', np.shape(mask))
+        logit = np.multiply(logit, mask)
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
-
 
         avg_loss += loss.data[0]
         _, preds = torch.max(logit, 1)
