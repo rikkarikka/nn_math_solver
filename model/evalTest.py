@@ -29,8 +29,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         #print('mask', mask)
         correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
         for i,column in enumerate(mask.T):
-            temp = np.equal(correct_number_sni,column)
-            mask[:,i] = temp
+            mask[:,i] = np.equal(correct_number_sni,column)
         print('mask', mask)
         mask[mask == 0] = -sys.maxsize - 1
 
