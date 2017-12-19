@@ -33,6 +33,8 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         print('mask', mask)
         mask[mask == 0] = -sys.maxsize - 1
         mask = torch.FloatTensor(mask.astype(float))
+        if torch.cuda.is_available() == 1:
+            mask = mask.cuda()
         print('np.shape(logit.data)', np.shape(logit.data))
         print('np.shape(mask)', np.shape(mask))
         print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
