@@ -36,6 +36,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         print('np.shape(logit.data)', np.shape(logit.data))
         print('np.shape(mask)', np.shape(mask))
         print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
+        print('logit.data', logit.data)
         #logit.data = np.multiply(logit.data, mask)
         print('multiplied')
 
