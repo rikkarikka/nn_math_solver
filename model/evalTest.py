@@ -2,6 +2,7 @@ import torch
 from torch import autograd, nn
 from torch.autograd import Variable
 import torch.nn.functional as F
+import nupy as np
 
 def eval(data_iter, model, TEXT, emb_dim, LABELS):
     model.eval()
@@ -19,7 +20,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS):
         #    feature, target = feature.cuda(), target.cuda()
 
         logit = model(inp)
-        #print(logit)
+        print('np.shape(logit)', np.shape(logit))
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
         avg_loss += loss.data[0]
