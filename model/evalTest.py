@@ -30,17 +30,17 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
         for i,column in enumerate(mask.T):
             mask[:,i] = np.equal(correct_number_sni,column)
-        print('mask', mask)
+        #print('mask', mask)
         mask[mask == 0] = -sys.maxsize - 1
         mask = torch.FloatTensor(mask.astype(float))
         if torch.cuda.is_available() == 1:
             mask = mask.cuda()
-        print('np.shape(logit.data)', np.shape(logit.data))
-        print('np.shape(mask)', np.shape(mask))
-        print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
+        #print('np.shape(logit.data)', np.shape(logit.data))
+        #print('np.shape(mask)', np.shape(mask))
+        #print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
         #print('logit.data[0] * mask', logit.data * mask)
         logit.data = np.multiply(logit.data, mask)
-        print('multiplied')
+        #print('multiplied')
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
@@ -55,7 +55,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         _, t1_indices = torch.topk(logit, 1)
         #print('EQS:', LABELS.vocab.itos[t1_indices.data])
         # Mean Reciprocal Rank
-        print('t1_indices', t1_indices.data[0])
+        #print('t1_indices', t1_indices.data[0])
         _, rank = torch.sort(logit, descending=True)
         target_index = rank.data.eq(torch.unsqueeze(target.data, 1).expand(rank.size()))
         y = torch.arange(1, rank.size()[1]+1).view(1,-1).expand(rank.size())
