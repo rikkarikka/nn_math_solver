@@ -20,7 +20,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         #    feature, target = feature.cuda(), target.cuda()
 
         logit = model(inp)
-        print(batch)
+        print(batch.batch_size)
         print('np.shape(logit)', np.shape(logit))
         print('np.shape(snis)', np.shape(snis))
 
