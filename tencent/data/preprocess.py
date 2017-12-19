@@ -260,6 +260,9 @@ def preprocess(question, equation, model, fields):
         question = question.replace(fraction, str(sys.maxsize - i))
         equation = equation.replace(fraction, str(sys.maxsize - i))
 
+    equation = equation.replace('[', ' ( ')
+    equation = equation.replace(']', ' ) ')
+    equation = equation.replace('+', ' + ')
     equation = equation.replace('+', ' + ')
     equation = equation.replace('-', ' - ')
     equation = equation.replace('*', ' * ')
