@@ -29,9 +29,6 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
         for i,column in enumerate(mask.T):
             temp = np.equal(correct_number_sni,column)
-            for j,t in enumerate(temp):
-                if t==0:
-                    temp[j] = float('-inf')
             mask[:,i] = temp
         print('mask', mask)
         logit = np.multiply(logit, mask)
