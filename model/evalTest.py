@@ -32,7 +32,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
             #print('temp', temp)
             mask[:,i] = temp
         print('mask', mask)
-        mask[mask == 0] = float('-inf')
+        mask[mask == 0] = int('-inf')
         print('mask', mask)
         logit = np.multiply(logit, mask)
         print('multiplied')
