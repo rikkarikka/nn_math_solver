@@ -2,7 +2,7 @@ import torch
 from torch import autograd, nn
 from torch.autograd import Variable
 import torch.nn.functional as F
-import nupy as np
+import numpy as np
 
 def eval(data_iter, model, TEXT, emb_dim, LABELS):
     model.eval()
