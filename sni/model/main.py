@@ -13,12 +13,12 @@ import torch
 
 rand = True
 
-mf = (1,2,3,4,5)
+mf = (1,)
 net_type = ('lstm',)# 'gru')
 #lr = (.001, .002)
 epochs = 10,
 bs = 64,
-opt = ('adamax',)# 'adam', 'sgd')
+opt = ('adam',)# 'adam', 'sgd')
 num_lay =  (1,)
 hs = (128,)
 num_dir = 2,
