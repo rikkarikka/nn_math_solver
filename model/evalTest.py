@@ -3,6 +3,7 @@ from torch import autograd, nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 import numpy as np
+import sys
 
 def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
     model.eval()
@@ -32,7 +33,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
             #print('temp', temp)
             mask[:,i] = temp
         print('mask', mask)
-        mask[mask == 0] = int('-inf')
+        mask[mask == 0] = -sys.maxsize -1
         print('mask', mask)
         logit = np.multiply(logit, mask)
         print('multiplied')
