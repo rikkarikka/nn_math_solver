@@ -35,9 +35,8 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         mask[mask == 0] = -sys.maxsize -1
         print('mask', mask)
         print('np.shape(mask)', np.shape(mask))
-        print('type(logit)', type(logit))
-        #print('np.shape(logit)', np.shape(np.squeeze(logit)))
-        logit = np.multiply(np.squeeze(logit), mask)
+        print('np.shape(logit.data)', np.shape(logit.data))
+        logit.data = np.multiply(logit.data, mask)
         print('multiplied')
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
