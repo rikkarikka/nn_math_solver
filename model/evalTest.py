@@ -24,7 +24,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
         #print('np.shape(snis)', np.shape(snis))
 
         mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
-        print('mask\n', mask)
+        print('np.shape(mask)\n', np.shape(mask))
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
