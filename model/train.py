@@ -118,7 +118,7 @@ def train(args):
             #if (batch_count % 20 == 0):
             #    print('Batch: ', batch_count, '\tLoss: ', str(losses[-1].data[0]))
         #print('Average loss over epoch ' + str(epoch) + ': ' + str(tot_loss/len(losses)))
-        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, args.emb_dim, LABELS, snis)#, args.device)
+        (avg_loss, accuracy, corrects, size, t5_acc, t5_corrects, mrr) = eval(val_iter, model, TEXT, args.emb_dim, LABELS, snis, pred_filter=args.pred_filter)#, args.device)
         if accuracy > args.acc_thresh:
             save_path = '{}/acc{:.2f}_e{}.pt'.format(args.save_path_full, accuracy, epoch)
             if not os.path.isdir(args.save_path_full):
@@ -205,6 +205,7 @@ def parseParams():
     parser.add_argument('-embfix', type=str, default=False, help='fix the embeddings [default: False]') #
     parser.add_argument('-pretr-emb', type=str, default=False, help='use pretrained embeddings') #
     parser.add_argument('-dropout', type=float, default=.5, help='dropout rate [default: .5]')
+    parser.add_argument('-pred-filter', type=bool, default=True, help='Filter preds using SNI [default: True]')
 
     # options
     parser.add_argument('-save-path', type=str, default='./saved_models', help='path to save models [default: ./saved_models]')

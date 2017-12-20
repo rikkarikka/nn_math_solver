@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import numpy as np
 import sys
 
-def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
+def eval(data_iter, model, TEXT, emb_dim, LABELS, snis, pred_filter=True):
     model.eval()
     corrects, avg_loss, t5_corrects, rr = 0, 0, 0, 0
     for batch_count,batch in enumerate(data_iter):
@@ -22,27 +22,16 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
 
         logit = model(inp)
 
-        # Filter predictions based upon SNI
-        mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
-        #print('np.shape(mask)', np.shape(mask))
-        #print('mask', mask)
-        correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
-        for i,column in enumerate(mask.T):
-            mask[:,i] = np.equal(correct_number_sni,column)
-        #print('mask', mask)
-        #mask[mask == 0] = -sys.maxsize - 1
-        mask = torch.LongTensor(mask)
-        if torch.cuda.is_available() == 1:
-            mask = mask.cuda()
-        #print('np.shape(logit.data)', np.shape(logit.data))
-        #print('np.shape(mask)', np.shape(mask))
-        #print('np.shape(np.multiply(logit.data, mask))', np.shape(np.multiply(logit.data, mask)))
-        #print('logit.data[0] * mask', logit.data * mask)
-        #print('logit, before:', logit)
-        #print('mask', mask)
-        logit.data[mask == 0] = -sys.maxsize - 1
-        #print('logit, after:', logit)
-        #print('multiplied')
+        # Filter predictions based on SNI
+        if pred_filter:
+            mask = np.array(snis * batch.batch_size).reshape(batch.batch_size,-1)
+            correct_number_sni = np.array([snis[i] for i in target.data]).transpose()
+            for i,column in enumerate(mask.T):
+                mask[:,i] = np.equal(correct_number_sni,column)
+            mask = torch.LongTensor(mask)
+            if torch.cuda.is_available() == 1:
+                mask = mask.cuda()
+            logit.data[mask == 0] = -sys.maxsize - 1
 
         loss = F.cross_entropy(logit, target)#, size_average=False)
 
