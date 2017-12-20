@@ -70,6 +70,7 @@ def eval(data_iter, model, TEXT, emb_dim, LABELS, snis):
     size = len(data_iter.dataset)
     avg_loss = loss.data[0]/size
     accuracy = 100.0 * corrects/size
+    print('acc', accuracy)
     t5_acc = 100.0 * t5_corrects/size
     mrr = rr/size
     model.train()
