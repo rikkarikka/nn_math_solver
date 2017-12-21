@@ -3,7 +3,7 @@ import os
 import subprocess
 import random
 import itertools
-import train
+#import train
 import torch
 
 #print('Current Device:', torch.cuda.current_device())
