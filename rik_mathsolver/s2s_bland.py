@@ -195,7 +195,7 @@ def validate(M,DS,args):
     hyp = ' '.join(hyp)
     targets = ' '.join(targets[0])
     print('hyp:', hyp)
-    print('target:', target)
+    print('target:', targets)
     acc += (hyp==targets)
   M.train()
   return acc/len(data)
