@@ -38,7 +38,7 @@ try:
         if not (embfix and not ptemb):
             print('Training: -hsz=' + str(hs))
             os.system('python ../rik_mathsolver/s2s_bland.py' + \
-                        ' -hsz=' + hs)
+                        ' -hsz=' + str(hs))
 
 except(KeyboardInterrupt, SystemExit):
     sys.exit("Interrupted by ctrl+c\n")
