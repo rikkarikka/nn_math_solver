@@ -175,6 +175,7 @@ class model(nn.Module):
 
 
 def validate(M,DS,args):
+  print('args.validate:')
   print(args.valid)
   data = DS.new_data(args.valid)
   cc = SmoothingFunction()
