@@ -195,8 +195,8 @@ def validate(M,DS,args):
       hyp = hyp[:hyp.index("<eos>")]
     hyp = ' '.join(hyp)
     targets = ' '.join(targets[0])
-    print('hyp:', hyp)
-    print('target:', targets)
+    #print('hyp:', hyp)
+    #print('target:', targets)
     acc += (hyp==targets)
   M.train()
   return acc/len(data)
@@ -228,7 +228,6 @@ def train(M,DS,args,optimizer):
 
 def main(args):
   DS = torch.load(args.datafile)
-  print(DS)
   if args.debug:
     args.bsz=2
     DS.train = DS.train[:2]
