@@ -228,6 +228,7 @@ def train(M,DS,args,optimizer):
 
 def main(args):
   DS = torch.load(args.datafile)
+  print(DS)
   if args.debug:
     args.bsz=2
     DS.train = DS.train[:2]
