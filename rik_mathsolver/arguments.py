@@ -18,8 +18,8 @@ def general():
   parser.add_argument('-epochs', type=int, default=30, help='number of epochs for train [default: 100]') #
   parser.add_argument('-debug', action="store_true")
   parser.add_argument('-resume', type=str, default=None)
-  parser.add_argument('-train',type=str,default="rdata/kdata_train.tsv")
-  parser.add_argument('-valid',type=str,default="rdata/kdata_dev.tsv")
+  parser.add_argument('-train',type=str,default="../tencent/data/train.tsv")
+  parser.add_argument('-valid',type=str,default="../tencent/data/val.tsv")
   parser.add_argument('-cuda',type=s2bool,default=True)
   return parser
 
