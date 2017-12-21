@@ -31,8 +31,8 @@ def mkdir(args):
 
 def s2s_bland():
   parser = general()
-  parser.add_argument('-datafile', type=str, default="rdata/bland.pt")
-  parser.add_argument('-savestr',type=str,default="saved_models/bland/")
+  parser.add_argument('-datafile', type=str, default="../tencent/data/Math23K.train.pt.pt")
+  parser.add_argument('-savestr',type=str,default="../tencent/saved_models/s2s/")
   parser.add_argument('-beamsize', type=int, default=4, help='min_freq for vocab [default: 1]') #
   parser.add_argument('-vmodel',type=str, default=None)
   args = parser.parse_args()
