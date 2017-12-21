@@ -36,7 +36,7 @@ try:
     for (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix, ptemb,
                                                             dropout, mf) in x:
         if not (embfix and not ptemb):
-            print(('Training: -hsz=' + hs) %
+            print(('Training: -hsz=' + str(hs)) %
                 (net_type, epoch, bs, opt, num_lay, hs, num_dir, embdim, embfix,
                                                             ptemb, dropout, mf))
             os.system('python ../rik_mathsolver/s2s_bland.py' + \
