@@ -14,7 +14,7 @@ class model(nn.Module):
   def __init__(self,args):
     super().__init__()
     self.args = args
-    
+
     # encoder decoder stuff
     self.encemb = nn.Embedding(args.svsz,args.hsz,padding_idx=0)
     self.enc = nn.LSTM(args.hsz,args.hsz//2,bidirectional=True,num_layers=args.layers,batch_first=True)
@@ -54,7 +54,7 @@ class model(nn.Module):
         decin = torch.cat((dembedding.squeeze(1),ops[j].squeeze(1)),1).unsqueeze(1)
         decout, (hx,cx) = self.dec(decin,(h[j],c[j]))
 
-        #attend on enc 
+        #attend on enc
         q = self.linin(decout.squeeze(1)).unsqueeze(2)
         #q = decout.view(decout.size(0),decout.size(2),decout.size(1))
         w = torch.bmm(enc,q).squeeze(2)
@@ -62,7 +62,7 @@ class model(nn.Module):
         cc = torch.bmm(w.unsqueeze(1),enc)
         op = torch.cat((cc,decout),2)
         op = self.drop(self.tanh(self.linout(op)))
-      
+
         op2 = self.gen(op)
         op2 = op2.squeeze()
         probs = F.log_softmax(op2)
@@ -114,7 +114,7 @@ class model(nn.Module):
             newprev.append(pidx)
             added += 1
         j+=1
-      beam = newbeam 
+      beam = newbeam
       prev = newprev
       scores = newscore
       sents = newsents
@@ -127,14 +127,14 @@ class model(nn.Module):
     donescores = [x/len(done[i]) for i,x in enumerate(donescores)]
     topscore =  donescores.index(max(donescores))
     return done[topscore]
-      
+
   def forward(self,inp,out=None,val=False):
     encenc = self.encemb(inp)
     enc,(h,c) = self.enc(encenc)
 
     #enc hidden has bidirection so switch those to the features dim
-    h = torch.cat([h[0:h.size(0):2], h[1:h.size(0):2]], 2) 
-    c = torch.cat([c[0:c.size(0):2], c[1:c.size(0):2]], 2) 
+    h = torch.cat([h[0:h.size(0):2], h[1:h.size(0):2]], 2)
+    c = torch.cat([c[0:c.size(0):2], c[1:c.size(0):2]], 2)
 
     #decode
     op = Variable(torch.cuda.FloatTensor(inp.size(0),self.args.hsz).zero_())
@@ -144,7 +144,7 @@ class model(nn.Module):
     else:
       outp = out.size(1)
 
-    for i in range(outp): 
+    for i in range(outp):
       if i == 0:
         prev = Variable(torch.cuda.LongTensor(inp.size(0),1).fill_(3))
       else:
@@ -154,13 +154,13 @@ class model(nn.Module):
         else:
           prev = out[:,i-1].unsqueeze(1)
         op = op.squeeze(1)
-          
+
 
       dembedding = self.decemb(prev)
       decin = torch.cat((dembedding.squeeze(1),op),1).unsqueeze(1)
       decout, (h,c) = self.dec(decin,(h,c))
 
-      #attend on enc 
+      #attend on enc
       q = self.linin(decout.squeeze(1)).unsqueeze(2)
       #q = decout.view(decout.size(0),decout.size(2),decout.size(1))
       w = torch.bmm(enc,q).squeeze(2)
@@ -194,6 +194,8 @@ def validate(M,DS,args):
       hyp = hyp[:hyp.index("<eos>")]
     hyp = ' '.join(hyp)
     targets = ' '.join(targets[0])
+    print('hyp:', hyp)
+    print('target:', target)
     acc += (hyp==targets)
   M.train()
   return acc/len(data)

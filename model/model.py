@@ -28,7 +28,9 @@ class Model(nn.Module):
                                     batch_first=True,bidirectional=(num_dir==2),
                                     dropout=dropout)
         #self.TanH = nn.TanH(hidden_size*num_dir*num_layers, num_classes)
+        self.softmax = None
         self.Lin = nn.Linear(hidden_size*num_dir*num_layers, num_classes)
+
 
     def get_ch(self,size):
         hx = autograd.Variable(torch.FloatTensor(self.num_layers*self.num_dir,
@@ -54,4 +56,5 @@ class Model(nn.Module):
             y = torch.cat([y[i].unsqueeze(0) for i in range(self.num_layers)],2)
         y = torch.squeeze(y,0)
         #z = self.TanH(y)
+        self.softmax = nn.Softmax(y)
         return self.Lin(y)
