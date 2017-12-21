@@ -27,8 +27,7 @@ def mkdir(args):
   try:
     os.stat(args.savestr)
   except:
-    os.mkdir(args.savestr)
-    # Make change here
+    os.mkdir(' -p ' + args.savestr)
 
 def s2s_bland():
   parser = general()
