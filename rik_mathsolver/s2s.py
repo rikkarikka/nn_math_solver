@@ -9,6 +9,7 @@ from torch.autograd import Variable
 from nltk.translate.bleu_score import SmoothingFunction, corpus_bleu
 from preprocess_new import load_data
 from arguments import s2s_bland as parseParams
+import ../model/model
 
 class model(nn.Module):
   def __init__(self,args):
