@@ -74,7 +74,7 @@ class model(nn.Module):
         while donectr<self.beamsize:
           k+=1
           pdat = pidx[k].data[0]
-          if pdat == 2:
+          if pdat == self.unktok:
             continue
           else:
             tmp.append((vals[k].data[0]+scores[j],pidx[k],j,hx,cx,op))
@@ -191,8 +191,8 @@ def validate(M,DS,args):
     #logits = [list(x) for x in logits]
     logits = M.beamsearch(sources)
     hyp = [DS.vocab[x] for x in logits]
-    if "<eos>" in hyp:
-      hyp = hyp[:hyp.index("<eos>")]
+    if "<end>" in hyp:
+      hyp = hyp[:hyp.index("<end>")]
     hyp = ' '.join(hyp)
     targets = ' '.join(targets[0])
     #print('hyp:', hyp)
@@ -245,7 +245,8 @@ def main(args):
     M = model(args).cuda()
     optimizer = torch.optim.Adam(M.parameters(), lr=args.lr)
     e=0
-  M.endtok = DS.vocab.index("<eos>")
+  M.endtok = DS.vocab.index("<end>")
+  M.unktok = DS.vocab.index("<unk>")
   M.punct = [DS.vocab.index(t) for t in ['.','!','?'] if t in DS.vocab]
   print(M)
   print(args.datafile)

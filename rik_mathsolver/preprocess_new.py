@@ -10,11 +10,15 @@ class load_data:
     train_targets = [x[0] for x in train_targets]
     ctr = Counter([x for z in train_targets for x in z])
     thresh = 3
-    self.vocab = ["<pad>","<eos>","<unk>","<start>"]+[x for x in ctr if ctr[x]>thresh]
+    self.vocab = ["<pad>","<end>","<unk>","<start>"]+[x for x in ctr if ctr[x]>thresh]
     self.vsz = len(self.vocab)
+    '''
     ctr = Counter([x for z in train_sources for x in z])
     thresh = 1
     self.itos = ["<pad>","<eos>","<unk>","<start>"]+[x for x in ctr if ctr[x]>thresh]
+    '''
+    sv,tv = torch.load("vocabs.pt")
+    self.itos = sv
     self.stoi = {x:i for i,x in enumerate(self.itos)}
     self.svsz = len(self.itos)
     self.train = list(zip(train_sources,train_targets))
@@ -62,12 +66,12 @@ class load_data:
   def pad_batch(self,batch,targ=True):
     srcs,tgts = batch
     targs = tgts
-    srcnums = [[self.stoi[w] if w in self.stoi else 2 for w in x]+[1] for x in srcs]
+    srcnums = [[self.stoi[w] if w in self.stoi else self.stoi["<unk>"] for w in x]+[self.stoi["<end>"]] for x in srcs]
     m = max([len(x) for x in srcnums])
     srcnums = [x+([0]*(m-len(x))) for x in srcnums]
     tensor = torch.cuda.LongTensor(srcnums)
     if targ:
-      targtmp = [[self.vocab.index(w) if w in self.vocab else 2 for w in x]+[1] for x in tgts]
+      targtmp = [[self.vocab.index(w) if w in self.vocab else self.stoi["<unk>"] for w in x]+[self.stoi["<end>"]] for x in tgts]
       m = max([len(x) for x in targtmp])
       targtmp = [x+([0]*(m-len(x))) for x in targtmp]
       targs = torch.cuda.LongTensor(targtmp)
