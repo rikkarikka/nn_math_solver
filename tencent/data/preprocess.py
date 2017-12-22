@@ -37,7 +37,13 @@ def main():
     #print(LABEL.vocab.itos)
 
     # save vocab
-    torch.save((list(TEXT.vocab.stoi), list(LABEL.vocab.stoi)), 'vocab.pt')
+    TEXT_class = data.Field(lower=True,init_token="<start>",eos_token="<end>")
+    LABEL_class = data.Field(sequential=False)
+    fields_class = [('text', TEXT), ('label', LABEL)]
+    train_class = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields_class)
+    TEXT.build_vocab(train_class)
+    LABEL.build_vocab(train_class)
+    torch.save((list(TEXT_class.vocab.stoi), list(LABEL_class.vocab.stoi)), 'vocab.pt')
 
     # PREPROCESS DATA
     print('Preprocessing...')
