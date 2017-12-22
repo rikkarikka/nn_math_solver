@@ -348,12 +348,12 @@ def txt2tsv(src_path, tgt_path, tsv_path):
     tsv = open(tsv_path, 'w')
     for i in range(len(src_txt)):
         tsv.write(src_txt[i].strip() + '\t' + tgt_txt[i].strip() +'\n')
-
+"""
 def save_fields_to_vocab(TEXT, LABEL):
-    """
+
     OpenNMT
     Save Vocab objects in Field objects to `vocab.pt` file.
-    """
+    
     vocab = np.ones(TEXT.)
 
     for k, f in fields:
@@ -361,6 +361,7 @@ def save_fields_to_vocab(TEXT, LABEL):
             f.vocab.stoi = dict(f.vocab.stoi)
             vocab.append((k, f.vocab))
     return vocab
+"""
 
 if __name__ == '__main__':
     main()
