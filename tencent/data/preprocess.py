@@ -37,7 +37,7 @@ def main():
     #print(LABEL.vocab.itos)
 
     # save vocab
-    torch.save(save_fields_to_vocab(fields), 'vocab.pt')
+    torch.save((list(TEXT.vocab.stoi), list(LABEL.vocab.stoi)), 'vocab.pt')
 
     # PREPROCESS DATA
     print('Preprocessing...')
@@ -343,12 +343,13 @@ def txt2tsv(src_path, tgt_path, tsv_path):
     for i in range(len(src_txt)):
         tsv.write(src_txt[i].strip() + '\t' + tgt_txt[i].strip() +'\n')
 
-def save_fields_to_vocab(fields):
+def save_fields_to_vocab(TEXT, LABEL):
     """
     OpenNMT
     Save Vocab objects in Field objects to `vocab.pt` file.
     """
-    vocab = []
+    vocab = np.ones(TEXT.)
+
     for k, f in fields:
         if 'vocab' in f.__dict__:
             f.vocab.stoi = dict(f.vocab.stoi)
