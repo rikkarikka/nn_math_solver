@@ -36,15 +36,6 @@ def main():
     LABEL.build_vocab(train)
     #print(LABEL.vocab.itos)
 
-    # save vocab
-    TEXT_class = data.Field(lower=True,init_token="<start>",eos_token="<end>")
-    LABEL_class = data.Field(sequential=False)
-    fields_class = [('text', TEXT_class), ('label', LABEL_class)]
-    train_class = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields_class)
-    TEXT_class.build_vocab(train_class)
-    LABEL_class.build_vocab(train_class)
-    torch.save((list(TEXT_class.vocab.stoi), list(LABEL_class.vocab.stoi)), 'vocab.pt')
-
     # PREPROCESS DATA
     print('Preprocessing...')
     for d in jsondata:
@@ -139,6 +130,15 @@ def main():
     splitTrainDev('./tgt-train_dev_0.6.txt', './tgt-train_0.6.txt', './tgt-dev_0.6.txt')
     splitTrainDev('./src-train_dev_0.8.txt', './src-train_0.8.txt', './src-dev_0.8.txt')
     splitTrainDev('./tgt-train_dev_0.8.txt', './tgt-train_0.8.txt', './tgt-dev_0.8.txt')
+
+    # save vocab
+    TEXT_class = data.Field(lower=True,init_token="<start>",eos_token="<end>")
+    LABEL_class = data.Field(sequential=False)
+    fields_class = [('text', TEXT_class), ('label', LABEL_class)]
+    train_class = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields_class)
+    TEXT_class.build_vocab(train_class)
+    LABEL_class.build_vocab(train_class)
+    torch.save((list(TEXT_class.vocab.stoi), list(LABEL_class.vocab.stoi)), 'vocab.pt')
 
 def crossValidation(data, k = 5, k_test=5):
     # Saves k folds
