@@ -39,10 +39,10 @@ def main():
     # save vocab
     TEXT_class = data.Field(lower=True,init_token="<start>",eos_token="<end>")
     LABEL_class = data.Field(sequential=False)
-    fields_class = [('text', TEXT), ('label', LABEL)]
+    fields_class = [('text', TEXT_class), ('label', LABEL_class)]
     train_class = data.TabularDataset(path='./train.tsv', format='tsv', fields=fields_class)
-    TEXT.build_vocab(train_class)
-    LABEL.build_vocab(train_class)
+    TEXT_class.build_vocab(train_class)
+    LABEL_class.build_vocab(train_class)
     torch.save((list(TEXT_class.vocab.stoi), list(LABEL_class.vocab.stoi)), 'vocab.pt')
 
     # PREPROCESS DATA
@@ -353,7 +353,7 @@ def save_fields_to_vocab(TEXT, LABEL):
 
     OpenNMT
     Save Vocab objects in Field objects to `vocab.pt` file.
-    
+
     vocab = np.ones(TEXT.)
 
     for k, f in fields:
