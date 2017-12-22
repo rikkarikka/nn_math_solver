@@ -37,7 +37,7 @@ def main():
     #print(LABEL.vocab.itos)
 
     # save vocab
-    torch.save(save_fields_to_vocab(fields))
+    torch.save(save_fields_to_vocab(fields), 'vocab.pt')
 
     # PREPROCESS DATA
     print('Preprocessing...')
