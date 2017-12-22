@@ -15,6 +15,10 @@ class model(nn.Module):
     super().__init__()
     self.args = args
 
+    # load model
+    self.m = torch.load('../tencent/models/good_model.pt')
+    self.smlin = nn.Linear(3190,250)
+
     # encoder decoder stuff
     self.encemb = nn.Embedding(args.svsz,args.esz,padding_idx=0)
     self.enc = nn.LSTM(args.esz,args.hsz//2,bidirectional=True,num_layers=args.layers,batch_first=True)
@@ -129,8 +133,14 @@ class model(nn.Module):
     return done[topscore]
 
   def forward(self,inp,out=None,val=False):
+    logits = self.m(x)
+    sm = nn.Softmax(logits)
+    hx = self.smlin(sm)
+    h = hx.repeat(2,inp.size(0),1)
+    c = torch.cuda.FloatTensor(hx.size()) #cuda
+    #enc, (h,c) = self.enc(x,(h,c))
     encenc = self.encemb(inp)
-    enc,(h,c) = self.enc(encenc)
+    enc,(h,c) = self.enc(encenc, (h,c))
 
     #enc hidden has bidirection so switch those to the features dim
     h = torch.cat([h[0:h.size(0):2], h[1:h.size(0):2]], 2)

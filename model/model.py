@@ -14,6 +14,7 @@ class Model(nn.Module):
         self.emd_dim = emb_dim
         self.emb = nn.Embedding(input_size, emb_dim)
         self.net_type = net_type
+        self.num_class = num_classes
 
         if embfix:
             self.emb.weight.requires_grad=False
