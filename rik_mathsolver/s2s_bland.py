@@ -15,6 +15,9 @@ class model(nn.Module):
     super().__init__()
     self.args = args
 
+    # load model
+    self.m = torch.load()
+
     # encoder decoder stuff
     self.encemb = nn.Embedding(args.svsz,args.hsz,padding_idx=0)
     self.enc = nn.LSTM(args.hsz,args.hsz//2,bidirectional=True,num_layers=args.layers,batch_first=True)
