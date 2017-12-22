@@ -349,7 +349,7 @@ def save_fields_to_vocab(fields):
     Save Vocab objects in Field objects to `vocab.pt` file.
     """
     vocab = []
-    for k, f in fields.items():
+    for k, f in fields:
         if 'vocab' in f.__dict__:
             f.vocab.stoi = dict(f.vocab.stoi)
             vocab.append((k, f.vocab))
